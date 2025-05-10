@@ -144,7 +144,7 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
     if os.path.exists(SELECTION_MUSIC_PATH):
         try:
             pygame.mixer.music.load(SELECTION_MUSIC_PATH)
-            pygame.mixer.music.set_volume(0.35)
+            pygame.mixer.music.set_volume(0 if is_muted else 0.35)
             if not is_muted:
                 pygame.mixer.music.play(loops=-1)
                 logging.info(f"Playing selection music: {SELECTION_MUSIC_PATH} at 35% volume")
@@ -208,7 +208,7 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
                 pygame.mixer.music.stop()
                 logging.info("Selection music stopped.")
                 return None, False, is_muted, None
-            clicked, is_muted = mute_button.is_clicked(event, is_muted)
+            clicked, is_muted = mute_button.is_clicked(event, is_muted, SELECTION_MUSIC_PATH)
             if clicked:
                 pass
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:

@@ -36,7 +36,7 @@ def main():
 
     game_running = True
     selected_sprotos = None
-    is_muted = False
+    is_muted = True
     race_mode = None
 
     while game_running:

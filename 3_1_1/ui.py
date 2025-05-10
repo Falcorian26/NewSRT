@@ -64,7 +64,7 @@ class MuteButton:
         text_rect = text_surf.get_rect(center=self.rect.center)
         screen.blit(text_surf, text_rect)
 
-    def is_clicked(self, event, is_muted):
+    def is_clicked(self, event, is_muted, current_music_path):
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
             if self.rect.collidepoint(event.pos):
                 is_muted = not is_muted
@@ -72,7 +72,20 @@ class MuteButton:
                     pygame.mixer.music.pause()
                     logging.info("Music muted.")
                 else:
-                    pygame.mixer.music.unpause()
-                    logging.info("Music unmuted.")
+                    if not pygame.mixer.music.get_busy():
+                        try:
+                            logging.info(f"Attempting to load music file: {current_music_path}")
+                            if not os.path.exists(current_music_path):
+                                logging.error(f"Music file not found at: {current_music_path}")
+                            else:
+                                pygame.mixer.music.load(current_music_path)  # Reload the music file dynamically
+                                pygame.mixer.music.set_volume(0.35)
+                                pygame.mixer.music.play(loops=-1)
+                                logging.info("Music unmuted and playing dynamically.")
+                        except Exception as e:
+                            logging.error(f"Error starting music dynamically: {e}")
+                    else:
+                        pygame.mixer.music.unpause()
+                        logging.info("Music unmuted and playing.")
                 return True, is_muted
         return False, is_muted

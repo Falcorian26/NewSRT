@@ -41,7 +41,7 @@ def simulate_race(screen, sprotos, race_distance, race_duration, race_background
         if os.path.exists(RACE_MUSIC_PATH):
             try:
                 pygame.mixer.music.load(RACE_MUSIC_PATH)
-                pygame.mixer.music.set_volume(0.35)
+                pygame.mixer.music.set_volume(0 if is_muted else 0.35)
                 if not is_muted:
                     pygame.mixer.music.play(loops=-1)
                     logging.info(f"Playing race music: {RACE_MUSIC_PATH} at 35% volume")
@@ -72,7 +72,7 @@ def simulate_race(screen, sprotos, race_distance, race_duration, race_background
             if event.type == pygame.QUIT:
                 choice = "end"
                 running = False
-            clicked, is_muted = mute_button.is_clicked(event, is_muted)
+            clicked, is_muted = mute_button.is_clicked(event, is_muted, RACE_MUSIC_PATH)
             if clicked:
                 pass
             if back_to_selection_button.is_clicked(event):
@@ -151,7 +151,7 @@ def simulate_race(screen, sprotos, race_distance, race_duration, race_background
                                 post_race_running = False
                                 running = False
                                 show_results = False
-                            clicked, is_muted = mute_button.is_clicked(event, is_muted)
+                            clicked, is_muted = mute_button.is_clicked(event, is_muted, RACE_MUSIC_PATH)
                             if clicked:
                                 pass
                             if back_to_selection_button.is_clicked(event):
@@ -171,7 +171,7 @@ def simulate_race(screen, sprotos, race_distance, race_duration, race_background
                         if os.path.exists(RACE_MUSIC_PATH):
                             try:
                                 pygame.mixer.music.load(RACE_MUSIC_PATH)
-                                pygame.mixer.music.set_volume(0.35)
+                                pygame.mixer.music.set_volume(0 if is_muted else 0.35)
                                 if not is_muted:
                                     pygame.mixer.music.play(loops=-1)
                                     logging.info(f"Playing race music (retry): {RACE_MUSIC_PATH} at 35% volume")
@@ -213,7 +213,7 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
     if os.path.exists(RACE_MUSIC_PATH):
         try:
             pygame.mixer.music.load(RACE_MUSIC_PATH)
-            pygame.mixer.music.set_volume(0.35)
+            pygame.mixer.music.set_volume(0 if is_muted else 0.35)
             if not is_muted:
                 pygame.mixer.music.play(loops=-1)
                 logging.info(f"Playing race music: {RACE_MUSIC_PATH} at 35% volume")
@@ -324,7 +324,7 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
                         if os.path.exists(RACE_MUSIC_PATH):
                             try:
                                 pygame.mixer.music.load(RACE_MUSIC_PATH)
-                                pygame.mixer.music.set_volume(0.35)
+                                pygame.mixer.music.set_volume(0 if is_muted else 0.35)
                                 if not is_muted:
                                     pygame.mixer.music.play(loops=-1)
                                     logging.info(f"Playing race music (retry): {RACE_MUSIC_PATH} at 35% volume")
