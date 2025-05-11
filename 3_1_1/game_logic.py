@@ -243,7 +243,7 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
             if event.type == pygame.QUIT:
                 choice = "end"
                 running = False
-            clicked, is_muted = mute_button.is_clicked(event, is_muted)
+            clicked, is_muted = mute_button.is_clicked(event, is_muted, RACE_MUSIC_PATH)
             if clicked:
                 pass
 
@@ -309,7 +309,7 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
                                 post_race_running = False
                                 running = False
                                 show_results = False
-                            clicked, is_muted = mute_button.is_clicked(event, is_muted)
+                            clicked, is_muted = mute_button.is_clicked(event, is_muted, RACE_MUSIC_PATH)
                             if clicked:
                                 pass
 

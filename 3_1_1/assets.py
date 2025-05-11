@@ -92,65 +92,20 @@ def load_selection_background(screen):
         return None
 
 def load_race_backgrounds():
-    race_backgrounds = {"single": None, "tournament": [None] * 7, "results": None}
-    single_bg_options = []
-    
-    for bg_path in RACE_BG_PATHS["single_options"]:
-        if not os.path.exists(bg_path):
-            logging.error(f"Single race background option '{bg_path}' not found. Skipping.")
-            single_bg_options.append(None)
-        else:
-            try:
-                bg = pygame.image.load(bg_path).convert()
-                bg = pygame.transform.scale(bg, (SCREEN_WIDTH, SCREEN_HEIGHT))
-                single_bg_options.append(bg)
-                logging.info(f"Loaded single race background option: {bg_path}")
-            except Exception as e:
-                logging.error(f"Error loading single race background option '{bg_path}': {e}. Skipping.")
-                single_bg_options.append(None)
-
-    for i, bg_path in enumerate(RACE_BG_PATHS["tournament"]):
-        if not os.path.exists(bg_path):
-            logging.error(f"Tournament race {i+1} background image '{bg_path}' not found. Using blue background.")
-            race_backgrounds["tournament"][i] = None
-        else:
-            try:
-                bg = pygame.image.load(bg_path).convert()
-                bg = pygame.transform.scale(bg, (SCREEN_WIDTH, SCREEN_HEIGHT))
-                race_backgrounds["tournament"][i] = bg
-                logging.info(f"Loaded tournament race {i+1} background: {bg_path}")
-            except Exception as e:
-                logging.error(f"Error loading tournament race {i+1} background '{bg_path}': {e}. Using blue background.")
-                race_backgrounds["tournament"][i] = None
-
-    if not os.path.exists(RACE_BG_PATHS["results"]):
-        logging.error(f"Results background image '{RACE_BG_PATHS['results']}' not found. Using blue background.")
-        race_backgrounds["results"] = None
-    else:
-        try:
-            bg = pygame.image.load(RACE_BG_PATHS["results"]).convert()
-            bg = pygame.transform.scale(bg, (SCREEN_WIDTH, SCREEN_HEIGHT))
-            race_backgrounds["results"] = bg
-            logging.info(f"Loaded results background: {RACE_BG_PATHS['results']}")
-        except Exception as e:
-            logging.error(f"Error loading results background '{RACE_BG_PATHS['results']}': {e}. Using blue background.")
-            race_backgrounds["results"] = None
-    
-    return race_backgrounds, single_bg_options
+    try:
+        race_backgrounds = {
+            "single_options": [pygame.image.load(path).convert_alpha() for path in RACE_BG_PATHS["single_options"]],
+            "tournament": [pygame.image.load(path).convert_alpha() for path in RACE_BG_PATHS["tournament"]],
+            "results": pygame.image.load(RACE_BG_PATHS["results"]).convert_alpha()
+        }
+        return race_backgrounds, race_backgrounds["single_options"]
+    except Exception as e:
+        logging.error(f"Failed to load race backgrounds: {e}")
+        return {}, []
 
 def load_trophy_image():
-    if not os.path.exists(TROPHY_PATH):
-        logging.error(f"Trophy image '{TROPHY_PATH}' not found. Using purple square.")
-        trophy_image = pygame.Surface((100, 100))
-        trophy_image.fill(PURPLE)
-        return trophy_image
     try:
-        trophy_image = pygame.image.load(TROPHY_PATH).convert_alpha()
-        trophy_image = pygame.transform.scale(trophy_image, (100, 100))
-        logging.info(f"Loaded trophy image: {TROPHY_PATH}")
-        return trophy_image
+        return pygame.image.load(TROPHY_PATH).convert_alpha()
     except Exception as e:
-        logging.error(f"Error loading trophy image '{TROPHY_PATH}': {e}. Using purple square.")
-        trophy_image = pygame.Surface((100, 100))
-        trophy_image.fill(PURPLE)
-        return trophy_image
+        logging.error(f"Failed to load trophy image: {e}")
+        return None

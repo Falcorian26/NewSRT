@@ -4,7 +4,7 @@ import os
 from settings import *
 from assets import *
 from sproto import Sproto
-from screens import select_sprotos, show_tournament_results
+from screens import select_sprotos, show_tournament_results, MuteButton
 from game_logic import simulate_race, simulate_all_characters_race
 
 def check_missing_images():
@@ -25,8 +25,15 @@ def main():
     check_missing_images()
     sproto_images = load_sproto_images()
     selection_background = load_selection_background(screen)
-    race_backgrounds, single_bg_options = load_race_backgrounds()
     trophy_image = load_trophy_image()
+    if trophy_image is None:
+        logging.error("Trophy image failed to load. Ensure the file path is correct.")
+        return
+
+    race_backgrounds, single_bg_options = load_race_backgrounds()
+    if "results" not in race_backgrounds or race_backgrounds["results"] is None:
+        logging.error("Results background failed to load. Ensure the file path is correct.")
+        return
 
     sproto_list = [Sproto(name, 0, i, sproto_images[i]) for i, name in enumerate(sproto_names)]
 
@@ -38,6 +45,8 @@ def main():
     selected_sprotos = None
     is_muted = True
     race_mode = None
+
+    mute_button = MuteButton(x=10, y=10, width=50, height=50, color=(255, 0, 0))  # Provide required arguments
 
     while game_running:
         if selected_sprotos is None:
@@ -98,16 +107,51 @@ def main():
                     race_mode = None
                     break
             if game_running and selected_sprotos:
-                result, is_muted = show_tournament_results(screen, selected_sprotos, race_backgrounds, trophy_image, is_muted)
+                try:
+                    result, is_muted = show_tournament_results(
+                        screen, 
+                        selected_sprotos, 
+                        race_backgrounds, 
+                        trophy_image, 
+                        is_muted  # Removed current_music_path argument
+                    )
+                except Exception as e:
+                    logging.error(f"Error during tournament results screen: {e}")
+                    result = False  # Exit the game if an error occurs
                 if not result:
                     game_running = False
                 selected_sprotos = None
                 race_mode = None
         else:
             if race_mode == "all_characters":
-                winner, choice, is_muted = simulate_all_characters_race(screen, selected_sprotos, RACE_DISTANCE, RACE_DURATION, race_backgrounds, single_bg_options, trophy_image, is_muted=is_muted)
+                winner, choice, is_muted = simulate_all_characters_race(
+                    screen, 
+                    selected_sprotos, 
+                    RACE_DISTANCE, 
+                    RACE_DURATION, 
+                    race_backgrounds, 
+                    single_bg_options, 
+                    trophy_image, 
+                    is_muted=is_muted
+                )
             else:
-                winner, choice, is_muted = simulate_race(screen, selected_sprotos, RACE_DISTANCE, RACE_DURATION, race_backgrounds, single_bg_options, trophy_image, is_muted=is_muted)
+                try:
+                    winner, choice, is_muted = simulate_race(
+                        screen, 
+                        selected_sprotos, 
+                        RACE_DISTANCE, 
+                        RACE_DURATION, 
+                        race_backgrounds, 
+                        single_bg_options, 
+                        trophy_image, 
+                        is_muted=is_muted
+                    )
+                except Exception as e:
+                    logging.error(f"Error during single racer results screen: {e}")
+                    winner, choice = None, "end"  # Exit gracefully if an error occurs
+                if choice == "mute_toggle":
+                    for event in pygame.event.get():  # Add event loop to define 'event'
+                        is_muted = mute_button.is_clicked(event, is_muted, RACE_MUSIC_PATH)[1]
             pygame.mixer.music.stop()
             logging.info("Race music stopped.")
             if winner:

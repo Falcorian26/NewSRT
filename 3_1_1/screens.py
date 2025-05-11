@@ -292,6 +292,16 @@ def show_results_screen(screen, sprotos, finishers, race_backgrounds, trophy_ima
         finish_time = sproto.finish_time if sproto.finish_time is not None else 0
         logging.info(f"{idx + 1}. {sproto.name}: Finish Time={finish_time:.2f}s, Average Speed={avg_speed:.2f}")
 
+    # Ensure trophy_image is loaded
+    if trophy_image is None:
+        logging.error("Trophy image is missing. Ensure the file path is correct.")
+        return False, is_muted
+
+    # Ensure race_backgrounds["results"] is loaded
+    if "results" not in race_backgrounds or race_backgrounds["results"] is None:
+        logging.error("Results background is missing. Ensure the file path is correct.")
+        return False, is_muted
+
     while running:
         dt = clock.tick(60) / 1000.0
         for event in pygame.event.get():
@@ -299,7 +309,7 @@ def show_results_screen(screen, sprotos, finishers, race_backgrounds, trophy_ima
                 return False, is_muted
             if continue_button.is_clicked(event):
                 running = False
-            clicked, is_muted = mute_button.is_clicked(event, is_muted)
+            clicked, is_muted = mute_button.is_clicked(event, is_muted, RACE_MUSIC_PATH)
             if clicked:
                 pass
             if event.type == pygame.MOUSEWHEEL:
@@ -390,6 +400,16 @@ def show_tournament_results(screen, sprotos, race_backgrounds, trophy_image, is_
     scroll_offset = 0
     scroll_speed = 100
 
+    # Ensure trophy_image is loaded
+    if trophy_image is None:
+        logging.error("Trophy image is missing. Ensure the file path is correct.")
+        return False, is_muted
+
+    # Ensure race_backgrounds["results"] is loaded
+    if "results" not in race_backgrounds or race_backgrounds["results"] is None:
+        logging.error("Results background is missing. Ensure the file path is correct.")
+        return False, is_muted
+
     while running:
         dt = clock.tick(60) / 1000.0
         for event in pygame.event.get():
@@ -401,7 +421,7 @@ def show_tournament_results(screen, sprotos, race_backgrounds, trophy_image, is_
                 pygame.mixer.music.stop()
                 logging.info("Tournament music stopped (continue).")
                 running = False
-            clicked, is_muted = mute_button.is_clicked(event, is_muted)
+            clicked, is_muted = mute_button.is_clicked(event, is_muted, RACE_MUSIC_PATH)
             if clicked:
                 pass
             if event.type == pygame.MOUSEWHEEL:
