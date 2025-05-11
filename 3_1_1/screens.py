@@ -31,16 +31,7 @@ def render_race_screen(screen, sprotos, race_distance, time_elapsed, race_number
                 x = (1-t)**3 * start[0] + 3*(1-t)**2*t * control1[0] + 3*(1-t)*t**2 * control2[0] + t**3 * end[0]
                 y = (1-t)**3 * start[1] + 3*(1-t)**2*t * control1[1] + 3*(1-t)*t**2 * control2[1] + t**3 * end[1]
                 points.append((x, y))
-            pygame.draw.lines(screen, WHITE, False, points, 2)
-            bottom_points = [(x, y + lane_height - 1) for x, y in points]
-            pygame.draw.line(screen, GRAY, bottom_points[0], bottom_points[-1], 1)
-        finish_x = (race_distance / race_distance) * (SCREEN_WIDTH - 50)
-        for i in range(len(sprotos)):
-            y_top = track_y + i * lane_height
-            y_bottom = y_top + lane_height
-            for j in range(0, int(lane_height), 10):
-                color = WHITE if (j // 10) % 2 == 0 else BLACK
-                pygame.draw.rect(screen, color, (finish_x, y_top + j, 10, 10))
+            pygame.draw.lines(screen, YELLOW, False, points, 2)  # Curved lines are now yellow and 2px thick
     
     leader = max(sprotos, key=lambda s: (s.position, -float('inf') if s.finish_place is None else -s.finish_place))
     

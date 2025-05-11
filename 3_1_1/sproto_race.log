@@ -37168,3 +37168,1852 @@ Time: 8.0s
 2025-05-10 18:11:48,544 - INFO - Vamp: Position=847.95, Speed=102.79, Finished=False
 2025-05-10 18:11:48,545 - INFO - GB: Position=833.21, Speed=90.77, Finished=False
 2025-05-10 18:11:49,158 - INFO - Tournament music stopped.
+2025-05-10 18:15:08,539 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-10 18:15:08,544 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-10 18:15:08,556 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-10 18:15:08,560 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-10 18:15:08,571 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-10 18:15:08,574 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-10 18:15:08,591 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-10 18:15:08,595 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-10 18:15:08,608 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-10 18:15:08,609 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-10 18:15:08,624 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-10 18:15:08,626 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-10 18:15:08,642 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-10 18:15:08,644 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-10 18:15:08,659 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-10 18:15:08,662 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-10 18:15:08,676 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-10 18:15:08,677 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-10 18:15:08,691 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-10 18:15:08,693 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-10 18:15:08,706 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-10 18:15:08,707 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-10 18:15:08,718 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-10 18:15:08,719 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-10 18:15:08,729 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-10 18:15:08,730 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-10 18:15:08,739 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-10 18:15:08,740 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-10 18:15:08,746 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-10 18:15:08,746 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-10 18:15:08,752 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-10 18:15:08,753 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-10 18:15:08,765 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-10 18:15:08,766 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-10 18:15:08,780 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-10 18:15:08,781 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-10 18:15:08,793 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-10 18:15:08,796 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-10 18:15:08,808 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-10 18:15:08,814 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-10 18:15:08,826 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-10 18:15:08,827 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-10 18:15:08,844 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-10 18:15:08,869 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-10 18:15:08,908 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-10 18:15:08,935 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-10 18:15:08,946 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-10 18:15:08,948 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-10 18:15:08,955 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-10 18:15:08,956 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-10 18:15:08,962 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-10 18:15:08,963 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-10 18:15:08,969 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-10 18:15:08,969 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-10 18:15:08,978 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-10 18:15:09,022 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-10 18:15:09,061 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG2.png
+2025-05-10 18:15:09,097 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG3.png
+2025-05-10 18:15:09,144 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG4.png
+2025-05-10 18:15:09,170 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG5.png
+2025-05-10 18:15:09,208 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG6.png
+2025-05-10 18:15:09,231 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG7.png
+2025-05-10 18:15:09,269 - INFO - Loaded tournament race 1 background: B:\SRT\3_1_1\BG\BG2.png
+2025-05-10 18:15:09,305 - INFO - Loaded tournament race 2 background: B:\SRT\3_1_1\BG\BG3.png
+2025-05-10 18:15:09,349 - INFO - Loaded tournament race 3 background: B:\SRT\3_1_1\BG\BG4.png
+2025-05-10 18:15:09,377 - INFO - Loaded tournament race 4 background: B:\SRT\3_1_1\BG\BG5.png
+2025-05-10 18:15:09,412 - INFO - Loaded tournament race 5 background: B:\SRT\3_1_1\BG\BG6.png
+2025-05-10 18:15:09,437 - INFO - Loaded tournament race 6 background: B:\SRT\3_1_1\BG\BG7.png
+2025-05-10 18:15:09,476 - INFO - Loaded tournament race 7 background: B:\SRT\3_1_1\BG\BG8.png
+2025-05-10 18:15:09,521 - INFO - Loaded results background: B:\SRT\3_1_1\BG\BGRESULT.png
+2025-05-10 18:15:09,523 - INFO - Loaded trophy image: B:\SRT\3_1_1\Racers\trophy.png
+2025-05-10 18:15:09,524 - INFO - Available Sprotos:
+2025-05-10 18:15:09,524 - INFO - Yannix
+2025-05-10 18:15:09,524 - INFO - Yo-Yo
+2025-05-10 18:15:09,524 - INFO - GB
+2025-05-10 18:15:09,525 - INFO - FHD
+2025-05-10 18:15:09,525 - INFO - More Light
+2025-05-10 18:15:09,525 - INFO - Vamp
+2025-05-10 18:15:09,526 - INFO - Jahon
+2025-05-10 18:15:09,526 - INFO - ReD
+2025-05-10 18:15:09,526 - INFO - VMU
+2025-05-10 18:15:09,527 - INFO - Alpha
+2025-05-10 18:15:09,527 - INFO - Dumpstar
+2025-05-10 18:15:09,527 - INFO - KatieCans
+2025-05-10 18:15:09,527 - INFO - Turbo
+2025-05-10 18:15:09,528 - INFO - Jovial
+2025-05-10 18:15:09,528 - INFO - Speed Demon
+2025-05-10 18:15:09,528 - INFO - Rumble Pak
+2025-05-10 18:15:09,528 - INFO - Leviosa
+2025-05-10 18:15:09,529 - INFO - Obama
+2025-05-10 18:15:09,529 - INFO - Vince
+2025-05-10 18:15:09,529 - INFO - BPS
+2025-05-10 18:15:09,530 - INFO - Apache
+2025-05-10 18:15:09,530 - INFO - OG OBAMA
+2025-05-10 18:15:09,530 - INFO - Oggo
+2025-05-10 18:15:09,530 - INFO - BigSwole
+2025-05-10 18:15:09,531 - INFO - GPM
+2025-05-10 18:15:09,531 - INFO - YXJI
+2025-05-10 18:15:09,531 - INFO - Snoo
+2025-05-10 18:15:09,534 - INFO - Sprotos available in selection screen:
+2025-05-10 18:15:09,535 - INFO - - Yannix
+2025-05-10 18:15:09,535 - INFO - - Yo-Yo
+2025-05-10 18:15:09,536 - INFO - - GB
+2025-05-10 18:15:09,536 - INFO - - FHD
+2025-05-10 18:15:09,536 - INFO - - More Light
+2025-05-10 18:15:09,537 - INFO - - Vamp
+2025-05-10 18:15:09,537 - INFO - - Jahon
+2025-05-10 18:15:09,538 - INFO - - ReD
+2025-05-10 18:15:09,538 - INFO - - VMU
+2025-05-10 18:15:09,538 - INFO - - Alpha
+2025-05-10 18:15:09,538 - INFO - - Dumpstar
+2025-05-10 18:15:09,539 - INFO - - KatieCans
+2025-05-10 18:15:09,539 - INFO - - Turbo
+2025-05-10 18:15:09,539 - INFO - - Jovial
+2025-05-10 18:15:09,540 - INFO - - Speed Demon
+2025-05-10 18:15:09,540 - INFO - - Rumble Pak
+2025-05-10 18:15:09,541 - INFO - - Leviosa
+2025-05-10 18:15:09,541 - INFO - - Obama
+2025-05-10 18:15:09,541 - INFO - - Vince
+2025-05-10 18:15:09,542 - INFO - - BPS
+2025-05-10 18:15:09,542 - INFO - - Apache
+2025-05-10 18:15:09,543 - INFO - - OG OBAMA
+2025-05-10 18:15:09,543 - INFO - - Oggo
+2025-05-10 18:15:09,543 - INFO - - BigSwole
+2025-05-10 18:15:09,543 - INFO - - GPM
+2025-05-10 18:15:09,544 - INFO - - YXJI
+2025-05-10 18:15:09,544 - INFO - - Snoo
+2025-05-10 18:15:09,545 - INFO - Selection music loaded but muted.
+2025-05-10 18:15:11,088 - INFO - Attempting to load music file: B:\SRT\3_1_1\Music\character.mp3
+2025-05-10 18:15:11,089 - INFO - Music unmuted and playing dynamically.
+2025-05-10 18:15:13,735 - INFO - Music muted.
+2025-05-10 18:15:19,446 - INFO - Selection music stopped.
+2025-05-10 18:15:19,448 - INFO - 
+Selected Sprotos for This Race:
+2025-05-10 18:15:19,448 - INFO - Yannix: Initial Speed = 94.76 units/s
+2025-05-10 18:15:19,448 - INFO - FHD: Initial Speed = 111.44 units/s
+2025-05-10 18:15:19,449 - INFO - Jahon: Initial Speed = 108.84 units/s
+2025-05-10 18:15:19,449 - INFO - Alpha: Initial Speed = 104.18 units/s
+2025-05-10 18:15:19,449 - INFO - Turbo: Initial Speed = 88.12 units/s
+2025-05-10 18:15:19,451 - INFO - Selected random background for single race.
+2025-05-10 18:15:19,452 - INFO - Race music loaded but muted.
+2025-05-10 18:15:20,458 - INFO - 
+Time: 1.0s
+2025-05-10 18:15:20,459 - INFO - Yannix: Position=95.81, Speed=97.11, Finished=False
+2025-05-10 18:15:20,459 - INFO - FHD: Position=112.22, Speed=111.44, Finished=False
+2025-05-10 18:15:20,460 - INFO - Jahon: Position=109.60, Speed=108.84, Finished=False
+2025-05-10 18:15:20,460 - INFO - Alpha: Position=104.91, Speed=104.18, Finished=False
+2025-05-10 18:15:20,461 - INFO - Turbo: Position=92.93, Speed=112.95, Finished=False
+2025-05-10 18:15:21,472 - INFO - 
+Time: 2.0s
+2025-05-10 18:15:21,472 - INFO - Yannix: Position=194.28, Speed=97.11, Finished=False
+2025-05-10 18:15:21,473 - INFO - FHD: Position=224.77, Speed=116.17, Finished=False
+2025-05-10 18:15:21,473 - INFO - Jahon: Position=214.96, Speed=92.08, Finished=False
+2025-05-10 18:15:21,473 - INFO - Alpha: Position=210.55, Speed=104.18, Finished=False
+2025-05-10 18:15:21,474 - INFO - Turbo: Position=207.46, Speed=112.95, Finished=False
+2025-05-10 18:15:22,494 - INFO - 
+Time: 3.0s
+2025-05-10 18:15:22,496 - INFO - Yannix: Position=312.39, Speed=118.71, Finished=False
+2025-05-10 18:15:22,497 - INFO - FHD: Position=343.49, Speed=116.17, Finished=False
+2025-05-10 18:15:22,498 - INFO - Jahon: Position=304.51, Speed=90.80, Finished=False
+2025-05-10 18:15:22,499 - INFO - Alpha: Position=318.67, Speed=108.75, Finished=False
+2025-05-10 18:15:22,500 - INFO - Turbo: Position=319.89, Speed=107.42, Finished=False
+2025-05-10 18:15:23,496 - INFO - 
+Time: 4.0s
+2025-05-10 18:15:23,496 - INFO - Yannix: Position=414.21, Speed=82.88, Finished=False
+2025-05-10 18:15:23,497 - INFO - FHD: Position=442.86, Speed=82.95, Finished=False
+2025-05-10 18:15:23,497 - INFO - Jahon: Position=395.49, Speed=90.80, Finished=False
+2025-05-10 18:15:23,497 - INFO - Alpha: Position=427.64, Speed=108.75, Finished=False
+2025-05-10 18:15:23,498 - INFO - Turbo: Position=427.52, Speed=107.42, Finished=False
+2025-05-10 18:15:24,504 - INFO - 
+Time: 5.1s
+2025-05-10 18:15:24,505 - INFO - Yannix: Position=497.75, Speed=82.88, Finished=False
+2025-05-10 18:15:24,506 - INFO - FHD: Position=527.54, Speed=89.50, Finished=False
+2025-05-10 18:15:24,506 - INFO - Jahon: Position=482.91, Speed=84.79, Finished=False
+2025-05-10 18:15:24,507 - INFO - Alpha: Position=525.82, Speed=85.88, Finished=False
+2025-05-10 18:15:24,508 - INFO - Turbo: Position=535.80, Speed=107.42, Finished=False
+2025-05-10 18:15:25,506 - INFO - 
+Time: 6.1s
+2025-05-10 18:15:25,506 - INFO - Yannix: Position=580.80, Speed=82.88, Finished=False
+2025-05-10 18:15:25,507 - INFO - FHD: Position=617.22, Speed=89.50, Finished=False
+2025-05-10 18:15:25,507 - INFO - Jahon: Position=579.56, Speed=106.20, Finished=False
+2025-05-10 18:15:25,508 - INFO - Alpha: Position=619.25, Speed=94.70, Finished=False
+2025-05-10 18:15:25,509 - INFO - Turbo: Position=643.43, Speed=107.42, Finished=False
+2025-05-10 18:15:26,514 - INFO - 
+Time: 7.1s
+2025-05-10 18:15:26,515 - INFO - Yannix: Position=664.34, Speed=82.88, Finished=False
+2025-05-10 18:15:26,515 - INFO - FHD: Position=707.43, Speed=89.50, Finished=False
+2025-05-10 18:15:26,516 - INFO - Jahon: Position=688.79, Speed=110.19, Finished=False
+2025-05-10 18:15:26,516 - INFO - Alpha: Position=727.88, Speed=112.93, Finished=False
+2025-05-10 18:15:26,517 - INFO - Turbo: Position=747.76, Speed=85.99, Finished=False
+2025-05-10 18:15:27,524 - INFO - 
+Time: 8.1s
+2025-05-10 18:15:27,525 - INFO - Yannix: Position=748.05, Speed=82.88, Finished=False
+2025-05-10 18:15:27,525 - INFO - FHD: Position=797.83, Speed=89.50, Finished=False
+2025-05-10 18:15:27,526 - INFO - Jahon: Position=805.20, Speed=117.08, Finished=False
+2025-05-10 18:15:27,527 - INFO - Alpha: Position=841.94, Speed=112.93, Finished=False
+2025-05-10 18:15:27,530 - INFO - Turbo: Position=831.22, Speed=82.57, Finished=False
+2025-05-10 18:15:28,532 - INFO - 
+Time: 9.1s
+2025-05-10 18:15:28,533 - INFO - Yannix: Position=835.04, Speed=88.17, Finished=False
+2025-05-10 18:15:28,533 - INFO - FHD: Position=888.05, Speed=89.50, Finished=False
+2025-05-10 18:15:28,534 - INFO - Jahon: Position=923.22, Speed=117.08, Finished=False
+2025-05-10 18:15:28,534 - INFO - Alpha: Position=951.71, Speed=107.17, Finished=False
+2025-05-10 18:15:28,535 - INFO - Turbo: Position=914.45, Speed=82.57, Finished=False
+2025-05-10 18:15:29,557 - INFO - 
+Time: 10.1s
+2025-05-10 18:15:29,559 - INFO - Yannix: Position=940.76, Speed=97.25, Finished=False
+2025-05-10 18:15:29,560 - INFO - FHD: Position=979.70, Speed=89.50, Finished=False
+2025-05-10 18:15:29,560 - INFO - Jahon: Position=1041.19, Speed=115.34, Finished=False
+2025-05-10 18:15:29,561 - INFO - Alpha: Position=1059.81, Speed=90.02, Finished=False
+2025-05-10 18:15:29,561 - INFO - Turbo: Position=999.00, Speed=82.57, Finished=False
+2025-05-10 18:15:30,560 - INFO - 
+Time: 11.1s
+2025-05-10 18:15:30,560 - INFO - Yannix: Position=1038.39, Speed=97.25, Finished=False
+2025-05-10 18:15:30,561 - INFO - FHD: Position=1069.56, Speed=89.50, Finished=False
+2025-05-10 18:15:30,561 - INFO - Jahon: Position=1146.94, Speed=102.64, Finished=False
+2025-05-10 18:15:30,562 - INFO - Alpha: Position=1150.19, Speed=90.02, Finished=False
+2025-05-10 18:15:30,562 - INFO - Turbo: Position=1081.90, Speed=82.57, Finished=False
+2025-05-10 18:15:31,130 - INFO - Race music stopped.
+2025-05-10 18:18:07,858 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-10 18:18:07,864 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-10 18:18:07,880 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-10 18:18:07,880 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-10 18:18:07,896 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-10 18:18:07,897 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-10 18:18:07,910 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-10 18:18:07,911 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-10 18:18:07,926 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-10 18:18:07,929 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-10 18:18:07,947 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-10 18:18:07,948 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-10 18:18:07,963 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-10 18:18:07,963 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-10 18:18:07,980 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-10 18:18:07,981 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-10 18:18:07,996 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-10 18:18:07,997 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-10 18:18:08,012 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-10 18:18:08,013 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-10 18:18:08,026 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-10 18:18:08,028 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-10 18:18:08,040 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-10 18:18:08,042 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-10 18:18:08,057 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-10 18:18:08,059 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-10 18:18:08,072 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-10 18:18:08,075 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-10 18:18:08,079 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-10 18:18:08,080 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-10 18:18:08,089 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-10 18:18:08,090 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-10 18:18:08,105 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-10 18:18:08,106 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-10 18:18:08,122 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-10 18:18:08,124 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-10 18:18:08,135 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-10 18:18:08,135 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-10 18:18:08,142 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-10 18:18:08,143 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-10 18:18:08,150 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-10 18:18:08,151 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-10 18:18:08,165 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-10 18:18:08,166 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-10 18:18:08,197 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-10 18:18:08,198 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-10 18:18:08,205 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-10 18:18:08,205 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-10 18:18:08,209 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-10 18:18:08,210 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-10 18:18:08,214 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-10 18:18:08,214 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-10 18:18:08,218 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-10 18:18:08,219 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-10 18:18:08,226 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-10 18:18:08,266 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-10 18:18:08,305 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG2.png
+2025-05-10 18:18:08,344 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG3.png
+2025-05-10 18:18:08,393 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG4.png
+2025-05-10 18:18:08,424 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG5.png
+2025-05-10 18:18:08,463 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG6.png
+2025-05-10 18:18:08,491 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG7.png
+2025-05-10 18:18:08,526 - INFO - Loaded tournament race 1 background: B:\SRT\3_1_1\BG\BG2.png
+2025-05-10 18:18:08,562 - INFO - Loaded tournament race 2 background: B:\SRT\3_1_1\BG\BG3.png
+2025-05-10 18:18:08,632 - INFO - Loaded tournament race 3 background: B:\SRT\3_1_1\BG\BG4.png
+2025-05-10 18:18:08,670 - INFO - Loaded tournament race 4 background: B:\SRT\3_1_1\BG\BG5.png
+2025-05-10 18:18:08,716 - INFO - Loaded tournament race 5 background: B:\SRT\3_1_1\BG\BG6.png
+2025-05-10 18:18:08,742 - INFO - Loaded tournament race 6 background: B:\SRT\3_1_1\BG\BG7.png
+2025-05-10 18:18:08,796 - INFO - Loaded tournament race 7 background: B:\SRT\3_1_1\BG\BG8.png
+2025-05-10 18:18:08,868 - INFO - Loaded results background: B:\SRT\3_1_1\BG\BGRESULT.png
+2025-05-10 18:18:08,876 - INFO - Loaded trophy image: B:\SRT\3_1_1\Racers\trophy.png
+2025-05-10 18:18:08,923 - INFO - Available Sprotos:
+2025-05-10 18:18:08,924 - INFO - Yannix
+2025-05-10 18:18:08,928 - INFO - Yo-Yo
+2025-05-10 18:18:08,929 - INFO - GB
+2025-05-10 18:18:08,929 - INFO - FHD
+2025-05-10 18:18:08,930 - INFO - More Light
+2025-05-10 18:18:08,931 - INFO - Vamp
+2025-05-10 18:18:08,932 - INFO - Jahon
+2025-05-10 18:18:08,932 - INFO - ReD
+2025-05-10 18:18:08,933 - INFO - VMU
+2025-05-10 18:18:08,933 - INFO - Alpha
+2025-05-10 18:18:08,934 - INFO - Dumpstar
+2025-05-10 18:18:08,934 - INFO - KatieCans
+2025-05-10 18:18:08,934 - INFO - Turbo
+2025-05-10 18:18:08,935 - INFO - Jovial
+2025-05-10 18:18:08,935 - INFO - Speed Demon
+2025-05-10 18:18:08,936 - INFO - Rumble Pak
+2025-05-10 18:18:08,936 - INFO - Leviosa
+2025-05-10 18:18:08,936 - INFO - Obama
+2025-05-10 18:18:08,937 - INFO - Vince
+2025-05-10 18:18:08,937 - INFO - BPS
+2025-05-10 18:18:08,937 - INFO - Apache
+2025-05-10 18:18:08,937 - INFO - OG OBAMA
+2025-05-10 18:18:08,938 - INFO - Oggo
+2025-05-10 18:18:08,938 - INFO - BigSwole
+2025-05-10 18:18:08,938 - INFO - GPM
+2025-05-10 18:18:08,938 - INFO - YXJI
+2025-05-10 18:18:08,939 - INFO - Snoo
+2025-05-10 18:18:08,941 - INFO - Sprotos available in selection screen:
+2025-05-10 18:18:08,942 - INFO - - Yannix
+2025-05-10 18:18:08,942 - INFO - - Yo-Yo
+2025-05-10 18:18:08,943 - INFO - - GB
+2025-05-10 18:18:08,943 - INFO - - FHD
+2025-05-10 18:18:08,943 - INFO - - More Light
+2025-05-10 18:18:08,944 - INFO - - Vamp
+2025-05-10 18:18:08,944 - INFO - - Jahon
+2025-05-10 18:18:08,944 - INFO - - ReD
+2025-05-10 18:18:08,945 - INFO - - VMU
+2025-05-10 18:18:08,945 - INFO - - Alpha
+2025-05-10 18:18:08,945 - INFO - - Dumpstar
+2025-05-10 18:18:08,946 - INFO - - KatieCans
+2025-05-10 18:18:08,946 - INFO - - Turbo
+2025-05-10 18:18:08,947 - INFO - - Jovial
+2025-05-10 18:18:08,947 - INFO - - Speed Demon
+2025-05-10 18:18:08,947 - INFO - - Rumble Pak
+2025-05-10 18:18:08,948 - INFO - - Leviosa
+2025-05-10 18:18:08,948 - INFO - - Obama
+2025-05-10 18:18:08,949 - INFO - - Vince
+2025-05-10 18:18:08,949 - INFO - - BPS
+2025-05-10 18:18:08,949 - INFO - - Apache
+2025-05-10 18:18:08,950 - INFO - - OG OBAMA
+2025-05-10 18:18:08,950 - INFO - - Oggo
+2025-05-10 18:18:08,950 - INFO - - BigSwole
+2025-05-10 18:18:08,950 - INFO - - GPM
+2025-05-10 18:18:08,951 - INFO - - YXJI
+2025-05-10 18:18:08,951 - INFO - - Snoo
+2025-05-10 18:18:08,952 - INFO - Selection music loaded but muted.
+2025-05-10 18:18:10,712 - INFO - Attempting to load music file: B:\SRT\3_1_1\Music\character.mp3
+2025-05-10 18:18:10,713 - INFO - Music unmuted and playing dynamically.
+2025-05-10 18:18:12,069 - INFO - Music muted.
+2025-05-10 18:18:15,473 - INFO - Selection music stopped.
+2025-05-10 18:18:15,476 - INFO - 
+Selected Sprotos for This Race:
+2025-05-10 18:18:15,476 - INFO - Yannix: Initial Speed = 95.78 units/s
+2025-05-10 18:18:15,477 - INFO - FHD: Initial Speed = 117.24 units/s
+2025-05-10 18:18:15,477 - INFO - Jahon: Initial Speed = 89.42 units/s
+2025-05-10 18:18:15,478 - INFO - Alpha: Initial Speed = 87.45 units/s
+2025-05-10 18:18:15,478 - INFO - Turbo: Initial Speed = 103.87 units/s
+2025-05-10 18:18:15,480 - INFO - Selected random background for single race.
+2025-05-10 18:18:15,481 - INFO - Race music loaded but muted.
+2025-05-10 18:18:16,481 - INFO - 
+Time: 1.0s
+2025-05-10 18:18:16,481 - INFO - Yannix: Position=95.98, Speed=95.78, Finished=False
+2025-05-10 18:18:16,482 - INFO - FHD: Position=114.54, Speed=103.50, Finished=False
+2025-05-10 18:18:16,482 - INFO - Jahon: Position=89.60, Speed=89.42, Finished=False
+2025-05-10 18:18:16,483 - INFO - Alpha: Position=95.90, Speed=83.61, Finished=False
+2025-05-10 18:18:16,483 - INFO - Turbo: Position=104.08, Speed=103.87, Finished=False
+2025-05-10 18:18:17,487 - INFO - 
+Time: 2.0s
+2025-05-10 18:18:17,487 - INFO - Yannix: Position=192.43, Speed=95.78, Finished=False
+2025-05-10 18:18:17,487 - INFO - FHD: Position=218.76, Speed=103.50, Finished=False
+2025-05-10 18:18:17,488 - INFO - Jahon: Position=179.65, Speed=89.42, Finished=False
+2025-05-10 18:18:17,488 - INFO - Alpha: Position=194.31, Speed=97.96, Finished=False
+2025-05-10 18:18:17,488 - INFO - Turbo: Position=208.68, Speed=103.87, Finished=False
+2025-05-10 18:18:18,493 - INFO - 
+Time: 3.0s
+2025-05-10 18:18:18,493 - INFO - Yannix: Position=288.69, Speed=95.78, Finished=False
+2025-05-10 18:18:18,493 - INFO - FHD: Position=322.77, Speed=103.50, Finished=False
+2025-05-10 18:18:18,494 - INFO - Jahon: Position=269.52, Speed=89.42, Finished=False
+2025-05-10 18:18:18,494 - INFO - Alpha: Position=279.19, Speed=80.78, Finished=False
+2025-05-10 18:18:18,494 - INFO - Turbo: Position=302.84, Speed=81.58, Finished=False
+2025-05-10 18:18:19,507 - INFO - 
+Time: 4.0s
+2025-05-10 18:18:19,507 - INFO - Yannix: Position=381.33, Speed=113.17, Finished=False
+2025-05-10 18:18:19,508 - INFO - FHD: Position=424.21, Speed=98.15, Finished=False
+2025-05-10 18:18:19,508 - INFO - Jahon: Position=360.29, Speed=89.42, Finished=False
+2025-05-10 18:18:19,508 - INFO - Alpha: Position=361.19, Speed=80.78, Finished=False
+2025-05-10 18:18:19,509 - INFO - Turbo: Position=385.65, Speed=81.58, Finished=False
+2025-05-10 18:18:20,513 - INFO - 
+Time: 5.0s
+2025-05-10 18:18:20,514 - INFO - Yannix: Position=495.98, Speed=117.11, Finished=False
+2025-05-10 18:18:20,514 - INFO - FHD: Position=522.85, Speed=98.15, Finished=False
+2025-05-10 18:18:20,514 - INFO - Jahon: Position=450.16, Speed=89.42, Finished=False
+2025-05-10 18:18:20,515 - INFO - Alpha: Position=442.38, Speed=80.78, Finished=False
+2025-05-10 18:18:20,515 - INFO - Turbo: Position=467.64, Speed=81.58, Finished=False
+2025-05-10 18:18:20,979 - INFO - Race music stopped.
+2025-05-10 18:18:20,981 - INFO - Sprotos available in selection screen:
+2025-05-10 18:18:20,982 - INFO - - Yannix
+2025-05-10 18:18:20,982 - INFO - - Yo-Yo
+2025-05-10 18:18:20,983 - INFO - - GB
+2025-05-10 18:18:20,983 - INFO - - FHD
+2025-05-10 18:18:20,983 - INFO - - More Light
+2025-05-10 18:18:20,984 - INFO - - Vamp
+2025-05-10 18:18:20,984 - INFO - - Jahon
+2025-05-10 18:18:20,984 - INFO - - ReD
+2025-05-10 18:18:20,985 - INFO - - VMU
+2025-05-10 18:18:20,985 - INFO - - Alpha
+2025-05-10 18:18:20,985 - INFO - - Dumpstar
+2025-05-10 18:18:20,986 - INFO - - KatieCans
+2025-05-10 18:18:20,986 - INFO - - Turbo
+2025-05-10 18:18:20,986 - INFO - - Jovial
+2025-05-10 18:18:20,987 - INFO - - Speed Demon
+2025-05-10 18:18:20,987 - INFO - - Rumble Pak
+2025-05-10 18:18:20,987 - INFO - - Leviosa
+2025-05-10 18:18:20,988 - INFO - - Obama
+2025-05-10 18:18:20,988 - INFO - - Vince
+2025-05-10 18:18:20,989 - INFO - - BPS
+2025-05-10 18:18:20,989 - INFO - - Apache
+2025-05-10 18:18:20,990 - INFO - - OG OBAMA
+2025-05-10 18:18:20,991 - INFO - - Oggo
+2025-05-10 18:18:20,991 - INFO - - BigSwole
+2025-05-10 18:18:20,991 - INFO - - GPM
+2025-05-10 18:18:20,992 - INFO - - YXJI
+2025-05-10 18:18:20,992 - INFO - - Snoo
+2025-05-10 18:18:20,993 - INFO - Selection music loaded but muted.
+2025-05-10 18:18:24,816 - INFO - Selection music stopped.
+2025-05-10 18:18:24,817 - INFO - No sprotos selected or window closed. Exiting.
+2025-05-10 18:20:10,675 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-10 18:20:10,677 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-10 18:20:10,687 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-10 18:20:10,688 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-10 18:20:10,695 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-10 18:20:10,696 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-10 18:20:10,706 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-10 18:20:10,709 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-10 18:20:10,717 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-10 18:20:10,718 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-10 18:20:10,727 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-10 18:20:10,728 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-10 18:20:10,733 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-10 18:20:10,734 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-10 18:20:10,743 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-10 18:20:10,744 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-10 18:20:10,752 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-10 18:20:10,753 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-10 18:20:10,762 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-10 18:20:10,762 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-10 18:20:10,769 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-10 18:20:10,769 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-10 18:20:10,778 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-10 18:20:10,778 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-10 18:20:10,785 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-10 18:20:10,786 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-10 18:20:10,794 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-10 18:20:10,794 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-10 18:20:10,796 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-10 18:20:10,796 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-10 18:20:10,801 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-10 18:20:10,802 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-10 18:20:10,810 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-10 18:20:10,810 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-10 18:20:10,817 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-10 18:20:10,817 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-10 18:20:10,826 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-10 18:20:10,827 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-10 18:20:10,833 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-10 18:20:10,834 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-10 18:20:10,842 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-10 18:20:10,843 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-10 18:20:10,857 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-10 18:20:10,858 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-10 18:20:10,887 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-10 18:20:10,889 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-10 18:20:10,898 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-10 18:20:10,898 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-10 18:20:10,905 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-10 18:20:10,905 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-10 18:20:10,912 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-10 18:20:10,912 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-10 18:20:10,917 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-10 18:20:10,917 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-10 18:20:10,926 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-10 18:20:10,968 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-10 18:20:11,003 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG2.png
+2025-05-10 18:20:11,036 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG3.png
+2025-05-10 18:20:11,080 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG4.png
+2025-05-10 18:20:11,106 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG5.png
+2025-05-10 18:20:11,141 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG6.png
+2025-05-10 18:20:11,164 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG7.png
+2025-05-10 18:20:11,198 - INFO - Loaded tournament race 1 background: B:\SRT\3_1_1\BG\BG2.png
+2025-05-10 18:20:11,251 - INFO - Loaded tournament race 2 background: B:\SRT\3_1_1\BG\BG3.png
+2025-05-10 18:20:11,307 - INFO - Loaded tournament race 3 background: B:\SRT\3_1_1\BG\BG4.png
+2025-05-10 18:20:11,337 - INFO - Loaded tournament race 4 background: B:\SRT\3_1_1\BG\BG5.png
+2025-05-10 18:20:11,375 - INFO - Loaded tournament race 5 background: B:\SRT\3_1_1\BG\BG6.png
+2025-05-10 18:20:11,401 - INFO - Loaded tournament race 6 background: B:\SRT\3_1_1\BG\BG7.png
+2025-05-10 18:20:11,440 - INFO - Loaded tournament race 7 background: B:\SRT\3_1_1\BG\BG8.png
+2025-05-10 18:20:11,488 - INFO - Loaded results background: B:\SRT\3_1_1\BG\BGRESULT.png
+2025-05-10 18:20:11,490 - INFO - Loaded trophy image: B:\SRT\3_1_1\Racers\trophy.png
+2025-05-10 18:20:11,491 - INFO - Available Sprotos:
+2025-05-10 18:20:11,491 - INFO - Yannix
+2025-05-10 18:20:11,491 - INFO - Yo-Yo
+2025-05-10 18:20:11,492 - INFO - GB
+2025-05-10 18:20:11,492 - INFO - FHD
+2025-05-10 18:20:11,492 - INFO - More Light
+2025-05-10 18:20:11,494 - INFO - Vamp
+2025-05-10 18:20:11,494 - INFO - Jahon
+2025-05-10 18:20:11,494 - INFO - ReD
+2025-05-10 18:20:11,494 - INFO - VMU
+2025-05-10 18:20:11,494 - INFO - Alpha
+2025-05-10 18:20:11,494 - INFO - Dumpstar
+2025-05-10 18:20:11,495 - INFO - KatieCans
+2025-05-10 18:20:11,495 - INFO - Turbo
+2025-05-10 18:20:11,496 - INFO - Jovial
+2025-05-10 18:20:11,497 - INFO - Speed Demon
+2025-05-10 18:20:11,497 - INFO - Rumble Pak
+2025-05-10 18:20:11,498 - INFO - Leviosa
+2025-05-10 18:20:11,498 - INFO - Obama
+2025-05-10 18:20:11,498 - INFO - Vince
+2025-05-10 18:20:11,499 - INFO - BPS
+2025-05-10 18:20:11,499 - INFO - Apache
+2025-05-10 18:20:11,500 - INFO - OG OBAMA
+2025-05-10 18:20:11,500 - INFO - Oggo
+2025-05-10 18:20:11,501 - INFO - BigSwole
+2025-05-10 18:20:11,501 - INFO - GPM
+2025-05-10 18:20:11,501 - INFO - YXJI
+2025-05-10 18:20:11,501 - INFO - Snoo
+2025-05-10 18:20:11,504 - INFO - Sprotos available in selection screen:
+2025-05-10 18:20:11,504 - INFO - - Yannix
+2025-05-10 18:20:11,504 - INFO - - Yo-Yo
+2025-05-10 18:20:11,505 - INFO - - GB
+2025-05-10 18:20:11,505 - INFO - - FHD
+2025-05-10 18:20:11,505 - INFO - - More Light
+2025-05-10 18:20:11,506 - INFO - - Vamp
+2025-05-10 18:20:11,506 - INFO - - Jahon
+2025-05-10 18:20:11,506 - INFO - - ReD
+2025-05-10 18:20:11,507 - INFO - - VMU
+2025-05-10 18:20:11,507 - INFO - - Alpha
+2025-05-10 18:20:11,508 - INFO - - Dumpstar
+2025-05-10 18:20:11,511 - INFO - - KatieCans
+2025-05-10 18:20:11,513 - INFO - - Turbo
+2025-05-10 18:20:11,516 - INFO - - Jovial
+2025-05-10 18:20:11,517 - INFO - - Speed Demon
+2025-05-10 18:20:11,519 - INFO - - Rumble Pak
+2025-05-10 18:20:11,520 - INFO - - Leviosa
+2025-05-10 18:20:11,520 - INFO - - Obama
+2025-05-10 18:20:11,521 - INFO - - Vince
+2025-05-10 18:20:11,521 - INFO - - BPS
+2025-05-10 18:20:11,522 - INFO - - Apache
+2025-05-10 18:20:11,523 - INFO - - OG OBAMA
+2025-05-10 18:20:11,524 - INFO - - Oggo
+2025-05-10 18:20:11,524 - INFO - - BigSwole
+2025-05-10 18:20:11,525 - INFO - - GPM
+2025-05-10 18:20:11,525 - INFO - - YXJI
+2025-05-10 18:20:11,526 - INFO - - Snoo
+2025-05-10 18:20:11,527 - INFO - Selection music loaded but muted.
+2025-05-10 18:21:51,047 - INFO - Selection music stopped.
+2025-05-10 18:21:51,049 - INFO - 
+Selected Sprotos for This Race:
+2025-05-10 18:21:51,049 - INFO - VMU: Initial Speed = 98.16 units/s
+2025-05-10 18:21:51,050 - INFO - Speed Demon: Initial Speed = 86.67 units/s
+2025-05-10 18:21:51,050 - INFO - Rumble Pak: Initial Speed = 101.48 units/s
+2025-05-10 18:21:51,050 - INFO - OG OBAMA: Initial Speed = 104.99 units/s
+2025-05-10 18:21:51,051 - INFO - Dumpstar: Initial Speed = 107.11 units/s
+2025-05-10 18:21:51,051 - INFO - 
+Starting Tournament (7 Races)
+2025-05-10 18:21:51,052 - INFO - Tournament music loaded but muted.
+2025-05-10 18:21:51,052 - INFO - 
+--- Starting Race #1 ---
+2025-05-10 18:21:51,053 - INFO - Initialized tournament stats for VMU: wins=0, points=0
+2025-05-10 18:21:51,054 - INFO - Initialized tournament stats for Speed Demon: wins=0, points=0
+2025-05-10 18:21:51,054 - INFO - Initialized tournament stats for Rumble Pak: wins=0, points=0
+2025-05-10 18:21:51,055 - INFO - Initialized tournament stats for OG OBAMA: wins=0, points=0
+2025-05-10 18:21:51,055 - INFO - Initialized tournament stats for Dumpstar: wins=0, points=0
+2025-05-10 18:21:51,056 - INFO - Race music loaded but muted.
+2025-05-10 18:21:52,069 - INFO - 
+Time: 1.0s
+2025-05-10 18:21:52,069 - INFO - VMU: Position=111.75, Speed=110.10, Finished=False
+2025-05-10 18:21:52,069 - INFO - Speed Demon: Position=105.40, Speed=102.62, Finished=False
+2025-05-10 18:21:52,070 - INFO - Rumble Pak: Position=109.35, Speed=107.74, Finished=False
+2025-05-10 18:21:52,070 - INFO - OG OBAMA: Position=86.09, Speed=81.08, Finished=False
+2025-05-10 18:21:52,070 - INFO - Dumpstar: Position=92.58, Speed=94.91, Finished=False
+2025-05-10 18:21:53,077 - INFO - 
+Time: 2.0s
+2025-05-10 18:21:53,077 - INFO - VMU: Position=221.42, Speed=84.48, Finished=False
+2025-05-10 18:21:53,078 - INFO - Speed Demon: Position=208.84, Speed=102.62, Finished=False
+2025-05-10 18:21:53,078 - INFO - Rumble Pak: Position=217.96, Speed=107.74, Finished=False
+2025-05-10 18:21:53,078 - INFO - OG OBAMA: Position=167.82, Speed=81.08, Finished=False
+2025-05-10 18:21:53,079 - INFO - Dumpstar: Position=177.12, Speed=83.91, Finished=False
+2025-05-10 18:21:54,087 - INFO - 
+Time: 3.0s
+2025-05-10 18:21:54,087 - INFO - VMU: Position=314.98, Speed=114.73, Finished=False
+2025-05-10 18:21:54,088 - INFO - Speed Demon: Position=312.22, Speed=81.21, Finished=False
+2025-05-10 18:21:54,088 - INFO - Rumble Pak: Position=327.12, Speed=112.49, Finished=False
+2025-05-10 18:21:54,088 - INFO - OG OBAMA: Position=278.33, Speed=115.33, Finished=False
+2025-05-10 18:21:54,089 - INFO - Dumpstar: Position=277.72, Speed=110.44, Finished=False
+2025-05-10 18:21:55,094 - INFO - 
+Time: 4.0s
+2025-05-10 18:21:55,094 - INFO - VMU: Position=432.15, Speed=118.81, Finished=False
+2025-05-10 18:21:55,095 - INFO - Speed Demon: Position=393.92, Speed=81.21, Finished=False
+2025-05-10 18:21:55,095 - INFO - Rumble Pak: Position=411.51, Speed=83.40, Finished=False
+2025-05-10 18:21:55,095 - INFO - OG OBAMA: Position=394.35, Speed=115.33, Finished=False
+2025-05-10 18:21:55,096 - INFO - Dumpstar: Position=388.82, Speed=110.44, Finished=False
+2025-05-10 18:21:56,093 - INFO - 
+Time: 5.0s
+2025-05-10 18:21:56,093 - INFO - VMU: Position=550.97, Speed=118.81, Finished=False
+2025-05-10 18:21:56,094 - INFO - Speed Demon: Position=485.76, Speed=103.00, Finished=False
+2025-05-10 18:21:56,094 - INFO - Rumble Pak: Position=498.89, Speed=104.00, Finished=False
+2025-05-10 18:21:56,094 - INFO - OG OBAMA: Position=509.69, Speed=115.33, Finished=False
+2025-05-10 18:21:56,095 - INFO - Dumpstar: Position=500.35, Speed=113.35, Finished=False
+2025-05-10 18:21:57,109 - INFO - 
+Time: 6.1s
+2025-05-10 18:21:57,110 - INFO - VMU: Position=671.68, Speed=118.81, Finished=False
+2025-05-10 18:21:57,110 - INFO - Speed Demon: Position=590.40, Speed=103.00, Finished=False
+2025-05-10 18:21:57,110 - INFO - Rumble Pak: Position=604.40, Speed=115.43, Finished=False
+2025-05-10 18:21:57,110 - INFO - OG OBAMA: Position=626.87, Speed=115.33, Finished=False
+2025-05-10 18:21:57,111 - INFO - Dumpstar: Position=615.51, Speed=113.35, Finished=False
+2025-05-10 18:21:58,112 - INFO - 
+Time: 7.1s
+2025-05-10 18:21:58,112 - INFO - VMU: Position=777.49, Speed=104.28, Finished=False
+2025-05-10 18:21:58,113 - INFO - Speed Demon: Position=693.70, Speed=103.00, Finished=False
+2025-05-10 18:21:58,113 - INFO - Rumble Pak: Position=720.17, Speed=115.43, Finished=False
+2025-05-10 18:21:58,113 - INFO - OG OBAMA: Position=742.55, Speed=115.33, Finished=False
+2025-05-10 18:21:58,114 - INFO - Dumpstar: Position=732.37, Speed=119.76, Finished=False
+2025-05-10 18:21:59,115 - INFO - 
+Time: 8.1s
+2025-05-10 18:21:59,115 - INFO - VMU: Position=882.08, Speed=104.28, Finished=False
+2025-05-10 18:21:59,115 - INFO - Speed Demon: Position=796.82, Speed=102.64, Finished=False
+2025-05-10 18:21:59,116 - INFO - Rumble Pak: Position=835.95, Speed=115.43, Finished=False
+2025-05-10 18:21:59,116 - INFO - OG OBAMA: Position=854.53, Speed=106.02, Finished=False
+2025-05-10 18:21:59,116 - INFO - Dumpstar: Position=852.49, Speed=119.76, Finished=False
+2025-05-10 18:22:00,119 - INFO - 
+Time: 9.1s
+2025-05-10 18:22:00,120 - INFO - VMU: Position=974.70, Speed=88.67, Finished=False
+2025-05-10 18:22:00,120 - INFO - Speed Demon: Position=893.33, Speed=83.63, Finished=False
+2025-05-10 18:22:00,120 - INFO - Rumble Pak: Position=951.84, Speed=115.43, Finished=False
+2025-05-10 18:22:00,120 - INFO - OG OBAMA: Position=960.98, Speed=106.02, Finished=False
+2025-05-10 18:22:00,121 - INFO - Dumpstar: Position=963.47, Speed=81.81, Finished=False
+2025-05-10 18:22:01,133 - INFO - 
+Time: 10.1s
+2025-05-10 18:22:01,133 - INFO - VMU: Position=1064.62, Speed=88.67, Finished=False
+2025-05-10 18:22:01,134 - INFO - Speed Demon: Position=978.13, Speed=83.63, Finished=False
+2025-05-10 18:22:01,134 - INFO - Rumble Pak: Position=1068.89, Speed=115.43, Finished=False
+2025-05-10 18:22:01,134 - INFO - OG OBAMA: Position=1066.28, Speed=103.14, Finished=False
+2025-05-10 18:22:01,135 - INFO - Dumpstar: Position=1046.42, Speed=81.81, Finished=False
+2025-05-10 18:22:02,135 - INFO - 
+Time: 11.1s
+2025-05-10 18:22:02,135 - INFO - VMU: Position=1153.46, Speed=88.67, Finished=False
+2025-05-10 18:22:02,135 - INFO - Speed Demon: Position=1062.56, Speed=84.38, Finished=False
+2025-05-10 18:22:02,135 - INFO - Rumble Pak: Position=1184.55, Speed=115.43, Finished=False
+2025-05-10 18:22:02,136 - INFO - OG OBAMA: Position=1169.62, Speed=103.14, Finished=False
+2025-05-10 18:22:02,136 - INFO - Dumpstar: Position=1128.39, Speed=81.81, Finished=False
+2025-05-10 18:22:03,136 - INFO - 
+Time: 12.1s
+2025-05-10 18:22:03,136 - INFO - VMU: Position=1242.23, Speed=88.67, Finished=False
+2025-05-10 18:22:03,136 - INFO - Speed Demon: Position=1147.03, Speed=84.38, Finished=False
+2025-05-10 18:22:03,137 - INFO - Rumble Pak: Position=1300.09, Speed=115.43, Finished=False
+2025-05-10 18:22:03,137 - INFO - OG OBAMA: Position=1279.25, Speed=110.10, Finished=False
+2025-05-10 18:22:03,137 - INFO - Dumpstar: Position=1210.77, Speed=83.80, Finished=False
+2025-05-10 18:22:04,137 - INFO - 
+Time: 13.1s
+2025-05-10 18:22:04,137 - INFO - VMU: Position=1330.99, Speed=88.67, Finished=False
+2025-05-10 18:22:04,137 - INFO - Speed Demon: Position=1231.49, Speed=84.38, Finished=False
+2025-05-10 18:22:04,138 - INFO - Rumble Pak: Position=1415.40, Speed=108.00, Finished=False
+2025-05-10 18:22:04,138 - INFO - OG OBAMA: Position=1389.46, Speed=110.10, Finished=False
+2025-05-10 18:22:04,139 - INFO - Dumpstar: Position=1294.66, Speed=83.80, Finished=False
+2025-05-10 18:22:05,138 - INFO - 
+Time: 14.1s
+2025-05-10 18:22:05,138 - INFO - VMU: Position=1419.75, Speed=116.02, Finished=False
+2025-05-10 18:22:05,139 - INFO - Speed Demon: Position=1315.96, Speed=84.38, Finished=False
+2025-05-10 18:22:05,139 - INFO - Rumble Pak: Position=1500.00, Speed=108.00, Finished=True
+2025-05-10 18:22:05,139 - INFO - OG OBAMA: Position=1478.92, Speed=87.50, Finished=False
+2025-05-10 18:22:05,140 - INFO - Dumpstar: Position=1378.54, Speed=83.80, Finished=False
+2025-05-10 18:22:06,151 - INFO - 
+Time: 15.1s
+2025-05-10 18:22:06,151 - INFO - VMU: Position=1500.00, Speed=116.02, Finished=True
+2025-05-10 18:22:06,151 - INFO - Speed Demon: Position=1401.35, Speed=84.38, Finished=False
+2025-05-10 18:22:06,152 - INFO - Rumble Pak: Position=1500.00, Speed=108.00, Finished=True
+2025-05-10 18:22:06,152 - INFO - OG OBAMA: Position=1500.00, Speed=87.50, Finished=True
+2025-05-10 18:22:06,152 - INFO - Dumpstar: Position=1463.35, Speed=83.80, Finished=False
+2025-05-10 18:22:07,153 - INFO - 
+Time: 16.1s
+2025-05-10 18:22:07,153 - INFO - VMU: Position=1500.00, Speed=116.02, Finished=True
+2025-05-10 18:22:07,153 - INFO - Speed Demon: Position=1500.00, Speed=99.82, Finished=True
+2025-05-10 18:22:07,154 - INFO - Rumble Pak: Position=1500.00, Speed=108.00, Finished=True
+2025-05-10 18:22:07,154 - INFO - OG OBAMA: Position=1500.00, Speed=87.50, Finished=True
+2025-05-10 18:22:07,154 - INFO - Dumpstar: Position=1500.00, Speed=110.02, Finished=True
+2025-05-10 18:22:07,155 - INFO - 
+Race #1 finished! Finish order:
+2025-05-10 18:22:07,155 - INFO - 1. Rumble Pak: Avg Speed=108.25
+2025-05-10 18:22:07,156 - INFO - 2. OG OBAMA: Avg Speed=104.78
+2025-05-10 18:22:07,156 - INFO - 3. VMU: Avg Speed=101.54
+2025-05-10 18:22:07,156 - INFO - 4. Dumpstar: Avg Speed=97.19
+2025-05-10 18:22:07,156 - INFO - 5. Speed Demon: Avg Speed=93.26
+2025-05-10 18:22:07,157 - INFO - Selected winner: Rumble Pak with avg speed 108.25
+2025-05-10 18:22:07,157 - INFO - Rumble Pak finished 1st: +10 points, total=10, wins=1
+2025-05-10 18:22:07,157 - INFO - OG OBAMA finished 2nd: +9 points, total=9, wins=0
+2025-05-10 18:22:07,158 - INFO - VMU finished 3rd: +8 points, total=8, wins=0
+2025-05-10 18:22:07,158 - INFO - Dumpstar finished 4th: +7 points, total=7, wins=0
+2025-05-10 18:22:07,158 - INFO - Speed Demon finished 5th: +6 points, total=6, wins=0
+2025-05-10 18:22:07,169 - INFO - Race #1 Winner: Rumble Pak
+2025-05-10 18:22:07,169 - INFO - 
+--- Starting Race #2 ---
+2025-05-10 18:22:08,179 - INFO - 
+Time: 1.0s
+2025-05-10 18:22:08,179 - INFO - VMU: Position=94.29, Speed=93.45, Finished=False
+2025-05-10 18:22:08,180 - INFO - Speed Demon: Position=119.76, Speed=118.69, Finished=False
+2025-05-10 18:22:08,180 - INFO - Rumble Pak: Position=103.42, Speed=102.36, Finished=False
+2025-05-10 18:22:08,180 - INFO - OG OBAMA: Position=100.62, Speed=115.56, Finished=False
+2025-05-10 18:22:08,180 - INFO - Dumpstar: Position=105.51, Speed=108.18, Finished=False
+2025-05-10 18:22:09,190 - INFO - 
+Time: 2.0s
+2025-05-10 18:22:09,190 - INFO - VMU: Position=188.77, Speed=93.45, Finished=False
+2025-05-10 18:22:09,191 - INFO - Speed Demon: Position=203.19, Speed=81.91, Finished=False
+2025-05-10 18:22:09,191 - INFO - Rumble Pak: Position=196.03, Speed=87.15, Finished=False
+2025-05-10 18:22:09,191 - INFO - OG OBAMA: Position=217.45, Speed=115.56, Finished=False
+2025-05-10 18:22:09,192 - INFO - Dumpstar: Position=214.88, Speed=108.18, Finished=False
+2025-05-10 18:22:10,206 - INFO - 
+Time: 3.0s
+2025-05-10 18:22:10,206 - INFO - VMU: Position=283.63, Speed=93.45, Finished=False
+2025-05-10 18:22:10,206 - INFO - Speed Demon: Position=302.50, Speed=98.52, Finished=False
+2025-05-10 18:22:10,207 - INFO - Rumble Pak: Position=287.89, Speed=100.27, Finished=False
+2025-05-10 18:22:10,207 - INFO - OG OBAMA: Position=334.75, Speed=115.56, Finished=False
+2025-05-10 18:22:10,207 - INFO - Dumpstar: Position=310.11, Speed=81.09, Finished=False
+2025-05-10 18:22:11,208 - INFO - 
+Time: 4.0s
+2025-05-10 18:22:11,208 - INFO - VMU: Position=377.26, Speed=93.45, Finished=False
+2025-05-10 18:22:11,209 - INFO - Speed Demon: Position=401.22, Speed=98.52, Finished=False
+2025-05-10 18:22:11,209 - INFO - Rumble Pak: Position=388.37, Speed=100.27, Finished=False
+2025-05-10 18:22:11,210 - INFO - OG OBAMA: Position=450.55, Speed=115.56, Finished=False
+2025-05-10 18:22:11,210 - INFO - Dumpstar: Position=391.36, Speed=81.09, Finished=False
+2025-05-10 18:22:12,223 - INFO - 
+Time: 5.1s
+2025-05-10 18:22:12,223 - INFO - VMU: Position=476.59, Speed=118.23, Finished=False
+2025-05-10 18:22:12,224 - INFO - Speed Demon: Position=494.42, Speed=95.86, Finished=False
+2025-05-10 18:22:12,224 - INFO - Rumble Pak: Position=499.71, Speed=116.08, Finished=False
+2025-05-10 18:22:12,225 - INFO - OG OBAMA: Position=547.10, Speed=80.33, Finished=False
+2025-05-10 18:22:12,225 - INFO - Dumpstar: Position=473.66, Speed=81.09, Finished=False
+2025-05-10 18:22:13,223 - INFO - 
+Time: 6.1s
+2025-05-10 18:22:13,223 - INFO - VMU: Position=576.42, Speed=96.91, Finished=False
+2025-05-10 18:22:13,224 - INFO - Speed Demon: Position=590.38, Speed=95.86, Finished=False
+2025-05-10 18:22:13,224 - INFO - Rumble Pak: Position=615.91, Speed=116.08, Finished=False
+2025-05-10 18:22:13,225 - INFO - OG OBAMA: Position=627.51, Speed=80.33, Finished=False
+2025-05-10 18:22:13,225 - INFO - Dumpstar: Position=556.71, Speed=97.38, Finished=False
+2025-05-10 18:22:14,225 - INFO - 
+Time: 7.1s
+2025-05-10 18:22:14,225 - INFO - VMU: Position=673.42, Speed=96.91, Finished=False
+2025-05-10 18:22:14,226 - INFO - Speed Demon: Position=686.33, Speed=95.86, Finished=False
+2025-05-10 18:22:14,226 - INFO - Rumble Pak: Position=732.10, Speed=116.08, Finished=False
+2025-05-10 18:22:14,227 - INFO - OG OBAMA: Position=707.93, Speed=80.33, Finished=False
+2025-05-10 18:22:14,227 - INFO - Dumpstar: Position=654.18, Speed=97.38, Finished=False
+2025-05-10 18:22:15,230 - INFO - 
+Time: 8.1s
+2025-05-10 18:22:15,230 - INFO - VMU: Position=774.13, Speed=105.59, Finished=False
+2025-05-10 18:22:15,231 - INFO - Speed Demon: Position=782.66, Speed=95.86, Finished=False
+2025-05-10 18:22:15,231 - INFO - Rumble Pak: Position=848.77, Speed=116.08, Finished=False
+2025-05-10 18:22:15,231 - INFO - OG OBAMA: Position=795.62, Speed=100.28, Finished=False
+2025-05-10 18:22:15,232 - INFO - Dumpstar: Position=749.35, Speed=94.10, Finished=False
+2025-05-10 18:22:16,234 - INFO - 
+Time: 9.1s
+2025-05-10 18:22:16,234 - INFO - VMU: Position=880.25, Speed=105.59, Finished=False
+2025-05-10 18:22:16,235 - INFO - Speed Demon: Position=885.33, Speed=102.72, Finished=False
+2025-05-10 18:22:16,235 - INFO - Rumble Pak: Position=965.43, Speed=116.08, Finished=False
+2025-05-10 18:22:16,235 - INFO - OG OBAMA: Position=903.25, Speed=118.83, Finished=False
+2025-05-10 18:22:16,235 - INFO - Dumpstar: Position=843.92, Speed=94.10, Finished=False
+2025-05-10 18:22:17,248 - INFO - 
+Time: 10.1s
+2025-05-10 18:22:17,248 - INFO - VMU: Position=976.00, Speed=91.54, Finished=False
+2025-05-10 18:22:17,248 - INFO - Speed Demon: Position=989.39, Speed=102.72, Finished=False
+2025-05-10 18:22:17,249 - INFO - Rumble Pak: Position=1081.04, Speed=111.57, Finished=False
+2025-05-10 18:22:17,249 - INFO - OG OBAMA: Position=1023.19, Speed=118.05, Finished=False
+2025-05-10 18:22:17,249 - INFO - Dumpstar: Position=939.24, Speed=94.10, Finished=False
+2025-05-10 18:22:18,262 - INFO - 
+Time: 11.1s
+2025-05-10 18:22:18,262 - INFO - VMU: Position=1074.57, Speed=117.99, Finished=False
+2025-05-10 18:22:18,263 - INFO - Speed Demon: Position=1093.65, Speed=102.72, Finished=False
+2025-05-10 18:22:18,263 - INFO - Rumble Pak: Position=1194.28, Speed=111.57, Finished=False
+2025-05-10 18:22:18,263 - INFO - OG OBAMA: Position=1143.02, Speed=118.05, Finished=False
+2025-05-10 18:22:18,264 - INFO - Dumpstar: Position=1034.76, Speed=94.10, Finished=False
+2025-05-10 18:22:19,277 - INFO - 
+Time: 12.1s
+2025-05-10 18:22:19,277 - INFO - VMU: Position=1194.21, Speed=117.99, Finished=False
+2025-05-10 18:22:19,278 - INFO - Speed Demon: Position=1199.43, Speed=104.66, Finished=False
+2025-05-10 18:22:19,278 - INFO - Rumble Pak: Position=1307.41, Speed=111.57, Finished=False
+2025-05-10 18:22:19,279 - INFO - OG OBAMA: Position=1262.72, Speed=118.05, Finished=False
+2025-05-10 18:22:19,279 - INFO - Dumpstar: Position=1122.98, Speed=85.13, Finished=False
+2025-05-10 18:22:20,290 - INFO - 
+Time: 13.1s
+2025-05-10 18:22:20,290 - INFO - VMU: Position=1313.73, Speed=117.99, Finished=False
+2025-05-10 18:22:20,291 - INFO - Speed Demon: Position=1305.46, Speed=104.66, Finished=False
+2025-05-10 18:22:20,291 - INFO - Rumble Pak: Position=1420.76, Speed=111.96, Finished=False
+2025-05-10 18:22:20,291 - INFO - OG OBAMA: Position=1382.31, Speed=118.05, Finished=False
+2025-05-10 18:22:20,292 - INFO - Dumpstar: Position=1213.97, Speed=87.35, Finished=False
+2025-05-10 18:22:21,292 - INFO - 
+Time: 14.1s
+2025-05-10 18:22:21,292 - INFO - VMU: Position=1432.07, Speed=117.99, Finished=False
+2025-05-10 18:22:21,293 - INFO - Speed Demon: Position=1410.94, Speed=87.71, Finished=False
+2025-05-10 18:22:21,293 - INFO - Rumble Pak: Position=1500.00, Speed=115.32, Finished=True
+2025-05-10 18:22:21,294 - INFO - OG OBAMA: Position=1477.98, Speed=84.41, Finished=False
+2025-05-10 18:22:21,294 - INFO - Dumpstar: Position=1301.58, Speed=87.35, Finished=False
+2025-05-10 18:22:22,293 - INFO - 
+Time: 15.1s
+2025-05-10 18:22:22,293 - INFO - VMU: Position=1500.00, Speed=117.99, Finished=True
+2025-05-10 18:22:22,293 - INFO - Speed Demon: Position=1500.00, Speed=98.07, Finished=True
+2025-05-10 18:22:22,294 - INFO - Rumble Pak: Position=1500.00, Speed=115.32, Finished=True
+2025-05-10 18:22:22,294 - INFO - OG OBAMA: Position=1500.00, Speed=110.54, Finished=True
+2025-05-10 18:22:22,294 - INFO - Dumpstar: Position=1392.24, Speed=99.26, Finished=False
+2025-05-10 18:22:23,298 - INFO - 
+Time: 16.1s
+2025-05-10 18:22:23,298 - INFO - VMU: Position=1500.00, Speed=117.99, Finished=True
+2025-05-10 18:22:23,298 - INFO - Speed Demon: Position=1500.00, Speed=98.07, Finished=True
+2025-05-10 18:22:23,298 - INFO - Rumble Pak: Position=1500.00, Speed=115.32, Finished=True
+2025-05-10 18:22:23,299 - INFO - OG OBAMA: Position=1500.00, Speed=110.54, Finished=True
+2025-05-10 18:22:23,299 - INFO - Dumpstar: Position=1491.99, Speed=99.26, Finished=False
+2025-05-10 18:22:23,379 - INFO - 
+Race #2 finished! Finish order:
+2025-05-10 18:22:23,379 - INFO - 1. Rumble Pak: Avg Speed=108.76
+2025-05-10 18:22:23,380 - INFO - 2. OG OBAMA: Avg Speed=104.41
+2025-05-10 18:22:23,380 - INFO - 3. VMU: Avg Speed=102.08
+2025-05-10 18:22:23,380 - INFO - 4. Speed Demon: Avg Speed=99.63
+2025-05-10 18:22:23,381 - INFO - 5. Dumpstar: Avg Speed=92.64
+2025-05-10 18:22:23,381 - INFO - Selected winner: Rumble Pak with avg speed 108.76
+2025-05-10 18:22:23,381 - INFO - Rumble Pak finished 1st: +10 points, total=20, wins=2
+2025-05-10 18:22:23,381 - INFO - OG OBAMA finished 2nd: +9 points, total=18, wins=0
+2025-05-10 18:22:23,382 - INFO - VMU finished 3rd: +8 points, total=16, wins=0
+2025-05-10 18:22:23,382 - INFO - Speed Demon finished 4th: +7 points, total=13, wins=0
+2025-05-10 18:22:23,382 - INFO - Dumpstar finished 5th: +6 points, total=13, wins=0
+2025-05-10 18:22:23,389 - INFO - Race #2 Winner: Rumble Pak
+2025-05-10 18:22:23,389 - INFO - 
+--- Starting Race #3 ---
+2025-05-10 18:22:24,401 - INFO - 
+Time: 1.0s
+2025-05-10 18:22:24,401 - INFO - VMU: Position=100.52, Speed=99.43, Finished=False
+2025-05-10 18:22:24,402 - INFO - Speed Demon: Position=109.06, Speed=107.87, Finished=False
+2025-05-10 18:22:24,402 - INFO - Rumble Pak: Position=112.73, Speed=109.88, Finished=False
+2025-05-10 18:22:24,403 - INFO - OG OBAMA: Position=120.38, Speed=119.07, Finished=False
+2025-05-10 18:22:24,403 - INFO - Dumpstar: Position=113.37, Speed=112.13, Finished=False
+2025-05-10 18:22:25,402 - INFO - 
+Time: 2.0s
+2025-05-10 18:22:25,402 - INFO - VMU: Position=200.04, Speed=99.43, Finished=False
+2025-05-10 18:22:25,403 - INFO - Speed Demon: Position=217.04, Speed=107.87, Finished=False
+2025-05-10 18:22:25,403 - INFO - Rumble Pak: Position=222.72, Speed=109.88, Finished=False
+2025-05-10 18:22:25,403 - INFO - OG OBAMA: Position=239.57, Speed=119.07, Finished=False
+2025-05-10 18:22:25,404 - INFO - Dumpstar: Position=224.05, Speed=104.27, Finished=False
+2025-05-10 18:22:26,406 - INFO - 
+Time: 3.0s
+2025-05-10 18:22:26,406 - INFO - VMU: Position=299.77, Speed=99.43, Finished=False
+2025-05-10 18:22:26,406 - INFO - Speed Demon: Position=325.24, Speed=107.87, Finished=False
+2025-05-10 18:22:26,407 - INFO - Rumble Pak: Position=324.41, Speed=87.17, Finished=False
+2025-05-10 18:22:26,407 - INFO - OG OBAMA: Position=359.00, Speed=119.07, Finished=False
+2025-05-10 18:22:26,407 - INFO - Dumpstar: Position=339.01, Speed=106.46, Finished=False
+2025-05-10 18:22:27,410 - INFO - 
+Time: 4.0s
+2025-05-10 18:22:27,410 - INFO - VMU: Position=399.59, Speed=99.43, Finished=False
+2025-05-10 18:22:27,411 - INFO - Speed Demon: Position=432.57, Speed=108.13, Finished=False
+2025-05-10 18:22:27,411 - INFO - Rumble Pak: Position=411.92, Speed=87.17, Finished=False
+2025-05-10 18:22:27,411 - INFO - OG OBAMA: Position=478.54, Speed=119.07, Finished=False
+2025-05-10 18:22:27,412 - INFO - Dumpstar: Position=432.61, Speed=92.99, Finished=False
+2025-05-10 18:22:28,413 - INFO - 
+Time: 5.0s
+2025-05-10 18:22:28,413 - INFO - VMU: Position=499.41, Speed=99.43, Finished=False
+2025-05-10 18:22:28,414 - INFO - Speed Demon: Position=541.36, Speed=111.69, Finished=False
+2025-05-10 18:22:28,414 - INFO - Rumble Pak: Position=506.25, Speed=98.61, Finished=False
+2025-05-10 18:22:28,414 - INFO - OG OBAMA: Position=598.14, Speed=119.18, Finished=False
+2025-05-10 18:22:28,414 - INFO - Dumpstar: Position=525.10, Speed=86.34, Finished=False
+2025-05-10 18:22:29,415 - INFO - 
+Time: 6.0s
+2025-05-10 18:22:29,416 - INFO - VMU: Position=584.29, Speed=82.18, Finished=False
+2025-05-10 18:22:29,416 - INFO - Speed Demon: Position=653.28, Speed=111.69, Finished=False
+2025-05-10 18:22:29,417 - INFO - Rumble Pak: Position=605.06, Speed=98.61, Finished=False
+2025-05-10 18:22:29,417 - INFO - OG OBAMA: Position=699.94, Speed=86.50, Finished=False
+2025-05-10 18:22:29,417 - INFO - Dumpstar: Position=613.40, Speed=89.77, Finished=False
+2025-05-10 18:22:30,431 - INFO - 
+Time: 7.0s
+2025-05-10 18:22:30,431 - INFO - VMU: Position=667.70, Speed=82.18, Finished=False
+2025-05-10 18:22:30,432 - INFO - Speed Demon: Position=767.04, Speed=113.42, Finished=False
+2025-05-10 18:22:30,432 - INFO - Rumble Pak: Position=703.94, Speed=87.88, Finished=False
+2025-05-10 18:22:30,433 - INFO - OG OBAMA: Position=787.74, Speed=86.50, Finished=False
+2025-05-10 18:22:30,433 - INFO - Dumpstar: Position=704.51, Speed=89.77, Finished=False
+2025-05-10 18:22:31,443 - INFO - 
+Time: 8.1s
+2025-05-10 18:22:31,443 - INFO - VMU: Position=750.86, Speed=82.18, Finished=False
+2025-05-10 18:22:31,444 - INFO - Speed Demon: Position=867.39, Speed=110.49, Finished=False
+2025-05-10 18:22:31,444 - INFO - Rumble Pak: Position=792.87, Speed=87.88, Finished=False
+2025-05-10 18:22:31,445 - INFO - OG OBAMA: Position=873.46, Speed=84.61, Finished=False
+2025-05-10 18:22:31,445 - INFO - Dumpstar: Position=795.36, Speed=89.77, Finished=False
+2025-05-10 18:22:32,458 - INFO - 
+Time: 9.1s
+2025-05-10 18:22:32,458 - INFO - VMU: Position=843.59, Speed=93.31, Finished=False
+2025-05-10 18:22:32,458 - INFO - Speed Demon: Position=965.67, Speed=95.91, Finished=False
+2025-05-10 18:22:32,458 - INFO - Rumble Pak: Position=896.29, Speed=118.85, Finished=False
+2025-05-10 18:22:32,458 - INFO - OG OBAMA: Position=962.59, Speed=88.65, Finished=False
+2025-05-10 18:22:32,458 - INFO - Dumpstar: Position=901.66, Speed=105.74, Finished=False
+2025-05-10 18:22:33,460 - INFO - 
+Time: 10.1s
+2025-05-10 18:22:33,460 - INFO - VMU: Position=939.23, Speed=95.77, Finished=False
+2025-05-10 18:22:33,461 - INFO - Speed Demon: Position=1061.77, Speed=95.91, Finished=False
+2025-05-10 18:22:33,461 - INFO - Rumble Pak: Position=1015.37, Speed=118.85, Finished=False
+2025-05-10 18:22:33,461 - INFO - OG OBAMA: Position=1051.42, Speed=88.65, Finished=False
+2025-05-10 18:22:33,461 - INFO - Dumpstar: Position=1012.84, Speed=117.97, Finished=False
+2025-05-10 18:22:34,471 - INFO - 
+Time: 11.1s
+2025-05-10 18:22:34,471 - INFO - VMU: Position=1036.15, Speed=95.77, Finished=False
+2025-05-10 18:22:34,472 - INFO - Speed Demon: Position=1158.82, Speed=95.91, Finished=False
+2025-05-10 18:22:34,472 - INFO - Rumble Pak: Position=1135.65, Speed=118.85, Finished=False
+2025-05-10 18:22:34,472 - INFO - OG OBAMA: Position=1141.13, Speed=88.65, Finished=False
+2025-05-10 18:22:34,473 - INFO - Dumpstar: Position=1124.94, Speed=110.52, Finished=False
+2025-05-10 18:22:35,486 - INFO - 
+Time: 12.1s
+2025-05-10 18:22:35,486 - INFO - VMU: Position=1133.36, Speed=95.77, Finished=False
+2025-05-10 18:22:35,487 - INFO - Speed Demon: Position=1257.92, Speed=97.72, Finished=False
+2025-05-10 18:22:35,487 - INFO - Rumble Pak: Position=1256.28, Speed=118.85, Finished=False
+2025-05-10 18:22:35,487 - INFO - OG OBAMA: Position=1231.11, Speed=88.65, Finished=False
+2025-05-10 18:22:35,488 - INFO - Dumpstar: Position=1237.07, Speed=107.03, Finished=False
+2025-05-10 18:22:36,495 - INFO - 
+Time: 13.1s
+2025-05-10 18:22:36,496 - INFO - VMU: Position=1229.65, Speed=96.89, Finished=False
+2025-05-10 18:22:36,497 - INFO - Speed Demon: Position=1356.53, Speed=97.72, Finished=False
+2025-05-10 18:22:36,497 - INFO - Rumble Pak: Position=1359.10, Speed=87.76, Finished=False
+2025-05-10 18:22:36,497 - INFO - OG OBAMA: Position=1320.55, Speed=88.65, Finished=False
+2025-05-10 18:22:36,498 - INFO - Dumpstar: Position=1341.56, Speed=103.50, Finished=False
+2025-05-10 18:22:37,504 - INFO - 
+Time: 14.1s
+2025-05-10 18:22:37,504 - INFO - VMU: Position=1327.41, Speed=96.89, Finished=False
+2025-05-10 18:22:37,505 - INFO - Speed Demon: Position=1455.13, Speed=97.72, Finished=False
+2025-05-10 18:22:37,505 - INFO - Rumble Pak: Position=1447.65, Speed=87.76, Finished=False
+2025-05-10 18:22:37,505 - INFO - OG OBAMA: Position=1411.37, Speed=106.48, Finished=False
+2025-05-10 18:22:37,506 - INFO - Dumpstar: Position=1447.07, Speed=105.35, Finished=False
+2025-05-10 18:22:38,520 - INFO - 
+Time: 15.1s
+2025-05-10 18:22:38,520 - INFO - VMU: Position=1425.76, Speed=96.89, Finished=False
+2025-05-10 18:22:38,520 - INFO - Speed Demon: Position=1500.00, Speed=97.72, Finished=True
+2025-05-10 18:22:38,520 - INFO - Rumble Pak: Position=1500.00, Speed=87.76, Finished=True
+2025-05-10 18:22:38,521 - INFO - OG OBAMA: Position=1500.00, Speed=113.04, Finished=True
+2025-05-10 18:22:38,521 - INFO - Dumpstar: Position=1500.00, Speed=105.35, Finished=True
+2025-05-10 18:22:39,288 - INFO - 
+Race #3 finished! Finish order:
+2025-05-10 18:22:39,288 - INFO - 1. Speed Demon: Avg Speed=103.04
+2025-05-10 18:22:39,288 - INFO - 2. Dumpstar: Avg Speed=102.70
+2025-05-10 18:22:39,289 - INFO - 3. Rumble Pak: Avg Speed=102.01
+2025-05-10 18:22:39,289 - INFO - 4. OG OBAMA: Avg Speed=100.46
+2025-05-10 18:22:39,289 - INFO - 5. VMU: Avg Speed=94.46
+2025-05-10 18:22:39,290 - INFO - Selected winner: Speed Demon with avg speed 103.04
+2025-05-10 18:22:39,290 - INFO - Speed Demon finished 1st: +10 points, total=23, wins=1
+2025-05-10 18:22:39,290 - INFO - Dumpstar finished 2nd: +9 points, total=22, wins=0
+2025-05-10 18:22:39,291 - INFO - Rumble Pak finished 3rd: +8 points, total=28, wins=2
+2025-05-10 18:22:39,291 - INFO - OG OBAMA finished 4th: +7 points, total=25, wins=0
+2025-05-10 18:22:39,291 - INFO - VMU finished 5th: +6 points, total=22, wins=0
+2025-05-10 18:22:39,299 - INFO - Race #3 Winner: Speed Demon
+2025-05-10 18:22:39,299 - INFO - 
+--- Starting Race #4 ---
+2025-05-10 18:22:40,308 - INFO - 
+Time: 1.0s
+2025-05-10 18:22:40,308 - INFO - VMU: Position=119.10, Speed=118.15, Finished=False
+2025-05-10 18:22:40,309 - INFO - Speed Demon: Position=105.15, Speed=104.32, Finished=False
+2025-05-10 18:22:40,309 - INFO - Rumble Pak: Position=100.59, Speed=92.12, Finished=False
+2025-05-10 18:22:40,309 - INFO - OG OBAMA: Position=83.86, Speed=83.20, Finished=False
+2025-05-10 18:22:40,310 - INFO - Dumpstar: Position=87.44, Speed=86.74, Finished=False
+2025-05-10 18:22:41,308 - INFO - 
+Time: 2.0s
+2025-05-10 18:22:41,308 - INFO - VMU: Position=227.36, Speed=102.13, Finished=False
+2025-05-10 18:22:41,308 - INFO - Speed Demon: Position=212.79, Speed=116.98, Finished=False
+2025-05-10 18:22:41,308 - INFO - Rumble Pak: Position=192.71, Speed=92.12, Finished=False
+2025-05-10 18:22:41,308 - INFO - OG OBAMA: Position=166.86, Speed=80.69, Finished=False
+2025-05-10 18:22:41,309 - INFO - Dumpstar: Position=174.18, Speed=86.74, Finished=False
+2025-05-10 18:22:42,322 - INFO - 
+Time: 3.0s
+2025-05-10 18:22:42,322 - INFO - VMU: Position=324.07, Speed=81.32, Finished=False
+2025-05-10 18:22:42,323 - INFO - Speed Demon: Position=332.58, Speed=118.92, Finished=False
+2025-05-10 18:22:42,323 - INFO - Rumble Pak: Position=287.01, Speed=94.01, Finished=False
+2025-05-10 18:22:42,323 - INFO - OG OBAMA: Position=248.68, Speed=80.69, Finished=False
+2025-05-10 18:22:42,324 - INFO - Dumpstar: Position=264.44, Speed=102.53, Finished=False
+2025-05-10 18:22:43,330 - INFO - 
+Time: 4.0s
+2025-05-10 18:22:43,330 - INFO - VMU: Position=406.03, Speed=81.32, Finished=False
+2025-05-10 18:22:43,330 - INFO - Speed Demon: Position=424.36, Speed=91.08, Finished=False
+2025-05-10 18:22:43,331 - INFO - Rumble Pak: Position=381.77, Speed=94.01, Finished=False
+2025-05-10 18:22:43,331 - INFO - OG OBAMA: Position=330.01, Speed=80.69, Finished=False
+2025-05-10 18:22:43,331 - INFO - Dumpstar: Position=361.45, Speed=95.63, Finished=False
+2025-05-10 18:22:44,339 - INFO - 
+Time: 5.0s
+2025-05-10 18:22:44,339 - INFO - VMU: Position=488.08, Speed=81.32, Finished=False
+2025-05-10 18:22:44,339 - INFO - Speed Demon: Position=516.25, Speed=91.08, Finished=False
+2025-05-10 18:22:44,340 - INFO - Rumble Pak: Position=486.89, Speed=106.37, Finished=False
+2025-05-10 18:22:44,340 - INFO - OG OBAMA: Position=411.42, Speed=80.69, Finished=False
+2025-05-10 18:22:44,340 - INFO - Dumpstar: Position=466.63, Speed=106.99, Finished=False
+2025-05-10 18:22:45,354 - INFO - 
+Time: 6.1s
+2025-05-10 18:22:45,354 - INFO - VMU: Position=570.70, Speed=81.32, Finished=False
+2025-05-10 18:22:45,354 - INFO - Speed Demon: Position=608.79, Speed=91.08, Finished=False
+2025-05-10 18:22:45,355 - INFO - Rumble Pak: Position=593.86, Speed=92.88, Finished=False
+2025-05-10 18:22:45,355 - INFO - OG OBAMA: Position=497.11, Speed=87.75, Finished=False
+2025-05-10 18:22:45,355 - INFO - Dumpstar: Position=575.34, Speed=106.99, Finished=False
+2025-05-10 18:22:46,356 - INFO - 
+Time: 7.1s
+2025-05-10 18:22:46,356 - INFO - VMU: Position=667.56, Speed=119.95, Finished=False
+2025-05-10 18:22:46,357 - INFO - Speed Demon: Position=701.33, Speed=106.96, Finished=False
+2025-05-10 18:22:46,357 - INFO - Rumble Pak: Position=686.92, Speed=92.88, Finished=False
+2025-05-10 18:22:46,357 - INFO - OG OBAMA: Position=585.03, Speed=87.75, Finished=False
+2025-05-10 18:22:46,358 - INFO - Dumpstar: Position=682.54, Speed=106.99, Finished=False
+2025-05-10 18:22:47,365 - INFO - 
+Time: 8.1s
+2025-05-10 18:22:47,365 - INFO - VMU: Position=788.59, Speed=119.95, Finished=False
+2025-05-10 18:22:47,365 - INFO - Speed Demon: Position=801.52, Speed=81.36, Finished=False
+2025-05-10 18:22:47,366 - INFO - Rumble Pak: Position=780.64, Speed=92.88, Finished=False
+2025-05-10 18:22:47,366 - INFO - OG OBAMA: Position=673.57, Speed=87.75, Finished=False
+2025-05-10 18:22:47,367 - INFO - Dumpstar: Position=790.49, Speed=106.99, Finished=False
+2025-05-10 18:22:48,365 - INFO - 
+Time: 9.1s
+2025-05-10 18:22:48,365 - INFO - VMU: Position=906.27, Speed=113.05, Finished=False
+2025-05-10 18:22:48,365 - INFO - Speed Demon: Position=900.41, Speed=102.30, Finished=False
+2025-05-10 18:22:48,366 - INFO - Rumble Pak: Position=873.82, Speed=101.91, Finished=False
+2025-05-10 18:22:48,366 - INFO - OG OBAMA: Position=761.31, Speed=87.75, Finished=False
+2025-05-10 18:22:48,367 - INFO - Dumpstar: Position=897.49, Speed=106.99, Finished=False
+2025-05-10 18:22:49,375 - INFO - 
+Time: 10.1s
+2025-05-10 18:22:49,375 - INFO - VMU: Position=1021.44, Speed=94.84, Finished=False
+2025-05-10 18:22:49,376 - INFO - Speed Demon: Position=1002.28, Speed=100.74, Finished=False
+2025-05-10 18:22:49,376 - INFO - Rumble Pak: Position=976.75, Speed=101.91, Finished=False
+2025-05-10 18:22:49,376 - INFO - OG OBAMA: Position=849.94, Speed=87.75, Finished=False
+2025-05-10 18:22:49,377 - INFO - Dumpstar: Position=988.24, Speed=97.44, Finished=False
+2025-05-10 18:22:50,388 - INFO - 
+Time: 11.1s
+2025-05-10 18:22:50,388 - INFO - VMU: Position=1117.42, Speed=94.84, Finished=False
+2025-05-10 18:22:50,389 - INFO - Speed Demon: Position=1104.23, Speed=100.74, Finished=False
+2025-05-10 18:22:50,389 - INFO - Rumble Pak: Position=1079.88, Speed=101.91, Finished=False
+2025-05-10 18:22:50,389 - INFO - OG OBAMA: Position=939.20, Speed=116.73, Finished=False
+2025-05-10 18:22:50,390 - INFO - Dumpstar: Position=1086.85, Speed=97.44, Finished=False
+2025-05-10 18:22:51,399 - INFO - 
+Time: 12.1s
+2025-05-10 18:22:51,399 - INFO - VMU: Position=1214.47, Speed=113.05, Finished=False
+2025-05-10 18:22:51,399 - INFO - Speed Demon: Position=1206.07, Speed=100.74, Finished=False
+2025-05-10 18:22:51,400 - INFO - Rumble Pak: Position=1182.90, Speed=101.91, Finished=False
+2025-05-10 18:22:51,400 - INFO - OG OBAMA: Position=1034.90, Speed=93.70, Finished=False
+2025-05-10 18:22:51,400 - INFO - Dumpstar: Position=1186.83, Speed=106.93, Finished=False
+2025-05-10 18:22:52,413 - INFO - 
+Time: 13.1s
+2025-05-10 18:22:52,413 - INFO - VMU: Position=1329.22, Speed=113.05, Finished=False
+2025-05-10 18:22:52,413 - INFO - Speed Demon: Position=1317.17, Speed=113.34, Finished=False
+2025-05-10 18:22:52,414 - INFO - Rumble Pak: Position=1286.34, Speed=101.91, Finished=False
+2025-05-10 18:22:52,414 - INFO - OG OBAMA: Position=1130.00, Speed=93.70, Finished=False
+2025-05-10 18:22:52,414 - INFO - Dumpstar: Position=1288.53, Speed=93.81, Finished=False
+2025-05-10 18:22:53,416 - INFO - 
+Time: 14.1s
+2025-05-10 18:22:53,416 - INFO - VMU: Position=1442.49, Speed=113.05, Finished=False
+2025-05-10 18:22:53,417 - INFO - Speed Demon: Position=1430.73, Speed=113.34, Finished=False
+2025-05-10 18:22:53,417 - INFO - Rumble Pak: Position=1388.45, Speed=101.91, Finished=False
+2025-05-10 18:22:53,417 - INFO - OG OBAMA: Position=1223.89, Speed=93.70, Finished=False
+2025-05-10 18:22:53,418 - INFO - Dumpstar: Position=1383.34, Speed=110.02, Finished=False
+2025-05-10 18:22:54,417 - INFO - 
+Time: 15.1s
+2025-05-10 18:22:54,417 - INFO - VMU: Position=1500.00, Speed=93.14, Finished=True
+2025-05-10 18:22:54,417 - INFO - Speed Demon: Position=1500.00, Speed=104.88, Finished=True
+2025-05-10 18:22:54,417 - INFO - Rumble Pak: Position=1490.45, Speed=101.91, Finished=False
+2025-05-10 18:22:54,417 - INFO - OG OBAMA: Position=1317.68, Speed=93.70, Finished=False
+2025-05-10 18:22:54,418 - INFO - Dumpstar: Position=1493.48, Speed=110.02, Finished=False
+2025-05-10 18:22:55,427 - INFO - 
+Time: 16.1s
+2025-05-10 18:22:55,427 - INFO - VMU: Position=1500.00, Speed=93.14, Finished=True
+2025-05-10 18:22:55,428 - INFO - Speed Demon: Position=1500.00, Speed=104.88, Finished=True
+2025-05-10 18:22:55,428 - INFO - Rumble Pak: Position=1500.00, Speed=101.91, Finished=True
+2025-05-10 18:22:55,429 - INFO - OG OBAMA: Position=1415.26, Speed=98.13, Finished=False
+2025-05-10 18:22:55,429 - INFO - Dumpstar: Position=1500.00, Speed=110.02, Finished=True
+2025-05-10 18:22:56,299 - INFO - 
+Race #4 finished! Finish order:
+2025-05-10 18:22:56,299 - INFO - 1. Speed Demon: Avg Speed=101.89
+2025-05-10 18:22:56,300 - INFO - 2. VMU: Avg Speed=101.77
+2025-05-10 18:22:56,300 - INFO - 3. Dumpstar: Avg Speed=98.90
+2025-05-10 18:22:56,300 - INFO - 4. Rumble Pak: Avg Speed=98.68
+2025-05-10 18:22:56,301 - INFO - 5. OG OBAMA: Avg Speed=88.33
+2025-05-10 18:22:56,301 - INFO - Selected winner: Speed Demon with avg speed 101.89
+2025-05-10 18:22:56,301 - INFO - Speed Demon finished 1st: +10 points, total=33, wins=2
+2025-05-10 18:22:56,302 - INFO - VMU finished 2nd: +9 points, total=31, wins=0
+2025-05-10 18:22:56,302 - INFO - Dumpstar finished 3rd: +8 points, total=30, wins=0
+2025-05-10 18:22:56,302 - INFO - Rumble Pak finished 4th: +7 points, total=35, wins=2
+2025-05-10 18:22:56,302 - INFO - OG OBAMA finished 5th: +6 points, total=31, wins=0
+2025-05-10 18:22:56,312 - INFO - Race #4 Winner: Speed Demon
+2025-05-10 18:22:56,313 - INFO - 
+--- Starting Race #5 ---
+2025-05-10 18:22:57,315 - INFO - 
+Time: 1.0s
+2025-05-10 18:22:57,315 - INFO - VMU: Position=101.13, Speed=101.03, Finished=False
+2025-05-10 18:22:57,316 - INFO - Speed Demon: Position=116.31, Speed=116.19, Finished=False
+2025-05-10 18:22:57,316 - INFO - Rumble Pak: Position=112.74, Speed=116.48, Finished=False
+2025-05-10 18:22:57,316 - INFO - OG OBAMA: Position=91.45, Speed=83.95, Finished=False
+2025-05-10 18:22:57,316 - INFO - Dumpstar: Position=93.26, Speed=95.08, Finished=False
+2025-05-10 18:22:58,316 - INFO - 
+Time: 2.0s
+2025-05-10 18:22:58,316 - INFO - VMU: Position=202.26, Speed=101.03, Finished=False
+2025-05-10 18:22:58,316 - INFO - Speed Demon: Position=232.62, Speed=116.19, Finished=False
+2025-05-10 18:22:58,316 - INFO - Rumble Pak: Position=215.65, Speed=101.71, Finished=False
+2025-05-10 18:22:58,316 - INFO - OG OBAMA: Position=175.49, Speed=83.95, Finished=False
+2025-05-10 18:22:58,316 - INFO - Dumpstar: Position=188.44, Speed=95.08, Finished=False
+2025-05-10 18:22:59,329 - INFO - 
+Time: 3.0s
+2025-05-10 18:22:59,329 - INFO - VMU: Position=304.71, Speed=101.03, Finished=False
+2025-05-10 18:22:59,329 - INFO - Speed Demon: Position=350.44, Speed=116.19, Finished=False
+2025-05-10 18:22:59,330 - INFO - Rumble Pak: Position=310.58, Speed=91.42, Finished=False
+2025-05-10 18:22:59,330 - INFO - OG OBAMA: Position=260.61, Speed=83.95, Finished=False
+2025-05-10 18:22:59,330 - INFO - Dumpstar: Position=284.85, Speed=95.08, Finished=False
+2025-05-10 18:23:00,345 - INFO - 
+Time: 4.0s
+2025-05-10 18:23:00,345 - INFO - VMU: Position=407.86, Speed=105.64, Finished=False
+2025-05-10 18:23:00,346 - INFO - Speed Demon: Position=459.21, Speed=87.10, Finished=False
+2025-05-10 18:23:00,346 - INFO - Rumble Pak: Position=403.37, Speed=91.42, Finished=False
+2025-05-10 18:23:00,346 - INFO - OG OBAMA: Position=345.82, Speed=83.95, Finished=False
+2025-05-10 18:23:00,347 - INFO - Dumpstar: Position=397.04, Speed=118.40, Finished=False
+2025-05-10 18:23:01,360 - INFO - 
+Time: 5.0s
+2025-05-10 18:23:01,360 - INFO - VMU: Position=511.26, Speed=94.61, Finished=False
+2025-05-10 18:23:01,361 - INFO - Speed Demon: Position=547.10, Speed=80.77, Finished=False
+2025-05-10 18:23:01,361 - INFO - Rumble Pak: Position=496.16, Speed=91.42, Finished=False
+2025-05-10 18:23:01,361 - INFO - OG OBAMA: Position=431.03, Speed=83.95, Finished=False
+2025-05-10 18:23:01,362 - INFO - Dumpstar: Position=515.71, Speed=109.24, Finished=False
+2025-05-10 18:23:02,360 - INFO - 
+Time: 6.0s
+2025-05-10 18:23:02,360 - INFO - VMU: Position=616.33, Speed=106.59, Finished=False
+2025-05-10 18:23:02,360 - INFO - Speed Demon: Position=627.87, Speed=80.77, Finished=False
+2025-05-10 18:23:02,360 - INFO - Rumble Pak: Position=587.58, Speed=91.42, Finished=False
+2025-05-10 18:23:02,361 - INFO - OG OBAMA: Position=514.98, Speed=83.95, Finished=False
+2025-05-10 18:23:02,361 - INFO - Dumpstar: Position=624.95, Speed=109.24, Finished=False
+2025-05-10 18:23:03,375 - INFO - 
+Time: 7.1s
+2025-05-10 18:23:03,375 - INFO - VMU: Position=724.52, Speed=106.59, Finished=False
+2025-05-10 18:23:03,375 - INFO - Speed Demon: Position=709.84, Speed=80.77, Finished=False
+2025-05-10 18:23:03,376 - INFO - Rumble Pak: Position=680.37, Speed=91.42, Finished=False
+2025-05-10 18:23:03,376 - INFO - OG OBAMA: Position=620.04, Speed=110.84, Finished=False
+2025-05-10 18:23:03,376 - INFO - Dumpstar: Position=735.82, Speed=109.24, Finished=False
+2025-05-10 18:23:04,384 - INFO - 
+Time: 8.1s
+2025-05-10 18:23:04,384 - INFO - VMU: Position=832.08, Speed=106.59, Finished=False
+2025-05-10 18:23:04,385 - INFO - Speed Demon: Position=791.34, Speed=80.77, Finished=False
+2025-05-10 18:23:04,385 - INFO - Rumble Pak: Position=772.61, Speed=91.42, Finished=False
+2025-05-10 18:23:04,385 - INFO - OG OBAMA: Position=731.88, Speed=110.84, Finished=False
+2025-05-10 18:23:04,385 - INFO - Dumpstar: Position=846.04, Speed=109.24, Finished=False
+2025-05-10 18:23:05,393 - INFO - 
+Time: 9.1s
+2025-05-10 18:23:05,393 - INFO - VMU: Position=919.66, Speed=82.86, Finished=False
+2025-05-10 18:23:05,394 - INFO - Speed Demon: Position=881.98, Speed=93.13, Finished=False
+2025-05-10 18:23:05,394 - INFO - Rumble Pak: Position=865.22, Speed=91.93, Finished=False
+2025-05-10 18:23:05,394 - INFO - OG OBAMA: Position=843.83, Speed=110.84, Finished=False
+2025-05-10 18:23:05,395 - INFO - Dumpstar: Position=956.37, Speed=109.24, Finished=False
+2025-05-10 18:23:06,417 - INFO - 
+Time: 10.1s
+2025-05-10 18:23:06,426 - INFO - VMU: Position=1019.33, Speed=104.62, Finished=False
+2025-05-10 18:23:06,427 - INFO - Speed Demon: Position=977.34, Speed=93.13, Finished=False
+2025-05-10 18:23:06,429 - INFO - Rumble Pak: Position=959.35, Speed=91.93, Finished=False
+2025-05-10 18:23:06,430 - INFO - OG OBAMA: Position=957.33, Speed=110.84, Finished=False
+2025-05-10 18:23:06,441 - INFO - Dumpstar: Position=1068.23, Speed=109.24, Finished=False
+2025-05-10 18:23:07,421 - INFO - 
+Time: 11.1s
+2025-05-10 18:23:07,421 - INFO - VMU: Position=1123.37, Speed=90.92, Finished=False
+2025-05-10 18:23:07,422 - INFO - Speed Demon: Position=1070.75, Speed=93.13, Finished=False
+2025-05-10 18:23:07,422 - INFO - Rumble Pak: Position=1053.89, Speed=115.96, Finished=False
+2025-05-10 18:23:07,422 - INFO - OG OBAMA: Position=1074.21, Speed=116.92, Finished=False
+2025-05-10 18:23:07,423 - INFO - Dumpstar: Position=1177.79, Speed=109.24, Finished=False
+2025-05-10 18:23:08,429 - INFO - 
+Time: 12.1s
+2025-05-10 18:23:08,429 - INFO - VMU: Position=1216.04, Speed=100.40, Finished=False
+2025-05-10 18:23:08,430 - INFO - Speed Demon: Position=1164.72, Speed=93.13, Finished=False
+2025-05-10 18:23:08,431 - INFO - Rumble Pak: Position=1158.94, Speed=102.09, Finished=False
+2025-05-10 18:23:08,431 - INFO - OG OBAMA: Position=1179.66, Speed=93.61, Finished=False
+2025-05-10 18:23:08,431 - INFO - Dumpstar: Position=1288.01, Speed=109.24, Finished=False
+2025-05-10 18:23:09,430 - INFO - 
+Time: 13.1s
+2025-05-10 18:23:09,430 - INFO - VMU: Position=1314.07, Speed=90.29, Finished=False
+2025-05-10 18:23:09,431 - INFO - Speed Demon: Position=1257.03, Speed=82.00, Finished=False
+2025-05-10 18:23:09,431 - INFO - Rumble Pak: Position=1261.13, Speed=102.09, Finished=False
+2025-05-10 18:23:09,432 - INFO - OG OBAMA: Position=1273.37, Speed=93.61, Finished=False
+2025-05-10 18:23:09,432 - INFO - Dumpstar: Position=1404.04, Speed=118.68, Finished=False
+2025-05-10 18:23:10,442 - INFO - 
+Time: 14.1s
+2025-05-10 18:23:10,442 - INFO - VMU: Position=1429.30, Speed=115.91, Finished=False
+2025-05-10 18:23:10,443 - INFO - Speed Demon: Position=1360.00, Speed=104.23, Finished=False
+2025-05-10 18:23:10,443 - INFO - Rumble Pak: Position=1364.45, Speed=102.09, Finished=False
+2025-05-10 18:23:10,443 - INFO - OG OBAMA: Position=1366.24, Speed=91.07, Finished=False
+2025-05-10 18:23:10,444 - INFO - Dumpstar: Position=1500.00, Speed=118.68, Finished=True
+2025-05-10 18:23:11,457 - INFO - 
+Time: 15.1s
+2025-05-10 18:23:11,457 - INFO - VMU: Position=1500.00, Speed=115.91, Finished=True
+2025-05-10 18:23:11,457 - INFO - Speed Demon: Position=1465.69, Speed=104.23, Finished=False
+2025-05-10 18:23:11,458 - INFO - Rumble Pak: Position=1467.97, Speed=102.09, Finished=False
+2025-05-10 18:23:11,458 - INFO - OG OBAMA: Position=1458.58, Speed=91.07, Finished=False
+2025-05-10 18:23:11,458 - INFO - Dumpstar: Position=1500.00, Speed=118.68, Finished=True
+2025-05-10 18:23:11,912 - INFO - 
+Race #5 finished! Finish order:
+2025-05-10 18:23:11,913 - INFO - 1. Dumpstar: Avg Speed=107.77
+2025-05-10 18:23:11,913 - INFO - 2. VMU: Avg Speed=101.81
+2025-05-10 18:23:11,914 - INFO - 3. Rumble Pak: Avg Speed=97.07
+2025-05-10 18:23:11,914 - INFO - 4. Speed Demon: Avg Speed=96.97
+2025-05-10 18:23:11,914 - INFO - 5. OG OBAMA: Avg Speed=96.26
+2025-05-10 18:23:11,915 - INFO - Selected winner: Dumpstar with avg speed 107.77
+2025-05-10 18:23:11,915 - INFO - Dumpstar finished 1st: +10 points, total=40, wins=1
+2025-05-10 18:23:11,915 - INFO - VMU finished 2nd: +9 points, total=40, wins=0
+2025-05-10 18:23:11,916 - INFO - Rumble Pak finished 3rd: +8 points, total=43, wins=2
+2025-05-10 18:23:11,916 - INFO - Speed Demon finished 4th: +7 points, total=40, wins=2
+2025-05-10 18:23:11,916 - INFO - OG OBAMA finished 5th: +6 points, total=37, wins=0
+2025-05-10 18:23:11,923 - INFO - Race #5 Winner: Dumpstar
+2025-05-10 18:23:11,923 - INFO - 
+--- Starting Race #6 ---
+2025-05-10 18:23:12,932 - INFO - 
+Time: 1.0s
+2025-05-10 18:23:12,932 - INFO - VMU: Position=112.98, Speed=111.97, Finished=False
+2025-05-10 18:23:12,933 - INFO - Speed Demon: Position=81.94, Speed=81.21, Finished=False
+2025-05-10 18:23:12,933 - INFO - Rumble Pak: Position=94.09, Speed=81.31, Finished=False
+2025-05-10 18:23:12,933 - INFO - OG OBAMA: Position=117.86, Speed=116.81, Finished=False
+2025-05-10 18:23:12,934 - INFO - Dumpstar: Position=99.23, Speed=98.35, Finished=False
+2025-05-10 18:23:13,945 - INFO - 
+Time: 2.0s
+2025-05-10 18:23:13,946 - INFO - VMU: Position=212.84, Speed=89.41, Finished=False
+2025-05-10 18:23:13,946 - INFO - Speed Demon: Position=164.12, Speed=81.21, Finished=False
+2025-05-10 18:23:13,946 - INFO - Rumble Pak: Position=176.38, Speed=81.31, Finished=False
+2025-05-10 18:23:13,947 - INFO - OG OBAMA: Position=231.33, Speed=110.22, Finished=False
+2025-05-10 18:23:13,947 - INFO - Dumpstar: Position=198.76, Speed=98.35, Finished=False
+2025-05-10 18:23:14,944 - INFO - 
+Time: 3.0s
+2025-05-10 18:23:14,945 - INFO - VMU: Position=303.08, Speed=106.20, Finished=False
+2025-05-10 18:23:14,947 - INFO - Speed Demon: Position=245.32, Speed=81.21, Finished=False
+2025-05-10 18:23:14,951 - INFO - Rumble Pak: Position=257.69, Speed=81.31, Finished=False
+2025-05-10 18:23:14,951 - INFO - OG OBAMA: Position=341.55, Speed=110.22, Finished=False
+2025-05-10 18:23:14,952 - INFO - Dumpstar: Position=297.11, Speed=98.35, Finished=False
+2025-05-10 18:23:15,949 - INFO - 
+Time: 4.0s
+2025-05-10 18:23:15,949 - INFO - VMU: Position=406.38, Speed=119.42, Finished=False
+2025-05-10 18:23:15,949 - INFO - Speed Demon: Position=326.85, Speed=81.21, Finished=False
+2025-05-10 18:23:15,950 - INFO - Rumble Pak: Position=339.33, Speed=81.31, Finished=False
+2025-05-10 18:23:15,950 - INFO - OG OBAMA: Position=452.22, Speed=110.22, Finished=False
+2025-05-10 18:23:15,950 - INFO - Dumpstar: Position=395.85, Speed=98.35, Finished=False
+2025-05-10 18:23:16,953 - INFO - 
+Time: 5.0s
+2025-05-10 18:23:16,953 - INFO - VMU: Position=526.39, Speed=119.42, Finished=False
+2025-05-10 18:23:16,954 - INFO - Speed Demon: Position=408.46, Speed=81.21, Finished=False
+2025-05-10 18:23:16,954 - INFO - Rumble Pak: Position=421.05, Speed=81.31, Finished=False
+2025-05-10 18:23:16,954 - INFO - OG OBAMA: Position=558.16, Speed=102.58, Finished=False
+2025-05-10 18:23:16,954 - INFO - Dumpstar: Position=494.66, Speed=98.20, Finished=False
+2025-05-10 18:23:17,963 - INFO - 
+Time: 6.0s
+2025-05-10 18:23:17,963 - INFO - VMU: Position=641.40, Speed=94.82, Finished=False
+2025-05-10 18:23:17,963 - INFO - Speed Demon: Position=503.73, Speed=107.10, Finished=False
+2025-05-10 18:23:17,964 - INFO - Rumble Pak: Position=503.18, Speed=81.31, Finished=False
+2025-05-10 18:23:17,964 - INFO - OG OBAMA: Position=661.77, Speed=102.58, Finished=False
+2025-05-10 18:23:17,964 - INFO - Dumpstar: Position=593.84, Speed=98.20, Finished=False
+2025-05-10 18:23:18,963 - INFO - 
+Time: 7.0s
+2025-05-10 18:23:18,963 - INFO - VMU: Position=742.02, Speed=106.98, Finished=False
+2025-05-10 18:23:18,964 - INFO - Speed Demon: Position=610.82, Speed=107.10, Finished=False
+2025-05-10 18:23:18,964 - INFO - Rumble Pak: Position=594.15, Speed=110.60, Finished=False
+2025-05-10 18:23:18,964 - INFO - OG OBAMA: Position=764.34, Speed=102.58, Finished=False
+2025-05-10 18:23:18,964 - INFO - Dumpstar: Position=692.04, Speed=98.20, Finished=False
+2025-05-10 18:23:19,965 - INFO - 
+Time: 8.0s
+2025-05-10 18:23:19,965 - INFO - VMU: Position=849.10, Speed=106.98, Finished=False
+2025-05-10 18:23:19,965 - INFO - Speed Demon: Position=718.03, Speed=107.10, Finished=False
+2025-05-10 18:23:19,965 - INFO - Rumble Pak: Position=704.86, Speed=110.60, Finished=False
+2025-05-10 18:23:19,965 - INFO - OG OBAMA: Position=865.22, Speed=100.13, Finished=False
+2025-05-10 18:23:19,965 - INFO - Dumpstar: Position=790.33, Speed=98.20, Finished=False
+2025-05-10 18:23:20,967 - INFO - 
+Time: 9.0s
+2025-05-10 18:23:20,967 - INFO - VMU: Position=956.29, Speed=106.98, Finished=False
+2025-05-10 18:23:20,968 - INFO - Speed Demon: Position=832.53, Speed=112.20, Finished=False
+2025-05-10 18:23:20,968 - INFO - Rumble Pak: Position=815.69, Speed=110.60, Finished=False
+2025-05-10 18:23:20,968 - INFO - OG OBAMA: Position=956.64, Speed=108.13, Finished=False
+2025-05-10 18:23:20,968 - INFO - Dumpstar: Position=888.72, Speed=98.20, Finished=False
+2025-05-10 18:23:21,966 - INFO - 
+Time: 10.0s
+2025-05-10 18:23:21,966 - INFO - VMU: Position=1066.33, Speed=115.02, Finished=False
+2025-05-10 18:23:21,966 - INFO - Speed Demon: Position=944.73, Speed=112.20, Finished=False
+2025-05-10 18:23:21,967 - INFO - Rumble Pak: Position=926.29, Speed=110.60, Finished=False
+2025-05-10 18:23:21,967 - INFO - OG OBAMA: Position=1064.78, Speed=108.13, Finished=False
+2025-05-10 18:23:21,967 - INFO - Dumpstar: Position=986.92, Speed=98.20, Finished=False
+2025-05-10 18:23:22,981 - INFO - 
+Time: 11.1s
+2025-05-10 18:23:22,981 - INFO - VMU: Position=1183.07, Speed=115.02, Finished=False
+2025-05-10 18:23:22,981 - INFO - Speed Demon: Position=1058.61, Speed=112.20, Finished=False
+2025-05-10 18:23:22,982 - INFO - Rumble Pak: Position=1036.37, Speed=106.80, Finished=False
+2025-05-10 18:23:22,982 - INFO - OG OBAMA: Position=1174.53, Speed=108.13, Finished=False
+2025-05-10 18:23:22,982 - INFO - Dumpstar: Position=1087.62, Speed=104.39, Finished=False
+2025-05-10 18:23:23,996 - INFO - 
+Time: 12.1s
+2025-05-10 18:23:23,996 - INFO - VMU: Position=1290.73, Speed=87.32, Finished=False
+2025-05-10 18:23:23,996 - INFO - Speed Demon: Position=1148.16, Speed=82.48, Finished=False
+2025-05-10 18:23:23,997 - INFO - Rumble Pak: Position=1151.12, Speed=86.46, Finished=False
+2025-05-10 18:23:23,997 - INFO - OG OBAMA: Position=1289.72, Speed=115.54, Finished=False
+2025-05-10 18:23:23,997 - INFO - Dumpstar: Position=1193.57, Speed=104.39, Finished=False
+2025-05-10 18:23:25,005 - INFO - 
+Time: 13.1s
+2025-05-10 18:23:25,006 - INFO - VMU: Position=1399.36, Speed=113.86, Finished=False
+2025-05-10 18:23:25,006 - INFO - Speed Demon: Position=1231.30, Speed=82.48, Finished=False
+2025-05-10 18:23:25,006 - INFO - Rumble Pak: Position=1250.60, Speed=99.72, Finished=False
+2025-05-10 18:23:25,006 - INFO - OG OBAMA: Position=1405.10, Speed=114.56, Finished=False
+2025-05-10 18:23:25,007 - INFO - Dumpstar: Position=1298.79, Speed=104.39, Finished=False
+2025-05-10 18:23:26,009 - INFO - 
+Time: 14.1s
+2025-05-10 18:23:26,009 - INFO - VMU: Position=1487.88, Speed=85.85, Finished=False
+2025-05-10 18:23:26,010 - INFO - Speed Demon: Position=1314.11, Speed=82.48, Finished=False
+2025-05-10 18:23:26,010 - INFO - Rumble Pak: Position=1350.72, Speed=99.72, Finished=False
+2025-05-10 18:23:26,010 - INFO - OG OBAMA: Position=1500.00, Speed=86.32, Finished=True
+2025-05-10 18:23:26,011 - INFO - Dumpstar: Position=1403.64, Speed=104.45, Finished=False
+2025-05-10 18:23:27,010 - INFO - 
+Time: 15.1s
+2025-05-10 18:23:27,010 - INFO - VMU: Position=1500.00, Speed=85.85, Finished=True
+2025-05-10 18:23:27,011 - INFO - Speed Demon: Position=1397.85, Speed=86.12, Finished=False
+2025-05-10 18:23:27,011 - INFO - Rumble Pak: Position=1443.32, Speed=92.18, Finished=False
+2025-05-10 18:23:27,012 - INFO - OG OBAMA: Position=1500.00, Speed=86.32, Finished=True
+2025-05-10 18:23:27,012 - INFO - Dumpstar: Position=1495.95, Speed=89.15, Finished=False
+2025-05-10 18:23:28,014 - INFO - 
+Time: 16.1s
+2025-05-10 18:23:28,014 - INFO - VMU: Position=1500.00, Speed=85.85, Finished=True
+2025-05-10 18:23:28,015 - INFO - Speed Demon: Position=1484.31, Speed=86.12, Finished=False
+2025-05-10 18:23:28,015 - INFO - Rumble Pak: Position=1500.00, Speed=104.05, Finished=True
+2025-05-10 18:23:28,015 - INFO - OG OBAMA: Position=1500.00, Speed=86.32, Finished=True
+2025-05-10 18:23:28,015 - INFO - Dumpstar: Position=1500.00, Speed=89.15, Finished=True
+2025-05-10 18:23:28,212 - INFO - 
+Race #6 finished! Finish order:
+2025-05-10 18:23:28,212 - INFO - 1. OG OBAMA: Avg Speed=107.38
+2025-05-10 18:23:28,213 - INFO - 2. VMU: Avg Speed=105.52
+2025-05-10 18:23:28,213 - INFO - 3. Dumpstar: Avg Speed=99.20
+2025-05-10 18:23:28,213 - INFO - 4. Rumble Pak: Avg Speed=95.98
+2025-05-10 18:23:28,213 - INFO - 5. Speed Demon: Avg Speed=92.18
+2025-05-10 18:23:28,214 - INFO - Selected winner: OG OBAMA with avg speed 107.38
+2025-05-10 18:23:28,214 - INFO - OG OBAMA finished 1st: +10 points, total=47, wins=1
+2025-05-10 18:23:28,214 - INFO - VMU finished 2nd: +9 points, total=49, wins=0
+2025-05-10 18:23:28,214 - INFO - Dumpstar finished 3rd: +8 points, total=48, wins=1
+2025-05-10 18:23:28,215 - INFO - Rumble Pak finished 4th: +7 points, total=50, wins=2
+2025-05-10 18:23:28,215 - INFO - Speed Demon finished 5th: +6 points, total=46, wins=2
+2025-05-10 18:23:28,222 - INFO - Race #6 Winner: OG OBAMA
+2025-05-10 18:23:28,222 - INFO - 
+--- Starting Race #7 ---
+2025-05-10 18:23:29,238 - INFO - 
+Time: 1.0s
+2025-05-10 18:23:29,238 - INFO - VMU: Position=92.90, Speed=89.73, Finished=False
+2025-05-10 18:23:29,239 - INFO - Speed Demon: Position=114.71, Speed=95.17, Finished=False
+2025-05-10 18:23:29,239 - INFO - Rumble Pak: Position=85.45, Speed=84.19, Finished=False
+2025-05-10 18:23:29,239 - INFO - OG OBAMA: Position=102.60, Speed=101.08, Finished=False
+2025-05-10 18:23:29,239 - INFO - Dumpstar: Position=93.23, Speed=105.47, Finished=False
+2025-05-10 18:23:30,250 - INFO - 
+Time: 2.0s
+2025-05-10 18:23:30,250 - INFO - VMU: Position=183.70, Speed=89.73, Finished=False
+2025-05-10 18:23:30,250 - INFO - Speed Demon: Position=211.02, Speed=95.17, Finished=False
+2025-05-10 18:23:30,251 - INFO - Rumble Pak: Position=191.44, Speed=110.18, Finished=False
+2025-05-10 18:23:30,251 - INFO - OG OBAMA: Position=208.31, Speed=93.54, Finished=False
+2025-05-10 18:23:30,251 - INFO - Dumpstar: Position=199.97, Speed=105.47, Finished=False
+2025-05-10 18:23:31,252 - INFO - 
+Time: 3.0s
+2025-05-10 18:23:31,252 - INFO - VMU: Position=274.16, Speed=92.98, Finished=False
+2025-05-10 18:23:31,253 - INFO - Speed Demon: Position=306.29, Speed=95.17, Finished=False
+2025-05-10 18:23:31,253 - INFO - Rumble Pak: Position=301.73, Speed=110.18, Finished=False
+2025-05-10 18:23:31,253 - INFO - OG OBAMA: Position=297.73, Speed=81.86, Finished=False
+2025-05-10 18:23:31,254 - INFO - Dumpstar: Position=305.55, Speed=105.47, Finished=False
+2025-05-10 18:23:32,253 - INFO - 
+Time: 4.0s
+2025-05-10 18:23:32,253 - INFO - VMU: Position=371.11, Speed=97.71, Finished=False
+2025-05-10 18:23:32,254 - INFO - Speed Demon: Position=406.87, Speed=98.61, Finished=False
+2025-05-10 18:23:32,254 - INFO - Rumble Pak: Position=408.68, Speed=93.18, Finished=False
+2025-05-10 18:23:32,254 - INFO - OG OBAMA: Position=391.02, Speed=101.04, Finished=False
+2025-05-10 18:23:32,254 - INFO - Dumpstar: Position=411.13, Speed=105.47, Finished=False
+2025-05-10 18:23:33,260 - INFO - 
+Time: 5.0s
+2025-05-10 18:23:33,260 - INFO - VMU: Position=462.14, Speed=87.79, Finished=False
+2025-05-10 18:23:33,261 - INFO - Speed Demon: Position=506.16, Speed=98.61, Finished=False
+2025-05-10 18:23:33,261 - INFO - Rumble Pak: Position=519.39, Speed=110.24, Finished=False
+2025-05-10 18:23:33,261 - INFO - OG OBAMA: Position=500.82, Speed=109.76, Finished=False
+2025-05-10 18:23:33,262 - INFO - Dumpstar: Position=525.30, Speed=80.67, Finished=False
+2025-05-10 18:23:34,261 - INFO - 
+Time: 6.0s
+2025-05-10 18:23:34,261 - INFO - VMU: Position=550.02, Speed=87.79, Finished=False
+2025-05-10 18:23:34,261 - INFO - Speed Demon: Position=604.87, Speed=98.61, Finished=False
+2025-05-10 18:23:34,262 - INFO - Rumble Pak: Position=603.99, Speed=80.32, Finished=False
+2025-05-10 18:23:34,262 - INFO - OG OBAMA: Position=605.48, Speed=103.16, Finished=False
+2025-05-10 18:23:34,263 - INFO - Dumpstar: Position=606.05, Speed=80.67, Finished=False
+2025-05-10 18:23:35,261 - INFO - 
+Time: 7.0s
+2025-05-10 18:23:35,261 - INFO - VMU: Position=637.81, Speed=87.79, Finished=False
+2025-05-10 18:23:35,262 - INFO - Speed Demon: Position=703.48, Speed=98.61, Finished=False
+2025-05-10 18:23:35,262 - INFO - Rumble Pak: Position=700.27, Speed=100.59, Finished=False
+2025-05-10 18:23:35,262 - INFO - OG OBAMA: Position=695.93, Speed=90.25, Finished=False
+2025-05-10 18:23:35,263 - INFO - Dumpstar: Position=718.20, Speed=117.49, Finished=False
+2025-05-10 18:23:36,276 - INFO - 
+Time: 8.1s
+2025-05-10 18:23:36,276 - INFO - VMU: Position=743.24, Speed=106.16, Finished=False
+2025-05-10 18:23:36,277 - INFO - Speed Demon: Position=803.66, Speed=98.61, Finished=False
+2025-05-10 18:23:36,277 - INFO - Rumble Pak: Position=797.82, Speed=87.08, Finished=False
+2025-05-10 18:23:36,277 - INFO - OG OBAMA: Position=788.51, Speed=103.61, Finished=False
+2025-05-10 18:23:36,278 - INFO - Dumpstar: Position=837.57, Speed=117.49, Finished=False
+2025-05-10 18:23:37,287 - INFO - 
+Time: 9.1s
+2025-05-10 18:23:37,287 - INFO - VMU: Position=850.46, Speed=106.16, Finished=False
+2025-05-10 18:23:37,288 - INFO - Speed Demon: Position=903.73, Speed=108.87, Finished=False
+2025-05-10 18:23:37,288 - INFO - Rumble Pak: Position=888.68, Speed=101.92, Finished=False
+2025-05-10 18:23:37,288 - INFO - OG OBAMA: Position=887.09, Speed=95.48, Finished=False
+2025-05-10 18:23:37,289 - INFO - Dumpstar: Position=956.23, Speed=117.49, Finished=False
+2025-05-10 18:23:38,295 - INFO - 
+Time: 10.1s
+2025-05-10 18:23:38,295 - INFO - VMU: Position=957.47, Speed=106.16, Finished=False
+2025-05-10 18:23:38,296 - INFO - Speed Demon: Position=1013.47, Speed=108.87, Finished=False
+2025-05-10 18:23:38,296 - INFO - Rumble Pak: Position=991.42, Speed=101.92, Finished=False
+2025-05-10 18:23:38,296 - INFO - OG OBAMA: Position=983.34, Speed=95.48, Finished=False
+2025-05-10 18:23:38,297 - INFO - Dumpstar: Position=1074.66, Speed=117.49, Finished=False
+2025-05-10 18:23:39,309 - INFO - 
+Time: 11.1s
+2025-05-10 18:23:39,309 - INFO - VMU: Position=1058.80, Speed=99.40, Finished=False
+2025-05-10 18:23:39,310 - INFO - Speed Demon: Position=1112.47, Speed=83.97, Finished=False
+2025-05-10 18:23:39,310 - INFO - Rumble Pak: Position=1094.87, Speed=101.92, Finished=False
+2025-05-10 18:23:39,311 - INFO - OG OBAMA: Position=1085.45, Speed=111.37, Finished=False
+2025-05-10 18:23:39,311 - INFO - Dumpstar: Position=1191.21, Speed=109.57, Finished=False
+2025-05-10 18:23:40,325 - INFO - 
+Time: 12.1s
+2025-05-10 18:23:40,325 - INFO - VMU: Position=1159.79, Speed=99.40, Finished=False
+2025-05-10 18:23:40,326 - INFO - Speed Demon: Position=1197.79, Speed=83.97, Finished=False
+2025-05-10 18:23:40,326 - INFO - Rumble Pak: Position=1198.43, Speed=101.92, Finished=False
+2025-05-10 18:23:40,326 - INFO - OG OBAMA: Position=1202.88, Speed=116.79, Finished=False
+2025-05-10 18:23:40,327 - INFO - Dumpstar: Position=1301.83, Speed=110.38, Finished=False
+2025-05-10 18:23:41,340 - INFO - 
+Time: 13.1s
+2025-05-10 18:23:41,340 - INFO - VMU: Position=1260.68, Speed=99.40, Finished=False
+2025-05-10 18:23:41,340 - INFO - Speed Demon: Position=1283.02, Speed=83.97, Finished=False
+2025-05-10 18:23:41,341 - INFO - Rumble Pak: Position=1306.60, Speed=100.37, Finished=False
+2025-05-10 18:23:41,341 - INFO - OG OBAMA: Position=1323.23, Speed=118.95, Finished=False
+2025-05-10 18:23:41,341 - INFO - Dumpstar: Position=1396.68, Speed=83.00, Finished=False
+2025-05-10 18:23:42,343 - INFO - 
+Time: 14.1s
+2025-05-10 18:23:42,343 - INFO - VMU: Position=1361.73, Speed=117.09, Finished=False
+2025-05-10 18:23:42,344 - INFO - Speed Demon: Position=1393.94, Speed=112.58, Finished=False
+2025-05-10 18:23:42,344 - INFO - Rumble Pak: Position=1407.79, Speed=83.39, Finished=False
+2025-05-10 18:23:42,345 - INFO - OG OBAMA: Position=1442.42, Speed=118.95, Finished=False
+2025-05-10 18:23:42,345 - INFO - Dumpstar: Position=1480.55, Speed=83.75, Finished=False
+2025-05-10 18:23:43,356 - INFO - 
+Time: 15.1s
+2025-05-10 18:23:43,356 - INFO - VMU: Position=1463.00, Speed=95.32, Finished=False
+2025-05-10 18:23:43,357 - INFO - Speed Demon: Position=1496.65, Speed=84.61, Finished=False
+2025-05-10 18:23:43,357 - INFO - Rumble Pak: Position=1492.44, Speed=83.53, Finished=False
+2025-05-10 18:23:43,357 - INFO - OG OBAMA: Position=1500.00, Speed=118.95, Finished=True
+2025-05-10 18:23:43,357 - INFO - Dumpstar: Position=1500.00, Speed=83.75, Finished=True
+2025-05-10 18:23:43,746 - INFO - 
+Race #7 finished! Finish order:
+2025-05-10 18:23:43,747 - INFO - 1. Dumpstar: Avg Speed=104.55
+2025-05-10 18:23:43,747 - INFO - 2. OG OBAMA: Avg Speed=102.79
+2025-05-10 18:23:43,748 - INFO - 3. Speed Demon: Avg Speed=98.91
+2025-05-10 18:23:43,748 - INFO - 4. Rumble Pak: Avg Speed=98.59
+2025-05-10 18:23:43,748 - INFO - 5. VMU: Avg Speed=96.74
+2025-05-10 18:23:43,749 - INFO - Selected winner: Dumpstar with avg speed 104.55
+2025-05-10 18:23:43,749 - INFO - Dumpstar finished 1st: +10 points, total=58, wins=2
+2025-05-10 18:23:43,749 - INFO - OG OBAMA finished 2nd: +9 points, total=56, wins=1
+2025-05-10 18:23:43,750 - INFO - Speed Demon finished 3rd: +8 points, total=54, wins=2
+2025-05-10 18:23:43,750 - INFO - Rumble Pak finished 4th: +7 points, total=57, wins=2
+2025-05-10 18:23:43,750 - INFO - VMU finished 5th: +6 points, total=55, wins=0
+2025-05-10 18:23:43,757 - INFO - Race #7 Winner: Dumpstar
+2025-05-10 18:23:43,759 - INFO - 
+Tournament Final Rankings:
+2025-05-10 18:23:43,759 - INFO - 1. Rumble Pak: Wins=2, Points=57, Avg Speed=101.34
+2025-05-10 18:23:43,760 - INFO - 2. Dumpstar: Wins=2, Points=58, Avg Speed=100.42
+2025-05-10 18:23:43,760 - INFO - 3. Speed Demon: Wins=2, Points=54, Avg Speed=97.98
+2025-05-10 18:23:43,760 - INFO - 4. OG OBAMA: Wins=1, Points=56, Avg Speed=100.63
+2025-05-10 18:23:43,761 - INFO - 5. VMU: Wins=0, Points=55, Avg Speed=100.56
+2025-05-11 01:09:28,848 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-11 01:09:28,852 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-11 01:09:28,942 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-11 01:09:28,943 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-11 01:09:28,979 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-11 01:09:28,980 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-11 01:09:29,018 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-11 01:09:29,018 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-11 01:09:29,053 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-11 01:09:29,054 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-11 01:09:29,084 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-11 01:09:29,085 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-11 01:09:29,113 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-11 01:09:29,114 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-11 01:09:29,148 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-11 01:09:29,149 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-11 01:09:29,184 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-11 01:09:29,185 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-11 01:09:29,220 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-11 01:09:29,221 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-11 01:09:29,250 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-11 01:09:29,251 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-11 01:09:29,275 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-11 01:09:29,276 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-11 01:09:29,311 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-11 01:09:29,312 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-11 01:09:29,349 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-11 01:09:29,350 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-11 01:09:29,384 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-11 01:09:29,384 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-11 01:09:29,402 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-11 01:09:29,403 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-11 01:09:29,438 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-11 01:09:29,438 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-11 01:09:29,465 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-11 01:09:29,466 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-11 01:09:29,494 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-11 01:09:29,496 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-11 01:09:29,522 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-11 01:09:29,523 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-11 01:09:29,552 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-11 01:09:29,553 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-11 01:09:29,591 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-11 01:09:29,592 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-11 01:09:29,646 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-11 01:09:29,648 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-11 01:09:29,679 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-11 01:09:29,713 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-11 01:09:29,749 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-11 01:09:29,799 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-11 01:09:29,835 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-11 01:09:29,836 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-11 01:09:29,869 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-11 01:09:29,876 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-11 01:09:29,907 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-11 01:09:30,006 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-11 01:09:30,132 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG2.png
+2025-05-11 01:09:30,254 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG3.png
+2025-05-11 01:09:30,382 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG4.png
+2025-05-11 01:09:30,489 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG5.png
+2025-05-11 01:09:30,581 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG6.png
+2025-05-11 01:09:30,641 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG7.png
+2025-05-11 01:09:30,688 - INFO - Loaded tournament race 1 background: B:\SRT\3_1_1\BG\BG2.png
+2025-05-11 01:09:30,748 - INFO - Loaded tournament race 2 background: B:\SRT\3_1_1\BG\BG3.png
+2025-05-11 01:09:30,811 - INFO - Loaded tournament race 3 background: B:\SRT\3_1_1\BG\BG4.png
+2025-05-11 01:09:30,855 - INFO - Loaded tournament race 4 background: B:\SRT\3_1_1\BG\BG5.png
+2025-05-11 01:09:30,903 - INFO - Loaded tournament race 5 background: B:\SRT\3_1_1\BG\BG6.png
+2025-05-11 01:09:30,942 - INFO - Loaded tournament race 6 background: B:\SRT\3_1_1\BG\BG7.png
+2025-05-11 01:09:31,016 - INFO - Loaded tournament race 7 background: B:\SRT\3_1_1\BG\BG8.png
+2025-05-11 01:09:31,110 - INFO - Loaded results background: B:\SRT\3_1_1\BG\BGRESULT.png
+2025-05-11 01:09:31,146 - INFO - Loaded trophy image: B:\SRT\3_1_1\Racers\trophy.png
+2025-05-11 01:09:31,147 - INFO - Available Sprotos:
+2025-05-11 01:09:31,147 - INFO - Yannix
+2025-05-11 01:09:31,148 - INFO - Yo-Yo
+2025-05-11 01:09:31,149 - INFO - GB
+2025-05-11 01:09:31,150 - INFO - FHD
+2025-05-11 01:09:31,150 - INFO - More Light
+2025-05-11 01:09:31,153 - INFO - Vamp
+2025-05-11 01:09:31,155 - INFO - Jahon
+2025-05-11 01:09:31,156 - INFO - ReD
+2025-05-11 01:09:31,158 - INFO - VMU
+2025-05-11 01:09:31,159 - INFO - Alpha
+2025-05-11 01:09:31,161 - INFO - Dumpstar
+2025-05-11 01:09:31,162 - INFO - KatieCans
+2025-05-11 01:09:31,163 - INFO - Turbo
+2025-05-11 01:09:31,164 - INFO - Jovial
+2025-05-11 01:09:31,165 - INFO - Speed Demon
+2025-05-11 01:09:31,167 - INFO - Rumble Pak
+2025-05-11 01:09:31,168 - INFO - Leviosa
+2025-05-11 01:09:31,169 - INFO - Obama
+2025-05-11 01:09:31,169 - INFO - Vince
+2025-05-11 01:09:31,169 - INFO - BPS
+2025-05-11 01:09:31,170 - INFO - Apache
+2025-05-11 01:09:31,170 - INFO - OG OBAMA
+2025-05-11 01:09:31,170 - INFO - Oggo
+2025-05-11 01:09:31,171 - INFO - BigSwole
+2025-05-11 01:09:31,171 - INFO - GPM
+2025-05-11 01:09:31,171 - INFO - YXJI
+2025-05-11 01:09:31,172 - INFO - Snoo
+2025-05-11 01:09:31,175 - INFO - Sprotos available in selection screen:
+2025-05-11 01:09:31,176 - INFO - - Yannix
+2025-05-11 01:09:31,177 - INFO - - Yo-Yo
+2025-05-11 01:09:31,178 - INFO - - GB
+2025-05-11 01:09:31,179 - INFO - - FHD
+2025-05-11 01:09:31,180 - INFO - - More Light
+2025-05-11 01:09:31,180 - INFO - - Vamp
+2025-05-11 01:09:31,181 - INFO - - Jahon
+2025-05-11 01:09:31,182 - INFO - - ReD
+2025-05-11 01:09:31,182 - INFO - - VMU
+2025-05-11 01:09:31,183 - INFO - - Alpha
+2025-05-11 01:09:31,184 - INFO - - Dumpstar
+2025-05-11 01:09:31,185 - INFO - - KatieCans
+2025-05-11 01:09:31,186 - INFO - - Turbo
+2025-05-11 01:09:31,187 - INFO - - Jovial
+2025-05-11 01:09:31,187 - INFO - - Speed Demon
+2025-05-11 01:09:31,188 - INFO - - Rumble Pak
+2025-05-11 01:09:31,190 - INFO - - Leviosa
+2025-05-11 01:09:31,192 - INFO - - Obama
+2025-05-11 01:09:31,194 - INFO - - Vince
+2025-05-11 01:09:31,198 - INFO - - BPS
+2025-05-11 01:09:31,199 - INFO - - Apache
+2025-05-11 01:09:31,201 - INFO - - OG OBAMA
+2025-05-11 01:09:31,202 - INFO - - Oggo
+2025-05-11 01:09:31,203 - INFO - - BigSwole
+2025-05-11 01:09:31,203 - INFO - - GPM
+2025-05-11 01:09:31,204 - INFO - - YXJI
+2025-05-11 01:09:31,205 - INFO - - Snoo
+2025-05-11 01:09:31,231 - INFO - Playing selection music: B:\SRT\3_1_1\Music\character.mp3 at 35% volume
+2025-05-11 01:09:32,915 - INFO - Music muted.
+2025-05-11 01:09:34,171 - INFO - Music unmuted.
+2025-05-11 01:09:38,448 - INFO - Selection music stopped.
+2025-05-11 01:09:38,464 - INFO - No sprotos selected or window closed. Exiting.
+2025-05-11 01:10:40,918 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-11 01:10:40,923 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-11 01:10:40,936 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-11 01:10:40,940 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-11 01:10:40,955 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-11 01:10:40,956 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-11 01:10:40,967 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-11 01:10:40,968 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-11 01:10:40,979 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-11 01:10:40,980 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-11 01:10:40,992 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-11 01:10:40,994 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-11 01:10:41,009 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-11 01:10:41,009 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-11 01:10:41,019 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-11 01:10:41,019 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-11 01:10:41,028 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-11 01:10:41,030 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-11 01:10:41,045 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-11 01:10:41,046 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-11 01:10:41,055 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-11 01:10:41,056 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-11 01:10:41,065 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-11 01:10:41,067 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-11 01:10:41,082 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-11 01:10:41,083 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-11 01:10:41,094 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-11 01:10:41,094 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-11 01:10:41,096 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-11 01:10:41,097 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-11 01:10:41,104 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-11 01:10:41,105 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-11 01:10:41,114 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-11 01:10:41,115 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-11 01:10:41,129 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-11 01:10:41,130 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-11 01:10:41,141 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-11 01:10:41,142 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-11 01:10:41,150 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-11 01:10:41,151 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-11 01:10:41,161 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-11 01:10:41,161 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-11 01:10:41,182 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-11 01:10:41,185 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-11 01:10:41,223 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-11 01:10:41,225 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-11 01:10:41,235 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-11 01:10:41,236 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-11 01:10:41,243 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-11 01:10:41,245 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-11 01:10:41,256 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-11 01:10:41,257 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-11 01:10:41,264 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-11 01:10:41,265 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-11 01:10:41,277 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-11 01:10:41,335 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-11 01:10:41,384 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG2.png
+2025-05-11 01:10:41,429 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG3.png
+2025-05-11 01:10:41,495 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG4.png
+2025-05-11 01:10:41,530 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG5.png
+2025-05-11 01:10:41,586 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG6.png
+2025-05-11 01:10:41,618 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG7.png
+2025-05-11 01:10:41,666 - INFO - Loaded tournament race 1 background: B:\SRT\3_1_1\BG\BG2.png
+2025-05-11 01:10:41,726 - INFO - Loaded tournament race 2 background: B:\SRT\3_1_1\BG\BG3.png
+2025-05-11 01:10:41,787 - INFO - Loaded tournament race 3 background: B:\SRT\3_1_1\BG\BG4.png
+2025-05-11 01:10:41,840 - INFO - Loaded tournament race 4 background: B:\SRT\3_1_1\BG\BG5.png
+2025-05-11 01:10:41,952 - INFO - Loaded tournament race 5 background: B:\SRT\3_1_1\BG\BG6.png
+2025-05-11 01:10:41,996 - INFO - Loaded tournament race 6 background: B:\SRT\3_1_1\BG\BG7.png
+2025-05-11 01:10:42,074 - INFO - Loaded tournament race 7 background: B:\SRT\3_1_1\BG\BG8.png
+2025-05-11 01:10:42,147 - INFO - Loaded results background: B:\SRT\3_1_1\BG\BGRESULT.png
+2025-05-11 01:10:42,150 - INFO - Loaded trophy image: B:\SRT\3_1_1\Racers\trophy.png
+2025-05-11 01:10:42,151 - INFO - Available Sprotos:
+2025-05-11 01:10:42,152 - INFO - Yannix
+2025-05-11 01:10:42,155 - INFO - Yo-Yo
+2025-05-11 01:10:42,192 - INFO - GB
+2025-05-11 01:10:42,192 - INFO - FHD
+2025-05-11 01:10:42,193 - INFO - More Light
+2025-05-11 01:10:42,194 - INFO - Vamp
+2025-05-11 01:10:42,194 - INFO - Jahon
+2025-05-11 01:10:42,195 - INFO - ReD
+2025-05-11 01:10:42,195 - INFO - VMU
+2025-05-11 01:10:42,195 - INFO - Alpha
+2025-05-11 01:10:42,207 - INFO - Dumpstar
+2025-05-11 01:10:42,210 - INFO - KatieCans
+2025-05-11 01:10:42,220 - INFO - Turbo
+2025-05-11 01:10:42,222 - INFO - Jovial
+2025-05-11 01:10:42,224 - INFO - Speed Demon
+2025-05-11 01:10:42,225 - INFO - Rumble Pak
+2025-05-11 01:10:42,226 - INFO - Leviosa
+2025-05-11 01:10:42,226 - INFO - Obama
+2025-05-11 01:10:42,227 - INFO - Vince
+2025-05-11 01:10:42,227 - INFO - BPS
+2025-05-11 01:10:42,228 - INFO - Apache
+2025-05-11 01:10:42,229 - INFO - OG OBAMA
+2025-05-11 01:10:42,229 - INFO - Oggo
+2025-05-11 01:10:42,230 - INFO - BigSwole
+2025-05-11 01:10:42,230 - INFO - GPM
+2025-05-11 01:10:42,231 - INFO - YXJI
+2025-05-11 01:10:42,231 - INFO - Snoo
+2025-05-11 01:10:42,237 - INFO - Sprotos available in selection screen:
+2025-05-11 01:10:42,241 - INFO - - Yannix
+2025-05-11 01:10:42,243 - INFO - - Yo-Yo
+2025-05-11 01:10:42,244 - INFO - - GB
+2025-05-11 01:10:42,245 - INFO - - FHD
+2025-05-11 01:10:42,246 - INFO - - More Light
+2025-05-11 01:10:42,247 - INFO - - Vamp
+2025-05-11 01:10:42,248 - INFO - - Jahon
+2025-05-11 01:10:42,249 - INFO - - ReD
+2025-05-11 01:10:42,250 - INFO - - VMU
+2025-05-11 01:10:42,250 - INFO - - Alpha
+2025-05-11 01:10:42,252 - INFO - - Dumpstar
+2025-05-11 01:10:42,254 - INFO - - KatieCans
+2025-05-11 01:10:42,261 - INFO - - Turbo
+2025-05-11 01:10:42,262 - INFO - - Jovial
+2025-05-11 01:10:42,264 - INFO - - Speed Demon
+2025-05-11 01:10:42,265 - INFO - - Rumble Pak
+2025-05-11 01:10:42,266 - INFO - - Leviosa
+2025-05-11 01:10:42,267 - INFO - - Obama
+2025-05-11 01:10:42,267 - INFO - - Vince
+2025-05-11 01:10:42,268 - INFO - - BPS
+2025-05-11 01:10:42,268 - INFO - - Apache
+2025-05-11 01:10:42,269 - INFO - - OG OBAMA
+2025-05-11 01:10:42,270 - INFO - - Oggo
+2025-05-11 01:10:42,270 - INFO - - BigSwole
+2025-05-11 01:10:42,271 - INFO - - GPM
+2025-05-11 01:10:42,271 - INFO - - YXJI
+2025-05-11 01:10:42,272 - INFO - - Snoo
+2025-05-11 01:10:42,273 - INFO - Selection music loaded but muted.
+2025-05-11 01:10:43,896 - INFO - Selection music stopped.
+2025-05-11 01:10:43,907 - INFO - No sprotos selected or window closed. Exiting.
+2025-05-11 01:14:24,261 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-11 01:14:24,273 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-11 01:14:24,293 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-11 01:14:24,293 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-11 01:14:24,309 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-11 01:14:24,312 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-11 01:14:24,325 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-11 01:14:24,327 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-11 01:14:24,338 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-11 01:14:24,340 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-11 01:14:24,352 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-11 01:14:24,353 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-11 01:14:24,370 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-11 01:14:24,371 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-11 01:14:24,380 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-11 01:14:24,383 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-11 01:14:24,395 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-11 01:14:24,396 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-11 01:14:24,407 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-11 01:14:24,408 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-11 01:14:24,419 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-11 01:14:24,419 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-11 01:14:24,428 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-11 01:14:24,429 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-11 01:14:24,440 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-11 01:14:24,441 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-11 01:14:24,452 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-11 01:14:24,453 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-11 01:14:24,456 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-11 01:14:24,457 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-11 01:14:24,464 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-11 01:14:24,464 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-11 01:14:24,473 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-11 01:14:24,475 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-11 01:14:24,490 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-11 01:14:24,492 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-11 01:14:24,502 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-11 01:14:24,503 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-11 01:14:24,512 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-11 01:14:24,513 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-11 01:14:24,522 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-11 01:14:24,523 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-11 01:14:24,545 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-11 01:14:24,546 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-11 01:14:24,591 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-11 01:14:24,592 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-11 01:14:24,602 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-11 01:14:24,602 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-11 01:14:24,611 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-11 01:14:24,612 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-11 01:14:24,620 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-11 01:14:24,621 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-11 01:14:24,630 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-11 01:14:24,630 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-11 01:14:24,640 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-11 01:14:24,705 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-11 01:14:24,760 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG2.png
+2025-05-11 01:14:24,809 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG3.png
+2025-05-11 01:14:24,869 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG4.png
+2025-05-11 01:14:24,906 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG5.png
+2025-05-11 01:14:24,962 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG6.png
+2025-05-11 01:14:25,001 - INFO - Loaded single race background option: B:\SRT\3_1_1\BG\BG7.png
+2025-05-11 01:14:25,054 - INFO - Loaded tournament race 1 background: B:\SRT\3_1_1\BG\BG2.png
+2025-05-11 01:14:25,118 - INFO - Loaded tournament race 2 background: B:\SRT\3_1_1\BG\BG3.png
+2025-05-11 01:14:25,197 - INFO - Loaded tournament race 3 background: B:\SRT\3_1_1\BG\BG4.png
+2025-05-11 01:14:25,277 - INFO - Loaded tournament race 4 background: B:\SRT\3_1_1\BG\BG5.png
+2025-05-11 01:14:25,352 - INFO - Loaded tournament race 5 background: B:\SRT\3_1_1\BG\BG6.png
+2025-05-11 01:14:25,408 - INFO - Loaded tournament race 6 background: B:\SRT\3_1_1\BG\BG7.png
+2025-05-11 01:14:25,488 - INFO - Loaded tournament race 7 background: B:\SRT\3_1_1\BG\BG8.png
+2025-05-11 01:14:25,569 - INFO - Loaded results background: B:\SRT\3_1_1\BG\BGRESULT.png
+2025-05-11 01:14:25,612 - INFO - Loaded trophy image: B:\SRT\3_1_1\Racers\trophy.png
+2025-05-11 01:14:25,616 - INFO - Available Sprotos:
+2025-05-11 01:14:25,617 - INFO - Yannix
+2025-05-11 01:14:25,619 - INFO - Yo-Yo
+2025-05-11 01:14:25,620 - INFO - GB
+2025-05-11 01:14:25,620 - INFO - FHD
+2025-05-11 01:14:25,623 - INFO - More Light
+2025-05-11 01:14:25,624 - INFO - Vamp
+2025-05-11 01:14:25,627 - INFO - Jahon
+2025-05-11 01:14:25,631 - INFO - ReD
+2025-05-11 01:14:25,640 - INFO - VMU
+2025-05-11 01:14:25,646 - INFO - Alpha
+2025-05-11 01:14:25,649 - INFO - Dumpstar
+2025-05-11 01:14:25,649 - INFO - KatieCans
+2025-05-11 01:14:25,650 - INFO - Turbo
+2025-05-11 01:14:25,651 - INFO - Jovial
+2025-05-11 01:14:25,651 - INFO - Speed Demon
+2025-05-11 01:14:25,652 - INFO - Rumble Pak
+2025-05-11 01:14:25,652 - INFO - Leviosa
+2025-05-11 01:14:25,653 - INFO - Obama
+2025-05-11 01:14:25,653 - INFO - Vince
+2025-05-11 01:14:25,654 - INFO - BPS
+2025-05-11 01:14:25,670 - INFO - Apache
+2025-05-11 01:14:25,683 - INFO - OG OBAMA
+2025-05-11 01:14:25,714 - INFO - Oggo
+2025-05-11 01:14:25,716 - INFO - BigSwole
+2025-05-11 01:14:25,717 - INFO - GPM
+2025-05-11 01:14:25,720 - INFO - YXJI
+2025-05-11 01:14:25,757 - INFO - Snoo
+2025-05-11 01:14:25,764 - INFO - Sprotos available in selection screen:
+2025-05-11 01:14:25,782 - INFO - - Yannix
+2025-05-11 01:14:25,784 - INFO - - Yo-Yo
+2025-05-11 01:14:25,785 - INFO - - GB
+2025-05-11 01:14:25,785 - INFO - - FHD
+2025-05-11 01:14:25,786 - INFO - - More Light
+2025-05-11 01:14:25,787 - INFO - - Vamp
+2025-05-11 01:14:25,788 - INFO - - Jahon
+2025-05-11 01:14:25,789 - INFO - - ReD
+2025-05-11 01:14:25,790 - INFO - - VMU
+2025-05-11 01:14:25,791 - INFO - - Alpha
+2025-05-11 01:14:25,794 - INFO - - Dumpstar
+2025-05-11 01:14:25,794 - INFO - - KatieCans
+2025-05-11 01:14:25,796 - INFO - - Turbo
+2025-05-11 01:14:25,798 - INFO - - Jovial
+2025-05-11 01:14:25,800 - INFO - - Speed Demon
+2025-05-11 01:14:25,801 - INFO - - Rumble Pak
+2025-05-11 01:14:25,801 - INFO - - Leviosa
+2025-05-11 01:14:25,802 - INFO - - Obama
+2025-05-11 01:14:25,802 - INFO - - Vince
+2025-05-11 01:14:25,803 - INFO - - BPS
+2025-05-11 01:14:25,803 - INFO - - Apache
+2025-05-11 01:14:25,804 - INFO - - OG OBAMA
+2025-05-11 01:14:25,805 - INFO - - Oggo
+2025-05-11 01:14:25,805 - INFO - - BigSwole
+2025-05-11 01:14:25,808 - INFO - - GPM
+2025-05-11 01:14:25,814 - INFO - - YXJI
+2025-05-11 01:14:25,815 - INFO - - Snoo
+2025-05-11 01:14:25,818 - INFO - Selection music loaded but muted.
+2025-05-11 01:14:27,203 - INFO - Attempting to load music file: B:\SRT\3_1_1\Music\character.mp3
+2025-05-11 01:14:27,205 - INFO - Music unmuted and playing dynamically.
+2025-05-11 01:14:28,831 - INFO - Music muted.
+2025-05-11 01:14:31,690 - INFO - Selection music stopped.
+2025-05-11 01:14:31,694 - INFO - No sprotos selected or window closed. Exiting.
