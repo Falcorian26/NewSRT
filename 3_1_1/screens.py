@@ -19,6 +19,12 @@ def render_race_screen(screen, sprotos, race_distance, time_elapsed, race_number
     
     tiny_font = get_tiny_font(len(sprotos))
     
+    if not sprotos:  # Handle empty sprotos list
+        logging.info("No racers to display on the race screen.")
+        draw_text_with_shadow(screen, "No Racers", large_font, WHITE, (SCREEN_WIDTH // 2 - 100, SCREEN_HEIGHT // 2))
+        pygame.display.flip()
+        return
+    
     if lane_height == 100:  # Single/tournament: curved lanes only
         for i in range(len(sprotos)):
             start = (0, track_y + i * lane_height)
@@ -41,7 +47,10 @@ def render_race_screen(screen, sprotos, race_distance, time_elapsed, race_number
         if lane_height < 100:
             sprite = sproto.small_sprite
             sprite_rect = (x, y - 11.5, 23, 23)
-            speed_ratio = max(0, min(1, (sproto.current_speed - sproto.min_speed) / (sproto.max_speed - sproto.min_speed)))
+            if sproto.max_speed == sproto.min_speed:
+                speed_ratio = 0  # Avoid division by zero
+            else:
+                speed_ratio = max(0, min(1, (sproto.current_speed - sproto.min_speed) / (sproto.max_speed - sproto.min_speed)))
             speed_bar_rect = (x, y + 13, 23 * speed_ratio, 2.3)
             speed_bar_border_rect = (x, y + 13, 23 * speed_ratio, 2.3)
             name_font = tiny_font
@@ -52,7 +61,10 @@ def render_race_screen(screen, sprotos, race_distance, time_elapsed, race_number
         else:
             sprite = sproto.sprite
             sprite_rect = (x, y - 25, 50, 50)
-            speed_ratio = max(0, min(1, (sproto.current_speed - sproto.min_speed) / (sproto.max_speed - sproto.min_speed)))
+            if sproto.max_speed == sproto.min_speed:
+                speed_ratio = 0  # Avoid division by zero
+            else:
+                speed_ratio = max(0, min(1, (sproto.current_speed - sproto.min_speed) / (sproto.max_speed - sproto.min_speed)))
             speed_bar_rect = (x, y + 25, 50 * speed_ratio, 5)
             speed_bar_border_rect = (x, y + 25, 50 * speed_ratio, 5)
             name_font = small_font
@@ -72,6 +84,11 @@ def render_race_screen(screen, sprotos, race_distance, time_elapsed, race_number
         if sproto.finished and sproto.finish_place:
             place_text = f"{sproto.finish_place}{sproto.get_place_suffix()}"
             draw_text_with_shadow(screen, place_text, place_font_small, YELLOW, (x + place_x_offset, y - 11.5 if lane_height < 100 else y - 25))
+        
+        # Draw qualification marker
+        marker_x = x + 60  # Adjust position as needed
+        marker_y = y - 20
+        sproto.draw_marker(screen, marker_x, marker_y)
     
     timer_text = small_font.render(f"Time: {time_elapsed:.1f} seconds", True, WHITE)
     timer_x = SCREEN_WIDTH // 2 - timer_text.get_width() // 2
@@ -121,11 +138,31 @@ def render_race_screen(screen, sprotos, race_distance, time_elapsed, race_number
 def select_sprotos(screen, sproto_list, max_selections, selection_background, is_muted):
     selected_sprotos = []
     running = True
-    start_button = Button("Start Race", 385, 660, 200, 50, BLUE_BUTTON)
-    tourney_button = Button("Tourney", 615, 660, 200, 50, PURPLE)
-    all_race_button = Button("All Characters Race", 500, 610, 200, 50, GREEN)
-    end_game_button = Button("End Game", 500, 730, 200, 50, RED)
+
+    # Define buttons
+    buttons = [
+        Button("Start Race", 0, 0, 200, 50, BLUE_BUTTON),
+        Button("Tourney", 0, 0, 200, 50, PURPLE),
+        Button("All Characters", 0, 0, 200, 50, GREEN),
+        Button("Qualify Tourney", 0, 0, 200, 50, ORANGE),
+        Button("End Game", 0, 0, 200, 50, RED)
+    ]
     mute_button = MuteButton(SCREEN_WIDTH - 75, 10, 50, 20, GRAY)
+
+    # Layout settings for buttons
+    button_table_x = SCREEN_WIDTH // 2 - 310  # Adjusted to center buttons
+    button_table_y = SCREEN_HEIGHT - 150  # Positioned above the bottom of the screen
+    button_spacing = 20
+    buttons_per_row = 3
+    button_width = 200
+    button_height = 50
+
+    # Arrange buttons in a table
+    for i, button in enumerate(buttons):
+        row = i // buttons_per_row
+        col = i % buttons_per_row
+        button.rect.x = button_table_x + col * (button_width + button_spacing)
+        button.rect.y = button_table_y + row * (button_height + button_spacing)
 
     logging.info("Sprotos available in selection screen:")
     for sproto in sproto_list:
@@ -183,19 +220,22 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
                 pygame.mixer.music.stop()
                 logging.info("Selection music stopped.")
                 return None, False, is_muted, None
-            if start_button.is_clicked(event) and len(selected_sprotos) > 0:
+            if buttons[0].is_clicked(event) and len(selected_sprotos) > 0:  # Start Race
                 pygame.mixer.music.stop()
                 logging.info("Selection music stopped.")
                 return selected_sprotos, False, is_muted, "normal"
-            if tourney_button.is_clicked(event) and len(selected_sprotos) > 0:
+            if buttons[1].is_clicked(event) and len(selected_sprotos) > 0:  # Tourney
                 pygame.mixer.music.stop()
                 logging.info("Selection music stopped.")
                 return selected_sprotos, True, is_muted, "tournament"
-            if all_race_button.is_clicked(event):
+            if buttons[2].is_clicked(event):  # All Characters Race
                 pygame.mixer.music.stop()
                 logging.info("Selection music stopped.")
                 return sproto_list, False, is_muted, "all_characters"
-            if end_game_button.is_clicked(event):
+            if buttons[3].is_clicked(event):  # Qualify Tournament
+                logging.info("Qualify Tournament button clicked.")
+                return None, False, is_muted, "qualify_tournament"
+            if buttons[4].is_clicked(event):  # End Game
                 pygame.mixer.music.stop()
                 logging.info("Selection music stopped.")
                 return None, False, is_muted, None
@@ -251,12 +291,13 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
             screen.blit(sproto.sprite, (image_x, image_y))
             draw_text_with_shadow(screen, f"{sproto.name}", selection_font, text_color, (image_x + 50, cell_y + (cell_height - 24) // 2))
 
-        draw_text_with_shadow(screen, f"Selected: {len(selected_sprotos)}/{max_selections}", font, WHITE, (SCREEN_WIDTH // 2 - 80, 620))
-        start_button.draw(screen)
-        tourney_button.draw(screen)
-        all_race_button.draw(screen)
-        end_game_button.draw(screen)
+        draw_text_with_shadow(screen, f"Selected: {len(selected_sprotos)}/{max_selections}", font, WHITE, (SCREEN_WIDTH // 2 - 80, SCREEN_HEIGHT - 200))
+        
+        # Draw buttons
+        for button in buttons:
+            button.draw(screen)
         mute_button.draw(screen, is_muted)
+
         pygame.display.flip()
 
     pygame.mixer.music.stop()

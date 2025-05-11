@@ -43,7 +43,7 @@ class Sproto:
 
     def reset(self, race_distance):
         self.position = 0
-        self.current_speed = random.uniform(self.min_speed, self.max_speed)
+        self.set_speed(self.min_speed, self.max_speed)  # Ensure speed is set during reset
         self.finished = False
         self.start_time = 0
         self.finish_time = 0
@@ -58,7 +58,7 @@ class Sproto:
         if not self.finished:
             if self.start_time == 0:
                 self.start_time = time_elapsed
-            self.position += self.current_speed * dt
+            self.position += self.current_speed * dt  # Update position based on speed and time
             if self.position >= race_distance:
                 self.position = race_distance
                 self.finished = True
@@ -66,7 +66,7 @@ class Sproto:
                 if self not in finishers:
                     self.finish_place = len(finishers) + 1
                     finishers.append(self)
-            if random.random() < 0.01:
+            if random.random() < 0.01:  # Randomly adjust speed occasionally
                 self.current_speed = random.uniform(self.min_speed, self.max_speed)
 
     def get_average_speed(self):
@@ -90,3 +90,12 @@ class Sproto:
         if last_digit == 3:
             return "rd"
         return "th"
+
+    def mark_as_qualified(self, color):
+        """Mark the racer as qualified with a visual indicator."""
+        self.qualified_marker_color = color
+
+    def draw_marker(self, screen, x, y):
+        """Draw the qualification marker next to the racer."""
+        if hasattr(self, 'qualified_marker_color'):
+            pygame.draw.circle(screen, self.qualified_marker_color, (x, y), 5)

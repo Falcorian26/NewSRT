@@ -3,6 +3,9 @@ import logging
 from settings import *
 
 def cache_track_surface(race_distance, num_lanes, lane_height=100):
+    if num_lanes == 0:  # Handle case with no lanes
+        logging.warning("No lanes to render. Returning an empty surface.")
+        return pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.SRCALPHA)
     track_surface = pygame.Surface((SCREEN_WIDTH, num_lanes * lane_height), pygame.SRCALPHA)
     return track_surface
 
