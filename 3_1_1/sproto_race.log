@@ -48690,3 +48690,2349 @@ Time: 9.1s
 2025-05-15 17:48:43,470 - INFO - Music muted.
 2025-05-15 17:48:44,329 - INFO - Selection music stopped.
 2025-05-15 17:48:44,330 - INFO - No sprotos selected or window closed. Exiting.
+2025-05-15 17:51:01,656 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-15 17:51:01,659 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-15 17:51:01,670 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-15 17:51:01,670 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-15 17:51:01,681 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-15 17:51:01,681 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-15 17:51:01,691 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-15 17:51:01,693 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-15 17:51:01,703 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-15 17:51:01,705 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-15 17:51:01,717 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-15 17:51:01,718 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-15 17:51:01,724 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-15 17:51:01,724 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-15 17:51:01,731 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-15 17:51:01,731 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-15 17:51:01,742 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-15 17:51:01,743 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-15 17:51:01,752 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-15 17:51:01,752 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-15 17:51:01,762 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-15 17:51:01,763 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-15 17:51:01,769 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-15 17:51:01,769 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-15 17:51:01,779 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-15 17:51:01,780 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-15 17:51:01,788 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-15 17:51:01,788 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-15 17:51:01,791 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-15 17:51:01,791 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-15 17:51:01,795 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-15 17:51:01,796 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-15 17:51:01,802 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-15 17:51:01,803 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-15 17:51:01,813 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-15 17:51:01,813 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-15 17:51:01,820 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-15 17:51:01,821 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-15 17:51:01,829 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-15 17:51:01,830 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-15 17:51:01,847 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-15 17:51:01,848 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-15 17:51:01,861 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-15 17:51:01,890 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-15 17:51:01,923 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-15 17:51:01,923 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-15 17:51:01,932 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-15 17:51:01,935 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-15 17:51:01,946 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-15 17:51:01,954 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-15 17:51:01,961 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-15 17:51:01,961 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-15 17:51:01,967 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-15 17:51:01,968 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-15 17:51:01,979 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-15 17:51:02,026 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-15 17:51:02,468 - INFO - Available Sprotos:
+2025-05-15 17:51:02,469 - INFO - Yannix
+2025-05-15 17:51:02,469 - INFO - Yo-Yo
+2025-05-15 17:51:02,470 - INFO - GB
+2025-05-15 17:51:02,470 - INFO - FHD
+2025-05-15 17:51:02,470 - INFO - More Light
+2025-05-15 17:51:02,471 - INFO - Vamp
+2025-05-15 17:51:02,471 - INFO - Jahon
+2025-05-15 17:51:02,471 - INFO - ReD
+2025-05-15 17:51:02,471 - INFO - VMU
+2025-05-15 17:51:02,472 - INFO - Alpha
+2025-05-15 17:51:02,472 - INFO - Dumpstar
+2025-05-15 17:51:02,472 - INFO - KatieCans
+2025-05-15 17:51:02,473 - INFO - Turbo
+2025-05-15 17:51:02,473 - INFO - Jovial
+2025-05-15 17:51:02,473 - INFO - Speed Demon
+2025-05-15 17:51:02,473 - INFO - Rumble Pak
+2025-05-15 17:51:02,474 - INFO - Leviosa
+2025-05-15 17:51:02,474 - INFO - Obama
+2025-05-15 17:51:02,475 - INFO - Vince
+2025-05-15 17:51:02,475 - INFO - BPS
+2025-05-15 17:51:02,475 - INFO - Apache
+2025-05-15 17:51:02,475 - INFO - OG OBAMA
+2025-05-15 17:51:02,476 - INFO - Oggo
+2025-05-15 17:51:02,476 - INFO - BigSwole
+2025-05-15 17:51:02,476 - INFO - GPM
+2025-05-15 17:51:02,477 - INFO - YXJI
+2025-05-15 17:51:02,477 - INFO - Snoo
+2025-05-15 17:51:02,480 - INFO - Sprotos available in selection screen:
+2025-05-15 17:51:02,481 - INFO - - Yannix
+2025-05-15 17:51:02,481 - INFO - - Yo-Yo
+2025-05-15 17:51:02,482 - INFO - - GB
+2025-05-15 17:51:02,482 - INFO - - FHD
+2025-05-15 17:51:02,482 - INFO - - More Light
+2025-05-15 17:51:02,483 - INFO - - Vamp
+2025-05-15 17:51:02,483 - INFO - - Jahon
+2025-05-15 17:51:02,483 - INFO - - ReD
+2025-05-15 17:51:02,484 - INFO - - VMU
+2025-05-15 17:51:02,484 - INFO - - Alpha
+2025-05-15 17:51:02,484 - INFO - - Dumpstar
+2025-05-15 17:51:02,484 - INFO - - KatieCans
+2025-05-15 17:51:02,485 - INFO - - Turbo
+2025-05-15 17:51:02,485 - INFO - - Jovial
+2025-05-15 17:51:02,485 - INFO - - Speed Demon
+2025-05-15 17:51:02,486 - INFO - - Rumble Pak
+2025-05-15 17:51:02,486 - INFO - - Leviosa
+2025-05-15 17:51:02,486 - INFO - - Obama
+2025-05-15 17:51:02,487 - INFO - - Vince
+2025-05-15 17:51:02,487 - INFO - - BPS
+2025-05-15 17:51:02,487 - INFO - - Apache
+2025-05-15 17:51:02,487 - INFO - - OG OBAMA
+2025-05-15 17:51:02,488 - INFO - - Oggo
+2025-05-15 17:51:02,488 - INFO - - BigSwole
+2025-05-15 17:51:02,488 - INFO - - GPM
+2025-05-15 17:51:02,488 - INFO - - YXJI
+2025-05-15 17:51:02,489 - INFO - - Snoo
+2025-05-15 17:51:02,489 - INFO - Selection music loaded but muted.
+2025-05-15 17:51:05,671 - INFO - Selection music stopped.
+2025-05-15 17:51:05,672 - INFO - 
+Selected Sprotos for This Race:
+2025-05-15 17:51:05,672 - INFO - Yannix: Initial Speed = 118.61 units/s
+2025-05-15 17:51:05,673 - INFO - Yo-Yo: Initial Speed = 106.93 units/s
+2025-05-15 17:51:05,673 - INFO - GB: Initial Speed = 113.11 units/s
+2025-05-15 17:51:05,674 - INFO - FHD: Initial Speed = 114.59 units/s
+2025-05-15 17:51:05,674 - INFO - More Light: Initial Speed = 87.75 units/s
+2025-05-15 17:51:05,674 - INFO - Vamp: Initial Speed = 116.33 units/s
+2025-05-15 17:51:05,675 - INFO - Jahon: Initial Speed = 94.78 units/s
+2025-05-15 17:51:05,675 - INFO - ReD: Initial Speed = 93.80 units/s
+2025-05-15 17:51:05,676 - INFO - VMU: Initial Speed = 103.78 units/s
+2025-05-15 17:51:05,676 - INFO - Alpha: Initial Speed = 90.55 units/s
+2025-05-15 17:51:05,676 - INFO - Dumpstar: Initial Speed = 117.91 units/s
+2025-05-15 17:51:05,677 - INFO - KatieCans: Initial Speed = 114.66 units/s
+2025-05-15 17:51:05,677 - INFO - Turbo: Initial Speed = 102.63 units/s
+2025-05-15 17:51:05,678 - INFO - Jovial: Initial Speed = 92.48 units/s
+2025-05-15 17:51:05,678 - INFO - Speed Demon: Initial Speed = 105.01 units/s
+2025-05-15 17:51:05,679 - INFO - Rumble Pak: Initial Speed = 90.15 units/s
+2025-05-15 17:51:05,680 - INFO - Leviosa: Initial Speed = 88.85 units/s
+2025-05-15 17:51:05,680 - INFO - Obama: Initial Speed = 114.07 units/s
+2025-05-15 17:51:05,681 - INFO - Vince: Initial Speed = 98.10 units/s
+2025-05-15 17:51:05,681 - INFO - BPS: Initial Speed = 99.24 units/s
+2025-05-15 17:51:05,682 - INFO - Apache: Initial Speed = 109.41 units/s
+2025-05-15 17:51:05,682 - INFO - OG OBAMA: Initial Speed = 102.28 units/s
+2025-05-15 17:51:05,683 - INFO - Oggo: Initial Speed = 117.55 units/s
+2025-05-15 17:51:05,683 - INFO - BigSwole: Initial Speed = 115.74 units/s
+2025-05-15 17:51:05,684 - INFO - GPM: Initial Speed = 108.43 units/s
+2025-05-15 17:51:05,684 - INFO - YXJI: Initial Speed = 112.17 units/s
+2025-05-15 17:51:05,685 - INFO - Snoo: Initial Speed = 118.16 units/s
+2025-05-15 17:51:05,686 - INFO - Selected random background for all-characters race.
+2025-05-15 17:51:05,687 - INFO - Race music loaded but muted.
+2025-05-15 17:51:07,699 - INFO - 
+Time: 2.0s
+2025-05-15 17:51:07,699 - INFO - Yannix: Position=216.35, Speed=92.85, Finished=False
+2025-05-15 17:51:07,699 - INFO - Yo-Yo: Position=215.24, Speed=106.93, Finished=False
+2025-05-15 17:51:07,700 - INFO - GB: Position=232.71, Speed=118.54, Finished=False
+2025-05-15 17:51:07,700 - INFO - FHD: Position=229.44, Speed=116.01, Finished=False
+2025-05-15 17:51:07,700 - INFO - More Light: Position=180.30, Speed=93.06, Finished=False
+2025-05-15 17:51:07,701 - INFO - Vamp: Position=212.89, Speed=89.11, Finished=False
+2025-05-15 17:51:07,701 - INFO - Jahon: Position=193.92, Speed=104.99, Finished=False
+2025-05-15 17:51:07,701 - INFO - ReD: Position=195.62, Speed=115.95, Finished=False
+2025-05-15 17:51:07,701 - INFO - VMU: Position=208.38, Speed=98.28, Finished=False
+2025-05-15 17:51:07,702 - INFO - Alpha: Position=182.27, Speed=90.55, Finished=False
+2025-05-15 17:51:07,702 - INFO - Dumpstar: Position=237.18, Speed=118.05, Finished=False
+2025-05-15 17:51:07,702 - INFO - KatieCans: Position=230.81, Speed=114.66, Finished=False
+2025-05-15 17:51:07,702 - INFO - Turbo: Position=217.65, Speed=119.54, Finished=False
+2025-05-15 17:51:07,703 - INFO - Jovial: Position=186.17, Speed=92.48, Finished=False
+2025-05-15 17:51:07,703 - INFO - Speed Demon: Position=212.26, Speed=106.31, Finished=False
+2025-05-15 17:51:07,703 - INFO - Rumble Pak: Position=181.47, Speed=90.15, Finished=False
+2025-05-15 17:51:07,703 - INFO - Leviosa: Position=178.85, Speed=88.85, Finished=False
+2025-05-15 17:51:07,704 - INFO - Obama: Position=218.92, Speed=98.11, Finished=False
+2025-05-15 17:51:07,704 - INFO - Vince: Position=197.48, Speed=98.10, Finished=False
+2025-05-15 17:51:07,704 - INFO - BPS: Position=199.77, Speed=99.24, Finished=False
+2025-05-15 17:51:07,704 - INFO - Apache: Position=207.63, Speed=80.47, Finished=False
+2025-05-15 17:51:07,705 - INFO - OG OBAMA: Position=187.14, Speed=85.93, Finished=False
+2025-05-15 17:51:07,705 - INFO - Oggo: Position=236.64, Speed=117.55, Finished=False
+2025-05-15 17:51:07,705 - INFO - BigSwole: Position=211.32, Speed=88.28, Finished=False
+2025-05-15 17:51:07,705 - INFO - GPM: Position=196.85, Speed=96.18, Finished=False
+2025-05-15 17:51:07,706 - INFO - YXJI: Position=193.60, Speed=103.40, Finished=False
+2025-05-15 17:51:07,706 - INFO - Snoo: Position=220.17, Speed=112.72, Finished=False
+2025-05-15 17:51:09,713 - INFO - 
+Time: 4.0s
+2025-05-15 17:51:09,713 - INFO - Yannix: Position=405.22, Speed=110.34, Finished=False
+2025-05-15 17:51:09,713 - INFO - Yo-Yo: Position=430.60, Speed=106.93, Finished=False
+2025-05-15 17:51:09,714 - INFO - GB: Position=471.09, Speed=117.69, Finished=False
+2025-05-15 17:51:09,714 - INFO - FHD: Position=459.24, Speed=109.23, Finished=False
+2025-05-15 17:51:09,714 - INFO - More Light: Position=367.04, Speed=82.87, Finished=False
+2025-05-15 17:51:09,715 - INFO - Vamp: Position=420.34, Speed=118.23, Finished=False
+2025-05-15 17:51:09,715 - INFO - Jahon: Position=400.90, Speed=91.86, Finished=False
+2025-05-15 17:51:09,715 - INFO - ReD: Position=421.64, Speed=108.18, Finished=False
+2025-05-15 17:51:09,716 - INFO - VMU: Position=406.31, Speed=98.28, Finished=False
+2025-05-15 17:51:09,716 - INFO - Alpha: Position=372.24, Speed=101.36, Finished=False
+2025-05-15 17:51:09,716 - INFO - Dumpstar: Position=474.93, Speed=118.05, Finished=False
+2025-05-15 17:51:09,716 - INFO - KatieCans: Position=439.72, Speed=98.61, Finished=False
+2025-05-15 17:51:09,717 - INFO - Turbo: Position=403.08, Speed=91.40, Finished=False
+2025-05-15 17:51:09,717 - INFO - Jovial: Position=397.28, Speed=119.64, Finished=False
+2025-05-15 17:51:09,717 - INFO - Speed Demon: Position=429.40, Speed=118.67, Finished=False
+2025-05-15 17:51:09,718 - INFO - Rumble Pak: Position=364.10, Speed=100.86, Finished=False
+2025-05-15 17:51:09,718 - INFO - Leviosa: Position=353.06, Speed=82.42, Finished=False
+2025-05-15 17:51:09,718 - INFO - Obama: Position=416.52, Speed=98.11, Finished=False
+2025-05-15 17:51:09,718 - INFO - Vince: Position=376.75, Speed=108.58, Finished=False
+2025-05-15 17:51:09,718 - INFO - BPS: Position=399.65, Speed=99.24, Finished=False
+2025-05-15 17:51:09,719 - INFO - Apache: Position=369.69, Speed=80.47, Finished=False
+2025-05-15 17:51:09,719 - INFO - OG OBAMA: Position=363.33, Speed=90.38, Finished=False
+2025-05-15 17:51:09,719 - INFO - Oggo: Position=472.16, Speed=102.70, Finished=False
+2025-05-15 17:51:09,720 - INFO - BigSwole: Position=404.09, Speed=86.18, Finished=False
+2025-05-15 17:51:09,720 - INFO - GPM: Position=379.56, Speed=83.72, Finished=False
+2025-05-15 17:51:09,720 - INFO - YXJI: Position=392.37, Speed=88.94, Finished=False
+2025-05-15 17:51:09,721 - INFO - Snoo: Position=447.18, Speed=112.72, Finished=False
+2025-05-15 17:51:11,722 - INFO - 
+Time: 6.0s
+2025-05-15 17:51:11,722 - INFO - Yannix: Position=626.99, Speed=110.34, Finished=False
+2025-05-15 17:51:11,723 - INFO - Yo-Yo: Position=654.25, Speed=112.63, Finished=False
+2025-05-15 17:51:11,723 - INFO - GB: Position=682.24, Speed=101.94, Finished=False
+2025-05-15 17:51:11,723 - INFO - FHD: Position=642.05, Speed=80.34, Finished=False
+2025-05-15 17:51:11,723 - INFO - More Light: Position=574.95, Speed=104.33, Finished=False
+2025-05-15 17:51:11,724 - INFO - Vamp: Position=616.77, Speed=92.94, Finished=False
+2025-05-15 17:51:11,724 - INFO - Jahon: Position=610.22, Speed=114.74, Finished=False
+2025-05-15 17:51:11,724 - INFO - ReD: Position=639.09, Speed=108.18, Finished=False
+2025-05-15 17:51:11,725 - INFO - VMU: Position=603.13, Speed=97.83, Finished=False
+2025-05-15 17:51:11,725 - INFO - Alpha: Position=585.26, Speed=109.06, Finished=False
+2025-05-15 17:51:11,725 - INFO - Dumpstar: Position=711.73, Speed=104.06, Finished=False
+2025-05-15 17:51:11,725 - INFO - KatieCans: Position=633.62, Speed=80.42, Finished=False
+2025-05-15 17:51:11,726 - INFO - Turbo: Position=589.48, Speed=114.31, Finished=False
+2025-05-15 17:51:11,726 - INFO - Jovial: Position=599.99, Speed=98.36, Finished=False
+2025-05-15 17:51:11,727 - INFO - Speed Demon: Position=667.92, Speed=118.67, Finished=False
+2025-05-15 17:51:11,727 - INFO - Rumble Pak: Position=566.82, Speed=100.86, Finished=False
+2025-05-15 17:51:11,728 - INFO - Leviosa: Position=531.11, Speed=91.54, Finished=False
+2025-05-15 17:51:11,728 - INFO - Obama: Position=627.04, Speed=112.73, Finished=False
+2025-05-15 17:51:11,728 - INFO - Vince: Position=559.13, Speed=83.29, Finished=False
+2025-05-15 17:51:11,728 - INFO - BPS: Position=598.73, Speed=95.75, Finished=False
+2025-05-15 17:51:11,735 - INFO - Apache: Position=532.82, Speed=81.21, Finished=False
+2025-05-15 17:51:11,736 - INFO - OG OBAMA: Position=567.74, Speed=104.76, Finished=False
+2025-05-15 17:51:11,738 - INFO - Oggo: Position=678.58, Speed=102.70, Finished=False
+2025-05-15 17:51:11,740 - INFO - BigSwole: Position=623.17, Speed=110.61, Finished=False
+2025-05-15 17:51:11,741 - INFO - GPM: Position=561.64, Speed=117.87, Finished=False
+2025-05-15 17:51:11,741 - INFO - YXJI: Position=571.14, Speed=88.94, Finished=False
+2025-05-15 17:51:11,742 - INFO - Snoo: Position=673.74, Speed=112.72, Finished=False
+2025-05-15 17:51:13,734 - INFO - 
+Time: 8.0s
+2025-05-15 17:51:13,734 - INFO - Yannix: Position=824.63, Speed=88.59, Finished=False
+2025-05-15 17:51:13,735 - INFO - Yo-Yo: Position=880.75, Speed=112.63, Finished=False
+2025-05-15 17:51:13,735 - INFO - GB: Position=878.17, Speed=83.77, Finished=False
+2025-05-15 17:51:13,735 - INFO - FHD: Position=845.07, Speed=88.91, Finished=False
+2025-05-15 17:51:13,735 - INFO - More Light: Position=778.99, Speed=101.17, Finished=False
+2025-05-15 17:51:13,736 - INFO - Vamp: Position=812.01, Speed=98.69, Finished=False
+2025-05-15 17:51:13,736 - INFO - Jahon: Position=823.37, Speed=114.64, Finished=False
+2025-05-15 17:51:13,736 - INFO - ReD: Position=834.88, Speed=96.29, Finished=False
+2025-05-15 17:51:13,737 - INFO - VMU: Position=799.87, Speed=97.83, Finished=False
+2025-05-15 17:51:13,737 - INFO - Alpha: Position=804.59, Speed=109.06, Finished=False
+2025-05-15 17:51:13,737 - INFO - Dumpstar: Position=921.00, Speed=104.06, Finished=False
+2025-05-15 17:51:13,737 - INFO - KatieCans: Position=830.19, Speed=101.62, Finished=False
+2025-05-15 17:51:13,738 - INFO - Turbo: Position=814.97, Speed=102.62, Finished=False
+2025-05-15 17:51:13,738 - INFO - Jovial: Position=797.80, Speed=98.36, Finished=False
+2025-05-15 17:51:13,738 - INFO - Speed Demon: Position=849.29, Speed=82.93, Finished=False
+2025-05-15 17:51:13,738 - INFO - Rumble Pak: Position=777.62, Speed=106.70, Finished=False
+2025-05-15 17:51:13,739 - INFO - Leviosa: Position=730.55, Speed=107.35, Finished=False
+2025-05-15 17:51:13,739 - INFO - Obama: Position=851.93, Speed=109.04, Finished=False
+2025-05-15 17:51:13,739 - INFO - Vince: Position=730.56, Speed=101.88, Finished=False
+2025-05-15 17:51:13,739 - INFO - BPS: Position=816.80, Speed=113.57, Finished=False
+2025-05-15 17:51:13,739 - INFO - Apache: Position=713.62, Speed=95.77, Finished=False
+2025-05-15 17:51:13,740 - INFO - OG OBAMA: Position=781.59, Speed=111.95, Finished=False
+2025-05-15 17:51:13,740 - INFO - Oggo: Position=872.51, Speed=118.92, Finished=False
+2025-05-15 17:51:13,740 - INFO - BigSwole: Position=837.28, Speed=105.78, Finished=False
+2025-05-15 17:51:13,740 - INFO - GPM: Position=776.92, Speed=102.48, Finished=False
+2025-05-15 17:51:13,741 - INFO - YXJI: Position=749.99, Speed=88.94, Finished=False
+2025-05-15 17:51:13,741 - INFO - Snoo: Position=899.51, Speed=85.29, Finished=False
+2025-05-15 17:51:15,735 - INFO - 
+Time: 10.0s
+2025-05-15 17:51:15,735 - INFO - Yannix: Position=1031.07, Speed=116.05, Finished=False
+2025-05-15 17:51:15,736 - INFO - Yo-Yo: Position=1106.13, Speed=112.63, Finished=False
+2025-05-15 17:51:15,736 - INFO - GB: Position=1045.78, Speed=83.77, Finished=False
+2025-05-15 17:51:15,736 - INFO - FHD: Position=1022.97, Speed=88.91, Finished=False
+2025-05-15 17:51:15,737 - INFO - More Light: Position=978.19, Speed=93.19, Finished=False
+2025-05-15 17:51:15,737 - INFO - Vamp: Position=1011.67, Speed=100.60, Finished=False
+2025-05-15 17:51:15,737 - INFO - Jahon: Position=1026.72, Speed=81.41, Finished=False
+2025-05-15 17:51:15,738 - INFO - ReD: Position=1033.05, Speed=100.85, Finished=False
+2025-05-15 17:51:15,738 - INFO - VMU: Position=1002.25, Speed=98.52, Finished=False
+2025-05-15 17:51:15,738 - INFO - Alpha: Position=1007.33, Speed=92.64, Finished=False
+2025-05-15 17:51:15,738 - INFO - Dumpstar: Position=1121.83, Speed=116.47, Finished=False
+2025-05-15 17:51:15,739 - INFO - KatieCans: Position=1033.23, Speed=88.92, Finished=False
+2025-05-15 17:51:15,739 - INFO - Turbo: Position=1013.97, Speed=83.23, Finished=False
+2025-05-15 17:51:15,739 - INFO - Jovial: Position=994.62, Speed=98.36, Finished=False
+2025-05-15 17:51:15,739 - INFO - Speed Demon: Position=1049.42, Speed=108.53, Finished=False
+2025-05-15 17:51:15,740 - INFO - Rumble Pak: Position=991.13, Speed=106.70, Finished=False
+2025-05-15 17:51:15,740 - INFO - Leviosa: Position=945.36, Speed=107.35, Finished=False
+2025-05-15 17:51:15,740 - INFO - Obama: Position=1070.12, Speed=109.04, Finished=False
+2025-05-15 17:51:15,741 - INFO - Vince: Position=925.49, Speed=95.59, Finished=False
+2025-05-15 17:51:15,741 - INFO - BPS: Position=1008.29, Speed=83.92, Finished=False
+2025-05-15 17:51:15,742 - INFO - Apache: Position=905.25, Speed=95.77, Finished=False
+2025-05-15 17:51:15,742 - INFO - OG OBAMA: Position=999.48, Speed=101.47, Finished=False
+2025-05-15 17:51:15,742 - INFO - Oggo: Position=1110.47, Speed=118.92, Finished=False
+2025-05-15 17:51:15,743 - INFO - BigSwole: Position=1054.14, Speed=111.20, Finished=False
+2025-05-15 17:51:15,743 - INFO - GPM: Position=981.98, Speed=102.48, Finished=False
+2025-05-15 17:51:15,743 - INFO - YXJI: Position=941.80, Speed=112.01, Finished=False
+2025-05-15 17:51:15,743 - INFO - Snoo: Position=1087.02, Speed=105.32, Finished=False
+2025-05-15 17:51:17,745 - INFO - 
+Time: 12.1s
+2025-05-15 17:51:17,745 - INFO - Yannix: Position=1264.33, Speed=116.05, Finished=False
+2025-05-15 17:51:17,746 - INFO - Yo-Yo: Position=1306.74, Speed=100.64, Finished=False
+2025-05-15 17:51:17,746 - INFO - GB: Position=1216.80, Speed=88.77, Finished=False
+2025-05-15 17:51:17,746 - INFO - FHD: Position=1221.02, Speed=108.25, Finished=False
+2025-05-15 17:51:17,747 - INFO - More Light: Position=1165.50, Speed=93.19, Finished=False
+2025-05-15 17:51:17,747 - INFO - Vamp: Position=1246.38, Speed=119.53, Finished=False
+2025-05-15 17:51:17,747 - INFO - Jahon: Position=1201.75, Speed=99.28, Finished=False
+2025-05-15 17:51:17,748 - INFO - ReD: Position=1222.17, Speed=90.95, Finished=False
+2025-05-15 17:51:17,748 - INFO - VMU: Position=1215.40, Speed=108.57, Finished=False
+2025-05-15 17:51:17,748 - INFO - Alpha: Position=1193.53, Speed=92.64, Finished=False
+2025-05-15 17:51:17,749 - INFO - Dumpstar: Position=1317.38, Speed=89.01, Finished=False
+2025-05-15 17:51:17,749 - INFO - KatieCans: Position=1253.46, Speed=116.20, Finished=False
+2025-05-15 17:51:17,749 - INFO - Turbo: Position=1195.87, Speed=87.71, Finished=False
+2025-05-15 17:51:17,749 - INFO - Jovial: Position=1192.33, Speed=98.36, Finished=False
+2025-05-15 17:51:17,750 - INFO - Speed Demon: Position=1267.58, Speed=108.53, Finished=False
+2025-05-15 17:51:17,750 - INFO - Rumble Pak: Position=1212.12, Speed=114.15, Finished=False
+2025-05-15 17:51:17,750 - INFO - Leviosa: Position=1161.14, Speed=107.35, Finished=False
+2025-05-15 17:51:17,751 - INFO - Obama: Position=1254.10, Speed=89.14, Finished=False
+2025-05-15 17:51:17,751 - INFO - Vince: Position=1117.63, Speed=95.59, Finished=False
+2025-05-15 17:51:17,751 - INFO - BPS: Position=1185.91, Speed=81.12, Finished=False
+2025-05-15 17:51:17,751 - INFO - Apache: Position=1106.40, Speed=102.14, Finished=False
+2025-05-15 17:51:17,752 - INFO - OG OBAMA: Position=1203.44, Speed=101.47, Finished=False
+2025-05-15 17:51:17,752 - INFO - Oggo: Position=1338.76, Speed=117.60, Finished=False
+2025-05-15 17:51:17,752 - INFO - BigSwole: Position=1268.22, Speed=100.88, Finished=False
+2025-05-15 17:51:17,752 - INFO - GPM: Position=1202.01, Speed=108.75, Finished=False
+2025-05-15 17:51:17,753 - INFO - YXJI: Position=1146.87, Speed=111.44, Finished=False
+2025-05-15 17:51:17,753 - INFO - Snoo: Position=1298.71, Speed=105.32, Finished=False
+2025-05-15 17:51:19,758 - INFO - 
+Time: 14.1s
+2025-05-15 17:51:19,758 - INFO - Yannix: Position=1497.94, Speed=116.05, Finished=False
+2025-05-15 17:51:19,759 - INFO - Yo-Yo: Position=1490.40, Speed=89.23, Finished=False
+2025-05-15 17:51:19,759 - INFO - GB: Position=1395.50, Speed=99.99, Finished=False
+2025-05-15 17:51:19,760 - INFO - FHD: Position=1407.20, Speed=81.80, Finished=False
+2025-05-15 17:51:19,760 - INFO - More Light: Position=1353.09, Speed=93.19, Finished=False
+2025-05-15 17:51:19,760 - INFO - Vamp: Position=1486.94, Speed=118.81, Finished=False
+2025-05-15 17:51:19,760 - INFO - Jahon: Position=1405.24, Speed=105.23, Finished=False
+2025-05-15 17:51:19,760 - INFO - ReD: Position=1405.00, Speed=90.81, Finished=False
+2025-05-15 17:51:19,761 - INFO - VMU: Position=1434.63, Speed=112.10, Finished=False
+2025-05-15 17:51:19,761 - INFO - Alpha: Position=1420.56, Speed=114.13, Finished=False
+2025-05-15 17:51:19,761 - INFO - Dumpstar: Position=1500.00, Speed=105.67, Finished=True
+2025-05-15 17:51:19,762 - INFO - KatieCans: Position=1484.99, Speed=113.92, Finished=False
+2025-05-15 17:51:19,762 - INFO - Turbo: Position=1382.61, Speed=118.55, Finished=False
+2025-05-15 17:51:19,762 - INFO - Jovial: Position=1377.90, Speed=92.09, Finished=False
+2025-05-15 17:51:19,762 - INFO - Speed Demon: Position=1484.66, Speed=107.45, Finished=False
+2025-05-15 17:51:19,763 - INFO - Rumble Pak: Position=1397.33, Speed=87.45, Finished=False
+2025-05-15 17:51:19,763 - INFO - Leviosa: Position=1377.25, Speed=107.35, Finished=False
+2025-05-15 17:51:19,763 - INFO - Obama: Position=1433.54, Speed=89.14, Finished=False
+2025-05-15 17:51:19,763 - INFO - Vince: Position=1320.60, Speed=105.33, Finished=False
+2025-05-15 17:51:19,764 - INFO - BPS: Position=1408.04, Speed=110.60, Finished=False
+2025-05-15 17:51:19,764 - INFO - Apache: Position=1312.00, Speed=102.14, Finished=False
+2025-05-15 17:51:19,764 - INFO - OG OBAMA: Position=1407.71, Speed=101.47, Finished=False
+2025-05-15 17:51:19,765 - INFO - Oggo: Position=1500.00, Speed=117.60, Finished=True
+2025-05-15 17:51:19,765 - INFO - BigSwole: Position=1454.09, Speed=82.57, Finished=False
+2025-05-15 17:51:19,765 - INFO - GPM: Position=1411.17, Speed=102.00, Finished=False
+2025-05-15 17:51:19,766 - INFO - YXJI: Position=1363.47, Speed=86.87, Finished=False
+2025-05-15 17:51:19,766 - INFO - Snoo: Position=1486.36, Speed=109.68, Finished=False
+2025-05-15 17:51:21,583 - INFO - 
+All-Characters Race finished! Finish order:
+2025-05-15 17:51:21,583 - INFO - 1. Oggo: Avg Speed=111.70
+2025-05-15 17:51:21,584 - INFO - 2. Dumpstar: Avg Speed=108.62
+2025-05-15 17:51:21,584 - INFO - 3. Yannix: Avg Speed=106.46
+2025-05-15 17:51:21,584 - INFO - 4. Yo-Yo: Avg Speed=105.83
+2025-05-15 17:51:21,585 - INFO - 5. Vamp: Avg Speed=105.83
+2025-05-15 17:51:21,585 - INFO - 6. KatieCans: Avg Speed=105.70
+2025-05-15 17:51:21,585 - INFO - 7. Snoo: Avg Speed=105.70
+2025-05-15 17:51:21,585 - INFO - 8. Speed Demon: Avg Speed=105.57
+2025-05-15 17:51:21,585 - INFO - 9. BigSwole: Avg Speed=102.97
+2025-05-15 17:51:21,586 - INFO - 10. VMU: Avg Speed=102.18
+2025-05-15 17:51:21,586 - INFO - 11. Alpha: Avg Speed=101.51
+2025-05-15 17:51:21,586 - INFO - 12. Obama: Avg Speed=101.28
+2025-05-15 17:51:21,586 - INFO - 13. Jahon: Avg Speed=100.29
+2025-05-15 17:51:21,587 - INFO - 14. GPM: Avg Speed=100.29
+2025-05-15 17:51:21,587 - INFO - 15. BPS: Avg Speed=99.86
+2025-05-15 17:51:21,587 - INFO - 16. OG OBAMA: Avg Speed=99.86
+2025-05-15 17:51:21,587 - INFO - 17. GB: Avg Speed=99.75
+2025-05-15 17:51:21,588 - INFO - 18. Turbo: Avg Speed=99.63
+2025-05-15 17:51:21,588 - INFO - 19. ReD: Avg Speed=99.42
+2025-05-15 17:51:21,589 - INFO - 20. FHD: Avg Speed=98.78
+2025-05-15 17:51:21,589 - INFO - 21. Rumble Pak: Avg Speed=98.57
+2025-05-15 17:51:21,589 - INFO - 22. Leviosa: Avg Speed=98.15
+2025-05-15 17:51:21,590 - INFO - 23. Jovial: Avg Speed=97.73
+2025-05-15 17:51:21,590 - INFO - 24. YXJI: Avg Speed=96.47
+2025-05-15 17:51:21,591 - INFO - 25. More Light: Avg Speed=95.87
+2025-05-15 17:51:21,591 - INFO - 26. Vince: Avg Speed=94.95
+2025-05-15 17:51:21,591 - INFO - 27. Apache: Avg Speed=94.45
+2025-05-15 17:51:21,592 - INFO - Selected winner: Oggo with avg speed 111.70
+2025-05-15 17:51:23,595 - INFO - 
+Detailed Speed Analysis:
+2025-05-15 17:51:23,596 - INFO - 1. Oggo: Finish Time=13.44s, Average Speed=111.70
+2025-05-15 17:51:23,596 - INFO - 2. Dumpstar: Finish Time=13.82s, Average Speed=108.62
+2025-05-15 17:51:23,597 - INFO - 3. Yannix: Finish Time=14.11s, Average Speed=106.46
+2025-05-15 17:51:23,597 - INFO - 4. Yo-Yo: Finish Time=14.19s, Average Speed=105.83
+2025-05-15 17:51:23,597 - INFO - 5. Vamp: Finish Time=14.19s, Average Speed=105.83
+2025-05-15 17:51:23,598 - INFO - 6. KatieCans: Finish Time=14.21s, Average Speed=105.70
+2025-05-15 17:51:23,598 - INFO - 7. Snoo: Finish Time=14.21s, Average Speed=105.70
+2025-05-15 17:51:23,598 - INFO - 8. Speed Demon: Finish Time=14.22s, Average Speed=105.57
+2025-05-15 17:51:23,598 - INFO - 9. BigSwole: Finish Time=14.58s, Average Speed=102.97
+2025-05-15 17:51:23,598 - INFO - 10. VMU: Finish Time=14.70s, Average Speed=102.18
+2025-05-15 17:51:23,599 - INFO - 11. Alpha: Finish Time=14.79s, Average Speed=101.51
+2025-05-15 17:51:23,599 - INFO - 12. Obama: Finish Time=14.83s, Average Speed=101.28
+2025-05-15 17:51:23,599 - INFO - 13. Jahon: Finish Time=14.97s, Average Speed=100.29
+2025-05-15 17:51:23,599 - INFO - 14. GPM: Finish Time=14.97s, Average Speed=100.29
+2025-05-15 17:51:23,600 - INFO - 15. BPS: Finish Time=15.04s, Average Speed=99.86
+2025-05-15 17:51:23,600 - INFO - 16. OG OBAMA: Finish Time=15.04s, Average Speed=99.86
+2025-05-15 17:51:23,600 - INFO - 17. GB: Finish Time=15.05s, Average Speed=99.75
+2025-05-15 17:51:23,601 - INFO - 18. Turbo: Finish Time=15.07s, Average Speed=99.63
+2025-05-15 17:51:23,601 - INFO - 19. ReD: Finish Time=15.10s, Average Speed=99.42
+2025-05-15 17:51:23,601 - INFO - 20. FHD: Finish Time=15.20s, Average Speed=98.78
+2025-05-15 17:51:23,601 - INFO - 21. Rumble Pak: Finish Time=15.23s, Average Speed=98.57
+2025-05-15 17:51:23,602 - INFO - 22. Leviosa: Finish Time=15.30s, Average Speed=98.15
+2025-05-15 17:51:23,602 - INFO - 23. Jovial: Finish Time=15.36s, Average Speed=97.73
+2025-05-15 17:51:23,603 - INFO - 24. YXJI: Finish Time=15.56s, Average Speed=96.47
+2025-05-15 17:51:23,603 - INFO - 25. More Light: Finish Time=15.66s, Average Speed=95.87
+2025-05-15 17:51:23,603 - INFO - 26. Vince: Finish Time=15.81s, Average Speed=94.95
+2025-05-15 17:51:23,604 - INFO - 27. Apache: Finish Time=15.90s, Average Speed=94.45
+2025-05-15 17:51:27,612 - INFO - 
+Selected Sprotos for This Race:
+2025-05-15 17:51:27,613 - INFO - Oggo: Initial Speed = 115.53 units/s
+2025-05-15 17:51:27,613 - INFO - Dumpstar: Initial Speed = 91.92 units/s
+2025-05-15 17:51:27,613 - INFO - Yannix: Initial Speed = 118.84 units/s
+2025-05-15 17:51:27,614 - INFO - Yo-Yo: Initial Speed = 93.39 units/s
+2025-05-15 17:51:27,614 - INFO - Vamp: Initial Speed = 95.29 units/s
+2025-05-15 17:51:27,614 - INFO - 
+Starting Tournament (7 Races)
+2025-05-15 17:51:27,615 - INFO - Tournament music loaded but muted.
+2025-05-15 17:51:27,615 - INFO - 
+--- Starting Race #1 ---
+2025-05-15 17:51:27,616 - INFO - Initialized tournament stats for Oggo: wins=0, points=0
+2025-05-15 17:51:27,616 - INFO - Initialized tournament stats for Dumpstar: wins=0, points=0
+2025-05-15 17:51:27,617 - INFO - Initialized tournament stats for Yannix: wins=0, points=0
+2025-05-15 17:51:27,617 - INFO - Initialized tournament stats for Yo-Yo: wins=0, points=0
+2025-05-15 17:51:27,617 - INFO - Initialized tournament stats for Vamp: wins=0, points=0
+2025-05-15 17:51:27,618 - INFO - Race music loaded but muted.
+2025-05-15 17:51:28,628 - INFO - 
+Time: 1.0s
+2025-05-15 17:51:28,628 - INFO - Oggo: Position=91.24, Speed=90.16, Finished=False
+2025-05-15 17:51:28,629 - INFO - Dumpstar: Position=109.75, Speed=108.45, Finished=False
+2025-05-15 17:51:28,629 - INFO - Yannix: Position=111.33, Speed=110.01, Finished=False
+2025-05-15 17:51:28,629 - INFO - Yo-Yo: Position=87.46, Speed=80.53, Finished=False
+2025-05-15 17:51:28,630 - INFO - Vamp: Position=94.79, Speed=93.67, Finished=False
+2025-05-15 17:51:29,643 - INFO - 
+Time: 2.0s
+2025-05-15 17:51:29,644 - INFO - Oggo: Position=188.89, Speed=99.22, Finished=False
+2025-05-15 17:51:29,644 - INFO - Dumpstar: Position=220.93, Speed=111.84, Finished=False
+2025-05-15 17:51:29,644 - INFO - Yannix: Position=223.10, Speed=110.01, Finished=False
+2025-05-15 17:51:29,645 - INFO - Yo-Yo: Position=188.80, Speed=109.72, Finished=False
+2025-05-15 17:51:29,645 - INFO - Vamp: Position=189.96, Speed=93.67, Finished=False
+2025-05-15 17:51:30,651 - INFO - 
+Time: 3.0s
+2025-05-15 17:51:30,652 - INFO - Oggo: Position=281.73, Speed=91.48, Finished=False
+2025-05-15 17:51:30,652 - INFO - Dumpstar: Position=333.66, Speed=111.84, Finished=False
+2025-05-15 17:51:30,652 - INFO - Yannix: Position=310.59, Speed=85.20, Finished=False
+2025-05-15 17:51:30,653 - INFO - Yo-Yo: Position=292.13, Speed=96.04, Finished=False
+2025-05-15 17:51:30,653 - INFO - Vamp: Position=291.92, Speed=105.31, Finished=False
+2025-05-15 17:51:31,666 - INFO - 
+Time: 4.1s
+2025-05-15 17:51:31,666 - INFO - Oggo: Position=374.59, Speed=91.48, Finished=False
+2025-05-15 17:51:31,667 - INFO - Dumpstar: Position=447.18, Speed=111.84, Finished=False
+2025-05-15 17:51:31,668 - INFO - Yannix: Position=397.06, Speed=85.20, Finished=False
+2025-05-15 17:51:31,668 - INFO - Yo-Yo: Position=389.61, Speed=96.04, Finished=False
+2025-05-15 17:51:31,669 - INFO - Vamp: Position=398.82, Speed=105.31, Finished=False
+2025-05-15 17:51:32,669 - INFO - 
+Time: 5.1s
+2025-05-15 17:51:32,670 - INFO - Oggo: Position=466.26, Speed=91.48, Finished=False
+2025-05-15 17:51:32,670 - INFO - Dumpstar: Position=559.24, Speed=111.84, Finished=False
+2025-05-15 17:51:32,671 - INFO - Yannix: Position=482.43, Speed=85.20, Finished=False
+2025-05-15 17:51:32,671 - INFO - Yo-Yo: Position=485.85, Speed=96.04, Finished=False
+2025-05-15 17:51:32,671 - INFO - Vamp: Position=505.90, Speed=119.23, Finished=False
+2025-05-15 17:51:33,675 - INFO - 
+Time: 6.1s
+2025-05-15 17:51:33,675 - INFO - Oggo: Position=553.40, Speed=82.74, Finished=False
+2025-05-15 17:51:33,676 - INFO - Dumpstar: Position=671.75, Speed=111.84, Finished=False
+2025-05-15 17:51:33,676 - INFO - Yannix: Position=568.14, Speed=85.20, Finished=False
+2025-05-15 17:51:33,676 - INFO - Yo-Yo: Position=593.05, Speed=112.99, Finished=False
+2025-05-15 17:51:33,677 - INFO - Vamp: Position=625.85, Speed=119.23, Finished=False
+2025-05-15 17:51:34,684 - INFO - 
+Time: 7.1s
+2025-05-15 17:51:34,684 - INFO - Oggo: Position=648.10, Speed=82.40, Finished=False
+2025-05-15 17:51:34,685 - INFO - Dumpstar: Position=780.26, Speed=106.06, Finished=False
+2025-05-15 17:51:34,685 - INFO - Yannix: Position=654.10, Speed=85.20, Finished=False
+2025-05-15 17:51:34,685 - INFO - Yo-Yo: Position=697.85, Speed=100.08, Finished=False
+2025-05-15 17:51:34,686 - INFO - Vamp: Position=746.15, Speed=119.23, Finished=False
+2025-05-15 17:51:35,699 - INFO - 
+Time: 8.1s
+2025-05-15 17:51:35,699 - INFO - Oggo: Position=731.81, Speed=82.40, Finished=False
+2025-05-15 17:51:35,699 - INFO - Dumpstar: Position=888.02, Speed=106.06, Finished=False
+2025-05-15 17:51:35,700 - INFO - Yannix: Position=740.66, Speed=85.20, Finished=False
+2025-05-15 17:51:35,700 - INFO - Yo-Yo: Position=788.49, Speed=87.84, Finished=False
+2025-05-15 17:51:35,700 - INFO - Vamp: Position=860.03, Speed=111.46, Finished=False
+2025-05-15 17:51:36,705 - INFO - 
+Time: 9.1s
+2025-05-15 17:51:36,705 - INFO - Oggo: Position=814.62, Speed=82.40, Finished=False
+2025-05-15 17:51:36,705 - INFO - Dumpstar: Position=994.61, Speed=106.06, Finished=False
+2025-05-15 17:51:36,706 - INFO - Yannix: Position=826.28, Speed=85.20, Finished=False
+2025-05-15 17:51:36,706 - INFO - Yo-Yo: Position=876.76, Speed=87.84, Finished=False
+2025-05-15 17:51:36,706 - INFO - Vamp: Position=972.04, Speed=111.46, Finished=False
+2025-05-15 17:51:37,718 - INFO - 
+Time: 10.1s
+2025-05-15 17:51:37,718 - INFO - Oggo: Position=898.09, Speed=82.40, Finished=False
+2025-05-15 17:51:37,719 - INFO - Dumpstar: Position=1102.05, Speed=106.06, Finished=False
+2025-05-15 17:51:37,719 - INFO - Yannix: Position=912.75, Speed=85.63, Finished=False
+2025-05-15 17:51:37,719 - INFO - Yo-Yo: Position=964.90, Speed=86.68, Finished=False
+2025-05-15 17:51:37,720 - INFO - Vamp: Position=1084.95, Speed=111.46, Finished=False
+2025-05-15 17:51:38,732 - INFO - 
+Time: 11.1s
+2025-05-15 17:51:38,732 - INFO - Oggo: Position=981.64, Speed=82.40, Finished=False
+2025-05-15 17:51:38,732 - INFO - Dumpstar: Position=1209.60, Speed=106.06, Finished=False
+2025-05-15 17:51:38,732 - INFO - Yannix: Position=999.57, Speed=85.63, Finished=False
+2025-05-15 17:51:38,733 - INFO - Yo-Yo: Position=1070.46, Speed=84.38, Finished=False
+2025-05-15 17:51:38,733 - INFO - Vamp: Position=1187.87, Speed=83.72, Finished=False
+2025-05-15 17:51:39,735 - INFO - 
+Time: 12.1s
+2025-05-15 17:51:39,735 - INFO - Oggo: Position=1069.95, Speed=116.02, Finished=False
+2025-05-15 17:51:39,736 - INFO - Dumpstar: Position=1316.08, Speed=106.06, Finished=False
+2025-05-15 17:51:39,736 - INFO - Yannix: Position=1085.54, Speed=85.63, Finished=False
+2025-05-15 17:51:39,737 - INFO - Yo-Yo: Position=1155.18, Speed=84.38, Finished=False
+2025-05-15 17:51:39,737 - INFO - Vamp: Position=1272.73, Speed=87.43, Finished=False
+2025-05-15 17:51:40,749 - INFO - 
+Time: 13.1s
+2025-05-15 17:51:40,749 - INFO - Oggo: Position=1178.54, Speed=99.89, Finished=False
+2025-05-15 17:51:40,750 - INFO - Dumpstar: Position=1423.52, Speed=106.06, Finished=False
+2025-05-15 17:51:40,750 - INFO - Yannix: Position=1172.28, Speed=85.63, Finished=False
+2025-05-15 17:51:40,751 - INFO - Yo-Yo: Position=1240.66, Speed=84.38, Finished=False
+2025-05-15 17:51:40,751 - INFO - Vamp: Position=1361.30, Speed=87.43, Finished=False
+2025-05-15 17:51:41,753 - INFO - 
+Time: 14.1s
+2025-05-15 17:51:41,753 - INFO - Oggo: Position=1278.93, Speed=99.89, Finished=False
+2025-05-15 17:51:41,753 - INFO - Dumpstar: Position=1500.00, Speed=106.06, Finished=True
+2025-05-15 17:51:41,755 - INFO - Yannix: Position=1258.34, Speed=85.63, Finished=False
+2025-05-15 17:51:41,755 - INFO - Yo-Yo: Position=1335.19, Speed=112.62, Finished=False
+2025-05-15 17:51:41,755 - INFO - Vamp: Position=1452.26, Speed=118.33, Finished=False
+2025-05-15 17:51:42,762 - INFO - 
+Time: 15.1s
+2025-05-15 17:51:42,762 - INFO - Oggo: Position=1379.61, Speed=99.89, Finished=False
+2025-05-15 17:51:42,763 - INFO - Dumpstar: Position=1500.00, Speed=106.06, Finished=True
+2025-05-15 17:51:42,763 - INFO - Yannix: Position=1349.33, Speed=117.02, Finished=False
+2025-05-15 17:51:42,763 - INFO - Yo-Yo: Position=1424.06, Speed=86.91, Finished=False
+2025-05-15 17:51:42,764 - INFO - Vamp: Position=1500.00, Speed=118.33, Finished=True
+2025-05-15 17:51:43,776 - INFO - 
+Time: 16.2s
+2025-05-15 17:51:43,776 - INFO - Oggo: Position=1480.99, Speed=99.89, Finished=False
+2025-05-15 17:51:43,777 - INFO - Dumpstar: Position=1500.00, Speed=106.06, Finished=True
+2025-05-15 17:51:43,777 - INFO - Yannix: Position=1468.11, Speed=117.02, Finished=False
+2025-05-15 17:51:43,778 - INFO - Yo-Yo: Position=1500.00, Speed=86.91, Finished=True
+2025-05-15 17:51:43,778 - INFO - Vamp: Position=1500.00, Speed=118.33, Finished=True
+2025-05-15 17:51:44,059 - INFO - 
+Race #1 finished! Finish order:
+2025-05-15 17:51:44,059 - INFO - 1. Dumpstar: Avg Speed=108.35
+2025-05-15 17:51:44,060 - INFO - 2. Vamp: Avg Speed=103.24
+2025-05-15 17:51:44,060 - INFO - 3. Yo-Yo: Avg Speed=93.69
+2025-05-15 17:51:44,060 - INFO - 4. Oggo: Avg Speed=91.79
+2025-05-15 17:51:44,061 - INFO - 5. Yannix: Avg Speed=91.31
+2025-05-15 17:51:44,061 - INFO - Selected winner: Dumpstar with avg speed 108.35
+2025-05-15 17:51:44,062 - INFO - Dumpstar finished 1st: +10 points, total=10, wins=1
+2025-05-15 17:51:44,062 - INFO - Vamp finished 2nd: +9 points, total=9, wins=0
+2025-05-15 17:51:44,062 - INFO - Yo-Yo finished 3rd: +8 points, total=8, wins=0
+2025-05-15 17:51:44,063 - INFO - Oggo finished 4th: +7 points, total=7, wins=0
+2025-05-15 17:51:44,063 - INFO - Yannix finished 5th: +6 points, total=6, wins=0
+2025-05-15 17:51:44,070 - INFO - Race #1 Winner: Dumpstar
+2025-05-15 17:51:44,070 - INFO - 
+--- Starting Race #2 ---
+2025-05-15 17:51:45,079 - INFO - 
+Time: 1.0s
+2025-05-15 17:51:45,079 - INFO - Oggo: Position=110.76, Speed=111.52, Finished=False
+2025-05-15 17:51:45,080 - INFO - Dumpstar: Position=82.50, Speed=81.84, Finished=False
+2025-05-15 17:51:45,080 - INFO - Yannix: Position=100.29, Speed=101.73, Finished=False
+2025-05-15 17:51:45,080 - INFO - Yo-Yo: Position=110.85, Speed=97.87, Finished=False
+2025-05-15 17:51:45,080 - INFO - Vamp: Position=107.54, Speed=104.30, Finished=False
+2025-05-15 17:51:46,095 - INFO - 
+Time: 2.0s
+2025-05-15 17:51:46,095 - INFO - Oggo: Position=226.71, Speed=114.46, Finished=False
+2025-05-15 17:51:46,096 - INFO - Dumpstar: Position=183.09, Speed=118.49, Finished=False
+2025-05-15 17:51:46,096 - INFO - Yannix: Position=203.65, Speed=101.73, Finished=False
+2025-05-15 17:51:46,096 - INFO - Yo-Yo: Position=217.95, Speed=107.03, Finished=False
+2025-05-15 17:51:46,097 - INFO - Vamp: Position=213.35, Speed=115.03, Finished=False
+2025-05-15 17:51:47,102 - INFO - 
+Time: 3.0s
+2025-05-15 17:51:47,102 - INFO - Oggo: Position=341.98, Speed=114.46, Finished=False
+2025-05-15 17:51:47,102 - INFO - Dumpstar: Position=267.52, Speed=113.61, Finished=False
+2025-05-15 17:51:47,103 - INFO - Yannix: Position=298.71, Speed=91.85, Finished=False
+2025-05-15 17:51:47,103 - INFO - Yo-Yo: Position=312.14, Speed=82.53, Finished=False
+2025-05-15 17:51:47,103 - INFO - Vamp: Position=323.09, Speed=83.42, Finished=False
+2025-05-15 17:51:48,108 - INFO - 
+Time: 4.0s
+2025-05-15 17:51:48,108 - INFO - Oggo: Position=450.62, Speed=93.69, Finished=False
+2025-05-15 17:51:48,109 - INFO - Dumpstar: Position=381.62, Speed=110.63, Finished=False
+2025-05-15 17:51:48,109 - INFO - Yannix: Position=412.68, Speed=114.27, Finished=False
+2025-05-15 17:51:48,110 - INFO - Yo-Yo: Position=410.79, Speed=100.34, Finished=False
+2025-05-15 17:51:48,110 - INFO - Vamp: Position=407.01, Speed=83.42, Finished=False
+2025-05-15 17:51:49,111 - INFO - 
+Time: 5.0s
+2025-05-15 17:51:49,111 - INFO - Oggo: Position=541.56, Speed=85.45, Finished=False
+2025-05-15 17:51:49,111 - INFO - Dumpstar: Position=490.78, Speed=107.56, Finished=False
+2025-05-15 17:51:49,112 - INFO - Yannix: Position=524.64, Speed=111.47, Finished=False
+2025-05-15 17:51:49,112 - INFO - Yo-Yo: Position=511.53, Speed=100.34, Finished=False
+2025-05-15 17:51:49,112 - INFO - Vamp: Position=501.26, Speed=97.30, Finished=False
+2025-05-15 17:51:50,126 - INFO - 
+Time: 6.1s
+2025-05-15 17:51:50,126 - INFO - Oggo: Position=630.64, Speed=92.87, Finished=False
+2025-05-15 17:51:50,127 - INFO - Dumpstar: Position=599.85, Speed=107.56, Finished=False
+2025-05-15 17:51:50,127 - INFO - Yannix: Position=637.67, Speed=111.47, Finished=False
+2025-05-15 17:51:50,128 - INFO - Yo-Yo: Position=613.28, Speed=100.34, Finished=False
+2025-05-15 17:51:50,128 - INFO - Vamp: Position=602.04, Speed=105.35, Finished=False
+2025-05-15 17:51:51,138 - INFO - 
+Time: 7.1s
+2025-05-15 17:51:51,138 - INFO - Oggo: Position=724.71, Speed=92.87, Finished=False
+2025-05-15 17:51:51,138 - INFO - Dumpstar: Position=708.81, Speed=107.56, Finished=False
+2025-05-15 17:51:51,139 - INFO - Yannix: Position=729.73, Speed=84.98, Finished=False
+2025-05-15 17:51:51,139 - INFO - Yo-Yo: Position=714.93, Speed=100.34, Finished=False
+2025-05-15 17:51:51,139 - INFO - Vamp: Position=708.76, Speed=105.35, Finished=False
+2025-05-15 17:51:52,147 - INFO - 
+Time: 8.1s
+2025-05-15 17:51:52,147 - INFO - Oggo: Position=819.51, Speed=95.77, Finished=False
+2025-05-15 17:51:52,148 - INFO - Dumpstar: Position=817.24, Speed=107.56, Finished=False
+2025-05-15 17:51:52,148 - INFO - Yannix: Position=846.57, Speed=118.75, Finished=False
+2025-05-15 17:51:52,148 - INFO - Yo-Yo: Position=816.07, Speed=100.34, Finished=False
+2025-05-15 17:51:52,148 - INFO - Vamp: Position=814.95, Speed=105.35, Finished=False
+2025-05-15 17:51:53,157 - INFO - 
+Time: 9.1s
+2025-05-15 17:51:53,157 - INFO - Oggo: Position=916.23, Speed=95.77, Finished=False
+2025-05-15 17:51:53,158 - INFO - Dumpstar: Position=928.76, Speed=115.49, Finished=False
+2025-05-15 17:51:53,159 - INFO - Yannix: Position=952.64, Speed=94.77, Finished=False
+2025-05-15 17:51:53,159 - INFO - Yo-Yo: Position=920.57, Speed=103.73, Finished=False
+2025-05-15 17:51:53,159 - INFO - Vamp: Position=921.35, Speed=105.35, Finished=False
+2025-05-15 17:51:54,161 - INFO - 
+Time: 10.1s
+2025-05-15 17:51:54,162 - INFO - Oggo: Position=1012.47, Speed=95.77, Finished=False
+2025-05-15 17:51:54,162 - INFO - Dumpstar: Position=1044.83, Speed=115.49, Finished=False
+2025-05-15 17:51:54,162 - INFO - Yannix: Position=1050.96, Speed=113.40, Finished=False
+2025-05-15 17:51:54,162 - INFO - Yo-Yo: Position=1024.82, Speed=103.73, Finished=False
+2025-05-15 17:51:54,163 - INFO - Vamp: Position=1027.23, Speed=105.35, Finished=False
+2025-05-15 17:51:55,170 - INFO - 
+Time: 11.1s
+2025-05-15 17:51:55,171 - INFO - Oggo: Position=1109.10, Speed=95.77, Finished=False
+2025-05-15 17:51:55,171 - INFO - Dumpstar: Position=1160.68, Speed=94.65, Finished=False
+2025-05-15 17:51:55,171 - INFO - Yannix: Position=1159.96, Speed=101.83, Finished=False
+2025-05-15 17:51:55,172 - INFO - Yo-Yo: Position=1129.49, Speed=103.73, Finished=False
+2025-05-15 17:51:55,172 - INFO - Vamp: Position=1134.82, Speed=116.68, Finished=False
+2025-05-15 17:51:56,175 - INFO - 
+Time: 12.1s
+2025-05-15 17:51:56,175 - INFO - Oggo: Position=1219.30, Speed=118.80, Finished=False
+2025-05-15 17:51:56,176 - INFO - Dumpstar: Position=1255.71, Speed=94.65, Finished=False
+2025-05-15 17:51:56,176 - INFO - Yannix: Position=1265.15, Speed=105.28, Finished=False
+2025-05-15 17:51:56,176 - INFO - Yo-Yo: Position=1233.63, Speed=103.73, Finished=False
+2025-05-15 17:51:56,177 - INFO - Vamp: Position=1251.98, Speed=116.68, Finished=False
+2025-05-15 17:51:57,176 - INFO - 
+Time: 13.1s
+2025-05-15 17:51:57,176 - INFO - Oggo: Position=1338.22, Speed=118.80, Finished=False
+2025-05-15 17:51:57,177 - INFO - Dumpstar: Position=1350.45, Speed=112.05, Finished=False
+2025-05-15 17:51:57,177 - INFO - Yannix: Position=1361.48, Speed=82.36, Finished=False
+2025-05-15 17:51:57,177 - INFO - Yo-Yo: Position=1343.24, Speed=114.42, Finished=False
+2025-05-15 17:51:57,178 - INFO - Vamp: Position=1368.78, Speed=116.68, Finished=False
+2025-05-15 17:51:58,184 - INFO - 
+Time: 14.1s
+2025-05-15 17:51:58,184 - INFO - Oggo: Position=1457.97, Speed=118.80, Finished=False
+2025-05-15 17:51:58,184 - INFO - Dumpstar: Position=1463.40, Speed=112.05, Finished=False
+2025-05-15 17:51:58,185 - INFO - Yannix: Position=1465.28, Speed=83.14, Finished=False
+2025-05-15 17:51:58,185 - INFO - Yo-Yo: Position=1458.58, Speed=114.42, Finished=False
+2025-05-15 17:51:58,185 - INFO - Vamp: Position=1486.40, Speed=116.68, Finished=False
+2025-05-15 17:51:58,588 - INFO - 
+Race #2 finished! Finish order:
+2025-05-15 17:51:58,589 - INFO - 1. Vamp: Avg Speed=105.44
+2025-05-15 17:51:58,589 - INFO - 2. Oggo: Avg Speed=103.72
+2025-05-15 17:51:58,590 - INFO - 3. Yannix: Avg Speed=103.72
+2025-05-15 17:51:58,590 - INFO - 4. Yo-Yo: Avg Speed=103.72
+2025-05-15 17:51:58,591 - INFO - 5. Dumpstar: Avg Speed=103.44
+2025-05-15 17:51:58,591 - INFO - Selected winner: Vamp with avg speed 105.44
+2025-05-15 17:51:58,592 - INFO - Vamp finished 1st: +10 points, total=19, wins=1
+2025-05-15 17:51:58,593 - INFO - Oggo finished 2nd: +9 points, total=16, wins=0
+2025-05-15 17:51:58,593 - INFO - Yannix finished 3rd: +8 points, total=14, wins=0
+2025-05-15 17:51:58,594 - INFO - Yo-Yo finished 4th: +7 points, total=15, wins=0
+2025-05-15 17:51:58,595 - INFO - Dumpstar finished 5th: +6 points, total=16, wins=1
+2025-05-15 17:51:58,604 - INFO - Race #2 Winner: Vamp
+2025-05-15 17:51:58,605 - INFO - 
+--- Starting Race #3 ---
+2025-05-15 17:51:59,620 - INFO - 
+Time: 1.0s
+2025-05-15 17:51:59,621 - INFO - Oggo: Position=97.78, Speed=96.52, Finished=False
+2025-05-15 17:51:59,621 - INFO - Dumpstar: Position=105.87, Speed=96.16, Finished=False
+2025-05-15 17:51:59,622 - INFO - Yannix: Position=94.26, Speed=93.05, Finished=False
+2025-05-15 17:51:59,622 - INFO - Yo-Yo: Position=82.42, Speed=80.96, Finished=False
+2025-05-15 17:51:59,623 - INFO - Vamp: Position=89.24, Speed=86.71, Finished=False
+2025-05-15 17:52:00,629 - INFO - 
+Time: 2.0s
+2025-05-15 17:52:00,629 - INFO - Oggo: Position=196.82, Speed=107.04, Finished=False
+2025-05-15 17:52:00,630 - INFO - Dumpstar: Position=202.99, Speed=96.16, Finished=False
+2025-05-15 17:52:00,630 - INFO - Yannix: Position=188.23, Speed=93.05, Finished=False
+2025-05-15 17:52:00,631 - INFO - Yo-Yo: Position=164.19, Speed=80.96, Finished=False
+2025-05-15 17:52:00,631 - INFO - Vamp: Position=180.53, Speed=93.31, Finished=False
+2025-05-15 17:52:01,632 - INFO - 
+Time: 3.0s
+2025-05-15 17:52:01,632 - INFO - Oggo: Position=304.29, Speed=108.10, Finished=False
+2025-05-15 17:52:01,633 - INFO - Dumpstar: Position=307.79, Speed=106.48, Finished=False
+2025-05-15 17:52:01,633 - INFO - Yannix: Position=281.00, Speed=82.04, Finished=False
+2025-05-15 17:52:01,634 - INFO - Yo-Yo: Position=274.72, Speed=113.57, Finished=False
+2025-05-15 17:52:01,634 - INFO - Vamp: Position=281.87, Speed=116.05, Finished=False
+2025-05-15 17:52:02,634 - INFO - 
+Time: 4.0s
+2025-05-15 17:52:02,634 - INFO - Oggo: Position=417.81, Speed=114.53, Finished=False
+2025-05-15 17:52:02,635 - INFO - Dumpstar: Position=414.48, Speed=106.48, Finished=False
+2025-05-15 17:52:02,635 - INFO - Yannix: Position=363.21, Speed=82.04, Finished=False
+2025-05-15 17:52:02,635 - INFO - Yo-Yo: Position=388.52, Speed=113.57, Finished=False
+2025-05-15 17:52:02,635 - INFO - Vamp: Position=398.55, Speed=116.98, Finished=False
+2025-05-15 17:52:03,649 - INFO - 
+Time: 5.0s
+2025-05-15 17:52:03,649 - INFO - Oggo: Position=534.05, Speed=114.53, Finished=False
+2025-05-15 17:52:03,649 - INFO - Dumpstar: Position=522.55, Speed=106.48, Finished=False
+2025-05-15 17:52:03,650 - INFO - Yannix: Position=446.49, Speed=82.04, Finished=False
+2025-05-15 17:52:03,650 - INFO - Yo-Yo: Position=499.46, Speed=113.06, Finished=False
+2025-05-15 17:52:03,650 - INFO - Vamp: Position=510.75, Speed=105.75, Finished=False
+2025-05-15 17:52:04,657 - INFO - 
+Time: 6.1s
+2025-05-15 17:52:04,657 - INFO - Oggo: Position=641.18, Speed=96.87, Finished=False
+2025-05-15 17:52:04,657 - INFO - Dumpstar: Position=631.47, Speed=109.11, Finished=False
+2025-05-15 17:52:04,658 - INFO - Yannix: Position=531.05, Speed=90.59, Finished=False
+2025-05-15 17:52:04,658 - INFO - Yo-Yo: Position=613.54, Speed=113.06, Finished=False
+2025-05-15 17:52:04,658 - INFO - Vamp: Position=618.78, Speed=105.16, Finished=False
+2025-05-15 17:52:05,673 - INFO - 
+Time: 7.1s
+2025-05-15 17:52:05,673 - INFO - Oggo: Position=746.03, Speed=115.01, Finished=False
+2025-05-15 17:52:05,673 - INFO - Dumpstar: Position=736.90, Speed=84.02, Finished=False
+2025-05-15 17:52:05,673 - INFO - Yannix: Position=619.80, Speed=84.26, Finished=False
+2025-05-15 17:52:05,673 - INFO - Yo-Yo: Position=728.29, Speed=113.06, Finished=False
+2025-05-15 17:52:05,674 - INFO - Vamp: Position=724.38, Speed=100.47, Finished=False
+2025-05-15 17:52:06,689 - INFO - 
+Time: 8.1s
+2025-05-15 17:52:06,689 - INFO - Oggo: Position=862.88, Speed=115.01, Finished=False
+2025-05-15 17:52:06,689 - INFO - Dumpstar: Position=822.26, Speed=84.02, Finished=False
+2025-05-15 17:52:06,690 - INFO - Yannix: Position=710.22, Speed=97.66, Finished=False
+2025-05-15 17:52:06,690 - INFO - Yo-Yo: Position=843.16, Speed=113.06, Finished=False
+2025-05-15 17:52:06,690 - INFO - Vamp: Position=818.19, Speed=82.45, Finished=False
+2025-05-15 17:52:07,701 - INFO - 
+Time: 9.1s
+2025-05-15 17:52:07,701 - INFO - Oggo: Position=979.27, Speed=115.01, Finished=False
+2025-05-15 17:52:07,702 - INFO - Dumpstar: Position=931.61, Speed=111.16, Finished=False
+2025-05-15 17:52:07,702 - INFO - Yannix: Position=809.05, Speed=97.66, Finished=False
+2025-05-15 17:52:07,702 - INFO - Yo-Yo: Position=956.41, Speed=110.81, Finished=False
+2025-05-15 17:52:07,703 - INFO - Vamp: Position=901.63, Speed=82.45, Finished=False
+2025-05-15 17:52:08,711 - INFO - 
+Time: 10.1s
+2025-05-15 17:52:08,711 - INFO - Oggo: Position=1095.43, Speed=115.01, Finished=False
+2025-05-15 17:52:08,712 - INFO - Dumpstar: Position=1043.88, Speed=111.16, Finished=False
+2025-05-15 17:52:08,712 - INFO - Yannix: Position=907.69, Speed=97.66, Finished=False
+2025-05-15 17:52:08,712 - INFO - Yo-Yo: Position=1068.32, Speed=110.81, Finished=False
+2025-05-15 17:52:08,713 - INFO - Vamp: Position=998.93, Speed=106.91, Finished=False
+2025-05-15 17:52:09,714 - INFO - 
+Time: 11.1s
+2025-05-15 17:52:09,714 - INFO - Oggo: Position=1191.36, Speed=81.22, Finished=False
+2025-05-15 17:52:09,715 - INFO - Dumpstar: Position=1155.37, Speed=111.16, Finished=False
+2025-05-15 17:52:09,715 - INFO - Yannix: Position=1009.65, Speed=91.59, Finished=False
+2025-05-15 17:52:09,716 - INFO - Yo-Yo: Position=1179.46, Speed=110.81, Finished=False
+2025-05-15 17:52:09,716 - INFO - Vamp: Position=1106.16, Speed=106.91, Finished=False
+2025-05-15 17:52:10,721 - INFO - 
+Time: 12.1s
+2025-05-15 17:52:10,722 - INFO - Oggo: Position=1273.15, Speed=81.22, Finished=False
+2025-05-15 17:52:10,722 - INFO - Dumpstar: Position=1265.83, Speed=105.50, Finished=False
+2025-05-15 17:52:10,722 - INFO - Yannix: Position=1101.89, Speed=91.59, Finished=False
+2025-05-15 17:52:10,723 - INFO - Yo-Yo: Position=1291.04, Speed=110.81, Finished=False
+2025-05-15 17:52:10,723 - INFO - Vamp: Position=1217.14, Speed=116.65, Finished=False
+2025-05-15 17:52:11,732 - INFO - 
+Time: 13.1s
+2025-05-15 17:52:11,732 - INFO - Oggo: Position=1359.39, Speed=85.65, Finished=False
+2025-05-15 17:52:11,732 - INFO - Dumpstar: Position=1372.49, Speed=105.50, Finished=False
+2025-05-15 17:52:11,732 - INFO - Yannix: Position=1194.49, Speed=91.59, Finished=False
+2025-05-15 17:52:11,733 - INFO - Yo-Yo: Position=1402.62, Speed=110.00, Finished=False
+2025-05-15 17:52:11,733 - INFO - Vamp: Position=1335.08, Speed=80.85, Finished=False
+2025-05-15 17:52:12,739 - INFO - 
+Time: 14.1s
+2025-05-15 17:52:12,739 - INFO - Oggo: Position=1456.49, Speed=99.11, Finished=False
+2025-05-15 17:52:12,739 - INFO - Dumpstar: Position=1478.83, Speed=105.50, Finished=False
+2025-05-15 17:52:12,740 - INFO - Yannix: Position=1286.81, Speed=91.59, Finished=False
+2025-05-15 17:52:12,740 - INFO - Yo-Yo: Position=1500.00, Speed=109.69, Finished=True
+2025-05-15 17:52:12,740 - INFO - Vamp: Position=1417.88, Speed=107.15, Finished=False
+2025-05-15 17:52:13,744 - INFO - 
+Time: 15.1s
+2025-05-15 17:52:13,744 - INFO - Oggo: Position=1500.00, Speed=99.11, Finished=True
+2025-05-15 17:52:13,745 - INFO - Dumpstar: Position=1500.00, Speed=105.50, Finished=True
+2025-05-15 17:52:13,745 - INFO - Yannix: Position=1388.03, Speed=102.31, Finished=False
+2025-05-15 17:52:13,745 - INFO - Yo-Yo: Position=1500.00, Speed=109.69, Finished=True
+2025-05-15 17:52:13,746 - INFO - Vamp: Position=1500.00, Speed=107.15, Finished=True
+2025-05-15 17:52:14,760 - INFO - 
+Time: 16.2s
+2025-05-15 17:52:14,761 - INFO - Oggo: Position=1500.00, Speed=99.11, Finished=True
+2025-05-15 17:52:14,761 - INFO - Dumpstar: Position=1500.00, Speed=105.50, Finished=True
+2025-05-15 17:52:14,761 - INFO - Yannix: Position=1491.98, Speed=102.31, Finished=False
+2025-05-15 17:52:14,761 - INFO - Yo-Yo: Position=1500.00, Speed=109.69, Finished=True
+2025-05-15 17:52:14,762 - INFO - Vamp: Position=1500.00, Speed=107.15, Finished=True
+2025-05-15 17:52:14,842 - INFO - 
+Race #3 finished! Finish order:
+2025-05-15 17:52:14,842 - INFO - 1. Yo-Yo: Avg Speed=107.01
+2025-05-15 17:52:14,842 - INFO - 2. Dumpstar: Avg Speed=104.65
+2025-05-15 17:52:14,842 - INFO - 3. Oggo: Avg Speed=103.00
+2025-05-15 17:52:14,843 - INFO - 4. Vamp: Avg Speed=100.73
+2025-05-15 17:52:14,843 - INFO - 5. Yannix: Avg Speed=92.48
+2025-05-15 17:52:14,843 - INFO - Selected winner: Yo-Yo with avg speed 107.01
+2025-05-15 17:52:14,844 - INFO - Yo-Yo finished 1st: +10 points, total=25, wins=1
+2025-05-15 17:52:14,844 - INFO - Dumpstar finished 2nd: +9 points, total=25, wins=1
+2025-05-15 17:52:14,844 - INFO - Oggo finished 3rd: +8 points, total=24, wins=0
+2025-05-15 17:52:14,845 - INFO - Vamp finished 4th: +7 points, total=26, wins=1
+2025-05-15 17:52:14,845 - INFO - Yannix finished 5th: +6 points, total=20, wins=0
+2025-05-15 17:52:14,852 - INFO - Race #3 Winner: Yo-Yo
+2025-05-15 17:52:14,853 - INFO - 
+--- Starting Race #4 ---
+2025-05-15 17:52:15,860 - INFO - 
+Time: 1.0s
+2025-05-15 17:52:15,860 - INFO - Oggo: Position=107.86, Speed=107.70, Finished=False
+2025-05-15 17:52:15,860 - INFO - Dumpstar: Position=106.65, Speed=111.77, Finished=False
+2025-05-15 17:52:15,860 - INFO - Yannix: Position=81.12, Speed=80.64, Finished=False
+2025-05-15 17:52:15,861 - INFO - Yo-Yo: Position=106.37, Speed=119.99, Finished=False
+2025-05-15 17:52:15,861 - INFO - Vamp: Position=82.16, Speed=80.74, Finished=False
+2025-05-15 17:52:16,864 - INFO - 
+Time: 2.0s
+2025-05-15 17:52:16,865 - INFO - Oggo: Position=216.10, Speed=107.70, Finished=False
+2025-05-15 17:52:16,865 - INFO - Dumpstar: Position=218.98, Speed=111.77, Finished=False
+2025-05-15 17:52:16,865 - INFO - Yannix: Position=165.08, Speed=84.49, Finished=False
+2025-05-15 17:52:16,865 - INFO - Yo-Yo: Position=226.95, Speed=119.99, Finished=False
+2025-05-15 17:52:16,866 - INFO - Vamp: Position=172.09, Speed=85.81, Finished=False
+2025-05-15 17:52:17,875 - INFO - 
+Time: 3.0s
+2025-05-15 17:52:17,875 - INFO - Oggo: Position=314.71, Speed=90.40, Finished=False
+2025-05-15 17:52:17,876 - INFO - Dumpstar: Position=326.99, Speed=104.75, Finished=False
+2025-05-15 17:52:17,876 - INFO - Yannix: Position=251.64, Speed=99.16, Finished=False
+2025-05-15 17:52:17,876 - INFO - Yo-Yo: Position=348.14, Speed=119.99, Finished=False
+2025-05-15 17:52:17,876 - INFO - Vamp: Position=258.76, Speed=85.81, Finished=False
+2025-05-15 17:52:18,879 - INFO - 
+Time: 4.0s
+2025-05-15 17:52:18,879 - INFO - Oggo: Position=405.47, Speed=90.40, Finished=False
+2025-05-15 17:52:18,879 - INFO - Dumpstar: Position=432.16, Speed=104.75, Finished=False
+2025-05-15 17:52:18,880 - INFO - Yannix: Position=351.20, Speed=99.16, Finished=False
+2025-05-15 17:52:18,880 - INFO - Yo-Yo: Position=468.60, Speed=119.99, Finished=False
+2025-05-15 17:52:18,880 - INFO - Vamp: Position=344.91, Speed=85.81, Finished=False
+2025-05-15 17:52:19,881 - INFO - 
+Time: 5.0s
+2025-05-15 17:52:19,881 - INFO - Oggo: Position=503.35, Speed=109.02, Finished=False
+2025-05-15 17:52:19,881 - INFO - Dumpstar: Position=543.49, Speed=111.47, Finished=False
+2025-05-15 17:52:19,881 - INFO - Yannix: Position=450.56, Speed=99.16, Finished=False
+2025-05-15 17:52:19,882 - INFO - Yo-Yo: Position=582.46, Speed=113.42, Finished=False
+2025-05-15 17:52:19,882 - INFO - Vamp: Position=436.54, Speed=93.49, Finished=False
+2025-05-15 17:52:20,884 - INFO - 
+Time: 6.0s
+2025-05-15 17:52:20,884 - INFO - Oggo: Position=612.69, Speed=109.02, Finished=False
+2025-05-15 17:52:20,884 - INFO - Dumpstar: Position=650.86, Speed=95.55, Finished=False
+2025-05-15 17:52:20,885 - INFO - Yannix: Position=550.02, Speed=99.16, Finished=False
+2025-05-15 17:52:20,885 - INFO - Yo-Yo: Position=688.30, Speed=115.54, Finished=False
+2025-05-15 17:52:20,885 - INFO - Vamp: Position=530.32, Speed=93.49, Finished=False
+2025-05-15 17:52:21,899 - INFO - 
+Time: 7.0s
+2025-05-15 17:52:21,899 - INFO - Oggo: Position=723.34, Speed=109.02, Finished=False
+2025-05-15 17:52:21,899 - INFO - Dumpstar: Position=747.84, Speed=95.55, Finished=False
+2025-05-15 17:52:21,900 - INFO - Yannix: Position=653.11, Speed=114.49, Finished=False
+2025-05-15 17:52:21,900 - INFO - Yo-Yo: Position=804.90, Speed=111.69, Finished=False
+2025-05-15 17:52:21,900 - INFO - Vamp: Position=625.21, Speed=93.49, Finished=False
+2025-05-15 17:52:22,911 - INFO - 
+Time: 8.1s
+2025-05-15 17:52:22,911 - INFO - Oggo: Position=824.22, Speed=86.64, Finished=False
+2025-05-15 17:52:22,911 - INFO - Dumpstar: Position=839.96, Speed=88.91, Finished=False
+2025-05-15 17:52:22,912 - INFO - Yannix: Position=769.09, Speed=114.49, Finished=False
+2025-05-15 17:52:22,912 - INFO - Yo-Yo: Position=904.58, Speed=96.19, Finished=False
+2025-05-15 17:52:22,912 - INFO - Vamp: Position=732.10, Speed=116.59, Finished=False
+2025-05-15 17:52:23,916 - INFO - 
+Time: 9.1s
+2025-05-15 17:52:23,916 - INFO - Oggo: Position=911.44, Speed=87.04, Finished=False
+2025-05-15 17:52:23,917 - INFO - Dumpstar: Position=944.66, Speed=109.85, Finished=False
+2025-05-15 17:52:23,917 - INFO - Yannix: Position=884.03, Speed=114.49, Finished=False
+2025-05-15 17:52:23,917 - INFO - Yo-Yo: Position=1001.16, Speed=96.19, Finished=False
+2025-05-15 17:52:23,918 - INFO - Vamp: Position=849.16, Speed=116.59, Finished=False
+2025-05-15 17:52:24,929 - INFO - 
+Time: 10.1s
+2025-05-15 17:52:24,929 - INFO - Oggo: Position=1009.36, Speed=99.07, Finished=False
+2025-05-15 17:52:24,930 - INFO - Dumpstar: Position=1056.06, Speed=109.85, Finished=False
+2025-05-15 17:52:24,930 - INFO - Yannix: Position=1000.12, Speed=114.49, Finished=False
+2025-05-15 17:52:24,930 - INFO - Yo-Yo: Position=1098.69, Speed=96.19, Finished=False
+2025-05-15 17:52:24,931 - INFO - Vamp: Position=955.56, Speed=95.41, Finished=False
+2025-05-15 17:52:25,935 - INFO - 
+Time: 11.1s
+2025-05-15 17:52:25,935 - INFO - Oggo: Position=1104.12, Speed=89.32, Finished=False
+2025-05-15 17:52:25,935 - INFO - Dumpstar: Position=1166.46, Speed=109.85, Finished=False
+2025-05-15 17:52:25,936 - INFO - Yannix: Position=1115.18, Speed=114.49, Finished=False
+2025-05-15 17:52:25,936 - INFO - Yo-Yo: Position=1199.71, Speed=111.58, Finished=False
+2025-05-15 17:52:25,936 - INFO - Vamp: Position=1051.45, Speed=95.41, Finished=False
+2025-05-15 17:52:26,939 - INFO - 
+Time: 12.1s
+2025-05-15 17:52:26,940 - INFO - Oggo: Position=1192.71, Speed=87.11, Finished=False
+2025-05-15 17:52:26,940 - INFO - Dumpstar: Position=1276.75, Speed=109.85, Finished=False
+2025-05-15 17:52:26,940 - INFO - Yannix: Position=1227.69, Speed=93.54, Finished=False
+2025-05-15 17:52:26,941 - INFO - Yo-Yo: Position=1311.73, Speed=111.58, Finished=False
+2025-05-15 17:52:26,941 - INFO - Vamp: Position=1142.73, Speed=88.56, Finished=False
+2025-05-15 17:52:27,940 - INFO - 
+Time: 13.1s
+2025-05-15 17:52:27,940 - INFO - Oggo: Position=1276.19, Speed=81.83, Finished=False
+2025-05-15 17:52:27,941 - INFO - Dumpstar: Position=1386.72, Speed=109.85, Finished=False
+2025-05-15 17:52:27,941 - INFO - Yannix: Position=1321.78, Speed=103.62, Finished=False
+2025-05-15 17:52:27,941 - INFO - Yo-Yo: Position=1423.43, Speed=111.58, Finished=False
+2025-05-15 17:52:27,942 - INFO - Vamp: Position=1241.90, Speed=91.43, Finished=False
+2025-05-15 17:52:28,939 - INFO - 
+Time: 14.1s
+2025-05-15 17:52:28,939 - INFO - Oggo: Position=1358.02, Speed=81.83, Finished=False
+2025-05-15 17:52:28,940 - INFO - Dumpstar: Position=1496.57, Speed=109.85, Finished=False
+2025-05-15 17:52:28,940 - INFO - Yannix: Position=1425.40, Speed=103.62, Finished=False
+2025-05-15 17:52:28,941 - INFO - Yo-Yo: Position=1500.00, Speed=81.34, Finished=True
+2025-05-15 17:52:28,941 - INFO - Vamp: Position=1348.44, Speed=109.25, Finished=False
+2025-05-15 17:52:29,951 - INFO - 
+Time: 15.1s
+2025-05-15 17:52:29,952 - INFO - Oggo: Position=1440.83, Speed=81.83, Finished=False
+2025-05-15 17:52:29,952 - INFO - Dumpstar: Position=1500.00, Speed=109.85, Finished=True
+2025-05-15 17:52:29,952 - INFO - Yannix: Position=1500.00, Speed=103.62, Finished=True
+2025-05-15 17:52:29,953 - INFO - Yo-Yo: Position=1500.00, Speed=81.34, Finished=True
+2025-05-15 17:52:29,953 - INFO - Vamp: Position=1459.00, Speed=109.25, Finished=False
+2025-05-15 17:52:30,679 - INFO - 
+Race #4 finished! Finish order:
+2025-05-15 17:52:30,679 - INFO - 1. Yo-Yo: Avg Speed=108.78
+2025-05-15 17:52:30,679 - INFO - 2. Dumpstar: Avg Speed=106.37
+2025-05-15 17:52:30,680 - INFO - 3. Yannix: Avg Speed=101.37
+2025-05-15 17:52:30,680 - INFO - 4. Vamp: Avg Speed=97.02
+2025-05-15 17:52:30,680 - INFO - 5. Oggo: Avg Speed=94.89
+2025-05-15 17:52:30,680 - INFO - Selected winner: Yo-Yo with avg speed 108.78
+2025-05-15 17:52:30,681 - INFO - Yo-Yo finished 1st: +10 points, total=35, wins=2
+2025-05-15 17:52:30,681 - INFO - Dumpstar finished 2nd: +9 points, total=34, wins=1
+2025-05-15 17:52:30,681 - INFO - Yannix finished 3rd: +8 points, total=28, wins=0
+2025-05-15 17:52:30,681 - INFO - Vamp finished 4th: +7 points, total=33, wins=1
+2025-05-15 17:52:30,682 - INFO - Oggo finished 5th: +6 points, total=30, wins=0
+2025-05-15 17:52:30,688 - INFO - Race #4 Winner: Yo-Yo
+2025-05-15 17:52:30,689 - INFO - 
+--- Starting Race #5 ---
+2025-05-15 17:52:31,690 - INFO - 
+Time: 1.0s
+2025-05-15 17:52:31,690 - INFO - Oggo: Position=107.90, Speed=109.13, Finished=False
+2025-05-15 17:52:31,691 - INFO - Dumpstar: Position=105.62, Speed=105.62, Finished=False
+2025-05-15 17:52:31,691 - INFO - Yannix: Position=105.39, Speed=105.36, Finished=False
+2025-05-15 17:52:31,691 - INFO - Yo-Yo: Position=107.19, Speed=98.09, Finished=False
+2025-05-15 17:52:31,692 - INFO - Vamp: Position=91.44, Speed=91.44, Finished=False
+2025-05-15 17:52:32,694 - INFO - 
+Time: 2.0s
+2025-05-15 17:52:32,694 - INFO - Oggo: Position=219.63, Speed=111.81, Finished=False
+2025-05-15 17:52:32,694 - INFO - Dumpstar: Position=211.66, Speed=105.62, Finished=False
+2025-05-15 17:52:32,695 - INFO - Yannix: Position=211.17, Speed=105.36, Finished=False
+2025-05-15 17:52:32,695 - INFO - Yo-Yo: Position=204.97, Speed=92.84, Finished=False
+2025-05-15 17:52:32,695 - INFO - Vamp: Position=183.25, Speed=91.44, Finished=False
+2025-05-15 17:52:33,704 - INFO - 
+Time: 3.0s
+2025-05-15 17:52:33,705 - INFO - Oggo: Position=332.66, Speed=111.81, Finished=False
+2025-05-15 17:52:33,705 - INFO - Dumpstar: Position=318.44, Speed=105.62, Finished=False
+2025-05-15 17:52:33,705 - INFO - Yannix: Position=317.69, Speed=105.36, Finished=False
+2025-05-15 17:52:33,706 - INFO - Yo-Yo: Position=298.84, Speed=92.84, Finished=False
+2025-05-15 17:52:33,706 - INFO - Vamp: Position=278.63, Speed=101.19, Finished=False
+2025-05-15 17:52:34,715 - INFO - 
+Time: 4.0s
+2025-05-15 17:52:34,715 - INFO - Oggo: Position=445.59, Speed=111.81, Finished=False
+2025-05-15 17:52:34,715 - INFO - Dumpstar: Position=426.58, Speed=108.00, Finished=False
+2025-05-15 17:52:34,716 - INFO - Yannix: Position=424.11, Speed=105.36, Finished=False
+2025-05-15 17:52:34,716 - INFO - Yo-Yo: Position=392.61, Speed=92.84, Finished=False
+2025-05-15 17:52:34,716 - INFO - Vamp: Position=382.00, Speed=102.63, Finished=False
+2025-05-15 17:52:35,718 - INFO - 
+Time: 5.0s
+2025-05-15 17:52:35,719 - INFO - Oggo: Position=556.70, Speed=102.77, Finished=False
+2025-05-15 17:52:35,720 - INFO - Dumpstar: Position=534.90, Speed=108.00, Finished=False
+2025-05-15 17:52:35,720 - INFO - Yannix: Position=519.84, Speed=81.15, Finished=False
+2025-05-15 17:52:35,720 - INFO - Yo-Yo: Position=485.73, Speed=92.84, Finished=False
+2025-05-15 17:52:35,721 - INFO - Vamp: Position=484.93, Speed=102.63, Finished=False
+2025-05-15 17:52:36,719 - INFO - 
+Time: 6.0s
+2025-05-15 17:52:36,719 - INFO - Oggo: Position=658.38, Speed=97.55, Finished=False
+2025-05-15 17:52:36,720 - INFO - Dumpstar: Position=642.83, Speed=111.02, Finished=False
+2025-05-15 17:52:36,720 - INFO - Yannix: Position=601.07, Speed=81.15, Finished=False
+2025-05-15 17:52:36,720 - INFO - Yo-Yo: Position=578.37, Speed=91.56, Finished=False
+2025-05-15 17:52:36,721 - INFO - Vamp: Position=587.66, Speed=102.63, Finished=False
+2025-05-15 17:52:37,730 - INFO - 
+Time: 7.0s
+2025-05-15 17:52:37,730 - INFO - Oggo: Position=757.12, Speed=96.09, Finished=False
+2025-05-15 17:52:37,731 - INFO - Dumpstar: Position=750.82, Speed=109.58, Finished=False
+2025-05-15 17:52:37,731 - INFO - Yannix: Position=683.19, Speed=81.15, Finished=False
+2025-05-15 17:52:37,731 - INFO - Yo-Yo: Position=671.03, Speed=91.56, Finished=False
+2025-05-15 17:52:37,732 - INFO - Vamp: Position=691.52, Speed=102.63, Finished=False
+2025-05-15 17:52:38,733 - INFO - 
+Time: 8.0s
+2025-05-15 17:52:38,733 - INFO - Oggo: Position=853.90, Speed=109.58, Finished=False
+2025-05-15 17:52:38,734 - INFO - Dumpstar: Position=860.73, Speed=109.58, Finished=False
+2025-05-15 17:52:38,734 - INFO - Yannix: Position=764.58, Speed=81.15, Finished=False
+2025-05-15 17:52:38,735 - INFO - Yo-Yo: Position=773.83, Speed=113.73, Finished=False
+2025-05-15 17:52:38,735 - INFO - Vamp: Position=794.46, Speed=102.63, Finished=False
+2025-05-15 17:52:39,737 - INFO - 
+Time: 9.0s
+2025-05-15 17:52:39,738 - INFO - Oggo: Position=963.00, Speed=104.17, Finished=False
+2025-05-15 17:52:39,738 - INFO - Dumpstar: Position=962.33, Speed=100.56, Finished=False
+2025-05-15 17:52:39,738 - INFO - Yannix: Position=854.27, Speed=99.06, Finished=False
+2025-05-15 17:52:39,738 - INFO - Yo-Yo: Position=887.90, Speed=113.73, Finished=False
+2025-05-15 17:52:39,738 - INFO - Vamp: Position=882.22, Speed=81.79, Finished=False
+2025-05-15 17:52:40,739 - INFO - 
+Time: 10.0s
+2025-05-15 17:52:40,739 - INFO - Oggo: Position=1066.60, Speed=102.17, Finished=False
+2025-05-15 17:52:40,740 - INFO - Dumpstar: Position=1067.63, Speed=105.25, Finished=False
+2025-05-15 17:52:40,740 - INFO - Yannix: Position=953.53, Speed=99.06, Finished=False
+2025-05-15 17:52:40,740 - INFO - Yo-Yo: Position=1004.07, Speed=103.73, Finished=False
+2025-05-15 17:52:40,741 - INFO - Vamp: Position=964.30, Speed=88.78, Finished=False
+2025-05-15 17:52:41,747 - INFO - 
+Time: 11.1s
+2025-05-15 17:52:41,748 - INFO - Oggo: Position=1170.87, Speed=104.33, Finished=False
+2025-05-15 17:52:41,749 - INFO - Dumpstar: Position=1173.72, Speed=105.25, Finished=False
+2025-05-15 17:52:41,749 - INFO - Yannix: Position=1055.72, Speed=112.15, Finished=False
+2025-05-15 17:52:41,750 - INFO - Yo-Yo: Position=1108.63, Speed=103.73, Finished=False
+2025-05-15 17:52:41,750 - INFO - Vamp: Position=1054.69, Speed=89.81, Finished=False
+2025-05-15 17:52:42,749 - INFO - 
+Time: 12.1s
+2025-05-15 17:52:42,750 - INFO - Oggo: Position=1272.98, Speed=91.53, Finished=False
+2025-05-15 17:52:42,750 - INFO - Dumpstar: Position=1279.29, Speed=105.25, Finished=False
+2025-05-15 17:52:42,750 - INFO - Yannix: Position=1149.75, Speed=92.45, Finished=False
+2025-05-15 17:52:42,751 - INFO - Yo-Yo: Position=1212.67, Speed=103.73, Finished=False
+2025-05-15 17:52:42,751 - INFO - Vamp: Position=1158.52, Speed=108.71, Finished=False
+2025-05-15 17:52:43,756 - INFO - 
+Time: 13.1s
+2025-05-15 17:52:43,757 - INFO - Oggo: Position=1365.14, Speed=91.53, Finished=False
+2025-05-15 17:52:43,757 - INFO - Dumpstar: Position=1385.28, Speed=105.25, Finished=False
+2025-05-15 17:52:43,757 - INFO - Yannix: Position=1241.30, Speed=89.21, Finished=False
+2025-05-15 17:52:43,759 - INFO - Yo-Yo: Position=1319.95, Speed=117.11, Finished=False
+2025-05-15 17:52:43,759 - INFO - Vamp: Position=1267.99, Speed=108.71, Finished=False
+2025-05-15 17:52:44,771 - INFO - 
+Time: 14.1s
+2025-05-15 17:52:44,771 - INFO - Oggo: Position=1457.95, Speed=91.53, Finished=False
+2025-05-15 17:52:44,771 - INFO - Dumpstar: Position=1492.86, Speed=106.95, Finished=False
+2025-05-15 17:52:44,771 - INFO - Yannix: Position=1331.76, Speed=89.21, Finished=False
+2025-05-15 17:52:44,772 - INFO - Yo-Yo: Position=1432.27, Speed=107.49, Finished=False
+2025-05-15 17:52:44,772 - INFO - Vamp: Position=1371.51, Speed=100.80, Finished=False
+2025-05-15 17:52:45,772 - INFO - 
+Time: 15.1s
+2025-05-15 17:52:45,772 - INFO - Oggo: Position=1500.00, Speed=91.53, Finished=True
+2025-05-15 17:52:45,773 - INFO - Dumpstar: Position=1500.00, Speed=106.95, Finished=True
+2025-05-15 17:52:45,773 - INFO - Yannix: Position=1421.15, Speed=89.21, Finished=False
+2025-05-15 17:52:45,773 - INFO - Yo-Yo: Position=1500.00, Speed=107.49, Finished=True
+2025-05-15 17:52:45,773 - INFO - Vamp: Position=1468.81, Speed=96.48, Finished=False
+2025-05-15 17:52:46,672 - INFO - 
+Race #5 finished! Finish order:
+2025-05-15 17:52:46,672 - INFO - 1. Dumpstar: Avg Speed=106.04
+2025-05-15 17:52:46,673 - INFO - 2. Oggo: Avg Speed=103.17
+2025-05-15 17:52:46,673 - INFO - 3. Yo-Yo: Avg Speed=102.01
+2025-05-15 17:52:46,673 - INFO - 4. Vamp: Avg Speed=97.53
+2025-05-15 17:52:46,674 - INFO - 5. Yannix: Avg Speed=93.95
+2025-05-15 17:52:46,674 - INFO - Selected winner: Dumpstar with avg speed 106.04
+2025-05-15 17:52:46,674 - INFO - Dumpstar finished 1st: +10 points, total=44, wins=2
+2025-05-15 17:52:46,674 - INFO - Oggo finished 2nd: +9 points, total=39, wins=0
+2025-05-15 17:52:46,675 - INFO - Yo-Yo finished 3rd: +8 points, total=43, wins=2
+2025-05-15 17:52:46,675 - INFO - Vamp finished 4th: +7 points, total=40, wins=1
+2025-05-15 17:52:46,675 - INFO - Yannix finished 5th: +6 points, total=34, wins=0
+2025-05-15 17:52:46,682 - INFO - Race #5 Winner: Dumpstar
+2025-05-15 17:52:46,682 - INFO - 
+--- Starting Race #6 ---
+2025-05-15 17:52:47,698 - INFO - 
+Time: 1.0s
+2025-05-15 17:52:47,698 - INFO - Oggo: Position=87.56, Speed=86.35, Finished=False
+2025-05-15 17:52:47,699 - INFO - Dumpstar: Position=88.17, Speed=86.95, Finished=False
+2025-05-15 17:52:47,699 - INFO - Yannix: Position=90.01, Speed=88.76, Finished=False
+2025-05-15 17:52:47,699 - INFO - Yo-Yo: Position=93.91, Speed=92.62, Finished=False
+2025-05-15 17:52:47,700 - INFO - Vamp: Position=107.52, Speed=115.34, Finished=False
+2025-05-15 17:52:48,704 - INFO - 
+Time: 2.0s
+2025-05-15 17:52:48,704 - INFO - Oggo: Position=198.87, Speed=118.68, Finished=False
+2025-05-15 17:52:48,705 - INFO - Dumpstar: Position=175.65, Speed=86.95, Finished=False
+2025-05-15 17:52:48,705 - INFO - Yannix: Position=179.30, Speed=88.76, Finished=False
+2025-05-15 17:52:48,705 - INFO - Yo-Yo: Position=187.09, Speed=92.62, Finished=False
+2025-05-15 17:52:48,706 - INFO - Vamp: Position=223.55, Speed=115.34, Finished=False
+2025-05-15 17:52:49,709 - INFO - 
+Time: 3.0s
+2025-05-15 17:52:49,709 - INFO - Oggo: Position=296.77, Speed=95.81, Finished=False
+2025-05-15 17:52:49,710 - INFO - Dumpstar: Position=258.26, Speed=80.43, Finished=False
+2025-05-15 17:52:49,710 - INFO - Yannix: Position=278.33, Speed=115.41, Finished=False
+2025-05-15 17:52:49,711 - INFO - Yo-Yo: Position=280.26, Speed=92.62, Finished=False
+2025-05-15 17:52:49,711 - INFO - Vamp: Position=321.23, Speed=89.68, Finished=False
+2025-05-15 17:52:50,715 - INFO - 
+Time: 4.0s
+2025-05-15 17:52:50,715 - INFO - Oggo: Position=390.74, Speed=90.90, Finished=False
+2025-05-15 17:52:50,716 - INFO - Dumpstar: Position=339.10, Speed=80.43, Finished=False
+2025-05-15 17:52:50,716 - INFO - Yannix: Position=394.31, Speed=115.41, Finished=False
+2025-05-15 17:52:50,716 - INFO - Yo-Yo: Position=376.14, Speed=113.65, Finished=False
+2025-05-15 17:52:50,717 - INFO - Vamp: Position=411.36, Speed=89.68, Finished=False
+2025-05-15 17:52:51,719 - INFO - 
+Time: 5.0s
+2025-05-15 17:52:51,719 - INFO - Oggo: Position=485.02, Speed=94.43, Finished=False
+2025-05-15 17:52:51,720 - INFO - Dumpstar: Position=435.05, Speed=115.43, Finished=False
+2025-05-15 17:52:51,720 - INFO - Yannix: Position=510.30, Speed=115.41, Finished=False
+2025-05-15 17:52:51,721 - INFO - Yo-Yo: Position=487.06, Speed=98.40, Finished=False
+2025-05-15 17:52:51,721 - INFO - Vamp: Position=501.48, Speed=89.68, Finished=False
+2025-05-15 17:52:52,723 - INFO - 
+Time: 6.0s
+2025-05-15 17:52:52,723 - INFO - Oggo: Position=583.17, Speed=89.89, Finished=False
+2025-05-15 17:52:52,724 - INFO - Dumpstar: Position=550.83, Speed=115.43, Finished=False
+2025-05-15 17:52:52,724 - INFO - Yannix: Position=626.06, Speed=115.41, Finished=False
+2025-05-15 17:52:52,724 - INFO - Yo-Yo: Position=579.76, Speed=82.52, Finished=False
+2025-05-15 17:52:52,725 - INFO - Vamp: Position=591.43, Speed=89.68, Finished=False
+2025-05-15 17:52:53,724 - INFO - 
+Time: 7.0s
+2025-05-15 17:52:53,724 - INFO - Oggo: Position=673.15, Speed=89.89, Finished=False
+2025-05-15 17:52:53,725 - INFO - Dumpstar: Position=659.92, Speed=92.31, Finished=False
+2025-05-15 17:52:53,725 - INFO - Yannix: Position=741.58, Speed=115.41, Finished=False
+2025-05-15 17:52:53,725 - INFO - Yo-Yo: Position=680.02, Speed=96.37, Finished=False
+2025-05-15 17:52:53,726 - INFO - Vamp: Position=681.20, Speed=89.68, Finished=False
+2025-05-15 17:52:54,726 - INFO - 
+Time: 8.0s
+2025-05-15 17:52:54,726 - INFO - Oggo: Position=763.30, Speed=89.89, Finished=False
+2025-05-15 17:52:54,727 - INFO - Dumpstar: Position=752.51, Speed=92.31, Finished=False
+2025-05-15 17:52:54,727 - INFO - Yannix: Position=857.34, Speed=115.41, Finished=False
+2025-05-15 17:52:54,728 - INFO - Yo-Yo: Position=776.67, Speed=96.37, Finished=False
+2025-05-15 17:52:54,728 - INFO - Vamp: Position=771.15, Speed=89.68, Finished=False
+2025-05-15 17:52:55,738 - INFO - 
+Time: 9.1s
+2025-05-15 17:52:55,738 - INFO - Oggo: Position=854.18, Speed=89.89, Finished=False
+2025-05-15 17:52:55,739 - INFO - Dumpstar: Position=863.02, Speed=117.50, Finished=False
+2025-05-15 17:52:55,739 - INFO - Yannix: Position=965.77, Speed=85.50, Finished=False
+2025-05-15 17:52:55,739 - INFO - Yo-Yo: Position=874.10, Speed=96.37, Finished=False
+2025-05-15 17:52:55,740 - INFO - Vamp: Position=861.81, Speed=89.68, Finished=False
+2025-05-15 17:52:56,749 - INFO - 
+Time: 10.1s
+2025-05-15 17:52:56,749 - INFO - Oggo: Position=948.90, Speed=99.15, Finished=False
+2025-05-15 17:52:56,749 - INFO - Dumpstar: Position=977.71, Speed=111.76, Finished=False
+2025-05-15 17:52:56,750 - INFO - Yannix: Position=1052.21, Speed=82.60, Finished=False
+2025-05-15 17:52:56,750 - INFO - Yo-Yo: Position=971.53, Speed=96.37, Finished=False
+2025-05-15 17:52:56,750 - INFO - Vamp: Position=974.99, Speed=113.68, Finished=False
+2025-05-15 17:52:57,759 - INFO - 
+Time: 11.1s
+2025-05-15 17:52:57,759 - INFO - Oggo: Position=1048.67, Speed=98.68, Finished=False
+2025-05-15 17:52:57,760 - INFO - Dumpstar: Position=1090.70, Speed=111.76, Finished=False
+2025-05-15 17:52:57,760 - INFO - Yannix: Position=1135.71, Speed=82.60, Finished=False
+2025-05-15 17:52:57,760 - INFO - Yo-Yo: Position=1068.96, Speed=96.37, Finished=False
+2025-05-15 17:52:57,761 - INFO - Vamp: Position=1089.92, Speed=113.68, Finished=False
+2025-05-15 17:52:58,776 - INFO - 
+Time: 12.1s
+2025-05-15 17:52:58,776 - INFO - Oggo: Position=1148.93, Speed=98.68, Finished=False
+2025-05-15 17:52:58,776 - INFO - Dumpstar: Position=1203.79, Speed=105.11, Finished=False
+2025-05-15 17:52:58,776 - INFO - Yannix: Position=1219.78, Speed=82.91, Finished=False
+2025-05-15 17:52:58,777 - INFO - Yo-Yo: Position=1166.87, Speed=96.37, Finished=False
+2025-05-15 17:52:58,777 - INFO - Vamp: Position=1205.42, Speed=113.68, Finished=False
+2025-05-15 17:52:59,786 - INFO - 
+Time: 13.1s
+2025-05-15 17:52:59,786 - INFO - Oggo: Position=1252.84, Speed=103.42, Finished=False
+2025-05-15 17:52:59,787 - INFO - Dumpstar: Position=1309.96, Speed=105.11, Finished=False
+2025-05-15 17:52:59,787 - INFO - Yannix: Position=1303.52, Speed=82.91, Finished=False
+2025-05-15 17:52:59,787 - INFO - Yo-Yo: Position=1265.32, Speed=98.15, Finished=False
+2025-05-15 17:52:59,788 - INFO - Vamp: Position=1304.66, Speed=92.33, Finished=False
+2025-05-15 17:53:00,799 - INFO - 
+Time: 14.1s
+2025-05-15 17:53:00,799 - INFO - Oggo: Position=1358.58, Speed=109.20, Finished=False
+2025-05-15 17:53:00,799 - INFO - Dumpstar: Position=1416.54, Speed=105.11, Finished=False
+2025-05-15 17:53:00,800 - INFO - Yannix: Position=1387.59, Speed=82.91, Finished=False
+2025-05-15 17:53:00,800 - INFO - Yo-Yo: Position=1367.06, Speed=116.99, Finished=False
+2025-05-15 17:53:00,800 - INFO - Vamp: Position=1400.53, Speed=105.96, Finished=False
+2025-05-15 17:53:01,808 - INFO - 
+Time: 15.1s
+2025-05-15 17:53:01,808 - INFO - Oggo: Position=1468.65, Speed=109.20, Finished=False
+2025-05-15 17:53:01,808 - INFO - Dumpstar: Position=1500.00, Speed=105.11, Finished=True
+2025-05-15 17:53:01,809 - INFO - Yannix: Position=1472.46, Speed=96.36, Finished=False
+2025-05-15 17:53:01,809 - INFO - Yo-Yo: Position=1484.98, Speed=116.99, Finished=False
+2025-05-15 17:53:01,809 - INFO - Vamp: Position=1496.54, Speed=113.27, Finished=False
+2025-05-15 17:53:02,103 - INFO - 
+Race #6 finished! Finish order:
+2025-05-15 17:53:02,103 - INFO - 1. Dumpstar: Avg Speed=100.60
+2025-05-15 17:53:02,104 - INFO - 2. Vamp: Avg Speed=99.08
+2025-05-15 17:53:02,104 - INFO - 3. Yo-Yo: Avg Speed=98.44
+2025-05-15 17:53:02,104 - INFO - 4. Oggo: Avg Speed=97.39
+2025-05-15 17:53:02,105 - INFO - 5. Yannix: Avg Speed=97.39
+2025-05-15 17:53:02,137 - INFO - Selected winner: Dumpstar with avg speed 100.60
+2025-05-15 17:53:02,142 - INFO - Dumpstar finished 1st: +10 points, total=54, wins=3
+2025-05-15 17:53:02,170 - INFO - Vamp finished 2nd: +9 points, total=49, wins=1
+2025-05-15 17:53:02,171 - INFO - Yo-Yo finished 3rd: +8 points, total=51, wins=2
+2025-05-15 17:53:02,171 - INFO - Oggo finished 4th: +7 points, total=46, wins=0
+2025-05-15 17:53:02,172 - INFO - Yannix finished 5th: +6 points, total=40, wins=0
+2025-05-15 17:53:02,179 - INFO - Race #6 Winner: Dumpstar
+2025-05-15 17:53:02,180 - INFO - 
+--- Starting Race #7 ---
+2025-05-15 17:53:03,195 - INFO - 
+Time: 1.0s
+2025-05-15 17:53:03,195 - INFO - Oggo: Position=83.77, Speed=84.15, Finished=False
+2025-05-15 17:53:03,195 - INFO - Dumpstar: Position=94.46, Speed=90.04, Finished=False
+2025-05-15 17:53:03,196 - INFO - Yannix: Position=116.81, Speed=115.43, Finished=False
+2025-05-15 17:53:03,196 - INFO - Yo-Yo: Position=118.32, Speed=114.85, Finished=False
+2025-05-15 17:53:03,196 - INFO - Vamp: Position=92.95, Speed=91.85, Finished=False
+2025-05-15 17:53:04,208 - INFO - 
+Time: 2.0s
+2025-05-15 17:53:04,208 - INFO - Oggo: Position=169.89, Speed=89.34, Finished=False
+2025-05-15 17:53:04,208 - INFO - Dumpstar: Position=185.68, Speed=90.04, Finished=False
+2025-05-15 17:53:04,209 - INFO - Yannix: Position=233.74, Speed=115.43, Finished=False
+2025-05-15 17:53:04,209 - INFO - Yo-Yo: Position=216.71, Speed=90.40, Finished=False
+2025-05-15 17:53:04,209 - INFO - Vamp: Position=186.00, Speed=91.85, Finished=False
+2025-05-15 17:53:05,223 - INFO - 
+Time: 3.0s
+2025-05-15 17:53:05,223 - INFO - Oggo: Position=275.88, Speed=105.74, Finished=False
+2025-05-15 17:53:05,224 - INFO - Dumpstar: Position=279.31, Speed=93.22, Finished=False
+2025-05-15 17:53:05,224 - INFO - Yannix: Position=350.90, Speed=115.43, Finished=False
+2025-05-15 17:53:05,224 - INFO - Yo-Yo: Position=301.47, Speed=82.78, Finished=False
+2025-05-15 17:53:05,225 - INFO - Vamp: Position=277.74, Speed=89.25, Finished=False
+2025-05-15 17:53:06,237 - INFO - 
+Time: 4.1s
+2025-05-15 17:53:06,238 - INFO - Oggo: Position=383.10, Speed=105.74, Finished=False
+2025-05-15 17:53:06,238 - INFO - Dumpstar: Position=385.22, Speed=110.82, Finished=False
+2025-05-15 17:53:06,238 - INFO - Yannix: Position=467.94, Speed=115.43, Finished=False
+2025-05-15 17:53:06,238 - INFO - Yo-Yo: Position=394.01, Speed=119.34, Finished=False
+2025-05-15 17:53:06,239 - INFO - Vamp: Position=368.24, Speed=89.25, Finished=False
+2025-05-15 17:53:07,240 - INFO - 
+Time: 5.1s
+2025-05-15 17:53:07,240 - INFO - Oggo: Position=489.26, Speed=105.74, Finished=False
+2025-05-15 17:53:07,241 - INFO - Dumpstar: Position=492.86, Speed=118.71, Finished=False
+2025-05-15 17:53:07,241 - INFO - Yannix: Position=583.83, Speed=115.43, Finished=False
+2025-05-15 17:53:07,241 - INFO - Yo-Yo: Position=513.83, Speed=119.34, Finished=False
+2025-05-15 17:53:07,242 - INFO - Vamp: Position=457.85, Speed=89.25, Finished=False
+2025-05-15 17:53:08,252 - INFO - 
+Time: 6.1s
+2025-05-15 17:53:08,253 - INFO - Oggo: Position=585.47, Speed=114.39, Finished=False
+2025-05-15 17:53:08,253 - INFO - Dumpstar: Position=602.23, Speed=96.39, Finished=False
+2025-05-15 17:53:08,254 - INFO - Yannix: Position=697.57, Speed=105.37, Finished=False
+2025-05-15 17:53:08,254 - INFO - Yo-Yo: Position=630.63, Speed=116.14, Finished=False
+2025-05-15 17:53:08,254 - INFO - Vamp: Position=571.05, Speed=113.58, Finished=False
+2025-05-15 17:53:09,255 - INFO - 
+Time: 7.1s
+2025-05-15 17:53:09,255 - INFO - Oggo: Position=698.58, Speed=89.78, Finished=False
+2025-05-15 17:53:09,256 - INFO - Dumpstar: Position=691.16, Speed=86.58, Finished=False
+2025-05-15 17:53:09,256 - INFO - Yannix: Position=803.26, Speed=105.37, Finished=False
+2025-05-15 17:53:09,256 - INFO - Yo-Yo: Position=743.29, Speed=112.26, Finished=False
+2025-05-15 17:53:09,257 - INFO - Vamp: Position=690.32, Speed=119.18, Finished=False
+2025-05-15 17:53:10,258 - INFO - 
+Time: 8.1s
+2025-05-15 17:53:10,258 - INFO - Oggo: Position=788.93, Speed=96.15, Finished=False
+2025-05-15 17:53:10,259 - INFO - Dumpstar: Position=778.09, Speed=86.58, Finished=False
+2025-05-15 17:53:10,259 - INFO - Yannix: Position=909.05, Speed=105.37, Finished=False
+2025-05-15 17:53:10,259 - INFO - Yo-Yo: Position=856.01, Speed=112.26, Finished=False
+2025-05-15 17:53:10,260 - INFO - Vamp: Position=809.97, Speed=119.18, Finished=False
+2025-05-15 17:53:11,266 - INFO - 
+Time: 9.1s
+2025-05-15 17:53:11,266 - INFO - Oggo: Position=885.75, Speed=96.15, Finished=False
+2025-05-15 17:53:11,267 - INFO - Dumpstar: Position=869.49, Speed=94.82, Finished=False
+2025-05-15 17:53:11,267 - INFO - Yannix: Position=1015.17, Speed=105.37, Finished=False
+2025-05-15 17:53:11,268 - INFO - Yo-Yo: Position=969.05, Speed=112.26, Finished=False
+2025-05-15 17:53:11,268 - INFO - Vamp: Position=930.17, Speed=119.72, Finished=False
+2025-05-15 17:53:12,277 - INFO - 
+Time: 10.1s
+2025-05-15 17:53:12,277 - INFO - Oggo: Position=982.96, Speed=96.15, Finished=False
+2025-05-15 17:53:12,277 - INFO - Dumpstar: Position=955.97, Speed=85.39, Finished=False
+2025-05-15 17:53:12,278 - INFO - Yannix: Position=1121.70, Speed=105.37, Finished=False
+2025-05-15 17:53:12,278 - INFO - Yo-Yo: Position=1085.51, Speed=116.50, Finished=False
+2025-05-15 17:53:12,278 - INFO - Vamp: Position=1051.20, Speed=119.72, Finished=False
+2025-05-15 17:53:13,284 - INFO - 
+Time: 11.1s
+2025-05-15 17:53:13,284 - INFO - Oggo: Position=1079.78, Speed=96.15, Finished=False
+2025-05-15 17:53:13,285 - INFO - Dumpstar: Position=1041.96, Speed=85.39, Finished=False
+2025-05-15 17:53:13,285 - INFO - Yannix: Position=1227.81, Speed=105.37, Finished=False
+2025-05-15 17:53:13,285 - INFO - Yo-Yo: Position=1200.60, Speed=113.31, Finished=False
+2025-05-15 17:53:13,286 - INFO - Vamp: Position=1171.76, Speed=119.72, Finished=False
+2025-05-15 17:53:14,293 - INFO - 
+Time: 12.1s
+2025-05-15 17:53:14,293 - INFO - Oggo: Position=1176.89, Speed=96.15, Finished=False
+2025-05-15 17:53:14,293 - INFO - Dumpstar: Position=1128.21, Speed=85.39, Finished=False
+2025-05-15 17:53:14,294 - INFO - Yannix: Position=1334.24, Speed=105.37, Finished=False
+2025-05-15 17:53:14,294 - INFO - Yo-Yo: Position=1315.05, Speed=92.84, Finished=False
+2025-05-15 17:53:14,294 - INFO - Vamp: Position=1288.11, Speed=99.47, Finished=False
+2025-05-15 17:53:15,300 - INFO - 
+Time: 13.1s
+2025-05-15 17:53:15,300 - INFO - Oggo: Position=1264.40, Speed=84.59, Finished=False
+2025-05-15 17:53:15,301 - INFO - Dumpstar: Position=1214.20, Speed=85.39, Finished=False
+2025-05-15 17:53:15,301 - INFO - Yannix: Position=1440.35, Speed=105.37, Finished=False
+2025-05-15 17:53:15,301 - INFO - Yo-Yo: Position=1408.54, Speed=92.84, Finished=False
+2025-05-15 17:53:15,302 - INFO - Vamp: Position=1384.54, Speed=94.76, Finished=False
+2025-05-15 17:53:16,306 - INFO - 
+Time: 14.1s
+2025-05-15 17:53:16,306 - INFO - Oggo: Position=1350.31, Speed=109.01, Finished=False
+2025-05-15 17:53:16,307 - INFO - Dumpstar: Position=1300.02, Speed=85.39, Finished=False
+2025-05-15 17:53:16,307 - INFO - Yannix: Position=1500.00, Speed=105.37, Finished=True
+2025-05-15 17:53:16,307 - INFO - Yo-Yo: Position=1500.00, Speed=92.84, Finished=True
+2025-05-15 17:53:16,308 - INFO - Vamp: Position=1479.78, Speed=94.76, Finished=False
+2025-05-15 17:53:17,321 - INFO - 
+Time: 15.1s
+2025-05-15 17:53:17,322 - INFO - Oggo: Position=1466.20, Speed=117.96, Finished=False
+2025-05-15 17:53:17,322 - INFO - Dumpstar: Position=1404.73, Speed=107.04, Finished=False
+2025-05-15 17:53:17,322 - INFO - Yannix: Position=1500.00, Speed=105.37, Finished=True
+2025-05-15 17:53:17,322 - INFO - Yo-Yo: Position=1500.00, Speed=92.84, Finished=True
+2025-05-15 17:53:17,323 - INFO - Vamp: Position=1500.00, Speed=94.76, Finished=True
+2025-05-15 17:53:18,226 - INFO - 
+Race #7 finished! Finish order:
+2025-05-15 17:53:18,226 - INFO - 1. Yannix: Avg Speed=109.66
+2025-05-15 17:53:18,227 - INFO - 2. Yo-Yo: Avg Speed=106.45
+2025-05-15 17:53:18,227 - INFO - 3. Vamp: Avg Speed=104.74
+2025-05-15 17:53:18,227 - INFO - 4. Oggo: Avg Speed=97.29
+2025-05-15 17:53:18,228 - INFO - 5. Dumpstar: Avg Speed=93.59
+2025-05-15 17:53:18,228 - INFO - Selected winner: Yannix with avg speed 109.66
+2025-05-15 17:53:18,228 - INFO - Yannix finished 1st: +10 points, total=50, wins=1
+2025-05-15 17:53:18,229 - INFO - Yo-Yo finished 2nd: +9 points, total=60, wins=2
+2025-05-15 17:53:18,229 - INFO - Vamp finished 3rd: +8 points, total=57, wins=1
+2025-05-15 17:53:18,229 - INFO - Oggo finished 4th: +7 points, total=53, wins=0
+2025-05-15 17:53:18,230 - INFO - Dumpstar finished 5th: +6 points, total=60, wins=3
+2025-05-15 17:53:18,237 - INFO - Race #7 Winner: Yannix
+2025-05-15 17:53:18,239 - INFO - 
+Tournament Final Rankings:
+2025-05-15 17:53:18,239 - INFO - 1. Dumpstar: Wins=3, Points=60, Avg Speed=103.29
+2025-05-15 17:53:18,240 - INFO - 2. Yo-Yo: Wins=2, Points=60, Avg Speed=102.87
+2025-05-15 17:53:18,240 - INFO - 3. Vamp: Wins=1, Points=57, Avg Speed=101.11
+2025-05-15 17:53:18,241 - INFO - 4. Yannix: Wins=1, Points=50, Avg Speed=98.55
+2025-05-15 17:53:18,242 - INFO - 5. Oggo: Wins=0, Points=53, Avg Speed=98.75
+2025-05-15 17:53:41,214 - INFO - Tournament music stopped (continue).
+2025-05-15 17:53:41,221 - INFO - Sprotos available in selection screen:
+2025-05-15 17:53:41,222 - INFO - - Yannix
+2025-05-15 17:53:41,222 - INFO - - Yo-Yo
+2025-05-15 17:53:41,223 - INFO - - GB
+2025-05-15 17:53:41,223 - INFO - - FHD
+2025-05-15 17:53:41,223 - INFO - - More Light
+2025-05-15 17:53:41,223 - INFO - - Vamp
+2025-05-15 17:53:41,224 - INFO - - Jahon
+2025-05-15 17:53:41,224 - INFO - - ReD
+2025-05-15 17:53:41,224 - INFO - - VMU
+2025-05-15 17:53:41,225 - INFO - - Alpha
+2025-05-15 17:53:41,225 - INFO - - Dumpstar
+2025-05-15 17:53:41,225 - INFO - - KatieCans
+2025-05-15 17:53:41,225 - INFO - - Turbo
+2025-05-15 17:53:41,226 - INFO - - Jovial
+2025-05-15 17:53:41,226 - INFO - - Speed Demon
+2025-05-15 17:53:41,226 - INFO - - Rumble Pak
+2025-05-15 17:53:41,226 - INFO - - Leviosa
+2025-05-15 17:53:41,226 - INFO - - Obama
+2025-05-15 17:53:41,227 - INFO - - Vince
+2025-05-15 17:53:41,227 - INFO - - BPS
+2025-05-15 17:53:41,227 - INFO - - Apache
+2025-05-15 17:53:41,228 - INFO - - OG OBAMA
+2025-05-15 17:53:41,228 - INFO - - Oggo
+2025-05-15 17:53:41,228 - INFO - - BigSwole
+2025-05-15 17:53:41,228 - INFO - - GPM
+2025-05-15 17:53:41,229 - INFO - - YXJI
+2025-05-15 17:53:41,229 - INFO - - Snoo
+2025-05-15 17:53:41,229 - INFO - Selection music loaded but muted.
+2025-05-15 17:54:03,630 - INFO - Selection music stopped.
+2025-05-15 17:54:03,631 - INFO - No sprotos selected or window closed. Exiting.
+2025-05-15 17:58:58,161 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-15 17:58:58,166 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-15 17:58:58,176 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-15 17:58:58,177 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-15 17:58:58,186 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-15 17:58:58,187 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-15 17:58:58,196 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-15 17:58:58,229 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-15 17:58:58,239 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-15 17:58:58,243 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-15 17:58:58,254 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-15 17:58:58,254 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-15 17:58:58,261 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-15 17:58:58,261 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-15 17:58:58,268 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-15 17:58:58,269 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-15 17:58:58,276 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-15 17:58:58,277 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-15 17:58:58,288 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-15 17:58:58,289 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-15 17:58:58,308 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-15 17:58:58,308 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-15 17:58:58,314 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-15 17:58:58,315 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-15 17:58:58,322 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-15 17:58:58,322 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-15 17:58:58,328 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-15 17:58:58,328 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-15 17:58:58,331 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-15 17:58:58,331 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-15 17:58:58,336 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-15 17:58:58,336 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-15 17:58:58,343 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-15 17:58:58,343 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-15 17:58:58,352 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-15 17:58:58,355 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-15 17:58:58,362 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-15 17:58:58,363 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-15 17:58:58,370 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-15 17:58:58,370 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-15 17:58:58,377 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-15 17:58:58,377 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-15 17:58:58,389 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-15 17:58:58,389 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-15 17:58:58,418 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-15 17:58:58,418 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-15 17:58:58,424 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-15 17:58:58,424 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-15 17:58:58,428 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-15 17:58:58,429 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-15 17:58:58,433 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-15 17:58:58,434 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-15 17:58:58,438 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-15 17:58:58,438 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-15 17:58:58,445 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-15 17:58:58,489 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-15 17:58:58,916 - INFO - Available Sprotos:
+2025-05-15 17:58:58,916 - INFO - Yannix
+2025-05-15 17:58:58,917 - INFO - Yo-Yo
+2025-05-15 17:58:58,917 - INFO - GB
+2025-05-15 17:58:58,917 - INFO - FHD
+2025-05-15 17:58:58,918 - INFO - More Light
+2025-05-15 17:58:58,918 - INFO - Vamp
+2025-05-15 17:58:58,919 - INFO - Jahon
+2025-05-15 17:58:58,919 - INFO - ReD
+2025-05-15 17:58:58,919 - INFO - VMU
+2025-05-15 17:58:58,919 - INFO - Alpha
+2025-05-15 17:58:58,920 - INFO - Dumpstar
+2025-05-15 17:58:58,920 - INFO - KatieCans
+2025-05-15 17:58:58,920 - INFO - Turbo
+2025-05-15 17:58:58,920 - INFO - Jovial
+2025-05-15 17:58:58,920 - INFO - Speed Demon
+2025-05-15 17:58:58,920 - INFO - Rumble Pak
+2025-05-15 17:58:58,921 - INFO - Leviosa
+2025-05-15 17:58:58,921 - INFO - Obama
+2025-05-15 17:58:58,921 - INFO - Vince
+2025-05-15 17:58:58,922 - INFO - BPS
+2025-05-15 17:58:58,922 - INFO - Apache
+2025-05-15 17:58:58,922 - INFO - OG OBAMA
+2025-05-15 17:58:58,922 - INFO - Oggo
+2025-05-15 17:58:58,922 - INFO - BigSwole
+2025-05-15 17:58:58,923 - INFO - GPM
+2025-05-15 17:58:58,923 - INFO - YXJI
+2025-05-15 17:58:58,923 - INFO - Snoo
+2025-05-15 17:58:58,928 - INFO - Sprotos available in selection screen:
+2025-05-15 17:58:58,928 - INFO - - Yannix
+2025-05-15 17:58:58,930 - INFO - - Yo-Yo
+2025-05-15 17:58:58,930 - INFO - - GB
+2025-05-15 17:58:58,930 - INFO - - FHD
+2025-05-15 17:58:58,930 - INFO - - More Light
+2025-05-15 17:58:58,931 - INFO - - Vamp
+2025-05-15 17:58:58,931 - INFO - - Jahon
+2025-05-15 17:58:58,931 - INFO - - ReD
+2025-05-15 17:58:58,931 - INFO - - VMU
+2025-05-15 17:58:58,931 - INFO - - Alpha
+2025-05-15 17:58:58,932 - INFO - - Dumpstar
+2025-05-15 17:58:58,932 - INFO - - KatieCans
+2025-05-15 17:58:58,932 - INFO - - Turbo
+2025-05-15 17:58:58,932 - INFO - - Jovial
+2025-05-15 17:58:58,933 - INFO - - Speed Demon
+2025-05-15 17:58:58,933 - INFO - - Rumble Pak
+2025-05-15 17:58:58,933 - INFO - - Leviosa
+2025-05-15 17:58:58,933 - INFO - - Obama
+2025-05-15 17:58:58,934 - INFO - - Vince
+2025-05-15 17:58:58,934 - INFO - - BPS
+2025-05-15 17:58:58,934 - INFO - - Apache
+2025-05-15 17:58:58,934 - INFO - - OG OBAMA
+2025-05-15 17:58:58,935 - INFO - - Oggo
+2025-05-15 17:58:58,935 - INFO - - BigSwole
+2025-05-15 17:58:58,935 - INFO - - GPM
+2025-05-15 17:58:58,935 - INFO - - YXJI
+2025-05-15 17:58:58,936 - INFO - - Snoo
+2025-05-15 17:58:58,936 - INFO - Selection music loaded but muted.
+2025-05-15 17:59:06,471 - INFO - Selection music stopped.
+2025-05-15 17:59:06,472 - INFO - 
+Selected Sprotos for This Race:
+2025-05-15 17:59:06,472 - INFO - Yannix: Initial Speed = 107.58 units/s
+2025-05-15 17:59:06,473 - INFO - More Light: Initial Speed = 112.27 units/s
+2025-05-15 17:59:06,473 - INFO - Yo-Yo: Initial Speed = 108.20 units/s
+2025-05-15 17:59:06,474 - INFO - GB: Initial Speed = 112.94 units/s
+2025-05-15 17:59:06,474 - INFO - Vamp: Initial Speed = 98.22 units/s
+2025-05-15 17:59:06,475 - INFO - 
+Starting Tournament (7 Races)
+2025-05-15 17:59:06,475 - INFO - Tournament music loaded but muted.
+2025-05-15 17:59:06,476 - INFO - 
+--- Starting Race #1 ---
+2025-05-15 17:59:06,478 - INFO - Initialized tournament stats for Yannix: wins=0, points=0
+2025-05-15 17:59:06,479 - INFO - Initialized tournament stats for More Light: wins=0, points=0
+2025-05-15 17:59:06,479 - INFO - Initialized tournament stats for Yo-Yo: wins=0, points=0
+2025-05-15 17:59:06,479 - INFO - Initialized tournament stats for GB: wins=0, points=0
+2025-05-15 17:59:06,480 - INFO - Initialized tournament stats for Vamp: wins=0, points=0
+2025-05-15 17:59:06,480 - INFO - Race music loaded but muted.
+2025-05-15 17:59:07,480 - INFO - 
+Time: 1.0s
+2025-05-15 17:59:07,480 - INFO - Yannix: Position=118.10, Speed=117.86, Finished=False
+2025-05-15 17:59:07,480 - INFO - More Light: Position=97.20, Speed=88.85, Finished=False
+2025-05-15 17:59:07,481 - INFO - Yo-Yo: Position=112.20, Speed=110.14, Finished=False
+2025-05-15 17:59:07,481 - INFO - GB: Position=106.37, Speed=106.35, Finished=False
+2025-05-15 17:59:07,481 - INFO - Vamp: Position=83.39, Speed=83.23, Finished=False
+2025-05-15 17:59:08,482 - INFO - 
+Time: 2.0s
+2025-05-15 17:59:08,482 - INFO - Yannix: Position=236.19, Speed=117.86, Finished=False
+2025-05-15 17:59:08,483 - INFO - More Light: Position=208.59, Speed=108.12, Finished=False
+2025-05-15 17:59:08,483 - INFO - Yo-Yo: Position=220.97, Speed=103.19, Finished=False
+2025-05-15 17:59:08,483 - INFO - GB: Position=212.74, Speed=94.82, Finished=False
+2025-05-15 17:59:08,484 - INFO - Vamp: Position=167.41, Speed=119.92, Finished=False
+2025-05-15 17:59:09,490 - INFO - 
+Time: 3.0s
+2025-05-15 17:59:09,490 - INFO - Yannix: Position=338.57, Speed=86.80, Finished=False
+2025-05-15 17:59:09,491 - INFO - More Light: Position=318.71, Speed=111.11, Finished=False
+2025-05-15 17:59:09,491 - INFO - Yo-Yo: Position=316.52, Speed=85.20, Finished=False
+2025-05-15 17:59:09,492 - INFO - GB: Position=308.32, Speed=94.82, Finished=False
+2025-05-15 17:59:09,492 - INFO - Vamp: Position=288.29, Speed=119.92, Finished=False
+2025-05-15 17:59:10,497 - INFO - 
+Time: 4.0s
+2025-05-15 17:59:10,497 - INFO - Yannix: Position=425.97, Speed=86.80, Finished=False
+2025-05-15 17:59:10,498 - INFO - More Light: Position=430.59, Speed=111.11, Finished=False
+2025-05-15 17:59:10,498 - INFO - Yo-Yo: Position=402.32, Speed=85.20, Finished=False
+2025-05-15 17:59:10,499 - INFO - GB: Position=404.99, Speed=119.47, Finished=False
+2025-05-15 17:59:10,499 - INFO - Vamp: Position=409.05, Speed=119.92, Finished=False
+2025-05-15 17:59:11,497 - INFO - 
+Time: 5.0s
+2025-05-15 17:59:11,497 - INFO - Yannix: Position=517.22, Speed=91.96, Finished=False
+2025-05-15 17:59:11,498 - INFO - More Light: Position=520.20, Speed=83.58, Finished=False
+2025-05-15 17:59:11,498 - INFO - Yo-Yo: Position=499.63, Speed=99.78, Finished=False
+2025-05-15 17:59:11,499 - INFO - GB: Position=518.00, Speed=97.07, Finished=False
+2025-05-15 17:59:11,499 - INFO - Vamp: Position=528.97, Speed=119.92, Finished=False
+2025-05-15 17:59:12,512 - INFO - 
+Time: 6.0s
+2025-05-15 17:59:12,512 - INFO - Yannix: Position=610.65, Speed=91.96, Finished=False
+2025-05-15 17:59:12,512 - INFO - More Light: Position=629.35, Speed=119.74, Finished=False
+2025-05-15 17:59:12,513 - INFO - Yo-Yo: Position=598.68, Speed=83.41, Finished=False
+2025-05-15 17:59:12,513 - INFO - GB: Position=616.62, Speed=97.07, Finished=False
+2025-05-15 17:59:12,514 - INFO - Vamp: Position=645.73, Speed=94.05, Finished=False
+2025-05-15 17:59:13,527 - INFO - 
+Time: 7.0s
+2025-05-15 17:59:13,527 - INFO - Yannix: Position=703.89, Speed=91.96, Finished=False
+2025-05-15 17:59:13,528 - INFO - More Light: Position=750.77, Speed=119.74, Finished=False
+2025-05-15 17:59:13,528 - INFO - Yo-Yo: Position=683.26, Speed=83.41, Finished=False
+2025-05-15 17:59:13,529 - INFO - GB: Position=715.05, Speed=97.07, Finished=False
+2025-05-15 17:59:13,529 - INFO - Vamp: Position=739.79, Speed=90.84, Finished=False
+2025-05-15 17:59:14,535 - INFO - 
+Time: 8.1s
+2025-05-15 17:59:14,535 - INFO - Yannix: Position=796.59, Speed=91.96, Finished=False
+2025-05-15 17:59:14,536 - INFO - More Light: Position=871.47, Speed=119.74, Finished=False
+2025-05-15 17:59:14,536 - INFO - Yo-Yo: Position=767.34, Speed=83.41, Finished=False
+2025-05-15 17:59:14,536 - INFO - GB: Position=822.30, Speed=115.89, Finished=False
+2025-05-15 17:59:14,537 - INFO - Vamp: Position=831.35, Speed=90.84, Finished=False
+2025-05-15 17:59:15,545 - INFO - 
+Time: 9.1s
+2025-05-15 17:59:15,546 - INFO - Yannix: Position=889.47, Speed=91.96, Finished=False
+2025-05-15 17:59:15,546 - INFO - More Light: Position=992.41, Speed=119.74, Finished=False
+2025-05-15 17:59:15,546 - INFO - Yo-Yo: Position=851.59, Speed=83.41, Finished=False
+2025-05-15 17:59:15,547 - INFO - GB: Position=939.35, Speed=115.89, Finished=False
+2025-05-15 17:59:15,547 - INFO - Vamp: Position=914.24, Speed=81.45, Finished=False
+2025-05-15 17:59:16,557 - INFO - 
+Time: 10.1s
+2025-05-15 17:59:16,557 - INFO - Yannix: Position=987.92, Speed=103.75, Finished=False
+2025-05-15 17:59:16,557 - INFO - More Light: Position=1107.26, Speed=112.69, Finished=False
+2025-05-15 17:59:16,558 - INFO - Yo-Yo: Position=936.00, Speed=83.41, Finished=False
+2025-05-15 17:59:16,558 - INFO - GB: Position=1055.46, Speed=113.69, Finished=False
+2025-05-15 17:59:16,559 - INFO - Vamp: Position=1007.45, Speed=95.19, Finished=False
+2025-05-15 17:59:17,557 - INFO - 
+Time: 11.1s
+2025-05-15 17:59:17,557 - INFO - Yannix: Position=1094.03, Speed=115.14, Finished=False
+2025-05-15 17:59:17,558 - INFO - More Light: Position=1220.06, Speed=112.69, Finished=False
+2025-05-15 17:59:17,558 - INFO - Yo-Yo: Position=1051.77, Speed=117.93, Finished=False
+2025-05-15 17:59:17,558 - INFO - GB: Position=1169.26, Speed=113.69, Finished=False
+2025-05-15 17:59:17,559 - INFO - Vamp: Position=1102.53, Speed=94.16, Finished=False
+2025-05-15 17:59:18,571 - INFO - 
+Time: 12.1s
+2025-05-15 17:59:18,571 - INFO - Yannix: Position=1210.66, Speed=115.14, Finished=False
+2025-05-15 17:59:18,571 - INFO - More Light: Position=1314.14, Speed=98.06, Finished=False
+2025-05-15 17:59:18,571 - INFO - Yo-Yo: Position=1171.23, Speed=117.93, Finished=False
+2025-05-15 17:59:18,572 - INFO - GB: Position=1284.43, Speed=113.69, Finished=False
+2025-05-15 17:59:18,572 - INFO - Vamp: Position=1197.91, Speed=94.16, Finished=False
+2025-05-15 17:59:19,586 - INFO - 
+Time: 13.1s
+2025-05-15 17:59:19,586 - INFO - Yannix: Position=1327.53, Speed=115.14, Finished=False
+2025-05-15 17:59:19,586 - INFO - More Light: Position=1430.60, Speed=116.95, Finished=False
+2025-05-15 17:59:19,586 - INFO - Yo-Yo: Position=1259.69, Speed=85.46, Finished=False
+2025-05-15 17:59:19,587 - INFO - GB: Position=1395.97, Speed=107.50, Finished=False
+2025-05-15 17:59:19,587 - INFO - Vamp: Position=1293.49, Speed=94.16, Finished=False
+2025-05-15 17:59:20,599 - INFO - 
+Time: 14.1s
+2025-05-15 17:59:20,599 - INFO - Yannix: Position=1444.17, Speed=115.14, Finished=False
+2025-05-15 17:59:20,600 - INFO - More Light: Position=1500.00, Speed=116.95, Finished=True
+2025-05-15 17:59:20,600 - INFO - Yo-Yo: Position=1346.26, Speed=85.46, Finished=False
+2025-05-15 17:59:20,600 - INFO - GB: Position=1489.68, Speed=80.23, Finished=False
+2025-05-15 17:59:20,600 - INFO - Vamp: Position=1385.17, Speed=86.60, Finished=False
+2025-05-15 17:59:21,611 - INFO - 
+Time: 15.1s
+2025-05-15 17:59:21,612 - INFO - Yannix: Position=1500.00, Speed=115.14, Finished=True
+2025-05-15 17:59:21,612 - INFO - More Light: Position=1500.00, Speed=116.95, Finished=True
+2025-05-15 17:59:21,613 - INFO - Yo-Yo: Position=1432.74, Speed=85.46, Finished=False
+2025-05-15 17:59:21,613 - INFO - GB: Position=1500.00, Speed=80.23, Finished=True
+2025-05-15 17:59:21,613 - INFO - Vamp: Position=1472.13, Speed=84.34, Finished=False
+2025-05-15 17:59:22,409 - INFO - 
+Race #1 finished! Finish order:
+2025-05-15 17:59:22,409 - INFO - 1. More Light: Avg Speed=109.53
+2025-05-15 17:59:22,410 - INFO - 2. GB: Avg Speed=105.36
+2025-05-15 17:59:22,410 - INFO - 3. Yannix: Avg Speed=102.75
+2025-05-15 17:59:22,410 - INFO - 4. Vamp: Avg Speed=97.31
+2025-05-15 17:59:22,411 - INFO - 5. Yo-Yo: Avg Speed=94.25
+2025-05-15 17:59:22,411 - INFO - Selected winner: More Light with avg speed 109.53
+2025-05-15 17:59:22,411 - INFO - More Light finished 1st: +10 points, total=10, wins=1
+2025-05-15 17:59:22,411 - INFO - GB finished 2nd: +9 points, total=9, wins=0
+2025-05-15 17:59:22,412 - INFO - Yannix finished 3rd: +8 points, total=8, wins=0
+2025-05-15 17:59:22,412 - INFO - Vamp finished 4th: +7 points, total=7, wins=0
+2025-05-15 17:59:22,412 - INFO - Yo-Yo finished 5th: +6 points, total=6, wins=0
+2025-05-15 17:59:22,419 - INFO - Race #1 Winner: More Light
+2025-05-15 17:59:22,420 - INFO - 
+--- Starting Race #2 ---
+2025-05-15 17:59:23,437 - INFO - 
+Time: 1.0s
+2025-05-15 17:59:23,437 - INFO - Yannix: Position=105.06, Speed=103.60, Finished=False
+2025-05-15 17:59:23,437 - INFO - More Light: Position=89.20, Speed=115.32, Finished=False
+2025-05-15 17:59:23,438 - INFO - Yo-Yo: Position=91.71, Speed=90.27, Finished=False
+2025-05-15 17:59:23,438 - INFO - GB: Position=88.26, Speed=83.79, Finished=False
+2025-05-15 17:59:23,438 - INFO - Vamp: Position=91.67, Speed=94.23, Finished=False
+2025-05-15 17:59:24,446 - INFO - 
+Time: 2.0s
+2025-05-15 17:59:24,446 - INFO - Yannix: Position=209.59, Speed=89.13, Finished=False
+2025-05-15 17:59:24,446 - INFO - More Light: Position=205.56, Speed=115.32, Finished=False
+2025-05-15 17:59:24,447 - INFO - Yo-Yo: Position=182.81, Speed=90.33, Finished=False
+2025-05-15 17:59:24,447 - INFO - GB: Position=184.03, Speed=111.45, Finished=False
+2025-05-15 17:59:24,447 - INFO - Vamp: Position=186.75, Speed=94.23, Finished=False
+2025-05-15 17:59:25,460 - INFO - 
+Time: 3.0s
+2025-05-15 17:59:25,460 - INFO - Yannix: Position=298.59, Speed=84.52, Finished=False
+2025-05-15 17:59:25,460 - INFO - More Light: Position=322.50, Speed=115.32, Finished=False
+2025-05-15 17:59:25,461 - INFO - Yo-Yo: Position=277.18, Speed=113.88, Finished=False
+2025-05-15 17:59:25,461 - INFO - GB: Position=295.23, Speed=97.94, Finished=False
+2025-05-15 17:59:25,461 - INFO - Vamp: Position=282.30, Speed=94.23, Finished=False
+2025-05-15 17:59:26,469 - INFO - 
+Time: 4.0s
+2025-05-15 17:59:26,469 - INFO - Yannix: Position=393.40, Speed=108.41, Finished=False
+2025-05-15 17:59:26,469 - INFO - More Light: Position=438.86, Speed=115.32, Finished=False
+2025-05-15 17:59:26,470 - INFO - Yo-Yo: Position=389.63, Speed=99.19, Finished=False
+2025-05-15 17:59:26,470 - INFO - GB: Position=394.05, Speed=97.94, Finished=False
+2025-05-15 17:59:26,470 - INFO - Vamp: Position=377.46, Speed=99.73, Finished=False
+2025-05-15 17:59:27,472 - INFO - 
+Time: 5.1s
+2025-05-15 17:59:27,472 - INFO - Yannix: Position=502.14, Speed=108.41, Finished=False
+2025-05-15 17:59:27,473 - INFO - More Light: Position=551.70, Speed=105.66, Finished=False
+2025-05-15 17:59:27,473 - INFO - Yo-Yo: Position=489.11, Speed=99.19, Finished=False
+2025-05-15 17:59:27,473 - INFO - GB: Position=492.29, Speed=97.94, Finished=False
+2025-05-15 17:59:27,474 - INFO - Vamp: Position=484.83, Speed=114.64, Finished=False
+2025-05-15 17:59:28,481 - INFO - 
+Time: 6.1s
+2025-05-15 17:59:28,481 - INFO - Yannix: Position=611.54, Speed=108.41, Finished=False
+2025-05-15 17:59:28,482 - INFO - More Light: Position=659.41, Speed=106.87, Finished=False
+2025-05-15 17:59:28,482 - INFO - Yo-Yo: Position=589.19, Speed=99.19, Finished=False
+2025-05-15 17:59:28,482 - INFO - GB: Position=591.11, Speed=97.94, Finished=False
+2025-05-15 17:59:28,483 - INFO - Vamp: Position=600.50, Speed=114.64, Finished=False
+2025-05-15 17:59:29,494 - INFO - 
+Time: 7.1s
+2025-05-15 17:59:29,494 - INFO - Yannix: Position=714.21, Speed=85.35, Finished=False
+2025-05-15 17:59:29,495 - INFO - More Light: Position=767.66, Speed=106.87, Finished=False
+2025-05-15 17:59:29,495 - INFO - Yo-Yo: Position=689.67, Speed=99.19, Finished=False
+2025-05-15 17:59:29,495 - INFO - GB: Position=690.32, Speed=97.94, Finished=False
+2025-05-15 17:59:29,495 - INFO - Vamp: Position=716.63, Speed=114.64, Finished=False
+2025-05-15 17:59:30,497 - INFO - 
+Time: 8.1s
+2025-05-15 17:59:30,497 - INFO - Yannix: Position=799.90, Speed=85.35, Finished=False
+2025-05-15 17:59:30,498 - INFO - More Light: Position=874.66, Speed=100.80, Finished=False
+2025-05-15 17:59:30,498 - INFO - Yo-Yo: Position=789.25, Speed=99.19, Finished=False
+2025-05-15 17:59:30,499 - INFO - GB: Position=788.66, Speed=97.94, Finished=False
+2025-05-15 17:59:30,499 - INFO - Vamp: Position=825.54, Speed=116.30, Finished=False
+2025-05-15 17:59:31,514 - INFO - 
+Time: 9.1s
+2025-05-15 17:59:31,514 - INFO - Yannix: Position=897.02, Speed=110.44, Finished=False
+2025-05-15 17:59:31,515 - INFO - More Light: Position=977.07, Speed=100.80, Finished=False
+2025-05-15 17:59:31,515 - INFO - Yo-Yo: Position=890.03, Speed=99.19, Finished=False
+2025-05-15 17:59:31,516 - INFO - GB: Position=891.10, Speed=106.10, Finished=False
+2025-05-15 17:59:31,516 - INFO - Vamp: Position=943.70, Speed=116.30, Finished=False
+2025-05-15 17:59:32,527 - INFO - 
+Time: 10.1s
+2025-05-15 17:59:32,527 - INFO - Yannix: Position=1008.09, Speed=96.46, Finished=False
+2025-05-15 17:59:32,528 - INFO - More Light: Position=1079.28, Speed=100.80, Finished=False
+2025-05-15 17:59:32,528 - INFO - Yo-Yo: Position=990.60, Speed=99.19, Finished=False
+2025-05-15 17:59:32,529 - INFO - GB: Position=984.84, Speed=80.55, Finished=False
+2025-05-15 17:59:32,529 - INFO - Vamp: Position=1061.49, Speed=115.12, Finished=False
+2025-05-15 17:59:33,531 - INFO - 
+Time: 11.1s
+2025-05-15 17:59:33,531 - INFO - Yannix: Position=1104.84, Speed=96.46, Finished=False
+2025-05-15 17:59:33,531 - INFO - More Light: Position=1180.38, Speed=100.80, Finished=False
+2025-05-15 17:59:33,532 - INFO - Yo-Yo: Position=1086.84, Speed=88.18, Finished=False
+2025-05-15 17:59:33,532 - INFO - GB: Position=1065.62, Speed=80.55, Finished=False
+2025-05-15 17:59:33,533 - INFO - Vamp: Position=1176.12, Speed=99.57, Finished=False
+2025-05-15 17:59:34,531 - INFO - 
+Time: 12.1s
+2025-05-15 17:59:34,531 - INFO - Yannix: Position=1201.30, Speed=96.46, Finished=False
+2025-05-15 17:59:34,531 - INFO - More Light: Position=1284.28, Speed=104.00, Finished=False
+2025-05-15 17:59:34,532 - INFO - Yo-Yo: Position=1175.02, Speed=88.18, Finished=False
+2025-05-15 17:59:34,532 - INFO - GB: Position=1149.03, Speed=92.03, Finished=False
+2025-05-15 17:59:34,532 - INFO - Vamp: Position=1275.69, Speed=99.57, Finished=False
+2025-05-15 17:59:35,545 - INFO - 
+Time: 13.1s
+2025-05-15 17:59:35,546 - INFO - Yannix: Position=1292.89, Speed=98.21, Finished=False
+2025-05-15 17:59:35,546 - INFO - More Light: Position=1389.73, Speed=104.00, Finished=False
+2025-05-15 17:59:35,546 - INFO - Yo-Yo: Position=1270.88, Speed=105.28, Finished=False
+2025-05-15 17:59:35,547 - INFO - GB: Position=1242.35, Speed=92.03, Finished=False
+2025-05-15 17:59:35,547 - INFO - Vamp: Position=1376.66, Speed=99.57, Finished=False
+2025-05-15 17:59:36,547 - INFO - 
+Time: 14.1s
+2025-05-15 17:59:36,547 - INFO - Yannix: Position=1391.64, Speed=103.04, Finished=False
+2025-05-15 17:59:36,547 - INFO - More Light: Position=1497.06, Speed=107.11, Finished=False
+2025-05-15 17:59:36,548 - INFO - Yo-Yo: Position=1376.48, Speed=105.28, Finished=False
+2025-05-15 17:59:36,549 - INFO - GB: Position=1334.65, Speed=92.03, Finished=False
+2025-05-15 17:59:36,549 - INFO - Vamp: Position=1476.53, Speed=99.57, Finished=False
+2025-05-15 17:59:37,561 - INFO - 
+Time: 15.1s
+2025-05-15 17:59:37,561 - INFO - Yannix: Position=1496.02, Speed=103.04, Finished=False
+2025-05-15 17:59:37,562 - INFO - More Light: Position=1500.00, Speed=107.11, Finished=True
+2025-05-15 17:59:37,562 - INFO - Yo-Yo: Position=1483.13, Speed=105.28, Finished=False
+2025-05-15 17:59:37,562 - INFO - GB: Position=1427.87, Speed=92.03, Finished=False
+2025-05-15 17:59:37,563 - INFO - Vamp: Position=1500.00, Speed=99.57, Finished=True
+2025-05-15 17:59:38,352 - INFO - 
+Race #2 finished! Finish order:
+2025-05-15 17:59:38,352 - INFO - 1. More Light: Avg Speed=106.06
+2025-05-15 17:59:38,353 - INFO - 2. Vamp: Avg Speed=104.46
+2025-05-15 17:59:38,353 - INFO - 3. Yannix: Avg Speed=98.86
+2025-05-15 17:59:38,353 - INFO - 4. Yo-Yo: Avg Speed=98.12
+2025-05-15 17:59:38,354 - INFO - 5. GB: Avg Speed=94.25
+2025-05-15 17:59:38,354 - INFO - Selected winner: More Light with avg speed 106.06
+2025-05-15 17:59:38,354 - INFO - More Light finished 1st: +10 points, total=20, wins=2
+2025-05-15 17:59:38,354 - INFO - Vamp finished 2nd: +9 points, total=16, wins=0
+2025-05-15 17:59:38,355 - INFO - Yannix finished 3rd: +8 points, total=16, wins=0
+2025-05-15 17:59:38,355 - INFO - Yo-Yo finished 4th: +7 points, total=13, wins=0
+2025-05-15 17:59:38,355 - INFO - GB finished 5th: +6 points, total=15, wins=0
+2025-05-15 17:59:38,361 - INFO - Race #2 Winner: More Light
+2025-05-15 17:59:38,361 - INFO - 
+--- Starting Race #3 ---
+2025-05-15 17:59:39,376 - INFO - 
+Time: 1.0s
+2025-05-15 17:59:39,376 - INFO - Yannix: Position=98.60, Speed=97.24, Finished=False
+2025-05-15 17:59:39,377 - INFO - More Light: Position=92.77, Speed=91.49, Finished=False
+2025-05-15 17:59:39,377 - INFO - Yo-Yo: Position=93.11, Speed=113.92, Finished=False
+2025-05-15 17:59:39,378 - INFO - GB: Position=119.66, Speed=118.01, Finished=False
+2025-05-15 17:59:39,378 - INFO - Vamp: Position=116.07, Speed=114.47, Finished=False
+2025-05-15 17:59:40,380 - INFO - 
+Time: 2.0s
+2025-05-15 17:59:40,380 - INFO - Yannix: Position=201.43, Speed=109.63, Finished=False
+2025-05-15 17:59:40,381 - INFO - More Light: Position=181.70, Speed=87.15, Finished=False
+2025-05-15 17:59:40,381 - INFO - Yo-Yo: Position=201.73, Speed=86.63, Finished=False
+2025-05-15 17:59:40,382 - INFO - GB: Position=218.38, Speed=89.37, Finished=False
+2025-05-15 17:59:40,382 - INFO - Vamp: Position=229.50, Speed=101.28, Finished=False
+2025-05-15 17:59:41,380 - INFO - 
+Time: 3.0s
+2025-05-15 17:59:41,380 - INFO - Yannix: Position=310.13, Speed=81.54, Finished=False
+2025-05-15 17:59:41,380 - INFO - More Light: Position=268.85, Speed=87.15, Finished=False
+2025-05-15 17:59:41,381 - INFO - Yo-Yo: Position=288.36, Speed=86.63, Finished=False
+2025-05-15 17:59:41,381 - INFO - GB: Position=307.75, Speed=89.37, Finished=False
+2025-05-15 17:59:41,381 - INFO - Vamp: Position=330.78, Speed=101.28, Finished=False
+2025-05-15 17:59:42,390 - INFO - 
+Time: 4.0s
+2025-05-15 17:59:42,390 - INFO - Yannix: Position=392.48, Speed=81.54, Finished=False
+2025-05-15 17:59:42,391 - INFO - More Light: Position=356.87, Speed=87.15, Finished=False
+2025-05-15 17:59:42,391 - INFO - Yo-Yo: Position=375.86, Speed=86.63, Finished=False
+2025-05-15 17:59:42,392 - INFO - GB: Position=412.44, Speed=107.94, Finished=False
+2025-05-15 17:59:42,392 - INFO - Vamp: Position=433.07, Speed=101.28, Finished=False
+2025-05-15 17:59:43,404 - INFO - 
+Time: 5.0s
+2025-05-15 17:59:43,405 - INFO - Yannix: Position=475.24, Speed=81.54, Finished=False
+2025-05-15 17:59:43,405 - INFO - More Light: Position=443.92, Speed=80.05, Finished=False
+2025-05-15 17:59:43,406 - INFO - Yo-Yo: Position=463.79, Speed=86.63, Finished=False
+2025-05-15 17:59:43,406 - INFO - GB: Position=522.00, Speed=107.94, Finished=False
+2025-05-15 17:59:43,406 - INFO - Vamp: Position=535.87, Speed=101.28, Finished=False
+2025-05-15 17:59:44,408 - INFO - 
+Time: 6.0s
+2025-05-15 17:59:44,408 - INFO - Yannix: Position=571.93, Speed=96.66, Finished=False
+2025-05-15 17:59:44,409 - INFO - More Light: Position=524.20, Speed=80.05, Finished=False
+2025-05-15 17:59:44,409 - INFO - Yo-Yo: Position=550.68, Speed=86.63, Finished=False
+2025-05-15 17:59:44,410 - INFO - GB: Position=630.27, Speed=107.94, Finished=False
+2025-05-15 17:59:44,410 - INFO - Vamp: Position=639.88, Speed=109.20, Finished=False
+2025-05-15 17:59:45,419 - INFO - 
+Time: 7.1s
+2025-05-15 17:59:45,419 - INFO - Yannix: Position=671.04, Speed=103.24, Finished=False
+2025-05-15 17:59:45,420 - INFO - More Light: Position=605.13, Speed=80.05, Finished=False
+2025-05-15 17:59:45,420 - INFO - Yo-Yo: Position=638.27, Speed=86.63, Finished=False
+2025-05-15 17:59:45,420 - INFO - GB: Position=728.87, Speed=85.67, Finished=False
+2025-05-15 17:59:45,420 - INFO - Vamp: Position=750.28, Speed=109.20, Finished=False
+2025-05-15 17:59:46,422 - INFO - 
+Time: 8.1s
+2025-05-15 17:59:46,422 - INFO - Yannix: Position=774.58, Speed=103.24, Finished=False
+2025-05-15 17:59:46,423 - INFO - More Light: Position=685.41, Speed=80.05, Finished=False
+2025-05-15 17:59:46,423 - INFO - Yo-Yo: Position=726.42, Speed=89.13, Finished=False
+2025-05-15 17:59:46,424 - INFO - GB: Position=818.49, Speed=100.79, Finished=False
+2025-05-15 17:59:46,424 - INFO - Vamp: Position=859.80, Speed=109.20, Finished=False
+2025-05-15 17:59:47,429 - INFO - 
+Time: 9.1s
+2025-05-15 17:59:47,429 - INFO - Yannix: Position=884.42, Speed=113.52, Finished=False
+2025-05-15 17:59:47,430 - INFO - More Light: Position=776.99, Speed=111.95, Finished=False
+2025-05-15 17:59:47,430 - INFO - Yo-Yo: Position=816.17, Speed=89.13, Finished=False
+2025-05-15 17:59:47,430 - INFO - GB: Position=919.99, Speed=100.79, Finished=False
+2025-05-15 17:59:47,431 - INFO - Vamp: Position=970.05, Speed=115.17, Finished=False
+2025-05-15 17:59:48,444 - INFO - 
+Time: 10.1s
+2025-05-15 17:59:48,444 - INFO - Yannix: Position=995.38, Speed=85.12, Finished=False
+2025-05-15 17:59:48,445 - INFO - More Light: Position=885.02, Speed=98.34, Finished=False
+2025-05-15 17:59:48,445 - INFO - Yo-Yo: Position=926.57, Speed=111.25, Finished=False
+2025-05-15 17:59:48,445 - INFO - GB: Position=1022.29, Speed=100.79, Finished=False
+2025-05-15 17:59:48,446 - INFO - Vamp: Position=1065.90, Speed=89.53, Finished=False
+2025-05-15 17:59:49,447 - INFO - 
+Time: 11.1s
+2025-05-15 17:59:49,447 - INFO - Yannix: Position=1080.76, Speed=85.12, Finished=False
+2025-05-15 17:59:49,448 - INFO - More Light: Position=983.65, Speed=98.34, Finished=False
+2025-05-15 17:59:49,448 - INFO - Yo-Yo: Position=1029.79, Speed=98.16, Finished=False
+2025-05-15 17:59:49,448 - INFO - GB: Position=1123.99, Speed=113.24, Finished=False
+2025-05-15 17:59:49,449 - INFO - Vamp: Position=1158.46, Speed=94.93, Finished=False
+2025-05-15 17:59:50,447 - INFO - 
+Time: 12.1s
+2025-05-15 17:59:50,448 - INFO - Yannix: Position=1165.88, Speed=85.12, Finished=False
+2025-05-15 17:59:50,448 - INFO - More Light: Position=1082.00, Speed=98.34, Finished=False
+2025-05-15 17:59:50,449 - INFO - Yo-Yo: Position=1127.95, Speed=98.16, Finished=False
+2025-05-15 17:59:50,449 - INFO - GB: Position=1237.23, Speed=113.24, Finished=False
+2025-05-15 17:59:50,450 - INFO - Vamp: Position=1253.39, Speed=94.93, Finished=False
+2025-05-15 17:59:51,448 - INFO - 
+Time: 13.1s
+2025-05-15 17:59:51,448 - INFO - Yannix: Position=1251.09, Speed=85.12, Finished=False
+2025-05-15 17:59:51,449 - INFO - More Light: Position=1181.42, Speed=99.35, Finished=False
+2025-05-15 17:59:51,449 - INFO - Yo-Yo: Position=1225.36, Speed=80.45, Finished=False
+2025-05-15 17:59:51,449 - INFO - GB: Position=1350.59, Speed=113.24, Finished=False
+2025-05-15 17:59:51,450 - INFO - Vamp: Position=1351.55, Speed=102.60, Finished=False
+2025-05-15 17:59:52,454 - INFO - 
+Time: 14.1s
+2025-05-15 17:59:52,454 - INFO - Yannix: Position=1339.10, Speed=94.59, Finished=False
+2025-05-15 17:59:52,455 - INFO - More Light: Position=1281.35, Speed=99.27, Finished=False
+2025-05-15 17:59:52,455 - INFO - Yo-Yo: Position=1309.88, Speed=104.30, Finished=False
+2025-05-15 17:59:52,456 - INFO - GB: Position=1464.51, Speed=113.24, Finished=False
+2025-05-15 17:59:52,456 - INFO - Vamp: Position=1456.04, Speed=98.91, Finished=False
+2025-05-15 17:59:53,456 - INFO - 
+Time: 15.1s
+2025-05-15 17:59:53,456 - INFO - Yannix: Position=1438.60, Speed=118.71, Finished=False
+2025-05-15 17:59:53,457 - INFO - More Light: Position=1380.82, Speed=99.27, Finished=False
+2025-05-15 17:59:53,457 - INFO - Yo-Yo: Position=1414.31, Speed=104.09, Finished=False
+2025-05-15 17:59:53,458 - INFO - GB: Position=1500.00, Speed=113.24, Finished=True
+2025-05-15 17:59:53,458 - INFO - Vamp: Position=1500.00, Speed=98.91, Finished=True
+2025-05-15 17:59:54,463 - INFO - 
+Time: 16.1s
+2025-05-15 17:59:54,463 - INFO - Yannix: Position=1500.00, Speed=118.71, Finished=True
+2025-05-15 17:59:54,463 - INFO - More Light: Position=1486.08, Speed=116.47, Finished=False
+2025-05-15 17:59:54,464 - INFO - Yo-Yo: Position=1500.00, Speed=104.09, Finished=True
+2025-05-15 17:59:54,464 - INFO - GB: Position=1500.00, Speed=113.24, Finished=True
+2025-05-15 17:59:54,465 - INFO - Vamp: Position=1500.00, Speed=98.91, Finished=True
+2025-05-15 17:59:54,593 - INFO - 
+Race #3 finished! Finish order:
+2025-05-15 17:59:54,594 - INFO - 1. GB: Avg Speed=104.17
+2025-05-15 17:59:54,594 - INFO - 2. Vamp: Avg Speed=103.22
+2025-05-15 17:59:54,594 - INFO - 3. Yannix: Avg Speed=96.17
+2025-05-15 17:59:54,595 - INFO - 4. Yo-Yo: Avg Speed=94.30
+2025-05-15 17:59:54,595 - INFO - 5. More Light: Avg Speed=92.51
+2025-05-15 17:59:54,596 - INFO - Selected winner: GB with avg speed 104.17
+2025-05-15 17:59:54,596 - INFO - GB finished 1st: +10 points, total=25, wins=1
+2025-05-15 17:59:54,596 - INFO - Vamp finished 2nd: +9 points, total=25, wins=0
+2025-05-15 17:59:54,596 - INFO - Yannix finished 3rd: +8 points, total=24, wins=0
+2025-05-15 17:59:54,596 - INFO - Yo-Yo finished 4th: +7 points, total=20, wins=0
+2025-05-15 17:59:54,597 - INFO - More Light finished 5th: +6 points, total=26, wins=2
+2025-05-15 17:59:54,603 - INFO - Race #3 Winner: GB
+2025-05-15 17:59:54,603 - INFO - 
+--- Starting Race #4 ---
+2025-05-15 17:59:55,604 - INFO - 
+Time: 1.0s
+2025-05-15 17:59:55,604 - INFO - Yannix: Position=117.95, Speed=117.95, Finished=False
+2025-05-15 17:59:55,605 - INFO - More Light: Position=95.74, Speed=95.74, Finished=False
+2025-05-15 17:59:55,605 - INFO - Yo-Yo: Position=99.00, Speed=99.00, Finished=False
+2025-05-15 17:59:55,606 - INFO - GB: Position=107.70, Speed=107.70, Finished=False
+2025-05-15 17:59:55,606 - INFO - Vamp: Position=118.37, Speed=118.37, Finished=False
+2025-05-15 17:59:56,605 - INFO - 
+Time: 2.0s
+2025-05-15 17:59:56,606 - INFO - Yannix: Position=236.02, Speed=117.95, Finished=False
+2025-05-15 17:59:56,606 - INFO - More Light: Position=191.57, Speed=95.74, Finished=False
+2025-05-15 17:59:56,607 - INFO - Yo-Yo: Position=198.98, Speed=114.50, Finished=False
+2025-05-15 17:59:56,607 - INFO - GB: Position=215.50, Speed=107.70, Finished=False
+2025-05-15 17:59:56,607 - INFO - Vamp: Position=236.86, Speed=118.37, Finished=False
+2025-05-15 17:59:57,620 - INFO - 
+Time: 3.0s
+2025-05-15 17:59:57,620 - INFO - Yannix: Position=355.74, Speed=117.95, Finished=False
+2025-05-15 17:59:57,621 - INFO - More Light: Position=288.75, Speed=95.74, Finished=False
+2025-05-15 17:59:57,621 - INFO - Yo-Yo: Position=315.20, Speed=114.50, Finished=False
+2025-05-15 17:59:57,621 - INFO - GB: Position=324.81, Speed=107.70, Finished=False
+2025-05-15 17:59:57,622 - INFO - Vamp: Position=357.01, Speed=118.37, Finished=False
+2025-05-15 17:59:58,620 - INFO - 
+Time: 4.0s
+2025-05-15 17:59:58,621 - INFO - Yannix: Position=473.69, Speed=117.95, Finished=False
+2025-05-15 17:59:58,621 - INFO - More Light: Position=384.49, Speed=95.74, Finished=False
+2025-05-15 17:59:58,621 - INFO - Yo-Yo: Position=429.70, Speed=114.50, Finished=False
+2025-05-15 17:59:58,621 - INFO - GB: Position=432.51, Speed=107.70, Finished=False
+2025-05-15 17:59:58,622 - INFO - Vamp: Position=475.38, Speed=118.37, Finished=False
+2025-05-15 17:59:59,630 - INFO - 
+Time: 5.0s
+2025-05-15 17:59:59,630 - INFO - Yannix: Position=592.82, Speed=117.95, Finished=False
+2025-05-15 17:59:59,630 - INFO - More Light: Position=477.08, Speed=85.73, Finished=False
+2025-05-15 17:59:59,631 - INFO - Yo-Yo: Position=542.68, Speed=112.12, Finished=False
+2025-05-15 17:59:59,631 - INFO - GB: Position=541.28, Speed=107.70, Finished=False
+2025-05-15 17:59:59,631 - INFO - Vamp: Position=582.16, Speed=85.92, Finished=False
+2025-05-15 18:00:00,630 - INFO - 
+Time: 6.0s
+2025-05-15 18:00:00,630 - INFO - Yannix: Position=710.78, Speed=117.95, Finished=False
+2025-05-15 18:00:00,630 - INFO - More Light: Position=562.81, Speed=85.73, Finished=False
+2025-05-15 18:00:00,631 - INFO - Yo-Yo: Position=654.79, Speed=112.12, Finished=False
+2025-05-15 18:00:00,631 - INFO - GB: Position=639.38, Speed=97.45, Finished=False
+2025-05-15 18:00:00,631 - INFO - Vamp: Position=667.86, Speed=85.02, Finished=False
+2025-05-15 18:00:01,633 - INFO - 
+Time: 7.0s
+2025-05-15 18:00:01,634 - INFO - Yannix: Position=829.08, Speed=117.95, Finished=False
+2025-05-15 18:00:01,634 - INFO - More Light: Position=661.57, Speed=101.26, Finished=False
+2025-05-15 18:00:01,634 - INFO - Yo-Yo: Position=767.25, Speed=112.12, Finished=False
+2025-05-15 18:00:01,635 - INFO - GB: Position=734.21, Speed=89.67, Finished=False
+2025-05-15 18:00:01,635 - INFO - Vamp: Position=753.14, Speed=85.02, Finished=False
+2025-05-15 18:00:02,639 - INFO - 
+Time: 8.0s
+2025-05-15 18:00:02,639 - INFO - Yannix: Position=938.36, Speed=110.58, Finished=False
+2025-05-15 18:00:02,640 - INFO - More Light: Position=763.28, Speed=100.47, Finished=False
+2025-05-15 18:00:02,640 - INFO - Yo-Yo: Position=880.15, Speed=112.12, Finished=False
+2025-05-15 18:00:02,640 - INFO - GB: Position=824.51, Speed=89.67, Finished=False
+2025-05-15 18:00:02,641 - INFO - Vamp: Position=838.76, Speed=85.02, Finished=False
+2025-05-15 18:00:03,651 - INFO - 
+Time: 9.0s
+2025-05-15 18:00:03,651 - INFO - Yannix: Position=1050.16, Speed=110.58, Finished=False
+2025-05-15 18:00:03,652 - INFO - More Light: Position=868.15, Speed=104.85, Finished=False
+2025-05-15 18:00:03,652 - INFO - Yo-Yo: Position=993.50, Speed=95.22, Finished=False
+2025-05-15 18:00:03,652 - INFO - GB: Position=933.99, Speed=108.85, Finished=False
+2025-05-15 18:00:03,653 - INFO - Vamp: Position=924.72, Speed=85.02, Finished=False
+2025-05-15 18:00:04,661 - INFO - 
+Time: 10.1s
+2025-05-15 18:00:04,661 - INFO - Yannix: Position=1149.47, Speed=86.70, Finished=False
+2025-05-15 18:00:04,661 - INFO - More Light: Position=973.80, Speed=104.52, Finished=False
+2025-05-15 18:00:04,662 - INFO - Yo-Yo: Position=1089.67, Speed=95.22, Finished=False
+2025-05-15 18:00:04,662 - INFO - GB: Position=1043.93, Speed=108.85, Finished=False
+2025-05-15 18:00:04,662 - INFO - Vamp: Position=1014.52, Speed=102.40, Finished=False
+2025-05-15 18:00:05,673 - INFO - 
+Time: 11.1s
+2025-05-15 18:00:05,673 - INFO - Yannix: Position=1237.60, Speed=87.62, Finished=False
+2025-05-15 18:00:05,673 - INFO - More Light: Position=1076.21, Speed=97.24, Finished=False
+2025-05-15 18:00:05,674 - INFO - Yo-Yo: Position=1183.55, Speed=80.03, Finished=False
+2025-05-15 18:00:05,674 - INFO - GB: Position=1152.73, Speed=102.62, Finished=False
+2025-05-15 18:00:05,674 - INFO - Vamp: Position=1123.45, Speed=117.21, Finished=False
+2025-05-15 18:00:06,680 - INFO - 
+Time: 12.1s
+2025-05-15 18:00:06,680 - INFO - Yannix: Position=1325.83, Speed=87.62, Finished=False
+2025-05-15 18:00:06,681 - INFO - More Light: Position=1174.14, Speed=97.24, Finished=False
+2025-05-15 18:00:06,681 - INFO - Yo-Yo: Position=1264.14, Speed=80.03, Finished=False
+2025-05-15 18:00:06,681 - INFO - GB: Position=1256.07, Speed=102.62, Finished=False
+2025-05-15 18:00:06,682 - INFO - Vamp: Position=1241.49, Speed=117.21, Finished=False
+2025-05-15 18:00:07,690 - INFO - 
+Time: 13.1s
+2025-05-15 18:00:07,690 - INFO - Yannix: Position=1418.18, Speed=88.53, Finished=False
+2025-05-15 18:00:07,691 - INFO - More Light: Position=1267.15, Speed=89.61, Finished=False
+2025-05-15 18:00:07,691 - INFO - Yo-Yo: Position=1359.10, Speed=115.80, Finished=False
+2025-05-15 18:00:07,691 - INFO - GB: Position=1359.72, Speed=102.62, Finished=False
+2025-05-15 18:00:07,692 - INFO - Vamp: Position=1354.13, Speed=94.16, Finished=False
+2025-05-15 18:00:08,701 - INFO - 
+Time: 14.1s
+2025-05-15 18:00:08,701 - INFO - Yannix: Position=1500.00, Speed=96.92, Finished=True
+2025-05-15 18:00:08,702 - INFO - More Light: Position=1357.74, Speed=89.61, Finished=False
+2025-05-15 18:00:08,702 - INFO - Yo-Yo: Position=1476.17, Speed=115.80, Finished=False
+2025-05-15 18:00:08,702 - INFO - GB: Position=1463.47, Speed=102.62, Finished=False
+2025-05-15 18:00:08,703 - INFO - Vamp: Position=1444.46, Speed=119.81, Finished=False
+2025-05-15 18:00:09,714 - INFO - 
+Time: 15.1s
+2025-05-15 18:00:09,714 - INFO - Yannix: Position=1500.00, Speed=96.92, Finished=True
+2025-05-15 18:00:09,715 - INFO - More Light: Position=1448.51, Speed=89.61, Finished=False
+2025-05-15 18:00:09,715 - INFO - Yo-Yo: Position=1500.00, Speed=115.80, Finished=True
+2025-05-15 18:00:09,715 - INFO - GB: Position=1500.00, Speed=102.62, Finished=True
+2025-05-15 18:00:09,715 - INFO - Vamp: Position=1500.00, Speed=119.81, Finished=True
+2025-05-15 18:00:10,297 - INFO - 
+Race #4 finished! Finish order:
+2025-05-15 18:00:10,297 - INFO - 1. Yannix: Avg Speed=108.29
+2025-05-15 18:00:10,298 - INFO - 2. Yo-Yo: Avg Speed=104.95
+2025-05-15 18:00:10,298 - INFO - 3. GB: Avg Speed=103.89
+2025-05-15 18:00:10,298 - INFO - 4. Vamp: Avg Speed=103.06
+2025-05-15 18:00:10,298 - INFO - 5. More Light: Avg Speed=95.68
+2025-05-15 18:00:10,299 - INFO - Selected winner: Yannix with avg speed 108.29
+2025-05-15 18:00:10,299 - INFO - Yannix finished 1st: +10 points, total=34, wins=1
+2025-05-15 18:00:10,299 - INFO - Yo-Yo finished 2nd: +9 points, total=29, wins=0
+2025-05-15 18:00:10,300 - INFO - GB finished 3rd: +8 points, total=33, wins=1
+2025-05-15 18:00:10,300 - INFO - Vamp finished 4th: +7 points, total=32, wins=0
+2025-05-15 18:00:10,300 - INFO - More Light finished 5th: +6 points, total=32, wins=2
+2025-05-15 18:00:10,307 - INFO - Race #4 Winner: Yannix
+2025-05-15 18:00:10,307 - INFO - 
+--- Starting Race #5 ---
+2025-05-15 18:00:11,314 - INFO - 
+Time: 1.0s
+2025-05-15 18:00:11,314 - INFO - Yannix: Position=116.52, Speed=114.14, Finished=False
+2025-05-15 18:00:11,314 - INFO - More Light: Position=99.82, Speed=88.11, Finished=False
+2025-05-15 18:00:11,314 - INFO - Yo-Yo: Position=107.30, Speed=108.02, Finished=False
+2025-05-15 18:00:11,315 - INFO - GB: Position=120.35, Speed=119.63, Finished=False
+2025-05-15 18:00:11,315 - INFO - Vamp: Position=81.40, Speed=80.91, Finished=False
+2025-05-15 18:00:12,316 - INFO - 
+Time: 2.0s
+2025-05-15 18:00:12,317 - INFO - Yannix: Position=219.24, Speed=118.54, Finished=False
+2025-05-15 18:00:12,317 - INFO - More Light: Position=189.40, Speed=88.97, Finished=False
+2025-05-15 18:00:12,317 - INFO - Yo-Yo: Position=215.65, Speed=108.02, Finished=False
+2025-05-15 18:00:12,318 - INFO - GB: Position=240.33, Speed=119.63, Finished=False
+2025-05-15 18:00:12,318 - INFO - Vamp: Position=165.15, Speed=83.59, Finished=False
+2025-05-15 18:00:13,320 - INFO - 
+Time: 3.0s
+2025-05-15 18:00:13,320 - INFO - Yannix: Position=338.13, Speed=118.54, Finished=False
+2025-05-15 18:00:13,320 - INFO - More Light: Position=278.75, Speed=89.39, Finished=False
+2025-05-15 18:00:13,321 - INFO - Yo-Yo: Position=324.00, Speed=108.02, Finished=False
+2025-05-15 18:00:13,321 - INFO - GB: Position=360.32, Speed=119.63, Finished=False
+2025-05-15 18:00:13,321 - INFO - Vamp: Position=250.00, Speed=92.48, Finished=False
+2025-05-15 18:00:14,333 - INFO - 
+Time: 4.0s
+2025-05-15 18:00:14,333 - INFO - Yannix: Position=434.23, Speed=81.65, Finished=False
+2025-05-15 18:00:14,333 - INFO - More Light: Position=369.31, Speed=89.39, Finished=False
+2025-05-15 18:00:14,334 - INFO - Yo-Yo: Position=433.43, Speed=108.02, Finished=False
+2025-05-15 18:00:14,334 - INFO - GB: Position=470.61, Speed=102.55, Finished=False
+2025-05-15 18:00:14,334 - INFO - Vamp: Position=343.68, Speed=92.48, Finished=False
+2025-05-15 18:00:15,340 - INFO - 
+Time: 5.0s
+2025-05-15 18:00:15,340 - INFO - Yannix: Position=522.14, Speed=117.00, Finished=False
+2025-05-15 18:00:15,341 - INFO - More Light: Position=485.28, Speed=117.94, Finished=False
+2025-05-15 18:00:15,341 - INFO - Yo-Yo: Position=543.98, Speed=113.47, Finished=False
+2025-05-15 18:00:15,341 - INFO - GB: Position=573.87, Speed=102.55, Finished=False
+2025-05-15 18:00:15,342 - INFO - Vamp: Position=436.80, Speed=92.48, Finished=False
+2025-05-15 18:00:16,350 - INFO - 
+Time: 6.0s
+2025-05-15 18:00:16,350 - INFO - Yannix: Position=640.31, Speed=117.00, Finished=False
+2025-05-15 18:00:16,350 - INFO - More Light: Position=598.68, Speed=85.60, Finished=False
+2025-05-15 18:00:16,351 - INFO - Yo-Yo: Position=656.48, Speed=87.26, Finished=False
+2025-05-15 18:00:16,351 - INFO - GB: Position=668.48, Speed=93.37, Finished=False
+2025-05-15 18:00:16,352 - INFO - Vamp: Position=530.21, Speed=92.48, Finished=False
+2025-05-15 18:00:17,360 - INFO - 
+Time: 7.1s
+2025-05-15 18:00:17,361 - INFO - Yannix: Position=758.48, Speed=117.00, Finished=False
+2025-05-15 18:00:17,361 - INFO - More Light: Position=685.14, Speed=85.60, Finished=False
+2025-05-15 18:00:17,362 - INFO - Yo-Yo: Position=738.52, Speed=80.46, Finished=False
+2025-05-15 18:00:17,362 - INFO - GB: Position=771.81, Speed=107.58, Finished=False
+2025-05-15 18:00:17,362 - INFO - Vamp: Position=623.61, Speed=92.48, Finished=False
+2025-05-15 18:00:18,360 - INFO - 
+Time: 8.1s
+2025-05-15 18:00:18,360 - INFO - Yannix: Position=875.48, Speed=117.00, Finished=False
+2025-05-15 18:00:18,360 - INFO - More Light: Position=770.74, Speed=85.60, Finished=False
+2025-05-15 18:00:18,361 - INFO - Yo-Yo: Position=828.99, Speed=94.91, Finished=False
+2025-05-15 18:00:18,361 - INFO - GB: Position=879.39, Speed=107.58, Finished=False
+2025-05-15 18:00:18,361 - INFO - Vamp: Position=716.08, Speed=92.48, Finished=False
+2025-05-15 18:00:19,360 - INFO - 
+Time: 9.1s
+2025-05-15 18:00:19,360 - INFO - Yannix: Position=976.31, Speed=87.21, Finished=False
+2025-05-15 18:00:19,361 - INFO - More Light: Position=863.18, Speed=94.66, Finished=False
+2025-05-15 18:00:19,361 - INFO - Yo-Yo: Position=923.90, Speed=94.91, Finished=False
+2025-05-15 18:00:19,361 - INFO - GB: Position=988.10, Speed=119.16, Finished=False
+2025-05-15 18:00:19,362 - INFO - Vamp: Position=808.56, Speed=92.48, Finished=False
+2025-05-15 18:00:20,361 - INFO - 
+Time: 10.1s
+2025-05-15 18:00:20,361 - INFO - Yannix: Position=1063.60, Speed=87.21, Finished=False
+2025-05-15 18:00:20,361 - INFO - More Light: Position=957.94, Speed=94.66, Finished=False
+2025-05-15 18:00:20,362 - INFO - Yo-Yo: Position=1037.84, Speed=118.01, Finished=False
+2025-05-15 18:00:20,362 - INFO - GB: Position=1103.90, Speed=114.00, Finished=False
+2025-05-15 18:00:20,362 - INFO - Vamp: Position=907.70, Speed=106.83, Finished=False
+2025-05-15 18:00:21,368 - INFO - 
+Time: 11.1s
+2025-05-15 18:00:21,368 - INFO - Yannix: Position=1151.51, Speed=87.21, Finished=False
+2025-05-15 18:00:21,369 - INFO - More Light: Position=1056.26, Speed=98.04, Finished=False
+2025-05-15 18:00:21,369 - INFO - Yo-Yo: Position=1156.79, Speed=118.01, Finished=False
+2025-05-15 18:00:21,369 - INFO - GB: Position=1218.82, Speed=114.00, Finished=False
+2025-05-15 18:00:21,370 - INFO - Vamp: Position=1015.39, Speed=106.83, Finished=False
+2025-05-15 18:00:22,369 - INFO - 
+Time: 12.1s
+2025-05-15 18:00:22,369 - INFO - Yannix: Position=1245.47, Speed=119.65, Finished=False
+2025-05-15 18:00:22,369 - INFO - More Light: Position=1154.39, Speed=98.04, Finished=False
+2025-05-15 18:00:22,370 - INFO - Yo-Yo: Position=1274.92, Speed=118.01, Finished=False
+2025-05-15 18:00:22,370 - INFO - GB: Position=1332.93, Speed=114.00, Finished=False
+2025-05-15 18:00:22,370 - INFO - Vamp: Position=1122.66, Speed=107.99, Finished=False
+2025-05-15 18:00:23,386 - INFO - 
+Time: 13.1s
+2025-05-15 18:00:23,386 - INFO - Yannix: Position=1351.44, Speed=110.16, Finished=False
+2025-05-15 18:00:23,387 - INFO - More Light: Position=1254.00, Speed=98.04, Finished=False
+2025-05-15 18:00:23,387 - INFO - Yo-Yo: Position=1387.50, Speed=115.10, Finished=False
+2025-05-15 18:00:23,388 - INFO - GB: Position=1448.76, Speed=114.00, Finished=False
+2025-05-15 18:00:23,388 - INFO - Vamp: Position=1217.52, Speed=82.06, Finished=False
+2025-05-15 18:00:24,389 - INFO - 
+Time: 14.1s
+2025-05-15 18:00:24,389 - INFO - Yannix: Position=1461.93, Speed=110.16, Finished=False
+2025-05-15 18:00:24,390 - INFO - More Light: Position=1352.33, Speed=98.04, Finished=False
+2025-05-15 18:00:24,390 - INFO - Yo-Yo: Position=1485.92, Speed=97.88, Finished=False
+2025-05-15 18:00:24,390 - INFO - GB: Position=1500.00, Speed=114.00, Finished=True
+2025-05-15 18:00:24,391 - INFO - Vamp: Position=1316.59, Speed=102.06, Finished=False
+2025-05-15 18:00:25,393 - INFO - 
+Time: 15.1s
+2025-05-15 18:00:25,393 - INFO - Yannix: Position=1500.00, Speed=110.16, Finished=True
+2025-05-15 18:00:25,394 - INFO - More Light: Position=1450.76, Speed=98.04, Finished=False
+2025-05-15 18:00:25,394 - INFO - Yo-Yo: Position=1500.00, Speed=97.88, Finished=True
+2025-05-15 18:00:25,394 - INFO - GB: Position=1500.00, Speed=114.00, Finished=True
+2025-05-15 18:00:25,395 - INFO - Vamp: Position=1416.91, Speed=103.99, Finished=False
+2025-05-15 18:00:26,191 - INFO - 
+Race #5 finished! Finish order:
+2025-05-15 18:00:26,192 - INFO - 1. GB: Avg Speed=110.92
+2025-05-15 18:00:26,192 - INFO - 2. Yo-Yo: Avg Speed=105.55
+2025-05-15 18:00:26,193 - INFO - 3. Yannix: Avg Speed=104.00
+2025-05-15 18:00:26,193 - INFO - 4. More Light: Avg Speed=96.30
+2025-05-15 18:00:26,193 - INFO - 5. Vamp: Avg Speed=94.53
+2025-05-15 18:00:26,194 - INFO - Selected winner: GB with avg speed 110.92
+2025-05-15 18:00:26,194 - INFO - GB finished 1st: +10 points, total=43, wins=2
+2025-05-15 18:00:26,194 - INFO - Yo-Yo finished 2nd: +9 points, total=38, wins=0
+2025-05-15 18:00:26,194 - INFO - Yannix finished 3rd: +8 points, total=42, wins=1
+2025-05-15 18:00:26,195 - INFO - More Light finished 4th: +7 points, total=39, wins=2
+2025-05-15 18:00:26,195 - INFO - Vamp finished 5th: +6 points, total=38, wins=0
+2025-05-15 18:00:26,201 - INFO - Race #5 Winner: GB
+2025-05-15 18:00:26,201 - INFO - 
+--- Starting Race #6 ---
+2025-05-15 18:00:27,214 - INFO - 
+Time: 1.0s
+2025-05-15 18:00:27,214 - INFO - Yannix: Position=102.16, Speed=100.85, Finished=False
+2025-05-15 18:00:27,215 - INFO - More Light: Position=87.34, Speed=86.22, Finished=False
+2025-05-15 18:00:27,215 - INFO - Yo-Yo: Position=96.60, Speed=116.06, Finished=False
+2025-05-15 18:00:27,216 - INFO - GB: Position=93.63, Speed=92.43, Finished=False
+2025-05-15 18:00:27,216 - INFO - Vamp: Position=89.66, Speed=88.51, Finished=False
+2025-05-15 18:00:28,222 - INFO - 
+Time: 2.0s
+2025-05-15 18:00:28,222 - INFO - Yannix: Position=200.67, Speed=94.81, Finished=False
+2025-05-15 18:00:28,223 - INFO - More Light: Position=174.16, Speed=86.22, Finished=False
+2025-05-15 18:00:28,223 - INFO - Yo-Yo: Position=192.98, Speed=85.21, Finished=False
+2025-05-15 18:00:28,223 - INFO - GB: Position=186.71, Speed=92.43, Finished=False
+2025-05-15 18:00:28,223 - INFO - Vamp: Position=178.79, Speed=88.51, Finished=False
+2025-05-15 18:00:29,222 - INFO - 
+Time: 3.0s
+2025-05-15 18:00:29,222 - INFO - Yannix: Position=295.58, Speed=94.81, Finished=False
+2025-05-15 18:00:29,223 - INFO - More Light: Position=261.85, Speed=89.06, Finished=False
+2025-05-15 18:00:29,223 - INFO - Yo-Yo: Position=278.54, Speed=100.85, Finished=False
+2025-05-15 18:00:29,223 - INFO - GB: Position=279.23, Speed=92.43, Finished=False
+2025-05-15 18:00:29,224 - INFO - Vamp: Position=282.67, Speed=104.59, Finished=False
+2025-05-15 18:00:30,230 - INFO - 
+Time: 4.0s
+2025-05-15 18:00:30,231 - INFO - Yannix: Position=391.05, Speed=94.81, Finished=False
+2025-05-15 18:00:30,231 - INFO - More Light: Position=351.53, Speed=89.06, Finished=False
+2025-05-15 18:00:30,231 - INFO - Yo-Yo: Position=381.11, Speed=103.06, Finished=False
+2025-05-15 18:00:30,232 - INFO - GB: Position=370.68, Speed=87.41, Finished=False
+2025-05-15 18:00:30,232 - INFO - Vamp: Position=382.59, Speed=95.81, Finished=False
+2025-05-15 18:00:31,244 - INFO - 
+Time: 5.0s
+2025-05-15 18:00:31,244 - INFO - Yannix: Position=487.19, Speed=94.81, Finished=False
+2025-05-15 18:00:31,244 - INFO - More Light: Position=441.84, Speed=89.06, Finished=False
+2025-05-15 18:00:31,245 - INFO - Yo-Yo: Position=485.61, Speed=103.06, Finished=False
+2025-05-15 18:00:31,245 - INFO - GB: Position=461.30, Speed=80.45, Finished=False
+2025-05-15 18:00:31,245 - INFO - Vamp: Position=479.75, Speed=95.81, Finished=False
+2025-05-15 18:00:32,253 - INFO - 
+Time: 6.1s
+2025-05-15 18:00:32,253 - INFO - Yannix: Position=582.86, Speed=94.81, Finished=False
+2025-05-15 18:00:32,254 - INFO - More Light: Position=539.16, Speed=96.70, Finished=False
+2025-05-15 18:00:32,254 - INFO - Yo-Yo: Position=587.42, Speed=96.90, Finished=False
+2025-05-15 18:00:32,254 - INFO - GB: Position=542.48, Speed=80.45, Finished=False
+2025-05-15 18:00:32,255 - INFO - Vamp: Position=576.43, Speed=95.81, Finished=False
+2025-05-15 18:00:33,268 - INFO - 
+Time: 7.1s
+2025-05-15 18:00:33,268 - INFO - Yannix: Position=679.09, Speed=94.81, Finished=False
+2025-05-15 18:00:33,269 - INFO - More Light: Position=637.32, Speed=96.70, Finished=False
+2025-05-15 18:00:33,269 - INFO - Yo-Yo: Position=682.70, Speed=92.89, Finished=False
+2025-05-15 18:00:33,269 - INFO - GB: Position=629.20, Speed=114.89, Finished=False
+2025-05-15 18:00:33,269 - INFO - Vamp: Position=676.89, Speed=104.41, Finished=False
+2025-05-15 18:00:34,275 - INFO - 
+Time: 8.1s
+2025-05-15 18:00:34,275 - INFO - Yannix: Position=775.04, Speed=96.90, Finished=False
+2025-05-15 18:00:34,276 - INFO - More Light: Position=734.70, Speed=96.70, Finished=False
+2025-05-15 18:00:34,276 - INFO - Yo-Yo: Position=776.24, Speed=92.89, Finished=False
+2025-05-15 18:00:34,276 - INFO - GB: Position=744.89, Speed=114.89, Finished=False
+2025-05-15 18:00:34,277 - INFO - Vamp: Position=782.03, Speed=104.41, Finished=False
+2025-05-15 18:00:35,286 - INFO - 
+Time: 9.1s
+2025-05-15 18:00:35,286 - INFO - Yannix: Position=878.00, Speed=104.95, Finished=False
+2025-05-15 18:00:35,286 - INFO - More Light: Position=842.21, Speed=113.77, Finished=False
+2025-05-15 18:00:35,287 - INFO - Yo-Yo: Position=870.14, Speed=92.89, Finished=False
+2025-05-15 18:00:35,287 - INFO - GB: Position=861.05, Speed=114.89, Finished=False
+2025-05-15 18:00:35,287 - INFO - Vamp: Position=887.58, Speed=104.41, Finished=False
+2025-05-15 18:00:36,291 - INFO - 
+Time: 10.1s
+2025-05-15 18:00:36,291 - INFO - Yannix: Position=983.47, Speed=104.95, Finished=False
+2025-05-15 18:00:36,292 - INFO - More Light: Position=956.54, Speed=113.77, Finished=False
+2025-05-15 18:00:36,292 - INFO - Yo-Yo: Position=963.49, Speed=92.89, Finished=False
+2025-05-15 18:00:36,292 - INFO - GB: Position=976.52, Speed=114.89, Finished=False
+2025-05-15 18:00:36,293 - INFO - Vamp: Position=992.51, Speed=104.41, Finished=False
+2025-05-15 18:00:37,302 - INFO - 
+Time: 11.1s
+2025-05-15 18:00:37,302 - INFO - Yannix: Position=1089.22, Speed=95.65, Finished=False
+2025-05-15 18:00:37,303 - INFO - More Light: Position=1071.56, Speed=113.77, Finished=False
+2025-05-15 18:00:37,304 - INFO - Yo-Yo: Position=1057.40, Speed=92.89, Finished=False
+2025-05-15 18:00:37,304 - INFO - GB: Position=1084.52, Speed=87.61, Finished=False
+2025-05-15 18:00:37,305 - INFO - Vamp: Position=1098.06, Speed=104.41, Finished=False
+2025-05-15 18:00:38,306 - INFO - 
+Time: 12.1s
+2025-05-15 18:00:38,306 - INFO - Yannix: Position=1185.25, Speed=95.65, Finished=False
+2025-05-15 18:00:38,306 - INFO - More Light: Position=1169.08, Speed=82.95, Finished=False
+2025-05-15 18:00:38,307 - INFO - Yo-Yo: Position=1150.66, Speed=92.89, Finished=False
+2025-05-15 18:00:38,307 - INFO - GB: Position=1188.84, Speed=106.07, Finished=False
+2025-05-15 18:00:38,307 - INFO - Vamp: Position=1205.58, Speed=112.66, Finished=False
+2025-05-15 18:00:39,308 - INFO - 
+Time: 13.1s
+2025-05-15 18:00:39,313 - INFO - Yannix: Position=1281.18, Speed=95.65, Finished=False
+2025-05-15 18:00:39,334 - INFO - More Light: Position=1276.38, Speed=111.58, Finished=False
+2025-05-15 18:00:39,334 - INFO - Yo-Yo: Position=1244.66, Speed=94.90, Finished=False
+2025-05-15 18:00:39,335 - INFO - GB: Position=1295.23, Speed=106.07, Finished=False
+2025-05-15 18:00:39,335 - INFO - Vamp: Position=1318.58, Speed=112.66, Finished=False
+2025-05-15 18:00:40,321 - INFO - 
+Time: 14.1s
+2025-05-15 18:00:40,321 - INFO - Yannix: Position=1385.31, Speed=105.66, Finished=False
+2025-05-15 18:00:40,321 - INFO - More Light: Position=1370.13, Speed=88.95, Finished=False
+2025-05-15 18:00:40,322 - INFO - Yo-Yo: Position=1340.79, Speed=94.90, Finished=False
+2025-05-15 18:00:40,322 - INFO - GB: Position=1404.69, Speed=109.20, Finished=False
+2025-05-15 18:00:40,322 - INFO - Vamp: Position=1432.70, Speed=112.66, Finished=False
+2025-05-15 18:00:41,338 - INFO - 
+Time: 15.1s
+2025-05-15 18:00:41,338 - INFO - Yannix: Position=1492.65, Speed=105.66, Finished=False
+2025-05-15 18:00:41,339 - INFO - More Light: Position=1455.89, Speed=83.33, Finished=False
+2025-05-15 18:00:41,339 - INFO - Yo-Yo: Position=1447.59, Speed=80.56, Finished=False
+2025-05-15 18:00:41,339 - INFO - GB: Position=1500.00, Speed=95.82, Finished=True
+2025-05-15 18:00:41,340 - INFO - Vamp: Position=1500.00, Speed=112.66, Finished=True
+2025-05-15 18:00:41,989 - INFO - 
+Race #6 finished! Finish order:
+2025-05-15 18:00:41,989 - INFO - 1. Vamp: Avg Speed=101.97
+2025-05-15 18:00:41,990 - INFO - 2. GB: Avg Speed=99.32
+2025-05-15 18:00:41,990 - INFO - 3. Yannix: Avg Speed=98.68
+2025-05-15 18:00:41,990 - INFO - 4. More Light: Avg Speed=95.81
+2025-05-15 18:00:41,990 - INFO - 5. Yo-Yo: Avg Speed=95.12
+2025-05-15 18:00:41,991 - INFO - Selected winner: Vamp with avg speed 101.97
+2025-05-15 18:00:41,991 - INFO - Vamp finished 1st: +10 points, total=48, wins=1
+2025-05-15 18:00:41,991 - INFO - GB finished 2nd: +9 points, total=52, wins=2
+2025-05-15 18:00:41,991 - INFO - Yannix finished 3rd: +8 points, total=50, wins=1
+2025-05-15 18:00:41,992 - INFO - More Light finished 4th: +7 points, total=46, wins=2
+2025-05-15 18:00:41,992 - INFO - Yo-Yo finished 5th: +6 points, total=44, wins=0
+2025-05-15 18:00:41,999 - INFO - Race #6 Winner: Vamp
+2025-05-15 18:00:41,999 - INFO - 
+--- Starting Race #7 ---
+2025-05-15 18:00:43,014 - INFO - 
+Time: 1.0s
+2025-05-15 18:00:43,014 - INFO - Yannix: Position=103.76, Speed=84.01, Finished=False
+2025-05-15 18:00:43,014 - INFO - More Light: Position=120.71, Speed=119.04, Finished=False
+2025-05-15 18:00:43,014 - INFO - Yo-Yo: Position=109.56, Speed=116.29, Finished=False
+2025-05-15 18:00:43,016 - INFO - GB: Position=87.36, Speed=97.25, Finished=False
+2025-05-15 18:00:43,016 - INFO - Vamp: Position=115.70, Speed=114.45, Finished=False
+2025-05-15 18:00:44,026 - INFO - 
+Time: 2.0s
+2025-05-15 18:00:44,026 - INFO - Yannix: Position=191.84, Speed=89.35, Finished=False
+2025-05-15 18:00:44,027 - INFO - More Light: Position=229.84, Speed=88.66, Finished=False
+2025-05-15 18:00:44,027 - INFO - Yo-Yo: Position=227.25, Speed=116.29, Finished=False
+2025-05-15 18:00:44,027 - INFO - GB: Position=186.54, Speed=98.71, Finished=False
+2025-05-15 18:00:44,028 - INFO - Vamp: Position=207.31, Speed=115.34, Finished=False
+2025-05-15 18:00:45,041 - INFO - 
+Time: 3.0s
+2025-05-15 18:00:45,041 - INFO - Yannix: Position=282.62, Speed=89.35, Finished=False
+2025-05-15 18:00:45,042 - INFO - More Light: Position=331.75, Speed=108.67, Finished=False
+2025-05-15 18:00:45,042 - INFO - Yo-Yo: Position=342.98, Speed=108.49, Finished=False
+2025-05-15 18:00:45,042 - INFO - GB: Position=285.21, Speed=91.09, Finished=False
+2025-05-15 18:00:45,043 - INFO - Vamp: Position=323.88, Speed=112.61, Finished=False
+2025-05-15 18:00:46,043 - INFO - 
+Time: 4.0s
+2025-05-15 18:00:46,043 - INFO - Yannix: Position=372.06, Speed=89.35, Finished=False
+2025-05-15 18:00:46,043 - INFO - More Light: Position=440.52, Speed=108.67, Finished=False
+2025-05-15 18:00:46,044 - INFO - Yo-Yo: Position=451.58, Speed=108.49, Finished=False
+2025-05-15 18:00:46,044 - INFO - GB: Position=376.39, Speed=91.09, Finished=False
+2025-05-15 18:00:46,044 - INFO - Vamp: Position=413.40, Speed=105.93, Finished=False
+2025-05-15 18:00:47,048 - INFO - 
+Time: 5.0s
+2025-05-15 18:00:47,048 - INFO - Yannix: Position=469.93, Speed=115.47, Finished=False
+2025-05-15 18:00:47,048 - INFO - More Light: Position=549.51, Speed=108.10, Finished=False
+2025-05-15 18:00:47,049 - INFO - Yo-Yo: Position=560.61, Speed=108.49, Finished=False
+2025-05-15 18:00:47,049 - INFO - GB: Position=467.93, Speed=91.09, Finished=False
+2025-05-15 18:00:47,050 - INFO - Vamp: Position=519.86, Speed=105.93, Finished=False
+2025-05-15 18:00:48,062 - INFO - 
+Time: 6.1s
+2025-05-15 18:00:48,062 - INFO - Yannix: Position=580.09, Speed=108.52, Finished=False
+2025-05-15 18:00:48,063 - INFO - More Light: Position=648.60, Speed=92.49, Finished=False
+2025-05-15 18:00:48,063 - INFO - Yo-Yo: Position=670.61, Speed=108.49, Finished=False
+2025-05-15 18:00:48,063 - INFO - GB: Position=561.60, Speed=92.78, Finished=False
+2025-05-15 18:00:48,064 - INFO - Vamp: Position=627.75, Speed=111.78, Finished=False
+2025-05-15 18:00:49,063 - INFO - 
+Time: 7.1s
+2025-05-15 18:00:49,063 - INFO - Yannix: Position=688.72, Speed=108.52, Finished=False
+2025-05-15 18:00:49,063 - INFO - More Light: Position=741.18, Speed=92.49, Finished=False
+2025-05-15 18:00:49,064 - INFO - Yo-Yo: Position=779.21, Speed=108.49, Finished=False
+2025-05-15 18:00:49,064 - INFO - GB: Position=654.47, Speed=92.78, Finished=False
+2025-05-15 18:00:49,064 - INFO - Vamp: Position=718.46, Speed=98.48, Finished=False
+2025-05-15 18:00:50,077 - INFO - 
+Time: 8.1s
+2025-05-15 18:00:50,077 - INFO - Yannix: Position=798.87, Speed=108.52, Finished=False
+2025-05-15 18:00:50,078 - INFO - More Light: Position=835.06, Speed=92.49, Finished=False
+2025-05-15 18:00:50,079 - INFO - Yo-Yo: Position=888.38, Speed=104.47, Finished=False
+2025-05-15 18:00:50,079 - INFO - GB: Position=747.46, Speed=82.57, Finished=False
+2025-05-15 18:00:50,079 - INFO - Vamp: Position=818.41, Speed=98.48, Finished=False
+2025-05-15 18:00:51,079 - INFO - 
+Time: 9.1s
+2025-05-15 18:00:51,079 - INFO - Yannix: Position=907.50, Speed=108.52, Finished=False
+2025-05-15 18:00:51,080 - INFO - More Light: Position=927.64, Speed=92.49, Finished=False
+2025-05-15 18:00:51,080 - INFO - Yo-Yo: Position=984.85, Speed=89.87, Finished=False
+2025-05-15 18:00:51,080 - INFO - GB: Position=830.11, Speed=82.57, Finished=False
+2025-05-15 18:00:51,080 - INFO - Vamp: Position=916.98, Speed=98.48, Finished=False
+2025-05-15 18:00:52,087 - INFO - 
+Time: 10.1s
+2025-05-15 18:00:52,087 - INFO - Yannix: Position=1016.89, Speed=108.52, Finished=False
+2025-05-15 18:00:52,088 - INFO - More Light: Position=1020.87, Speed=92.49, Finished=False
+2025-05-15 18:00:52,088 - INFO - Yo-Yo: Position=1073.78, Speed=84.61, Finished=False
+2025-05-15 18:00:52,088 - INFO - GB: Position=912.04, Speed=80.26, Finished=False
+2025-05-15 18:00:52,088 - INFO - Vamp: Position=1016.25, Speed=98.48, Finished=False
+2025-05-15 18:00:53,094 - INFO - 
+Time: 11.1s
+2025-05-15 18:00:53,094 - INFO - Yannix: Position=1126.18, Speed=108.52, Finished=False
+2025-05-15 18:00:53,094 - INFO - More Light: Position=1114.01, Speed=92.49, Finished=False
+2025-05-15 18:00:53,094 - INFO - Yo-Yo: Position=1158.98, Speed=84.61, Finished=False
+2025-05-15 18:00:53,095 - INFO - GB: Position=992.86, Speed=80.26, Finished=False
+2025-05-15 18:00:53,095 - INFO - Vamp: Position=1115.41, Speed=98.48, Finished=False
+2025-05-15 18:00:54,094 - INFO - 
+Time: 12.1s
+2025-05-15 18:00:54,094 - INFO - Yannix: Position=1219.50, Speed=91.35, Finished=False
+2025-05-15 18:00:54,095 - INFO - More Light: Position=1203.31, Speed=82.31, Finished=False
+2025-05-15 18:00:54,095 - INFO - Yo-Yo: Position=1253.05, Speed=114.82, Finished=False
+2025-05-15 18:00:54,096 - INFO - GB: Position=1073.11, Speed=80.26, Finished=False
+2025-05-15 18:00:54,096 - INFO - Vamp: Position=1225.08, Speed=110.05, Finished=False
+2025-05-15 18:00:55,096 - INFO - 
+Time: 13.1s
+2025-05-15 18:00:55,096 - INFO - Yannix: Position=1312.17, Speed=104.03, Finished=False
+2025-05-15 18:00:55,097 - INFO - More Light: Position=1285.86, Speed=82.31, Finished=False
+2025-05-15 18:00:55,097 - INFO - Yo-Yo: Position=1368.21, Speed=114.82, Finished=False
+2025-05-15 18:00:55,097 - INFO - GB: Position=1159.32, Speed=89.20, Finished=False
+2025-05-15 18:00:55,097 - INFO - Vamp: Position=1335.47, Speed=110.05, Finished=False
+2025-05-15 18:00:56,104 - INFO - 
+Time: 14.1s
+2025-05-15 18:00:56,104 - INFO - Yannix: Position=1416.93, Speed=104.03, Finished=False
+2025-05-15 18:00:56,104 - INFO - More Light: Position=1368.75, Speed=82.31, Finished=False
+2025-05-15 18:00:56,105 - INFO - Yo-Yo: Position=1471.75, Speed=94.65, Finished=False
+2025-05-15 18:00:56,105 - INFO - GB: Position=1249.15, Speed=89.20, Finished=False
+2025-05-15 18:00:56,105 - INFO - Vamp: Position=1446.29, Speed=110.05, Finished=False
+2025-05-15 18:00:57,112 - INFO - 
+Time: 15.1s
+2025-05-15 18:00:57,112 - INFO - Yannix: Position=1500.00, Speed=104.03, Finished=True
+2025-05-15 18:00:57,113 - INFO - More Light: Position=1453.91, Speed=80.34, Finished=False
+2025-05-15 18:00:57,113 - INFO - Yo-Yo: Position=1500.00, Speed=94.65, Finished=True
+2025-05-15 18:00:57,113 - INFO - GB: Position=1337.09, Speed=81.48, Finished=False
+2025-05-15 18:00:57,113 - INFO - Vamp: Position=1500.00, Speed=110.05, Finished=True
+2025-05-15 18:00:58,124 - INFO - 
+Time: 16.1s
+2025-05-15 18:00:58,124 - INFO - Yannix: Position=1500.00, Speed=104.03, Finished=True
+2025-05-15 18:00:58,125 - INFO - More Light: Position=1500.00, Speed=80.34, Finished=True
+2025-05-15 18:00:58,125 - INFO - Yo-Yo: Position=1500.00, Speed=94.65, Finished=True
+2025-05-15 18:00:58,125 - INFO - GB: Position=1451.11, Speed=114.28, Finished=False
+2025-05-15 18:00:58,126 - INFO - Vamp: Position=1500.00, Speed=110.05, Finished=True
+2025-05-15 18:00:58,565 - INFO - 
+Race #7 finished! Finish order:
+2025-05-15 18:00:58,565 - INFO - 1. Yo-Yo: Avg Speed=104.17
+2025-05-15 18:00:58,565 - INFO - 2. Vamp: Avg Speed=102.89
+2025-05-15 18:00:58,566 - INFO - 3. Yannix: Avg Speed=100.65
+2025-05-15 18:00:58,566 - INFO - 4. More Light: Avg Speed=95.66
+2025-05-15 18:00:58,566 - INFO - 5. GB: Avg Speed=90.64
+2025-05-15 18:00:58,566 - INFO - Selected winner: Yo-Yo with avg speed 104.17
+2025-05-15 18:00:58,566 - INFO - Yo-Yo finished 1st: +10 points, total=54, wins=1
+2025-05-15 18:00:58,567 - INFO - Vamp finished 2nd: +9 points, total=57, wins=1
+2025-05-15 18:00:58,567 - INFO - Yannix finished 3rd: +8 points, total=58, wins=1
+2025-05-15 18:00:58,567 - INFO - More Light finished 4th: +7 points, total=53, wins=2
+2025-05-15 18:00:58,567 - INFO - GB finished 5th: +6 points, total=58, wins=2
+2025-05-15 18:00:58,573 - INFO - Race #7 Winner: Yo-Yo
+2025-05-15 18:00:58,575 - INFO - 
+Tournament Final Rankings:
+2025-05-15 18:00:58,575 - INFO - 1. GB: Wins=2, Points=58, Avg Speed=101.22
+2025-05-15 18:00:58,576 - INFO - 2. More Light: Wins=2, Points=53, Avg Speed=98.79
+2025-05-15 18:00:58,576 - INFO - 3. Yannix: Wins=1, Points=58, Avg Speed=101.34
+2025-05-15 18:00:58,576 - INFO - 4. Vamp: Wins=1, Points=57, Avg Speed=101.06
+2025-05-15 18:00:58,576 - INFO - 5. Yo-Yo: Wins=1, Points=54, Avg Speed=99.49
+2025-05-15 18:55:31,437 - INFO - Tournament music stopped (continue).
+2025-05-15 18:55:31,444 - INFO - Sprotos available in selection screen:
+2025-05-15 18:55:31,445 - INFO - - Yannix
+2025-05-15 18:55:31,445 - INFO - - Yo-Yo
+2025-05-15 18:55:31,446 - INFO - - GB
+2025-05-15 18:55:31,446 - INFO - - FHD
+2025-05-15 18:55:31,446 - INFO - - More Light
+2025-05-15 18:55:31,447 - INFO - - Vamp
+2025-05-15 18:55:31,447 - INFO - - Jahon
+2025-05-15 18:55:31,448 - INFO - - ReD
+2025-05-15 18:55:31,448 - INFO - - VMU
+2025-05-15 18:55:31,449 - INFO - - Alpha
+2025-05-15 18:55:31,449 - INFO - - Dumpstar
+2025-05-15 18:55:31,449 - INFO - - KatieCans
+2025-05-15 18:55:31,449 - INFO - - Turbo
+2025-05-15 18:55:31,449 - INFO - - Jovial
+2025-05-15 18:55:31,449 - INFO - - Speed Demon
+2025-05-15 18:55:31,450 - INFO - - Rumble Pak
+2025-05-15 18:55:31,450 - INFO - - Leviosa
+2025-05-15 18:55:31,451 - INFO - - Obama
+2025-05-15 18:55:31,451 - INFO - - Vince
+2025-05-15 18:55:31,452 - INFO - - BPS
+2025-05-15 18:55:31,452 - INFO - - Apache
+2025-05-15 18:55:31,452 - INFO - - OG OBAMA
+2025-05-15 18:55:31,452 - INFO - - Oggo
+2025-05-15 18:55:31,453 - INFO - - BigSwole
+2025-05-15 18:55:31,453 - INFO - - GPM
+2025-05-15 18:55:31,453 - INFO - - YXJI
+2025-05-15 18:55:31,454 - INFO - - Snoo
+2025-05-15 18:55:31,454 - INFO - Selection music loaded but muted.
+2025-05-15 18:55:33,610 - INFO - Selection music stopped.
+2025-05-15 18:55:33,611 - INFO - No sprotos selected or window closed. Exiting.

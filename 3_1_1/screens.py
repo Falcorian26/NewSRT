@@ -478,7 +478,20 @@ def show_tournament_results(screen, sprotos, race_backgrounds, trophy_image, is_
                     name_y = cell_y + (cell_height - name_text.get_height()) // 2
                     draw_text_with_shadow(screen, sproto.name, small_font, WHITE, (name_x, name_y))
                 elif col == 1:
-                    place_text = f"{row + 1}{sproto.get_place_suffix()}"
+                    # Correct place suffix for tournament results
+                    place_num = row + 1
+                    last_digit = place_num % 10
+                    if 10 <= place_num % 100 <= 13:
+                        suffix = "th"
+                    elif last_digit == 1:
+                        suffix = "st"
+                    elif last_digit == 2:
+                        suffix = "nd"
+                    elif last_digit == 3:
+                        suffix = "rd"
+                    else:
+                        suffix = "th"
+                    place_text = f"{place_num}{suffix}"
                     draw_text_with_shadow(screen, place_text, small_font, WHITE, (cell_x + 5, cell_y + (cell_height - 20) // 2))
                 elif col == 2:
                     draw_text_with_shadow(screen, f"{sproto.tournament_points}", small_font, WHITE, (cell_x + 5, cell_y + (cell_height - 20) // 2))
