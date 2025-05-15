@@ -46046,3 +46046,2647 @@ Detailed Speed Analysis:
 2025-05-11 02:33:16,423 - INFO - Race music stopped.
 2025-05-11 02:33:16,424 - INFO - 
 Winner: Snoo
+2025-05-15 17:29:35,155 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-15 17:29:35,156 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-15 17:29:35,230 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-15 17:29:35,245 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-15 17:29:35,264 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-15 17:29:35,266 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-15 17:29:35,273 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-15 17:29:35,274 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-15 17:29:35,292 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-15 17:29:35,293 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-15 17:29:35,306 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-15 17:29:35,306 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-15 17:29:35,312 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-15 17:29:35,313 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-15 17:29:35,327 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-15 17:29:35,327 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-15 17:29:35,334 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-15 17:29:35,335 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-15 17:29:35,342 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-15 17:29:35,343 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-15 17:29:35,351 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-15 17:29:35,351 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-15 17:29:35,367 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-15 17:29:35,367 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-15 17:29:35,407 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-15 17:29:35,407 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-15 17:29:35,413 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-15 17:29:35,414 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-15 17:29:35,421 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-15 17:29:35,422 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-15 17:29:35,425 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-15 17:29:35,426 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-15 17:29:35,443 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-15 17:29:35,444 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-15 17:29:35,459 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-15 17:29:35,460 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-15 17:29:35,466 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-15 17:29:35,467 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-15 17:29:35,484 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-15 17:29:35,492 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-15 17:29:35,498 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-15 17:29:35,499 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-15 17:29:35,530 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-15 17:29:35,531 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-15 17:29:35,565 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-15 17:29:35,566 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-15 17:29:35,572 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-15 17:29:35,573 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-15 17:29:35,577 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-15 17:29:35,577 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-15 17:29:35,581 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-15 17:29:35,582 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-15 17:29:35,586 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-15 17:29:35,586 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-15 17:29:35,603 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-15 17:29:35,659 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-15 17:29:36,240 - INFO - Available Sprotos:
+2025-05-15 17:29:36,240 - INFO - Yannix
+2025-05-15 17:29:36,240 - INFO - Yo-Yo
+2025-05-15 17:29:36,241 - INFO - GB
+2025-05-15 17:29:36,241 - INFO - FHD
+2025-05-15 17:29:36,241 - INFO - More Light
+2025-05-15 17:29:36,242 - INFO - Vamp
+2025-05-15 17:29:36,242 - INFO - Jahon
+2025-05-15 17:29:36,242 - INFO - ReD
+2025-05-15 17:29:36,243 - INFO - VMU
+2025-05-15 17:29:36,243 - INFO - Alpha
+2025-05-15 17:29:36,243 - INFO - Dumpstar
+2025-05-15 17:29:36,244 - INFO - KatieCans
+2025-05-15 17:29:36,244 - INFO - Turbo
+2025-05-15 17:29:36,244 - INFO - Jovial
+2025-05-15 17:29:36,244 - INFO - Speed Demon
+2025-05-15 17:29:36,245 - INFO - Rumble Pak
+2025-05-15 17:29:36,245 - INFO - Leviosa
+2025-05-15 17:29:36,245 - INFO - Obama
+2025-05-15 17:29:36,246 - INFO - Vince
+2025-05-15 17:29:36,246 - INFO - BPS
+2025-05-15 17:29:36,247 - INFO - Apache
+2025-05-15 17:29:36,247 - INFO - OG OBAMA
+2025-05-15 17:29:36,248 - INFO - Oggo
+2025-05-15 17:29:36,248 - INFO - BigSwole
+2025-05-15 17:29:36,248 - INFO - GPM
+2025-05-15 17:29:36,249 - INFO - YXJI
+2025-05-15 17:29:36,249 - INFO - Snoo
+2025-05-15 17:29:36,253 - INFO - Sprotos available in selection screen:
+2025-05-15 17:29:36,253 - INFO - - Yannix
+2025-05-15 17:29:36,253 - INFO - - Yo-Yo
+2025-05-15 17:29:36,254 - INFO - - GB
+2025-05-15 17:29:36,254 - INFO - - FHD
+2025-05-15 17:29:36,255 - INFO - - More Light
+2025-05-15 17:29:36,255 - INFO - - Vamp
+2025-05-15 17:29:36,256 - INFO - - Jahon
+2025-05-15 17:29:36,256 - INFO - - ReD
+2025-05-15 17:29:36,257 - INFO - - VMU
+2025-05-15 17:29:36,257 - INFO - - Alpha
+2025-05-15 17:29:36,257 - INFO - - Dumpstar
+2025-05-15 17:29:36,258 - INFO - - KatieCans
+2025-05-15 17:29:36,258 - INFO - - Turbo
+2025-05-15 17:29:36,258 - INFO - - Jovial
+2025-05-15 17:29:36,258 - INFO - - Speed Demon
+2025-05-15 17:29:36,259 - INFO - - Rumble Pak
+2025-05-15 17:29:36,259 - INFO - - Leviosa
+2025-05-15 17:29:36,259 - INFO - - Obama
+2025-05-15 17:29:36,260 - INFO - - Vince
+2025-05-15 17:29:36,260 - INFO - - BPS
+2025-05-15 17:29:36,260 - INFO - - Apache
+2025-05-15 17:29:36,261 - INFO - - OG OBAMA
+2025-05-15 17:29:36,261 - INFO - - Oggo
+2025-05-15 17:29:36,262 - INFO - - BigSwole
+2025-05-15 17:29:36,262 - INFO - - GPM
+2025-05-15 17:29:36,262 - INFO - - YXJI
+2025-05-15 17:29:36,262 - INFO - - Snoo
+2025-05-15 17:29:36,318 - INFO - Selection music loaded but muted.
+2025-05-15 17:29:37,503 - INFO - Selection music stopped.
+2025-05-15 17:29:37,505 - INFO - 
+Selected Sprotos for This Race:
+2025-05-15 17:29:37,505 - INFO - Yannix: Initial Speed = 91.87 units/s
+2025-05-15 17:29:37,506 - INFO - Yo-Yo: Initial Speed = 113.82 units/s
+2025-05-15 17:29:37,506 - INFO - GB: Initial Speed = 104.27 units/s
+2025-05-15 17:29:37,506 - INFO - FHD: Initial Speed = 90.02 units/s
+2025-05-15 17:29:37,507 - INFO - More Light: Initial Speed = 100.47 units/s
+2025-05-15 17:29:37,507 - INFO - Vamp: Initial Speed = 115.80 units/s
+2025-05-15 17:29:37,507 - INFO - Jahon: Initial Speed = 107.26 units/s
+2025-05-15 17:29:37,507 - INFO - ReD: Initial Speed = 104.45 units/s
+2025-05-15 17:29:37,508 - INFO - VMU: Initial Speed = 90.09 units/s
+2025-05-15 17:29:37,508 - INFO - Alpha: Initial Speed = 103.70 units/s
+2025-05-15 17:29:37,508 - INFO - Dumpstar: Initial Speed = 103.11 units/s
+2025-05-15 17:29:37,509 - INFO - KatieCans: Initial Speed = 108.61 units/s
+2025-05-15 17:29:37,509 - INFO - Turbo: Initial Speed = 92.48 units/s
+2025-05-15 17:29:37,509 - INFO - Jovial: Initial Speed = 86.57 units/s
+2025-05-15 17:29:37,510 - INFO - Speed Demon: Initial Speed = 81.94 units/s
+2025-05-15 17:29:37,510 - INFO - Rumble Pak: Initial Speed = 109.89 units/s
+2025-05-15 17:29:37,510 - INFO - Leviosa: Initial Speed = 113.36 units/s
+2025-05-15 17:29:37,511 - INFO - Obama: Initial Speed = 84.42 units/s
+2025-05-15 17:29:37,511 - INFO - Vince: Initial Speed = 111.31 units/s
+2025-05-15 17:29:37,511 - INFO - BPS: Initial Speed = 105.57 units/s
+2025-05-15 17:29:37,512 - INFO - Apache: Initial Speed = 93.70 units/s
+2025-05-15 17:29:37,512 - INFO - OG OBAMA: Initial Speed = 110.17 units/s
+2025-05-15 17:29:37,512 - INFO - Oggo: Initial Speed = 107.50 units/s
+2025-05-15 17:29:37,513 - INFO - BigSwole: Initial Speed = 115.68 units/s
+2025-05-15 17:29:37,513 - INFO - GPM: Initial Speed = 95.07 units/s
+2025-05-15 17:29:37,514 - INFO - YXJI: Initial Speed = 89.56 units/s
+2025-05-15 17:29:37,514 - INFO - Snoo: Initial Speed = 89.75 units/s
+2025-05-15 17:29:37,516 - INFO - Selected random background for all-characters race.
+2025-05-15 17:29:37,589 - INFO - Race music loaded but muted.
+2025-05-15 17:29:39,526 - INFO - 
+Time: 2.0s
+2025-05-15 17:29:39,526 - INFO - Yannix: Position=186.11, Speed=93.87, Finished=False
+2025-05-15 17:29:39,526 - INFO - Yo-Yo: Position=228.20, Speed=91.89, Finished=False
+2025-05-15 17:29:39,527 - INFO - GB: Position=209.68, Speed=104.27, Finished=False
+2025-05-15 17:29:39,527 - INFO - FHD: Position=186.20, Speed=111.01, Finished=False
+2025-05-15 17:29:39,527 - INFO - More Light: Position=190.66, Speed=87.52, Finished=False
+2025-05-15 17:29:39,527 - INFO - Vamp: Position=218.66, Speed=116.78, Finished=False
+2025-05-15 17:29:39,528 - INFO - Jahon: Position=215.70, Speed=107.26, Finished=False
+2025-05-15 17:29:39,528 - INFO - ReD: Position=192.41, Speed=87.59, Finished=False
+2025-05-15 17:29:39,529 - INFO - VMU: Position=181.18, Speed=90.09, Finished=False
+2025-05-15 17:29:39,529 - INFO - Alpha: Position=211.77, Speed=105.99, Finished=False
+2025-05-15 17:29:39,529 - INFO - Dumpstar: Position=180.71, Speed=83.73, Finished=False
+2025-05-15 17:29:39,529 - INFO - KatieCans: Position=181.14, Speed=85.14, Finished=False
+2025-05-15 17:29:39,530 - INFO - Turbo: Position=185.58, Speed=91.85, Finished=False
+2025-05-15 17:29:39,530 - INFO - Jovial: Position=186.07, Speed=113.49, Finished=False
+2025-05-15 17:29:39,530 - INFO - Speed Demon: Position=164.78, Speed=81.94, Finished=False
+2025-05-15 17:29:39,530 - INFO - Rumble Pak: Position=211.01, Speed=82.69, Finished=False
+2025-05-15 17:29:39,531 - INFO - Leviosa: Position=209.50, Speed=94.51, Finished=False
+2025-05-15 17:29:39,531 - INFO - Obama: Position=191.72, Speed=87.29, Finished=False
+2025-05-15 17:29:39,531 - INFO - Vince: Position=223.84, Speed=111.31, Finished=False
+2025-05-15 17:29:39,532 - INFO - BPS: Position=208.40, Speed=109.47, Finished=False
+2025-05-15 17:29:39,532 - INFO - Apache: Position=177.75, Speed=80.54, Finished=False
+2025-05-15 17:29:39,533 - INFO - OG OBAMA: Position=218.64, Speed=95.59, Finished=False
+2025-05-15 17:29:39,533 - INFO - Oggo: Position=183.64, Speed=80.61, Finished=False
+2025-05-15 17:29:39,534 - INFO - BigSwole: Position=195.63, Speed=82.61, Finished=False
+2025-05-15 17:29:39,534 - INFO - GPM: Position=194.25, Speed=98.42, Finished=False
+2025-05-15 17:29:39,535 - INFO - YXJI: Position=180.10, Speed=89.56, Finished=False
+2025-05-15 17:29:39,535 - INFO - Snoo: Position=216.65, Speed=115.88, Finished=False
+2025-05-15 17:29:41,537 - INFO - 
+Time: 4.0s
+2025-05-15 17:29:41,537 - INFO - Yannix: Position=398.19, Speed=118.23, Finished=False
+2025-05-15 17:29:41,538 - INFO - Yo-Yo: Position=412.98, Speed=91.89, Finished=False
+2025-05-15 17:29:41,538 - INFO - GB: Position=413.98, Speed=81.49, Finished=False
+2025-05-15 17:29:41,538 - INFO - FHD: Position=402.77, Speed=113.07, Finished=False
+2025-05-15 17:29:41,539 - INFO - More Light: Position=366.67, Speed=87.52, Finished=False
+2025-05-15 17:29:41,539 - INFO - Vamp: Position=445.64, Speed=111.41, Finished=False
+2025-05-15 17:29:41,539 - INFO - Jahon: Position=431.39, Speed=107.26, Finished=False
+2025-05-15 17:29:41,540 - INFO - ReD: Position=368.54, Speed=87.59, Finished=False
+2025-05-15 17:29:41,540 - INFO - VMU: Position=362.36, Speed=90.09, Finished=False
+2025-05-15 17:29:41,540 - INFO - Alpha: Position=400.23, Speed=86.45, Finished=False
+2025-05-15 17:29:41,541 - INFO - Dumpstar: Position=354.07, Speed=92.22, Finished=False
+2025-05-15 17:29:41,541 - INFO - KatieCans: Position=356.85, Speed=92.04, Finished=False
+2025-05-15 17:29:41,541 - INFO - Turbo: Position=395.62, Speed=110.72, Finished=False
+2025-05-15 17:29:41,542 - INFO - Jovial: Position=414.30, Speed=113.49, Finished=False
+2025-05-15 17:29:41,542 - INFO - Speed Demon: Position=329.55, Speed=81.94, Finished=False
+2025-05-15 17:29:41,542 - INFO - Rumble Pak: Position=377.30, Speed=82.69, Finished=False
+2025-05-15 17:29:41,543 - INFO - Leviosa: Position=390.74, Speed=83.13, Finished=False
+2025-05-15 17:29:41,543 - INFO - Obama: Position=367.26, Speed=87.29, Finished=False
+2025-05-15 17:29:41,544 - INFO - Vince: Position=429.83, Speed=97.39, Finished=False
+2025-05-15 17:29:41,544 - INFO - BPS: Position=429.03, Speed=110.30, Finished=False
+2025-05-15 17:29:41,545 - INFO - Apache: Position=339.72, Speed=80.54, Finished=False
+2025-05-15 17:29:41,546 - INFO - OG OBAMA: Position=412.94, Speed=100.69, Finished=False
+2025-05-15 17:29:41,546 - INFO - Oggo: Position=376.86, Speed=118.80, Finished=False
+2025-05-15 17:29:41,547 - INFO - BigSwole: Position=371.60, Speed=104.31, Finished=False
+2025-05-15 17:29:41,548 - INFO - GPM: Position=392.18, Speed=98.42, Finished=False
+2025-05-15 17:29:41,548 - INFO - YXJI: Position=360.21, Speed=89.56, Finished=False
+2025-05-15 17:29:41,548 - INFO - Snoo: Position=397.24, Speed=81.95, Finished=False
+2025-05-15 17:29:43,538 - INFO - 
+Time: 6.0s
+2025-05-15 17:29:43,538 - INFO - Yannix: Position=618.21, Speed=102.55, Finished=False
+2025-05-15 17:29:43,538 - INFO - Yo-Yo: Position=585.35, Speed=80.27, Finished=False
+2025-05-15 17:29:43,539 - INFO - GB: Position=598.01, Speed=105.42, Finished=False
+2025-05-15 17:29:43,539 - INFO - FHD: Position=605.16, Speed=82.32, Finished=False
+2025-05-15 17:29:43,539 - INFO - More Light: Position=540.42, Speed=82.14, Finished=False
+2025-05-15 17:29:43,540 - INFO - Vamp: Position=655.26, Speed=95.23, Finished=False
+2025-05-15 17:29:43,540 - INFO - Jahon: Position=646.02, Speed=107.26, Finished=False
+2025-05-15 17:29:43,541 - INFO - ReD: Position=543.04, Speed=81.96, Finished=False
+2025-05-15 17:29:43,541 - INFO - VMU: Position=533.47, Speed=84.80, Finished=False
+2025-05-15 17:29:43,541 - INFO - Alpha: Position=638.59, Speed=119.73, Finished=False
+2025-05-15 17:29:43,541 - INFO - Dumpstar: Position=538.61, Speed=92.22, Finished=False
+2025-05-15 17:29:43,542 - INFO - KatieCans: Position=546.80, Speed=103.47, Finished=False
+2025-05-15 17:29:43,542 - INFO - Turbo: Position=616.14, Speed=106.31, Finished=False
+2025-05-15 17:29:43,542 - INFO - Jovial: Position=640.89, Speed=113.19, Finished=False
+2025-05-15 17:29:43,543 - INFO - Speed Demon: Position=556.57, Speed=91.29, Finished=False
+2025-05-15 17:29:43,543 - INFO - Rumble Pak: Position=542.76, Speed=82.69, Finished=False
+2025-05-15 17:29:43,544 - INFO - Leviosa: Position=599.28, Speed=108.97, Finished=False
+2025-05-15 17:29:43,545 - INFO - Obama: Position=542.76, Speed=94.42, Finished=False
+2025-05-15 17:29:43,545 - INFO - Vince: Position=624.70, Speed=97.39, Finished=False
+2025-05-15 17:29:43,546 - INFO - BPS: Position=649.73, Speed=110.30, Finished=False
+2025-05-15 17:29:43,546 - INFO - Apache: Position=505.41, Speed=89.50, Finished=False
+2025-05-15 17:29:43,547 - INFO - OG OBAMA: Position=607.97, Speed=89.78, Finished=False
+2025-05-15 17:29:43,547 - INFO - Oggo: Position=595.70, Speed=113.62, Finished=False
+2025-05-15 17:29:43,547 - INFO - BigSwole: Position=570.83, Speed=88.36, Finished=False
+2025-05-15 17:29:43,548 - INFO - GPM: Position=572.31, Speed=93.73, Finished=False
+2025-05-15 17:29:43,548 - INFO - YXJI: Position=540.73, Speed=115.45, Finished=False
+2025-05-15 17:29:43,549 - INFO - Snoo: Position=576.24, Speed=104.70, Finished=False
+2025-05-15 17:29:44,152 - INFO - Attempting to load music file: B:\SRT\3_1_1\Music\ocean.mp3
+2025-05-15 17:29:44,153 - INFO - Music unmuted and playing dynamically.
+2025-05-15 17:29:45,545 - INFO - 
+Time: 8.0s
+2025-05-15 17:29:45,545 - INFO - Yannix: Position=799.92, Speed=85.02, Finished=False
+2025-05-15 17:29:45,546 - INFO - Yo-Yo: Position=780.71, Speed=116.56, Finished=False
+2025-05-15 17:29:45,546 - INFO - GB: Position=809.58, Speed=105.42, Finished=False
+2025-05-15 17:29:45,546 - INFO - FHD: Position=770.37, Speed=82.32, Finished=False
+2025-05-15 17:29:45,546 - INFO - More Light: Position=725.23, Speed=116.24, Finished=False
+2025-05-15 17:29:45,547 - INFO - Vamp: Position=839.57, Speed=91.80, Finished=False
+2025-05-15 17:29:45,547 - INFO - Jahon: Position=874.66, Speed=105.17, Finished=False
+2025-05-15 17:29:45,547 - INFO - ReD: Position=707.55, Speed=81.96, Finished=False
+2025-05-15 17:29:45,548 - INFO - VMU: Position=710.35, Speed=118.04, Finished=False
+2025-05-15 17:29:45,548 - INFO - Alpha: Position=869.50, Speed=108.64, Finished=False
+2025-05-15 17:29:45,548 - INFO - Dumpstar: Position=728.01, Speed=116.27, Finished=False
+2025-05-15 17:29:45,548 - INFO - KatieCans: Position=754.45, Speed=103.47, Finished=False
+2025-05-15 17:29:45,549 - INFO - Turbo: Position=826.25, Speed=103.14, Finished=False
+2025-05-15 17:29:45,549 - INFO - Jovial: Position=868.05, Speed=113.19, Finished=False
+2025-05-15 17:29:45,549 - INFO - Speed Demon: Position=754.62, Speed=99.66, Finished=False
+2025-05-15 17:29:45,549 - INFO - Rumble Pak: Position=710.48, Speed=84.56, Finished=False
+2025-05-15 17:29:45,550 - INFO - Leviosa: Position=811.98, Speed=105.49, Finished=False
+2025-05-15 17:29:45,550 - INFO - Obama: Position=738.67, Speed=109.96, Finished=False
+2025-05-15 17:29:45,550 - INFO - Vince: Position=858.30, Speed=117.10, Finished=False
+2025-05-15 17:29:45,550 - INFO - BPS: Position=846.31, Speed=91.31, Finished=False
+2025-05-15 17:29:45,551 - INFO - Apache: Position=685.03, Speed=89.50, Finished=False
+2025-05-15 17:29:45,551 - INFO - OG OBAMA: Position=788.16, Speed=89.78, Finished=False
+2025-05-15 17:29:45,551 - INFO - Oggo: Position=792.57, Speed=96.12, Finished=False
+2025-05-15 17:29:45,551 - INFO - BigSwole: Position=763.08, Speed=108.72, Finished=False
+2025-05-15 17:29:45,552 - INFO - GPM: Position=760.43, Speed=93.73, Finished=False
+2025-05-15 17:29:45,552 - INFO - YXJI: Position=772.45, Speed=115.45, Finished=False
+2025-05-15 17:29:45,553 - INFO - Snoo: Position=786.38, Speed=104.70, Finished=False
+2025-05-15 17:29:47,550 - INFO - 
+Time: 10.0s
+2025-05-15 17:29:47,550 - INFO - Yannix: Position=989.94, Speed=96.34, Finished=False
+2025-05-15 17:29:47,551 - INFO - Yo-Yo: Position=997.60, Speed=107.27, Finished=False
+2025-05-15 17:29:47,551 - INFO - GB: Position=1020.95, Speed=105.42, Finished=False
+2025-05-15 17:29:47,552 - INFO - FHD: Position=963.88, Speed=115.60, Finished=False
+2025-05-15 17:29:47,552 - INFO - More Light: Position=958.30, Speed=116.24, Finished=False
+2025-05-15 17:29:47,553 - INFO - Vamp: Position=1056.18, Speed=84.26, Finished=False
+2025-05-15 17:29:47,553 - INFO - Jahon: Position=1076.40, Speed=98.66, Finished=False
+2025-05-15 17:29:47,553 - INFO - ReD: Position=871.88, Speed=81.96, Finished=False
+2025-05-15 17:29:47,554 - INFO - VMU: Position=898.73, Speed=90.76, Finished=False
+2025-05-15 17:29:47,554 - INFO - Alpha: Position=1090.56, Speed=111.21, Finished=False
+2025-05-15 17:29:47,554 - INFO - Dumpstar: Position=957.30, Speed=111.18, Finished=False
+2025-05-15 17:29:47,555 - INFO - KatieCans: Position=944.35, Speed=89.29, Finished=False
+2025-05-15 17:29:47,555 - INFO - Turbo: Position=1019.27, Speed=83.14, Finished=False
+2025-05-15 17:29:47,556 - INFO - Jovial: Position=1074.76, Speed=93.37, Finished=False
+2025-05-15 17:29:47,556 - INFO - Speed Demon: Position=983.48, Speed=114.26, Finished=False
+2025-05-15 17:29:47,557 - INFO - Rumble Pak: Position=897.98, Speed=101.31, Finished=False
+2025-05-15 17:29:47,557 - INFO - Leviosa: Position=1023.48, Speed=105.49, Finished=False
+2025-05-15 17:29:47,558 - INFO - Obama: Position=936.84, Speed=80.91, Finished=False
+2025-05-15 17:29:47,558 - INFO - Vince: Position=1056.61, Speed=99.19, Finished=False
+2025-05-15 17:29:47,559 - INFO - BPS: Position=1033.35, Speed=91.00, Finished=False
+2025-05-15 17:29:47,560 - INFO - Apache: Position=866.43, Speed=106.53, Finished=False
+2025-05-15 17:29:47,560 - INFO - OG OBAMA: Position=990.93, Speed=102.86, Finished=False
+2025-05-15 17:29:47,560 - INFO - Oggo: Position=993.65, Speed=119.37, Finished=False
+2025-05-15 17:29:47,561 - INFO - BigSwole: Position=992.48, Speed=98.94, Finished=False
+2025-05-15 17:29:47,561 - INFO - GPM: Position=956.98, Speed=107.87, Finished=False
+2025-05-15 17:29:47,561 - INFO - YXJI: Position=998.77, Speed=115.42, Finished=False
+2025-05-15 17:29:47,562 - INFO - Snoo: Position=985.49, Speed=98.50, Finished=False
+2025-05-15 17:29:49,552 - INFO - 
+Time: 12.0s
+2025-05-15 17:29:49,552 - INFO - Yannix: Position=1182.82, Speed=96.34, Finished=False
+2025-05-15 17:29:49,552 - INFO - Yo-Yo: Position=1218.06, Speed=117.68, Finished=False
+2025-05-15 17:29:49,553 - INFO - GB: Position=1218.50, Speed=93.24, Finished=False
+2025-05-15 17:29:49,553 - INFO - FHD: Position=1163.09, Speed=94.86, Finished=False
+2025-05-15 17:29:49,553 - INFO - More Light: Position=1186.41, Speed=98.81, Finished=False
+2025-05-15 17:29:49,554 - INFO - Vamp: Position=1224.86, Speed=84.26, Finished=False
+2025-05-15 17:29:49,554 - INFO - Jahon: Position=1264.29, Speed=91.49, Finished=False
+2025-05-15 17:29:49,555 - INFO - ReD: Position=1043.10, Speed=92.48, Finished=False
+2025-05-15 17:29:49,555 - INFO - VMU: Position=1115.16, Speed=118.08, Finished=False
+2025-05-15 17:29:49,555 - INFO - Alpha: Position=1311.79, Speed=100.33, Finished=False
+2025-05-15 17:29:49,555 - INFO - Dumpstar: Position=1182.95, Speed=114.33, Finished=False
+2025-05-15 17:29:49,556 - INFO - KatieCans: Position=1141.28, Speed=109.75, Finished=False
+2025-05-15 17:29:49,556 - INFO - Turbo: Position=1193.40, Speed=88.88, Finished=False
+2025-05-15 17:29:49,557 - INFO - Jovial: Position=1280.91, Speed=103.23, Finished=False
+2025-05-15 17:29:49,557 - INFO - Speed Demon: Position=1189.35, Speed=93.30, Finished=False
+2025-05-15 17:29:49,558 - INFO - Rumble Pak: Position=1087.10, Speed=86.83, Finished=False
+2025-05-15 17:29:49,558 - INFO - Leviosa: Position=1217.29, Speed=119.03, Finished=False
+2025-05-15 17:29:49,558 - INFO - Obama: Position=1123.76, Speed=112.51, Finished=False
+2025-05-15 17:29:49,559 - INFO - Vince: Position=1238.68, Speed=98.84, Finished=False
+2025-05-15 17:29:49,559 - INFO - BPS: Position=1217.79, Speed=92.61, Finished=False
+2025-05-15 17:29:49,559 - INFO - Apache: Position=1069.26, Speed=111.57, Finished=False
+2025-05-15 17:29:49,560 - INFO - OG OBAMA: Position=1196.86, Speed=102.86, Finished=False
+2025-05-15 17:29:49,560 - INFO - Oggo: Position=1202.04, Speed=101.00, Finished=False
+2025-05-15 17:29:49,560 - INFO - BigSwole: Position=1190.61, Speed=83.90, Finished=False
+2025-05-15 17:29:49,561 - INFO - GPM: Position=1180.78, Speed=115.40, Finished=False
+2025-05-15 17:29:49,561 - INFO - YXJI: Position=1199.39, Speed=95.51, Finished=False
+2025-05-15 17:29:49,561 - INFO - Snoo: Position=1182.68, Speed=98.50, Finished=False
+2025-05-15 17:29:51,555 - INFO - 
+Time: 14.0s
+2025-05-15 17:29:51,555 - INFO - Yannix: Position=1383.54, Speed=86.58, Finished=False
+2025-05-15 17:29:51,556 - INFO - Yo-Yo: Position=1412.51, Speed=85.04, Finished=False
+2025-05-15 17:29:51,557 - INFO - GB: Position=1439.15, Speed=115.45, Finished=False
+2025-05-15 17:29:51,557 - INFO - FHD: Position=1353.10, Speed=94.86, Finished=False
+2025-05-15 17:29:51,557 - INFO - More Light: Position=1379.16, Speed=84.69, Finished=False
+2025-05-15 17:29:51,558 - INFO - Vamp: Position=1391.18, Speed=82.32, Finished=False
+2025-05-15 17:29:51,558 - INFO - Jahon: Position=1447.54, Speed=91.49, Finished=False
+2025-05-15 17:29:51,558 - INFO - ReD: Position=1249.07, Speed=110.03, Finished=False
+2025-05-15 17:29:51,559 - INFO - VMU: Position=1351.66, Speed=118.08, Finished=False
+2025-05-15 17:29:51,559 - INFO - Alpha: Position=1500.00, Speed=100.33, Finished=True
+2025-05-15 17:29:51,559 - INFO - Dumpstar: Position=1368.02, Speed=92.80, Finished=False
+2025-05-15 17:29:51,560 - INFO - KatieCans: Position=1361.10, Speed=109.75, Finished=False
+2025-05-15 17:29:51,560 - INFO - Turbo: Position=1380.95, Speed=95.24, Finished=False
+2025-05-15 17:29:51,560 - INFO - Jovial: Position=1493.59, Speed=119.13, Finished=False
+2025-05-15 17:29:51,560 - INFO - Speed Demon: Position=1376.22, Speed=93.30, Finished=False
+2025-05-15 17:29:51,561 - INFO - Rumble Pak: Position=1278.71, Speed=97.35, Finished=False
+2025-05-15 17:29:51,561 - INFO - Leviosa: Position=1442.36, Speed=107.75, Finished=False
+2025-05-15 17:29:51,562 - INFO - Obama: Position=1307.38, Speed=106.15, Finished=False
+2025-05-15 17:29:51,562 - INFO - Vince: Position=1441.52, Speed=113.64, Finished=False
+2025-05-15 17:29:51,562 - INFO - BPS: Position=1422.21, Speed=91.90, Finished=False
+2025-05-15 17:29:51,563 - INFO - Apache: Position=1292.17, Speed=115.74, Finished=False
+2025-05-15 17:29:51,563 - INFO - OG OBAMA: Position=1405.89, Speed=115.71, Finished=False
+2025-05-15 17:29:51,563 - INFO - Oggo: Position=1404.34, Speed=101.00, Finished=False
+2025-05-15 17:29:51,564 - INFO - BigSwole: Position=1358.67, Speed=83.90, Finished=False
+2025-05-15 17:29:51,564 - INFO - GPM: Position=1411.43, Speed=114.35, Finished=False
+2025-05-15 17:29:51,564 - INFO - YXJI: Position=1407.06, Speed=97.71, Finished=False
+2025-05-15 17:29:51,565 - INFO - Snoo: Position=1379.97, Speed=98.50, Finished=False
+2025-05-15 17:29:53,560 - INFO - 
+Time: 16.0s
+2025-05-15 17:29:53,560 - INFO - Yannix: Position=1500.00, Speed=114.89, Finished=True
+2025-05-15 17:29:53,561 - INFO - Yo-Yo: Position=1500.00, Speed=85.50, Finished=True
+2025-05-15 17:29:53,561 - INFO - GB: Position=1500.00, Speed=115.45, Finished=True
+2025-05-15 17:29:53,561 - INFO - FHD: Position=1500.00, Speed=114.03, Finished=True
+2025-05-15 17:29:53,561 - INFO - More Light: Position=1500.00, Speed=109.20, Finished=True
+2025-05-15 17:29:53,562 - INFO - Vamp: Position=1500.00, Speed=113.90, Finished=True
+2025-05-15 17:29:53,562 - INFO - Jahon: Position=1500.00, Speed=91.49, Finished=True
+2025-05-15 17:29:53,562 - INFO - ReD: Position=1469.68, Speed=110.03, Finished=False
+2025-05-15 17:29:53,563 - INFO - VMU: Position=1500.00, Speed=104.84, Finished=True
+2025-05-15 17:29:53,563 - INFO - Alpha: Position=1500.00, Speed=100.33, Finished=True
+2025-05-15 17:29:53,563 - INFO - Dumpstar: Position=1500.00, Speed=118.00, Finished=True
+2025-05-15 17:29:53,563 - INFO - KatieCans: Position=1500.00, Speed=107.95, Finished=True
+2025-05-15 17:29:53,564 - INFO - Turbo: Position=1500.00, Speed=84.24, Finished=True
+2025-05-15 17:29:53,564 - INFO - Jovial: Position=1500.00, Speed=119.13, Finished=True
+2025-05-15 17:29:53,565 - INFO - Speed Demon: Position=1500.00, Speed=117.66, Finished=True
+2025-05-15 17:29:53,565 - INFO - Rumble Pak: Position=1473.90, Speed=97.35, Finished=False
+2025-05-15 17:29:53,565 - INFO - Leviosa: Position=1500.00, Speed=107.75, Finished=True
+2025-05-15 17:29:53,565 - INFO - Obama: Position=1500.00, Speed=113.56, Finished=True
+2025-05-15 17:29:53,566 - INFO - Vince: Position=1500.00, Speed=113.64, Finished=True
+2025-05-15 17:29:53,566 - INFO - BPS: Position=1500.00, Speed=91.90, Finished=True
+2025-05-15 17:29:53,566 - INFO - Apache: Position=1500.00, Speed=100.15, Finished=True
+2025-05-15 17:29:53,566 - INFO - OG OBAMA: Position=1500.00, Speed=90.75, Finished=True
+2025-05-15 17:29:53,567 - INFO - Oggo: Position=1500.00, Speed=104.52, Finished=True
+2025-05-15 17:29:53,567 - INFO - BigSwole: Position=1500.00, Speed=107.29, Finished=True
+2025-05-15 17:29:53,567 - INFO - GPM: Position=1500.00, Speed=114.35, Finished=True
+2025-05-15 17:29:53,567 - INFO - YXJI: Position=1500.00, Speed=97.71, Finished=True
+2025-05-15 17:29:53,568 - INFO - Snoo: Position=1500.00, Speed=98.50, Finished=True
+2025-05-15 17:29:53,840 - INFO - 
+All-Characters Race finished! Finish order:
+2025-05-15 17:29:53,840 - INFO - 1. Alpha: Avg Speed=108.34
+2025-05-15 17:29:53,841 - INFO - 2. Jovial: Avg Speed=107.02
+2025-05-15 17:29:53,841 - INFO - 3. GB: Avg Speed=103.51
+2025-05-15 17:29:53,841 - INFO - 4. Vince: Avg Speed=103.51
+2025-05-15 17:29:53,842 - INFO - 5. Leviosa: Avg Speed=103.38
+2025-05-15 17:29:53,842 - INFO - 6. Jahon: Avg Speed=103.15
+2025-05-15 17:29:53,842 - INFO - 7. GPM: Avg Speed=101.75
+2025-05-15 17:29:53,842 - INFO - 8. BPS: Avg Speed=101.28
+2025-05-15 17:29:53,842 - INFO - 9. Oggo: Avg Speed=100.61
+2025-05-15 17:29:53,842 - INFO - 10. YXJI: Avg Speed=100.50
+2025-05-15 17:29:53,843 - INFO - 11. OG OBAMA: Avg Speed=100.39
+2025-05-15 17:29:53,843 - INFO - 12. Vamp: Avg Speed=100.27
+2025-05-15 17:29:53,843 - INFO - 13. Yo-Yo: Avg Speed=100.16
+2025-05-15 17:29:53,843 - INFO - 14. Yannix: Avg Speed=99.19
+2025-05-15 17:29:53,844 - INFO - 15. Dumpstar: Avg Speed=98.87
+2025-05-15 17:29:53,844 - INFO - 16. Speed Demon: Avg Speed=98.87
+2025-05-15 17:29:53,844 - INFO - 17. Snoo: Avg Speed=98.77
+2025-05-15 17:29:53,844 - INFO - 18. More Light: Avg Speed=98.56
+2025-05-15 17:29:53,845 - INFO - 19. KatieCans: Avg Speed=98.14
+2025-05-15 17:29:53,845 - INFO - 20. VMU: Avg Speed=98.04
+2025-05-15 17:29:53,845 - INFO - 21. Turbo: Avg Speed=97.83
+2025-05-15 17:29:53,846 - INFO - 22. FHD: Avg Speed=96.90
+2025-05-15 17:29:53,846 - INFO - 23. BigSwole: Avg Speed=96.49
+2025-05-15 17:29:53,846 - INFO - 24. Obama: Avg Speed=94.91
+2025-05-15 17:29:53,846 - INFO - 25. Apache: Avg Speed=94.71
+2025-05-15 17:29:53,847 - INFO - 26. ReD: Avg Speed=92.32
+2025-05-15 17:29:53,847 - INFO - 27. Rumble Pak: Avg Speed=92.32
+2025-05-15 17:29:53,847 - INFO - Selected winner: Alpha with avg speed 108.34
+2025-05-15 17:29:55,850 - INFO - 
+Detailed Speed Analysis:
+2025-05-15 17:29:55,851 - INFO - 1. Alpha: Finish Time=13.92s, Average Speed=108.34
+2025-05-15 17:29:55,851 - INFO - 2. Jovial: Finish Time=14.09s, Average Speed=107.02
+2025-05-15 17:29:55,852 - INFO - 3. GB: Finish Time=14.57s, Average Speed=103.51
+2025-05-15 17:29:55,852 - INFO - 4. Vince: Finish Time=14.57s, Average Speed=103.51
+2025-05-15 17:29:55,852 - INFO - 5. Leviosa: Finish Time=14.59s, Average Speed=103.38
+2025-05-15 17:29:55,853 - INFO - 6. Jahon: Finish Time=14.62s, Average Speed=103.15
+2025-05-15 17:29:55,853 - INFO - 7. GPM: Finish Time=14.82s, Average Speed=101.75
+2025-05-15 17:29:55,853 - INFO - 8. BPS: Finish Time=14.89s, Average Speed=101.28
+2025-05-15 17:29:55,854 - INFO - 9. Oggo: Finish Time=14.99s, Average Speed=100.61
+2025-05-15 17:29:55,854 - INFO - 10. YXJI: Finish Time=15.00s, Average Speed=100.50
+2025-05-15 17:29:55,855 - INFO - 11. OG OBAMA: Finish Time=15.02s, Average Speed=100.39
+2025-05-15 17:29:55,855 - INFO - 12. Vamp: Finish Time=15.04s, Average Speed=100.27
+2025-05-15 17:29:55,855 - INFO - 13. Yo-Yo: Finish Time=15.05s, Average Speed=100.16
+2025-05-15 17:29:55,855 - INFO - 14. Yannix: Finish Time=15.20s, Average Speed=99.19
+2025-05-15 17:29:55,856 - INFO - 15. Dumpstar: Finish Time=15.25s, Average Speed=98.87
+2025-05-15 17:29:55,856 - INFO - 16. Speed Demon: Finish Time=15.25s, Average Speed=98.87
+2025-05-15 17:29:55,856 - INFO - 17. Snoo: Finish Time=15.26s, Average Speed=98.77
+2025-05-15 17:29:55,856 - INFO - 18. More Light: Finish Time=15.30s, Average Speed=98.56
+2025-05-15 17:29:55,857 - INFO - 19. KatieCans: Finish Time=15.36s, Average Speed=98.14
+2025-05-15 17:29:55,857 - INFO - 20. VMU: Finish Time=15.38s, Average Speed=98.04
+2025-05-15 17:29:55,857 - INFO - 21. Turbo: Finish Time=15.41s, Average Speed=97.83
+2025-05-15 17:29:55,857 - INFO - 22. FHD: Finish Time=15.56s, Average Speed=96.90
+2025-05-15 17:29:55,858 - INFO - 23. BigSwole: Finish Time=15.62s, Average Speed=96.49
+2025-05-15 17:29:55,858 - INFO - 24. Obama: Finish Time=15.88s, Average Speed=94.91
+2025-05-15 17:29:55,858 - INFO - 25. Apache: Finish Time=15.92s, Average Speed=94.71
+2025-05-15 17:29:55,859 - INFO - 26. ReD: Finish Time=16.32s, Average Speed=92.32
+2025-05-15 17:29:55,859 - INFO - 27. Rumble Pak: Finish Time=16.32s, Average Speed=92.32
+2025-05-15 17:30:00,838 - INFO - Music muted.
+2025-05-15 17:30:40,149 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-15 17:30:40,151 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-15 17:30:40,161 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-15 17:30:40,161 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-15 17:30:40,170 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-15 17:30:40,172 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-15 17:30:40,181 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-15 17:30:40,182 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-15 17:30:40,190 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-15 17:30:40,190 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-15 17:30:40,197 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-15 17:30:40,198 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-15 17:30:40,206 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-15 17:30:40,206 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-15 17:30:40,213 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-15 17:30:40,213 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-15 17:30:40,220 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-15 17:30:40,220 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-15 17:30:40,227 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-15 17:30:40,227 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-15 17:30:40,235 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-15 17:30:40,236 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-15 17:30:40,241 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-15 17:30:40,242 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-15 17:30:40,251 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-15 17:30:40,252 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-15 17:30:40,258 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-15 17:30:40,259 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-15 17:30:40,261 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-15 17:30:40,261 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-15 17:30:40,267 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-15 17:30:40,267 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-15 17:30:40,273 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-15 17:30:40,273 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-15 17:30:40,280 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-15 17:30:40,280 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-15 17:30:40,287 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-15 17:30:40,287 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-15 17:30:40,293 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-15 17:30:40,294 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-15 17:30:40,302 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-15 17:30:40,302 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-15 17:30:40,315 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-15 17:30:40,316 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-15 17:30:40,354 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-15 17:30:40,354 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-15 17:30:40,361 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-15 17:30:40,361 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-15 17:30:40,366 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-15 17:30:40,367 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-15 17:30:40,371 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-15 17:30:40,371 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-15 17:30:40,375 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-15 17:30:40,376 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-15 17:30:40,382 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-15 17:30:40,456 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-15 17:30:40,881 - INFO - Available Sprotos:
+2025-05-15 17:30:40,881 - INFO - Yannix
+2025-05-15 17:30:40,882 - INFO - Yo-Yo
+2025-05-15 17:30:40,882 - INFO - GB
+2025-05-15 17:30:40,882 - INFO - FHD
+2025-05-15 17:30:40,883 - INFO - More Light
+2025-05-15 17:30:40,883 - INFO - Vamp
+2025-05-15 17:30:40,883 - INFO - Jahon
+2025-05-15 17:30:40,884 - INFO - ReD
+2025-05-15 17:30:40,884 - INFO - VMU
+2025-05-15 17:30:40,885 - INFO - Alpha
+2025-05-15 17:30:40,885 - INFO - Dumpstar
+2025-05-15 17:30:40,885 - INFO - KatieCans
+2025-05-15 17:30:40,885 - INFO - Turbo
+2025-05-15 17:30:40,886 - INFO - Jovial
+2025-05-15 17:30:40,886 - INFO - Speed Demon
+2025-05-15 17:30:40,886 - INFO - Rumble Pak
+2025-05-15 17:30:40,886 - INFO - Leviosa
+2025-05-15 17:30:40,887 - INFO - Obama
+2025-05-15 17:30:40,887 - INFO - Vince
+2025-05-15 17:30:40,887 - INFO - BPS
+2025-05-15 17:30:40,887 - INFO - Apache
+2025-05-15 17:30:40,888 - INFO - OG OBAMA
+2025-05-15 17:30:40,888 - INFO - Oggo
+2025-05-15 17:30:40,888 - INFO - BigSwole
+2025-05-15 17:30:40,888 - INFO - GPM
+2025-05-15 17:30:40,889 - INFO - YXJI
+2025-05-15 17:30:40,889 - INFO - Snoo
+2025-05-15 17:30:40,892 - INFO - Sprotos available in selection screen:
+2025-05-15 17:30:40,893 - INFO - - Yannix
+2025-05-15 17:30:40,894 - INFO - - Yo-Yo
+2025-05-15 17:30:40,894 - INFO - - GB
+2025-05-15 17:30:40,894 - INFO - - FHD
+2025-05-15 17:30:40,894 - INFO - - More Light
+2025-05-15 17:30:40,895 - INFO - - Vamp
+2025-05-15 17:30:40,895 - INFO - - Jahon
+2025-05-15 17:30:40,895 - INFO - - ReD
+2025-05-15 17:30:40,895 - INFO - - VMU
+2025-05-15 17:30:40,896 - INFO - - Alpha
+2025-05-15 17:30:40,896 - INFO - - Dumpstar
+2025-05-15 17:30:40,896 - INFO - - KatieCans
+2025-05-15 17:30:40,896 - INFO - - Turbo
+2025-05-15 17:30:40,897 - INFO - - Jovial
+2025-05-15 17:30:40,897 - INFO - - Speed Demon
+2025-05-15 17:30:40,897 - INFO - - Rumble Pak
+2025-05-15 17:30:40,897 - INFO - - Leviosa
+2025-05-15 17:30:40,898 - INFO - - Obama
+2025-05-15 17:30:40,898 - INFO - - Vince
+2025-05-15 17:30:40,898 - INFO - - BPS
+2025-05-15 17:30:40,898 - INFO - - Apache
+2025-05-15 17:30:40,899 - INFO - - OG OBAMA
+2025-05-15 17:30:40,899 - INFO - - Oggo
+2025-05-15 17:30:40,900 - INFO - - BigSwole
+2025-05-15 17:30:40,900 - INFO - - GPM
+2025-05-15 17:30:40,900 - INFO - - YXJI
+2025-05-15 17:30:40,901 - INFO - - Snoo
+2025-05-15 17:30:40,901 - INFO - Selection music loaded but muted.
+2025-05-15 17:30:42,574 - INFO - Selection music stopped.
+2025-05-15 17:30:42,575 - INFO - 
+Selected Sprotos for This Race:
+2025-05-15 17:30:42,576 - INFO - Yannix: Initial Speed = 115.62 units/s
+2025-05-15 17:30:42,576 - INFO - Yo-Yo: Initial Speed = 113.76 units/s
+2025-05-15 17:30:42,576 - INFO - GB: Initial Speed = 103.08 units/s
+2025-05-15 17:30:42,577 - INFO - FHD: Initial Speed = 103.51 units/s
+2025-05-15 17:30:42,577 - INFO - More Light: Initial Speed = 112.91 units/s
+2025-05-15 17:30:42,577 - INFO - Vamp: Initial Speed = 105.14 units/s
+2025-05-15 17:30:42,578 - INFO - Jahon: Initial Speed = 94.12 units/s
+2025-05-15 17:30:42,578 - INFO - ReD: Initial Speed = 99.91 units/s
+2025-05-15 17:30:42,578 - INFO - VMU: Initial Speed = 108.23 units/s
+2025-05-15 17:30:42,578 - INFO - Alpha: Initial Speed = 92.13 units/s
+2025-05-15 17:30:42,579 - INFO - Dumpstar: Initial Speed = 102.75 units/s
+2025-05-15 17:30:42,579 - INFO - KatieCans: Initial Speed = 104.76 units/s
+2025-05-15 17:30:42,579 - INFO - Turbo: Initial Speed = 117.97 units/s
+2025-05-15 17:30:42,580 - INFO - Jovial: Initial Speed = 114.82 units/s
+2025-05-15 17:30:42,580 - INFO - Speed Demon: Initial Speed = 119.21 units/s
+2025-05-15 17:30:42,581 - INFO - Rumble Pak: Initial Speed = 96.58 units/s
+2025-05-15 17:30:42,581 - INFO - Leviosa: Initial Speed = 99.98 units/s
+2025-05-15 17:30:42,582 - INFO - Obama: Initial Speed = 94.60 units/s
+2025-05-15 17:30:42,582 - INFO - Vince: Initial Speed = 91.13 units/s
+2025-05-15 17:30:42,582 - INFO - BPS: Initial Speed = 85.02 units/s
+2025-05-15 17:30:42,583 - INFO - Apache: Initial Speed = 119.22 units/s
+2025-05-15 17:30:42,583 - INFO - OG OBAMA: Initial Speed = 112.47 units/s
+2025-05-15 17:30:42,583 - INFO - Oggo: Initial Speed = 83.86 units/s
+2025-05-15 17:30:42,583 - INFO - BigSwole: Initial Speed = 81.62 units/s
+2025-05-15 17:30:42,584 - INFO - GPM: Initial Speed = 86.72 units/s
+2025-05-15 17:30:42,584 - INFO - YXJI: Initial Speed = 114.97 units/s
+2025-05-15 17:30:42,585 - INFO - Snoo: Initial Speed = 80.34 units/s
+2025-05-15 17:30:42,586 - INFO - Selected random background for all-characters race.
+2025-05-15 17:30:42,587 - INFO - Race music loaded but muted.
+2025-05-15 17:30:44,591 - INFO - 
+Time: 2.0s
+2025-05-15 17:30:44,591 - INFO - Yannix: Position=231.94, Speed=115.62, Finished=False
+2025-05-15 17:30:44,591 - INFO - Yo-Yo: Position=226.95, Speed=119.26, Finished=False
+2025-05-15 17:30:44,592 - INFO - GB: Position=206.77, Speed=103.08, Finished=False
+2025-05-15 17:30:44,592 - INFO - FHD: Position=207.84, Speed=105.13, Finished=False
+2025-05-15 17:30:44,592 - INFO - More Light: Position=215.24, Speed=118.12, Finished=False
+2025-05-15 17:30:44,593 - INFO - Vamp: Position=210.91, Speed=105.14, Finished=False
+2025-05-15 17:30:44,593 - INFO - Jahon: Position=200.45, Speed=103.04, Finished=False
+2025-05-15 17:30:44,594 - INFO - ReD: Position=200.41, Speed=99.91, Finished=False
+2025-05-15 17:30:44,594 - INFO - VMU: Position=224.00, Speed=112.56, Finished=False
+2025-05-15 17:30:44,594 - INFO - Alpha: Position=200.19, Speed=101.09, Finished=False
+2025-05-15 17:30:44,595 - INFO - Dumpstar: Position=194.07, Speed=93.90, Finished=False
+2025-05-15 17:30:44,596 - INFO - KatieCans: Position=210.15, Speed=104.76, Finished=False
+2025-05-15 17:30:44,596 - INFO - Turbo: Position=186.43, Speed=83.97, Finished=False
+2025-05-15 17:30:44,597 - INFO - Jovial: Position=218.76, Speed=93.82, Finished=False
+2025-05-15 17:30:44,598 - INFO - Speed Demon: Position=201.75, Speed=89.54, Finished=False
+2025-05-15 17:30:44,599 - INFO - Rumble Pak: Position=193.74, Speed=96.58, Finished=False
+2025-05-15 17:30:44,599 - INFO - Leviosa: Position=176.39, Speed=109.63, Finished=False
+2025-05-15 17:30:44,600 - INFO - Obama: Position=196.55, Speed=109.61, Finished=False
+2025-05-15 17:30:44,600 - INFO - Vince: Position=183.51, Speed=93.67, Finished=False
+2025-05-15 17:30:44,601 - INFO - BPS: Position=170.56, Speed=85.02, Finished=False
+2025-05-15 17:30:44,601 - INFO - Apache: Position=185.84, Speed=83.53, Finished=False
+2025-05-15 17:30:44,602 - INFO - OG OBAMA: Position=225.62, Speed=112.47, Finished=False
+2025-05-15 17:30:44,602 - INFO - Oggo: Position=197.50, Speed=101.98, Finished=False
+2025-05-15 17:30:44,603 - INFO - BigSwole: Position=187.46, Speed=97.30, Finished=False
+2025-05-15 17:30:44,603 - INFO - GPM: Position=184.10, Speed=99.65, Finished=False
+2025-05-15 17:30:44,604 - INFO - YXJI: Position=230.15, Speed=114.23, Finished=False
+2025-05-15 17:30:44,604 - INFO - Snoo: Position=161.17, Speed=80.34, Finished=False
+2025-05-15 17:30:46,603 - INFO - 
+Time: 4.0s
+2025-05-15 17:30:46,603 - INFO - Yannix: Position=453.61, Speed=111.81, Finished=False
+2025-05-15 17:30:46,604 - INFO - Yo-Yo: Position=456.89, Speed=110.95, Finished=False
+2025-05-15 17:30:46,604 - INFO - GB: Position=414.16, Speed=103.08, Finished=False
+2025-05-15 17:30:46,604 - INFO - FHD: Position=418.29, Speed=82.93, Finished=False
+2025-05-15 17:30:46,605 - INFO - More Light: Position=452.89, Speed=118.12, Finished=False
+2025-05-15 17:30:46,605 - INFO - Vamp: Position=418.36, Speed=97.15, Finished=False
+2025-05-15 17:30:46,605 - INFO - Jahon: Position=421.51, Speed=114.44, Finished=False
+2025-05-15 17:30:46,606 - INFO - ReD: Position=410.61, Speed=106.44, Finished=False
+2025-05-15 17:30:46,606 - INFO - VMU: Position=436.28, Speed=114.75, Finished=False
+2025-05-15 17:30:46,606 - INFO - Alpha: Position=383.22, Speed=81.81, Finished=False
+2025-05-15 17:30:46,606 - INFO - Dumpstar: Position=417.67, Speed=115.49, Finished=False
+2025-05-15 17:30:46,607 - INFO - KatieCans: Position=386.29, Speed=89.38, Finished=False
+2025-05-15 17:30:46,607 - INFO - Turbo: Position=365.29, Speed=95.30, Finished=False
+2025-05-15 17:30:46,607 - INFO - Jovial: Position=418.60, Speed=112.38, Finished=False
+2025-05-15 17:30:46,607 - INFO - Speed Demon: Position=381.90, Speed=89.54, Finished=False
+2025-05-15 17:30:46,607 - INFO - Rumble Pak: Position=388.06, Speed=96.58, Finished=False
+2025-05-15 17:30:46,608 - INFO - Leviosa: Position=372.26, Speed=84.64, Finished=False
+2025-05-15 17:30:46,608 - INFO - Obama: Position=416.22, Speed=111.67, Finished=False
+2025-05-15 17:30:46,608 - INFO - Vince: Position=374.22, Speed=105.08, Finished=False
+2025-05-15 17:30:46,608 - INFO - BPS: Position=352.17, Speed=107.70, Finished=False
+2025-05-15 17:30:46,609 - INFO - Apache: Position=364.32, Speed=98.62, Finished=False
+2025-05-15 17:30:46,609 - INFO - OG OBAMA: Position=451.92, Speed=112.47, Finished=False
+2025-05-15 17:30:46,609 - INFO - Oggo: Position=402.68, Speed=101.98, Finished=False
+2025-05-15 17:30:46,609 - INFO - BigSwole: Position=381.47, Speed=89.13, Finished=False
+2025-05-15 17:30:46,610 - INFO - GPM: Position=381.15, Speed=85.66, Finished=False
+2025-05-15 17:30:46,610 - INFO - YXJI: Position=451.76, Speed=108.02, Finished=False
+2025-05-15 17:30:46,610 - INFO - Snoo: Position=364.97, Speed=102.48, Finished=False
+2025-05-15 17:30:48,611 - INFO - 
+Time: 6.0s
+2025-05-15 17:30:48,612 - INFO - Yannix: Position=687.99, Speed=117.26, Finished=False
+2025-05-15 17:30:48,612 - INFO - Yo-Yo: Position=678.52, Speed=86.64, Finished=False
+2025-05-15 17:30:48,612 - INFO - GB: Position=609.42, Speed=95.83, Finished=False
+2025-05-15 17:30:48,612 - INFO - FHD: Position=584.82, Speed=82.93, Finished=False
+2025-05-15 17:30:48,613 - INFO - More Light: Position=664.38, Speed=96.98, Finished=False
+2025-05-15 17:30:48,613 - INFO - Vamp: Position=613.44, Speed=97.15, Finished=False
+2025-05-15 17:30:48,613 - INFO - Jahon: Position=651.37, Speed=114.81, Finished=False
+2025-05-15 17:30:48,614 - INFO - ReD: Position=600.75, Speed=84.68, Finished=False
+2025-05-15 17:30:48,614 - INFO - VMU: Position=654.51, Speed=94.58, Finished=False
+2025-05-15 17:30:48,614 - INFO - Alpha: Position=577.91, Speed=116.40, Finished=False
+2025-05-15 17:30:48,615 - INFO - Dumpstar: Position=598.19, Speed=85.43, Finished=False
+2025-05-15 17:30:48,615 - INFO - KatieCans: Position=562.90, Speed=83.87, Finished=False
+2025-05-15 17:30:48,615 - INFO - Turbo: Position=577.22, Speed=86.32, Finished=False
+2025-05-15 17:30:48,615 - INFO - Jovial: Position=608.64, Speed=97.52, Finished=False
+2025-05-15 17:30:48,616 - INFO - Speed Demon: Position=561.69, Speed=89.54, Finished=False
+2025-05-15 17:30:48,616 - INFO - Rumble Pak: Position=585.50, Speed=113.33, Finished=False
+2025-05-15 17:30:48,616 - INFO - Leviosa: Position=542.22, Speed=84.64, Finished=False
+2025-05-15 17:30:48,616 - INFO - Obama: Position=640.45, Speed=110.78, Finished=False
+2025-05-15 17:30:48,617 - INFO - Vince: Position=583.41, Speed=89.35, Finished=False
+2025-05-15 17:30:48,617 - INFO - BPS: Position=568.42, Speed=107.70, Finished=False
+2025-05-15 17:30:48,617 - INFO - Apache: Position=556.53, Speed=84.90, Finished=False
+2025-05-15 17:30:48,618 - INFO - OG OBAMA: Position=664.92, Speed=112.52, Finished=False
+2025-05-15 17:30:48,618 - INFO - Oggo: Position=607.46, Speed=101.98, Finished=False
+2025-05-15 17:30:48,618 - INFO - BigSwole: Position=560.44, Speed=89.13, Finished=False
+2025-05-15 17:30:48,618 - INFO - GPM: Position=572.90, Speed=96.47, Finished=False
+2025-05-15 17:30:48,619 - INFO - YXJI: Position=639.27, Speed=91.13, Finished=False
+2025-05-15 17:30:48,619 - INFO - Snoo: Position=581.15, Speed=102.85, Finished=False
+2025-05-15 17:30:50,619 - INFO - 
+Time: 8.0s
+2025-05-15 17:30:50,619 - INFO - Yannix: Position=901.25, Speed=90.26, Finished=False
+2025-05-15 17:30:50,620 - INFO - Yo-Yo: Position=852.48, Speed=86.64, Finished=False
+2025-05-15 17:30:50,620 - INFO - GB: Position=811.01, Speed=108.77, Finished=False
+2025-05-15 17:30:50,620 - INFO - FHD: Position=782.53, Speed=102.88, Finished=False
+2025-05-15 17:30:50,620 - INFO - More Light: Position=859.11, Speed=96.98, Finished=False
+2025-05-15 17:30:50,621 - INFO - Vamp: Position=809.08, Speed=98.69, Finished=False
+2025-05-15 17:30:50,621 - INFO - Jahon: Position=875.95, Speed=94.61, Finished=False
+2025-05-15 17:30:50,621 - INFO - ReD: Position=804.33, Speed=115.83, Finished=False
+2025-05-15 17:30:50,622 - INFO - VMU: Position=860.48, Speed=83.48, Finished=False
+2025-05-15 17:30:50,622 - INFO - Alpha: Position=808.54, Speed=95.15, Finished=False
+2025-05-15 17:30:50,622 - INFO - Dumpstar: Position=782.42, Speed=110.73, Finished=False
+2025-05-15 17:30:50,622 - INFO - KatieCans: Position=748.99, Speed=95.15, Finished=False
+2025-05-15 17:30:50,623 - INFO - Turbo: Position=770.08, Speed=105.59, Finished=False
+2025-05-15 17:30:50,623 - INFO - Jovial: Position=788.31, Speed=84.66, Finished=False
+2025-05-15 17:30:50,623 - INFO - Speed Demon: Position=781.17, Speed=90.06, Finished=False
+2025-05-15 17:30:50,624 - INFO - Rumble Pak: Position=777.17, Speed=95.01, Finished=False
+2025-05-15 17:30:50,624 - INFO - Leviosa: Position=725.54, Speed=100.58, Finished=False
+2025-05-15 17:30:50,624 - INFO - Obama: Position=848.69, Speed=94.06, Finished=False
+2025-05-15 17:30:50,624 - INFO - Vince: Position=766.28, Speed=101.22, Finished=False
+2025-05-15 17:30:50,625 - INFO - BPS: Position=766.01, Speed=81.67, Finished=False
+2025-05-15 17:30:50,625 - INFO - Apache: Position=731.69, Speed=91.11, Finished=False
+2025-05-15 17:30:50,625 - INFO - OG OBAMA: Position=860.02, Speed=86.93, Finished=False
+2025-05-15 17:30:50,626 - INFO - Oggo: Position=821.58, Speed=98.37, Finished=False
+2025-05-15 17:30:50,626 - INFO - BigSwole: Position=739.14, Speed=88.27, Finished=False
+2025-05-15 17:30:50,626 - INFO - GPM: Position=766.62, Speed=96.47, Finished=False
+2025-05-15 17:30:50,627 - INFO - YXJI: Position=822.12, Speed=87.92, Finished=False
+2025-05-15 17:30:50,628 - INFO - Snoo: Position=791.26, Speed=95.20, Finished=False
+2025-05-15 17:30:52,636 - INFO - 
+Time: 10.1s
+2025-05-15 17:30:52,636 - INFO - Yannix: Position=1109.97, Speed=111.81, Finished=False
+2025-05-15 17:30:52,637 - INFO - Yo-Yo: Position=1023.66, Speed=84.46, Finished=False
+2025-05-15 17:30:52,637 - INFO - GB: Position=1034.01, Speed=113.68, Finished=False
+2025-05-15 17:30:52,637 - INFO - FHD: Position=981.68, Speed=90.01, Finished=False
+2025-05-15 17:30:52,638 - INFO - More Light: Position=1054.72, Speed=96.98, Finished=False
+2025-05-15 17:30:52,638 - INFO - Vamp: Position=1008.15, Speed=98.69, Finished=False
+2025-05-15 17:30:52,639 - INFO - Jahon: Position=1066.78, Speed=94.61, Finished=False
+2025-05-15 17:30:52,639 - INFO - ReD: Position=1038.82, Speed=116.26, Finished=False
+2025-05-15 17:30:52,639 - INFO - VMU: Position=1067.53, Speed=81.32, Finished=False
+2025-05-15 17:30:52,639 - INFO - Alpha: Position=1022.38, Speed=118.65, Finished=False
+2025-05-15 17:30:52,640 - INFO - Dumpstar: Position=1003.70, Speed=115.39, Finished=False
+2025-05-15 17:30:52,640 - INFO - KatieCans: Position=947.81, Speed=107.41, Finished=False
+2025-05-15 17:30:52,640 - INFO - Turbo: Position=985.67, Speed=111.30, Finished=False
+2025-05-15 17:30:52,640 - INFO - Jovial: Position=1021.05, Speed=111.16, Finished=False
+2025-05-15 17:30:52,641 - INFO - Speed Demon: Position=961.40, Speed=87.51, Finished=False
+2025-05-15 17:30:52,641 - INFO - Rumble Pak: Position=974.43, Speed=108.73, Finished=False
+2025-05-15 17:30:52,641 - INFO - Leviosa: Position=941.43, Speed=110.13, Finished=False
+2025-05-15 17:30:52,642 - INFO - Obama: Position=1038.41, Speed=94.06, Finished=False
+2025-05-15 17:30:52,642 - INFO - Vince: Position=975.65, Speed=109.01, Finished=False
+2025-05-15 17:30:52,643 - INFO - BPS: Position=959.53, Speed=89.87, Finished=False
+2025-05-15 17:30:52,643 - INFO - Apache: Position=912.48, Speed=80.52, Finished=False
+2025-05-15 17:30:52,644 - INFO - OG OBAMA: Position=1067.84, Speed=119.82, Finished=False
+2025-05-15 17:30:52,644 - INFO - Oggo: Position=1019.99, Speed=98.37, Finished=False
+2025-05-15 17:30:52,645 - INFO - BigSwole: Position=912.00, Speed=82.82, Finished=False
+2025-05-15 17:30:52,645 - INFO - GPM: Position=981.71, Speed=97.55, Finished=False
+2025-05-15 17:30:52,646 - INFO - YXJI: Position=1001.10, Speed=81.72, Finished=False
+2025-05-15 17:30:52,646 - INFO - Snoo: Position=983.22, Speed=94.07, Finished=False
+2025-05-15 17:30:54,641 - INFO - 
+Time: 12.1s
+2025-05-15 17:30:54,641 - INFO - Yannix: Position=1308.26, Speed=86.49, Finished=False
+2025-05-15 17:30:54,642 - INFO - Yo-Yo: Position=1214.78, Speed=97.69, Finished=False
+2025-05-15 17:30:54,642 - INFO - GB: Position=1261.93, Speed=113.68, Finished=False
+2025-05-15 17:30:54,643 - INFO - FHD: Position=1162.16, Speed=90.01, Finished=False
+2025-05-15 17:30:54,643 - INFO - More Light: Position=1272.97, Speed=91.15, Finished=False
+2025-05-15 17:30:54,643 - INFO - Vamp: Position=1192.83, Speed=89.57, Finished=False
+2025-05-15 17:30:54,644 - INFO - Jahon: Position=1265.45, Speed=106.13, Finished=False
+2025-05-15 17:30:54,644 - INFO - ReD: Position=1276.00, Speed=119.40, Finished=False
+2025-05-15 17:30:54,644 - INFO - VMU: Position=1253.31, Speed=105.52, Finished=False
+2025-05-15 17:30:54,644 - INFO - Alpha: Position=1260.27, Speed=118.65, Finished=False
+2025-05-15 17:30:54,645 - INFO - Dumpstar: Position=1235.06, Speed=115.94, Finished=False
+2025-05-15 17:30:54,645 - INFO - KatieCans: Position=1163.17, Speed=107.41, Finished=False
+2025-05-15 17:30:54,645 - INFO - Turbo: Position=1177.96, Speed=95.26, Finished=False
+2025-05-15 17:30:54,646 - INFO - Jovial: Position=1243.93, Speed=111.16, Finished=False
+2025-05-15 17:30:54,646 - INFO - Speed Demon: Position=1141.98, Speed=92.89, Finished=False
+2025-05-15 17:30:54,646 - INFO - Rumble Pak: Position=1191.71, Speed=101.53, Finished=False
+2025-05-15 17:30:54,646 - INFO - Leviosa: Position=1149.41, Speed=106.66, Finished=False
+2025-05-15 17:30:54,647 - INFO - Obama: Position=1239.39, Speed=107.22, Finished=False
+2025-05-15 17:30:54,647 - INFO - Vince: Position=1194.21, Speed=109.01, Finished=False
+2025-05-15 17:30:54,647 - INFO - BPS: Position=1140.62, Speed=97.93, Finished=False
+2025-05-15 17:30:54,648 - INFO - Apache: Position=1073.92, Speed=80.52, Finished=False
+2025-05-15 17:30:54,648 - INFO - OG OBAMA: Position=1255.62, Speed=80.88, Finished=False
+2025-05-15 17:30:54,648 - INFO - Oggo: Position=1217.22, Speed=98.37, Finished=False
+2025-05-15 17:30:54,649 - INFO - BigSwole: Position=1082.90, Speed=93.68, Finished=False
+2025-05-15 17:30:54,649 - INFO - GPM: Position=1177.29, Speed=97.55, Finished=False
+2025-05-15 17:30:54,649 - INFO - YXJI: Position=1164.81, Speed=86.89, Finished=False
+2025-05-15 17:30:54,650 - INFO - Snoo: Position=1198.46, Speed=105.56, Finished=False
+2025-05-15 17:30:56,651 - INFO - 
+Time: 14.1s
+2025-05-15 17:30:56,651 - INFO - Yannix: Position=1500.00, Speed=98.90, Finished=True
+2025-05-15 17:30:56,651 - INFO - Yo-Yo: Position=1412.49, Speed=99.24, Finished=False
+2025-05-15 17:30:56,652 - INFO - GB: Position=1489.45, Speed=110.71, Finished=False
+2025-05-15 17:30:56,652 - INFO - FHD: Position=1363.61, Speed=109.86, Finished=False
+2025-05-15 17:30:56,652 - INFO - More Light: Position=1456.19, Speed=91.15, Finished=False
+2025-05-15 17:30:56,653 - INFO - Vamp: Position=1363.72, Speed=82.71, Finished=False
+2025-05-15 17:30:56,653 - INFO - Jahon: Position=1448.99, Speed=80.56, Finished=False
+2025-05-15 17:30:56,653 - INFO - ReD: Position=1500.00, Speed=106.36, Finished=True
+2025-05-15 17:30:56,654 - INFO - VMU: Position=1437.35, Speed=91.32, Finished=False
+2025-05-15 17:30:56,654 - INFO - Alpha: Position=1498.76, Speed=118.65, Finished=False
+2025-05-15 17:30:56,654 - INFO - Dumpstar: Position=1414.38, Speed=84.93, Finished=False
+2025-05-15 17:30:56,654 - INFO - KatieCans: Position=1379.06, Speed=107.41, Finished=False
+2025-05-15 17:30:56,655 - INFO - Turbo: Position=1393.87, Speed=119.51, Finished=False
+2025-05-15 17:30:56,655 - INFO - Jovial: Position=1462.59, Speed=91.51, Finished=False
+2025-05-15 17:30:56,655 - INFO - Speed Demon: Position=1364.80, Speed=113.93, Finished=False
+2025-05-15 17:30:56,655 - INFO - Rumble Pak: Position=1380.10, Speed=90.83, Finished=False
+2025-05-15 17:30:56,656 - INFO - Leviosa: Position=1357.44, Speed=87.34, Finished=False
+2025-05-15 17:30:56,656 - INFO - Obama: Position=1440.88, Speed=116.45, Finished=False
+2025-05-15 17:30:56,656 - INFO - Vince: Position=1412.77, Speed=109.17, Finished=False
+2025-05-15 17:30:56,656 - INFO - BPS: Position=1328.55, Speed=105.04, Finished=False
+2025-05-15 17:30:56,657 - INFO - Apache: Position=1273.65, Speed=118.47, Finished=False
+2025-05-15 17:30:56,657 - INFO - OG OBAMA: Position=1453.36, Speed=99.71, Finished=False
+2025-05-15 17:30:56,657 - INFO - Oggo: Position=1423.90, Speed=115.39, Finished=False
+2025-05-15 17:30:56,658 - INFO - BigSwole: Position=1271.20, Speed=93.68, Finished=False
+2025-05-15 17:30:56,658 - INFO - GPM: Position=1397.75, Speed=116.06, Finished=False
+2025-05-15 17:30:56,658 - INFO - YXJI: Position=1346.05, Speed=83.03, Finished=False
+2025-05-15 17:30:56,658 - INFO - Snoo: Position=1412.54, Speed=107.83, Finished=False
+2025-05-15 17:30:58,652 - INFO - 
+Time: 16.1s
+2025-05-15 17:30:58,652 - INFO - Yannix: Position=1500.00, Speed=98.90, Finished=True
+2025-05-15 17:30:58,652 - INFO - Yo-Yo: Position=1500.00, Speed=102.99, Finished=True
+2025-05-15 17:30:58,653 - INFO - GB: Position=1500.00, Speed=110.71, Finished=True
+2025-05-15 17:30:58,653 - INFO - FHD: Position=1500.00, Speed=109.86, Finished=True
+2025-05-15 17:30:58,653 - INFO - More Light: Position=1500.00, Speed=91.15, Finished=True
+2025-05-15 17:30:58,654 - INFO - Vamp: Position=1500.00, Speed=115.94, Finished=True
+2025-05-15 17:30:58,654 - INFO - Jahon: Position=1500.00, Speed=86.21, Finished=True
+2025-05-15 17:30:58,654 - INFO - ReD: Position=1500.00, Speed=106.36, Finished=True
+2025-05-15 17:30:58,654 - INFO - VMU: Position=1500.00, Speed=91.32, Finished=True
+2025-05-15 17:30:58,655 - INFO - Alpha: Position=1500.00, Speed=118.65, Finished=True
+2025-05-15 17:30:58,655 - INFO - Dumpstar: Position=1500.00, Speed=96.72, Finished=True
+2025-05-15 17:30:58,655 - INFO - KatieCans: Position=1500.00, Speed=107.41, Finished=True
+2025-05-15 17:30:58,656 - INFO - Turbo: Position=1500.00, Speed=94.02, Finished=True
+2025-05-15 17:30:58,657 - INFO - Jovial: Position=1500.00, Speed=91.51, Finished=True
+2025-05-15 17:30:58,657 - INFO - Speed Demon: Position=1500.00, Speed=113.93, Finished=True
+2025-05-15 17:30:58,657 - INFO - Rumble Pak: Position=1500.00, Speed=90.83, Finished=True
+2025-05-15 17:30:58,658 - INFO - Leviosa: Position=1500.00, Speed=87.34, Finished=True
+2025-05-15 17:30:58,658 - INFO - Obama: Position=1500.00, Speed=105.22, Finished=True
+2025-05-15 17:30:58,658 - INFO - Vince: Position=1500.00, Speed=111.66, Finished=True
+2025-05-15 17:30:58,659 - INFO - BPS: Position=1500.00, Speed=105.63, Finished=True
+2025-05-15 17:30:58,659 - INFO - Apache: Position=1492.50, Speed=91.17, Finished=False
+2025-05-15 17:30:58,659 - INFO - OG OBAMA: Position=1500.00, Speed=99.71, Finished=True
+2025-05-15 17:30:58,659 - INFO - Oggo: Position=1500.00, Speed=115.39, Finished=True
+2025-05-15 17:30:58,660 - INFO - BigSwole: Position=1456.56, Speed=90.83, Finished=False
+2025-05-15 17:30:58,660 - INFO - GPM: Position=1500.00, Speed=96.17, Finished=True
+2025-05-15 17:30:58,660 - INFO - YXJI: Position=1500.00, Speed=85.60, Finished=True
+2025-05-15 17:30:58,661 - INFO - Snoo: Position=1500.00, Speed=107.83, Finished=True
+2025-05-15 17:30:59,144 - INFO - 
+All-Characters Race finished! Finish order:
+2025-05-15 17:30:59,144 - INFO - 1. Yannix: Avg Speed=106.77
+2025-05-15 17:30:59,144 - INFO - 2. ReD: Avg Speed=106.77
+2025-05-15 17:30:59,145 - INFO - 3. Alpha: Avg Speed=106.64
+2025-05-15 17:30:59,146 - INFO - 4. GB: Avg Speed=106.01
+2025-05-15 17:30:59,146 - INFO - 5. Jovial: Avg Speed=103.71
+2025-05-15 17:30:59,146 - INFO - 6. OG OBAMA: Avg Speed=103.25
+2025-05-15 17:30:59,146 - INFO - 7. More Light: Avg Speed=103.13
+2025-05-15 17:30:59,146 - INFO - 8. Obama: Avg Speed=102.77
+2025-05-15 17:30:59,146 - INFO - 9. Jahon: Avg Speed=102.20
+2025-05-15 17:30:59,146 - INFO - 10. Oggo: Avg Speed=101.96
+2025-05-15 17:30:59,146 - INFO - 11. VMU: Avg Speed=101.73
+2025-05-15 17:30:59,147 - INFO - 12. Vince: Avg Speed=100.95
+2025-05-15 17:30:59,147 - INFO - 13. Snoo: Avg Speed=100.84
+2025-05-15 17:30:59,147 - INFO - 14. Yo-Yo: Avg Speed=100.62
+2025-05-15 17:30:59,147 - INFO - 15. Turbo: Avg Speed=100.30
+2025-05-15 17:30:59,148 - INFO - 16. Dumpstar: Avg Speed=99.97
+2025-05-15 17:30:59,148 - INFO - 17. GPM: Avg Speed=99.86
+2025-05-15 17:30:59,148 - INFO - 18. KatieCans: Avg Speed=98.79
+2025-05-15 17:30:59,148 - INFO - 19. Speed Demon: Avg Speed=98.37
+2025-05-15 17:30:59,149 - INFO - 20. FHD: Avg Speed=98.04
+2025-05-15 17:30:59,149 - INFO - 21. Rumble Pak: Avg Speed=97.51
+2025-05-15 17:30:59,149 - INFO - 22. Vamp: Avg Speed=95.95
+2025-05-15 17:30:59,149 - INFO - 23. BPS: Avg Speed=95.67
+2025-05-15 17:30:59,150 - INFO - 24. Leviosa: Avg Speed=95.53
+2025-05-15 17:30:59,150 - INFO - 25. YXJI: Avg Speed=94.35
+2025-05-15 17:30:59,150 - INFO - 26. Apache: Avg Speed=92.89
+2025-05-15 17:30:59,150 - INFO - 27. BigSwole: Avg Speed=90.68
+2025-05-15 17:30:59,151 - INFO - Selected winner: Yannix with avg speed 106.77
+2025-05-15 17:31:01,155 - INFO - 
+Detailed Speed Analysis:
+2025-05-15 17:31:01,155 - INFO - 1. Yannix: Finish Time=14.07s, Average Speed=106.77
+2025-05-15 17:31:01,156 - INFO - 2. ReD: Finish Time=14.07s, Average Speed=106.77
+2025-05-15 17:31:01,156 - INFO - 3. Alpha: Finish Time=14.08s, Average Speed=106.64
+2025-05-15 17:31:01,156 - INFO - 4. GB: Finish Time=14.17s, Average Speed=106.01
+2025-05-15 17:31:01,157 - INFO - 5. Jovial: Finish Time=14.48s, Average Speed=103.71
+2025-05-15 17:31:01,157 - INFO - 6. OG OBAMA: Finish Time=14.54s, Average Speed=103.25
+2025-05-15 17:31:01,157 - INFO - 7. More Light: Finish Time=14.56s, Average Speed=103.13
+2025-05-15 17:31:01,158 - INFO - 8. Obama: Finish Time=14.61s, Average Speed=102.77
+2025-05-15 17:31:01,158 - INFO - 9. Jahon: Finish Time=14.69s, Average Speed=102.20
+2025-05-15 17:31:01,158 - INFO - 10. Oggo: Finish Time=14.73s, Average Speed=101.96
+2025-05-15 17:31:01,158 - INFO - 11. VMU: Finish Time=14.76s, Average Speed=101.73
+2025-05-15 17:31:01,159 - INFO - 12. Vince: Finish Time=14.88s, Average Speed=100.95
+2025-05-15 17:31:01,159 - INFO - 13. Snoo: Finish Time=14.89s, Average Speed=100.84
+2025-05-15 17:31:01,159 - INFO - 14. Yo-Yo: Finish Time=14.92s, Average Speed=100.62
+2025-05-15 17:31:01,160 - INFO - 15. Turbo: Finish Time=14.97s, Average Speed=100.30
+2025-05-15 17:31:01,160 - INFO - 16. Dumpstar: Finish Time=15.02s, Average Speed=99.97
+2025-05-15 17:31:01,160 - INFO - 17. GPM: Finish Time=15.04s, Average Speed=99.86
+2025-05-15 17:31:01,161 - INFO - 18. KatieCans: Finish Time=15.20s, Average Speed=98.79
+2025-05-15 17:31:01,161 - INFO - 19. Speed Demon: Finish Time=15.27s, Average Speed=98.37
+2025-05-15 17:31:01,161 - INFO - 20. FHD: Finish Time=15.32s, Average Speed=98.04
+2025-05-15 17:31:01,162 - INFO - 21. Rumble Pak: Finish Time=15.40s, Average Speed=97.51
+2025-05-15 17:31:01,162 - INFO - 22. Vamp: Finish Time=15.65s, Average Speed=95.95
+2025-05-15 17:31:01,163 - INFO - 23. BPS: Finish Time=15.70s, Average Speed=95.67
+2025-05-15 17:31:01,163 - INFO - 24. Leviosa: Finish Time=15.72s, Average Speed=95.53
+2025-05-15 17:31:01,163 - INFO - 25. YXJI: Finish Time=15.92s, Average Speed=94.35
+2025-05-15 17:31:01,164 - INFO - 26. Apache: Finish Time=16.16s, Average Speed=92.89
+2025-05-15 17:31:01,164 - INFO - 27. BigSwole: Finish Time=16.56s, Average Speed=90.68
+2025-05-15 17:38:46,992 - INFO - Race music stopped.
+2025-05-15 17:38:46,994 - INFO - Race music stopped.
+2025-05-15 17:38:46,994 - INFO - 
+Winner: Yannix
+2025-05-15 17:38:56,149 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-15 17:38:56,152 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-15 17:38:56,162 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-15 17:38:56,163 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-15 17:38:56,168 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-15 17:38:56,169 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-15 17:38:56,175 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-15 17:38:56,176 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-15 17:38:56,183 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-15 17:38:56,183 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-15 17:38:56,189 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-15 17:38:56,190 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-15 17:38:56,197 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-15 17:38:56,198 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-15 17:38:56,205 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-15 17:38:56,206 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-15 17:38:56,216 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-15 17:38:56,216 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-15 17:38:56,224 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-15 17:38:56,225 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-15 17:38:56,231 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-15 17:38:56,232 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-15 17:38:56,237 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-15 17:38:56,237 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-15 17:38:56,244 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-15 17:38:56,245 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-15 17:38:56,250 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-15 17:38:56,251 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-15 17:38:56,253 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-15 17:38:56,253 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-15 17:38:56,258 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-15 17:38:56,259 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-15 17:38:56,264 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-15 17:38:56,265 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-15 17:38:56,270 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-15 17:38:56,271 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-15 17:38:56,277 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-15 17:38:56,277 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-15 17:38:56,283 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-15 17:38:56,283 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-15 17:38:56,290 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-15 17:38:56,291 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-15 17:38:56,303 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-15 17:38:56,303 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-15 17:38:56,329 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-15 17:38:56,330 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-15 17:38:56,335 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-15 17:38:56,336 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-15 17:38:56,340 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-15 17:38:56,341 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-15 17:38:56,345 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-15 17:38:56,345 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-15 17:38:56,348 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-15 17:38:56,349 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-15 17:38:56,357 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-15 17:38:56,405 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-15 17:38:56,845 - INFO - Available Sprotos:
+2025-05-15 17:38:56,845 - INFO - Yannix
+2025-05-15 17:38:56,845 - INFO - Yo-Yo
+2025-05-15 17:38:56,846 - INFO - GB
+2025-05-15 17:38:56,846 - INFO - FHD
+2025-05-15 17:38:56,846 - INFO - More Light
+2025-05-15 17:38:56,846 - INFO - Vamp
+2025-05-15 17:38:56,847 - INFO - Jahon
+2025-05-15 17:38:56,847 - INFO - ReD
+2025-05-15 17:38:56,847 - INFO - VMU
+2025-05-15 17:38:56,847 - INFO - Alpha
+2025-05-15 17:38:56,848 - INFO - Dumpstar
+2025-05-15 17:38:56,848 - INFO - KatieCans
+2025-05-15 17:38:56,848 - INFO - Turbo
+2025-05-15 17:38:56,848 - INFO - Jovial
+2025-05-15 17:38:56,849 - INFO - Speed Demon
+2025-05-15 17:38:56,849 - INFO - Rumble Pak
+2025-05-15 17:38:56,849 - INFO - Leviosa
+2025-05-15 17:38:56,849 - INFO - Obama
+2025-05-15 17:38:56,850 - INFO - Vince
+2025-05-15 17:38:56,850 - INFO - BPS
+2025-05-15 17:38:56,850 - INFO - Apache
+2025-05-15 17:38:56,850 - INFO - OG OBAMA
+2025-05-15 17:38:56,851 - INFO - Oggo
+2025-05-15 17:38:56,851 - INFO - BigSwole
+2025-05-15 17:38:56,851 - INFO - GPM
+2025-05-15 17:38:56,851 - INFO - YXJI
+2025-05-15 17:38:56,851 - INFO - Snoo
+2025-05-15 17:38:56,854 - INFO - Sprotos available in selection screen:
+2025-05-15 17:38:56,854 - INFO - - Yannix
+2025-05-15 17:38:56,855 - INFO - - Yo-Yo
+2025-05-15 17:38:56,855 - INFO - - GB
+2025-05-15 17:38:56,855 - INFO - - FHD
+2025-05-15 17:38:56,855 - INFO - - More Light
+2025-05-15 17:38:56,856 - INFO - - Vamp
+2025-05-15 17:38:56,856 - INFO - - Jahon
+2025-05-15 17:38:56,856 - INFO - - ReD
+2025-05-15 17:38:56,856 - INFO - - VMU
+2025-05-15 17:38:56,857 - INFO - - Alpha
+2025-05-15 17:38:56,857 - INFO - - Dumpstar
+2025-05-15 17:38:56,857 - INFO - - KatieCans
+2025-05-15 17:38:56,857 - INFO - - Turbo
+2025-05-15 17:38:56,858 - INFO - - Jovial
+2025-05-15 17:38:56,858 - INFO - - Speed Demon
+2025-05-15 17:38:56,858 - INFO - - Rumble Pak
+2025-05-15 17:38:56,858 - INFO - - Leviosa
+2025-05-15 17:38:56,859 - INFO - - Obama
+2025-05-15 17:38:56,859 - INFO - - Vince
+2025-05-15 17:38:56,859 - INFO - - BPS
+2025-05-15 17:38:56,859 - INFO - - Apache
+2025-05-15 17:38:56,859 - INFO - - OG OBAMA
+2025-05-15 17:38:56,860 - INFO - - Oggo
+2025-05-15 17:38:56,860 - INFO - - BigSwole
+2025-05-15 17:38:56,860 - INFO - - GPM
+2025-05-15 17:38:56,860 - INFO - - YXJI
+2025-05-15 17:38:56,861 - INFO - - Snoo
+2025-05-15 17:38:56,861 - INFO - Selection music loaded but muted.
+2025-05-15 17:38:58,397 - INFO - Selection music stopped.
+2025-05-15 17:38:58,400 - INFO - 
+Selected Sprotos for This Race:
+2025-05-15 17:38:58,401 - INFO - Yannix: Initial Speed = 91.91 units/s
+2025-05-15 17:38:58,401 - INFO - Yo-Yo: Initial Speed = 111.57 units/s
+2025-05-15 17:38:58,401 - INFO - GB: Initial Speed = 86.85 units/s
+2025-05-15 17:38:58,402 - INFO - FHD: Initial Speed = 118.22 units/s
+2025-05-15 17:38:58,402 - INFO - More Light: Initial Speed = 103.42 units/s
+2025-05-15 17:38:58,403 - INFO - Vamp: Initial Speed = 108.16 units/s
+2025-05-15 17:38:58,403 - INFO - Jahon: Initial Speed = 112.68 units/s
+2025-05-15 17:38:58,403 - INFO - ReD: Initial Speed = 95.48 units/s
+2025-05-15 17:38:58,404 - INFO - VMU: Initial Speed = 113.26 units/s
+2025-05-15 17:38:58,405 - INFO - Alpha: Initial Speed = 91.24 units/s
+2025-05-15 17:38:58,406 - INFO - Dumpstar: Initial Speed = 86.63 units/s
+2025-05-15 17:38:58,406 - INFO - KatieCans: Initial Speed = 87.02 units/s
+2025-05-15 17:38:58,407 - INFO - Turbo: Initial Speed = 95.27 units/s
+2025-05-15 17:38:58,407 - INFO - Jovial: Initial Speed = 103.48 units/s
+2025-05-15 17:38:58,407 - INFO - Speed Demon: Initial Speed = 87.34 units/s
+2025-05-15 17:38:58,407 - INFO - Rumble Pak: Initial Speed = 103.84 units/s
+2025-05-15 17:38:58,408 - INFO - Leviosa: Initial Speed = 91.64 units/s
+2025-05-15 17:38:58,408 - INFO - Obama: Initial Speed = 103.62 units/s
+2025-05-15 17:38:58,409 - INFO - Vince: Initial Speed = 86.81 units/s
+2025-05-15 17:38:58,409 - INFO - BPS: Initial Speed = 90.11 units/s
+2025-05-15 17:38:58,410 - INFO - Apache: Initial Speed = 81.09 units/s
+2025-05-15 17:38:58,410 - INFO - OG OBAMA: Initial Speed = 107.53 units/s
+2025-05-15 17:38:58,411 - INFO - Oggo: Initial Speed = 101.80 units/s
+2025-05-15 17:38:58,411 - INFO - BigSwole: Initial Speed = 107.85 units/s
+2025-05-15 17:38:58,412 - INFO - GPM: Initial Speed = 91.02 units/s
+2025-05-15 17:38:58,412 - INFO - YXJI: Initial Speed = 107.48 units/s
+2025-05-15 17:38:58,412 - INFO - Snoo: Initial Speed = 101.36 units/s
+2025-05-15 17:38:58,414 - INFO - Selected random background for all-characters race.
+2025-05-15 17:38:58,415 - INFO - Race music loaded but muted.
+2025-05-15 17:39:00,425 - INFO - 
+Time: 2.0s
+2025-05-15 17:39:00,425 - INFO - Yannix: Position=184.82, Speed=91.91, Finished=False
+2025-05-15 17:39:00,426 - INFO - Yo-Yo: Position=217.93, Speed=93.96, Finished=False
+2025-05-15 17:39:00,426 - INFO - GB: Position=174.66, Speed=86.85, Finished=False
+2025-05-15 17:39:00,426 - INFO - FHD: Position=237.74, Speed=118.22, Finished=False
+2025-05-15 17:39:00,427 - INFO - More Light: Position=207.98, Speed=103.42, Finished=False
+2025-05-15 17:39:00,427 - INFO - Vamp: Position=192.95, Speed=88.41, Finished=False
+2025-05-15 17:39:00,427 - INFO - Jahon: Position=220.47, Speed=112.75, Finished=False
+2025-05-15 17:39:00,428 - INFO - ReD: Position=186.13, Speed=88.29, Finished=False
+2025-05-15 17:39:00,428 - INFO - VMU: Position=227.77, Speed=113.26, Finished=False
+2025-05-15 17:39:00,428 - INFO - Alpha: Position=183.49, Speed=91.24, Finished=False
+2025-05-15 17:39:00,428 - INFO - Dumpstar: Position=214.70, Speed=81.09, Finished=False
+2025-05-15 17:39:00,429 - INFO - KatieCans: Position=197.81, Speed=109.19, Finished=False
+2025-05-15 17:39:00,429 - INFO - Turbo: Position=209.78, Speed=81.19, Finished=False
+2025-05-15 17:39:00,429 - INFO - Jovial: Position=208.10, Speed=103.48, Finished=False
+2025-05-15 17:39:00,429 - INFO - Speed Demon: Position=169.62, Speed=80.87, Finished=False
+2025-05-15 17:39:00,430 - INFO - Rumble Pak: Position=197.69, Speed=86.12, Finished=False
+2025-05-15 17:39:00,430 - INFO - Leviosa: Position=197.23, Speed=119.99, Finished=False
+2025-05-15 17:39:00,430 - INFO - Obama: Position=169.84, Speed=82.15, Finished=False
+2025-05-15 17:39:00,431 - INFO - Vince: Position=177.44, Speed=97.13, Finished=False
+2025-05-15 17:39:00,431 - INFO - BPS: Position=199.51, Speed=99.94, Finished=False
+2025-05-15 17:39:00,431 - INFO - Apache: Position=171.59, Speed=105.93, Finished=False
+2025-05-15 17:39:00,431 - INFO - OG OBAMA: Position=214.35, Speed=105.47, Finished=False
+2025-05-15 17:39:00,432 - INFO - Oggo: Position=224.63, Speed=114.35, Finished=False
+2025-05-15 17:39:00,432 - INFO - BigSwole: Position=215.38, Speed=104.86, Finished=False
+2025-05-15 17:39:00,432 - INFO - GPM: Position=183.04, Speed=91.02, Finished=False
+2025-05-15 17:39:00,433 - INFO - YXJI: Position=216.15, Speed=107.48, Finished=False
+2025-05-15 17:39:00,433 - INFO - Snoo: Position=199.25, Speed=119.31, Finished=False
+2025-05-15 17:39:02,435 - INFO - 
+Time: 4.0s
+2025-05-15 17:39:02,436 - INFO - Yannix: Position=386.35, Speed=102.57, Finished=False
+2025-05-15 17:39:02,436 - INFO - Yo-Yo: Position=406.78, Speed=93.96, Finished=False
+2025-05-15 17:39:02,437 - INFO - GB: Position=349.23, Speed=86.85, Finished=False
+2025-05-15 17:39:02,437 - INFO - FHD: Position=474.19, Speed=116.88, Finished=False
+2025-05-15 17:39:02,437 - INFO - More Light: Position=415.98, Speed=105.79, Finished=False
+2025-05-15 17:39:02,437 - INFO - Vamp: Position=411.84, Speed=108.84, Finished=False
+2025-05-15 17:39:02,437 - INFO - Jahon: Position=407.47, Speed=83.42, Finished=False
+2025-05-15 17:39:02,437 - INFO - ReD: Position=376.69, Speed=98.62, Finished=False
+2025-05-15 17:39:02,438 - INFO - VMU: Position=455.42, Speed=113.26, Finished=False
+2025-05-15 17:39:02,438 - INFO - Alpha: Position=366.12, Speed=88.09, Finished=False
+2025-05-15 17:39:02,438 - INFO - Dumpstar: Position=377.69, Speed=81.09, Finished=False
+2025-05-15 17:39:02,439 - INFO - KatieCans: Position=435.81, Speed=119.06, Finished=False
+2025-05-15 17:39:02,439 - INFO - Turbo: Position=372.97, Speed=81.19, Finished=False
+2025-05-15 17:39:02,439 - INFO - Jovial: Position=395.70, Speed=86.51, Finished=False
+2025-05-15 17:39:02,439 - INFO - Speed Demon: Position=332.84, Speed=81.92, Finished=False
+2025-05-15 17:39:02,440 - INFO - Rumble Pak: Position=370.80, Speed=86.12, Finished=False
+2025-05-15 17:39:02,440 - INFO - Leviosa: Position=438.42, Speed=119.99, Finished=False
+2025-05-15 17:39:02,440 - INFO - Obama: Position=334.97, Speed=82.15, Finished=False
+2025-05-15 17:39:02,440 - INFO - Vince: Position=377.11, Speed=100.92, Finished=False
+2025-05-15 17:39:02,441 - INFO - BPS: Position=394.02, Speed=111.74, Finished=False
+2025-05-15 17:39:02,441 - INFO - Apache: Position=358.24, Speed=89.13, Finished=False
+2025-05-15 17:39:02,441 - INFO - OG OBAMA: Position=426.34, Speed=105.47, Finished=False
+2025-05-15 17:39:02,442 - INFO - Oggo: Position=438.08, Speed=96.57, Finished=False
+2025-05-15 17:39:02,442 - INFO - BigSwole: Position=423.09, Speed=100.07, Finished=False
+2025-05-15 17:39:02,442 - INFO - GPM: Position=366.00, Speed=91.02, Finished=False
+2025-05-15 17:39:02,443 - INFO - YXJI: Position=418.14, Speed=86.54, Finished=False
+2025-05-15 17:39:02,443 - INFO - Snoo: Position=408.33, Speed=115.95, Finished=False
+2025-05-15 17:39:04,448 - INFO - 
+Time: 6.0s
+2025-05-15 17:39:04,448 - INFO - Yannix: Position=591.70, Speed=97.68, Finished=False
+2025-05-15 17:39:04,449 - INFO - Yo-Yo: Position=596.02, Speed=93.96, Finished=False
+2025-05-15 17:39:04,449 - INFO - GB: Position=555.92, Speed=102.87, Finished=False
+2025-05-15 17:39:04,449 - INFO - FHD: Position=669.99, Speed=80.05, Finished=False
+2025-05-15 17:39:04,449 - INFO - More Light: Position=627.29, Speed=101.70, Finished=False
+2025-05-15 17:39:04,450 - INFO - Vamp: Position=628.11, Speed=106.26, Finished=False
+2025-05-15 17:39:04,450 - INFO - Jahon: Position=575.91, Speed=83.67, Finished=False
+2025-05-15 17:39:04,451 - INFO - ReD: Position=588.16, Speed=99.48, Finished=False
+2025-05-15 17:39:04,451 - INFO - VMU: Position=683.53, Speed=113.26, Finished=False
+2025-05-15 17:39:04,451 - INFO - Alpha: Position=570.74, Speed=97.55, Finished=False
+2025-05-15 17:39:04,451 - INFO - Dumpstar: Position=545.52, Speed=85.29, Finished=False
+2025-05-15 17:39:04,452 - INFO - KatieCans: Position=675.60, Speed=119.06, Finished=False
+2025-05-15 17:39:04,452 - INFO - Turbo: Position=544.74, Speed=102.98, Finished=False
+2025-05-15 17:39:04,452 - INFO - Jovial: Position=569.93, Speed=86.51, Finished=False
+2025-05-15 17:39:04,452 - INFO - Speed Demon: Position=497.82, Speed=81.92, Finished=False
+2025-05-15 17:39:04,453 - INFO - Rumble Pak: Position=538.04, Speed=88.87, Finished=False
+2025-05-15 17:39:04,453 - INFO - Leviosa: Position=680.09, Speed=119.99, Finished=False
+2025-05-15 17:39:04,453 - INFO - Obama: Position=505.39, Speed=82.57, Finished=False
+2025-05-15 17:39:04,453 - INFO - Vince: Position=593.99, Speed=118.08, Finished=False
+2025-05-15 17:39:04,454 - INFO - BPS: Position=611.65, Speed=106.52, Finished=False
+2025-05-15 17:39:04,454 - INFO - Apache: Position=537.76, Speed=89.13, Finished=False
+2025-05-15 17:39:04,455 - INFO - OG OBAMA: Position=632.07, Speed=87.88, Finished=False
+2025-05-15 17:39:04,455 - INFO - Oggo: Position=632.58, Speed=96.57, Finished=False
+2025-05-15 17:39:04,455 - INFO - BigSwole: Position=624.64, Speed=100.07, Finished=False
+2025-05-15 17:39:04,456 - INFO - GPM: Position=566.71, Speed=101.06, Finished=False
+2025-05-15 17:39:04,456 - INFO - YXJI: Position=604.30, Speed=117.87, Finished=False
+2025-05-15 17:39:04,456 - INFO - Snoo: Position=635.82, Speed=119.11, Finished=False
+2025-05-15 17:39:06,464 - INFO - 
+Time: 8.1s
+2025-05-15 17:39:06,464 - INFO - Yannix: Position=778.81, Speed=89.48, Finished=False
+2025-05-15 17:39:06,465 - INFO - Yo-Yo: Position=771.91, Speed=84.51, Finished=False
+2025-05-15 17:39:06,465 - INFO - GB: Position=763.30, Speed=102.87, Finished=False
+2025-05-15 17:39:06,465 - INFO - FHD: Position=875.15, Speed=116.11, Finished=False
+2025-05-15 17:39:06,466 - INFO - More Light: Position=829.64, Speed=89.04, Finished=False
+2025-05-15 17:39:06,466 - INFO - Vamp: Position=846.79, Speed=113.51, Finished=False
+2025-05-15 17:39:06,467 - INFO - Jahon: Position=744.59, Speed=83.67, Finished=False
+2025-05-15 17:39:06,468 - INFO - ReD: Position=788.69, Speed=99.41, Finished=False
+2025-05-15 17:39:06,468 - INFO - VMU: Position=895.90, Speed=87.72, Finished=False
+2025-05-15 17:39:06,468 - INFO - Alpha: Position=771.08, Speed=99.94, Finished=False
+2025-05-15 17:39:06,469 - INFO - Dumpstar: Position=766.95, Speed=104.08, Finished=False
+2025-05-15 17:39:06,469 - INFO - KatieCans: Position=911.17, Speed=113.57, Finished=False
+2025-05-15 17:39:06,470 - INFO - Turbo: Position=750.96, Speed=102.19, Finished=False
+2025-05-15 17:39:06,470 - INFO - Jovial: Position=744.34, Speed=86.51, Finished=False
+2025-05-15 17:39:06,471 - INFO - Speed Demon: Position=684.14, Speed=110.25, Finished=False
+2025-05-15 17:39:06,471 - INFO - Rumble Pak: Position=704.58, Speed=82.89, Finished=False
+2025-05-15 17:39:06,471 - INFO - Leviosa: Position=910.84, Speed=116.28, Finished=False
+2025-05-15 17:39:06,472 - INFO - Obama: Position=673.19, Speed=95.74, Finished=False
+2025-05-15 17:39:06,472 - INFO - Vince: Position=832.04, Speed=118.08, Finished=False
+2025-05-15 17:39:06,472 - INFO - BPS: Position=826.40, Speed=106.52, Finished=False
+2025-05-15 17:39:06,473 - INFO - Apache: Position=737.67, Speed=101.57, Finished=False
+2025-05-15 17:39:06,473 - INFO - OG OBAMA: Position=797.62, Speed=81.93, Finished=False
+2025-05-15 17:39:06,474 - INFO - Oggo: Position=827.27, Speed=96.57, Finished=False
+2025-05-15 17:39:06,474 - INFO - BigSwole: Position=826.38, Speed=100.07, Finished=False
+2025-05-15 17:39:06,474 - INFO - GPM: Position=757.93, Speed=91.24, Finished=False
+2025-05-15 17:39:06,475 - INFO - YXJI: Position=841.92, Speed=117.87, Finished=False
+2025-05-15 17:39:06,475 - INFO - Snoo: Position=868.63, Speed=93.23, Finished=False
+2025-05-15 17:39:08,473 - INFO - 
+Time: 10.1s
+2025-05-15 17:39:08,473 - INFO - Yannix: Position=958.58, Speed=89.48, Finished=False
+2025-05-15 17:39:08,474 - INFO - Yo-Yo: Position=941.68, Speed=84.51, Finished=False
+2025-05-15 17:39:08,474 - INFO - GB: Position=969.97, Speed=102.87, Finished=False
+2025-05-15 17:39:08,474 - INFO - FHD: Position=1063.31, Speed=84.32, Finished=False
+2025-05-15 17:39:08,475 - INFO - More Light: Position=1008.52, Speed=89.04, Finished=False
+2025-05-15 17:39:08,475 - INFO - Vamp: Position=1062.87, Speed=107.83, Finished=False
+2025-05-15 17:39:08,475 - INFO - Jahon: Position=912.69, Speed=83.67, Finished=False
+2025-05-15 17:39:08,476 - INFO - ReD: Position=973.34, Speed=115.48, Finished=False
+2025-05-15 17:39:08,476 - INFO - VMU: Position=1079.04, Speed=92.19, Finished=False
+2025-05-15 17:39:08,476 - INFO - Alpha: Position=1003.04, Speed=119.17, Finished=False
+2025-05-15 17:39:08,477 - INFO - Dumpstar: Position=951.09, Speed=80.27, Finished=False
+2025-05-15 17:39:08,477 - INFO - KatieCans: Position=1118.08, Speed=84.81, Finished=False
+2025-05-15 17:39:08,477 - INFO - Turbo: Position=964.25, Speed=113.25, Finished=False
+2025-05-15 17:39:08,477 - INFO - Jovial: Position=924.21, Speed=102.00, Finished=False
+2025-05-15 17:39:08,478 - INFO - Speed Demon: Position=887.56, Speed=85.72, Finished=False
+2025-05-15 17:39:08,478 - INFO - Rumble Pak: Position=903.04, Speed=107.44, Finished=False
+2025-05-15 17:39:08,478 - INFO - Leviosa: Position=1126.71, Speed=106.55, Finished=False
+2025-05-15 17:39:08,479 - INFO - Obama: Position=865.52, Speed=95.74, Finished=False
+2025-05-15 17:39:08,479 - INFO - Vince: Position=1043.99, Speed=87.58, Finished=False
+2025-05-15 17:39:08,479 - INFO - BPS: Position=1043.93, Speed=111.52, Finished=False
+2025-05-15 17:39:08,479 - INFO - Apache: Position=941.74, Speed=101.57, Finished=False
+2025-05-15 17:39:08,480 - INFO - OG OBAMA: Position=962.22, Speed=81.93, Finished=False
+2025-05-15 17:39:08,480 - INFO - Oggo: Position=1021.29, Speed=96.57, Finished=False
+2025-05-15 17:39:08,480 - INFO - BigSwole: Position=1055.17, Speed=117.74, Finished=False
+2025-05-15 17:39:08,481 - INFO - GPM: Position=949.01, Speed=99.16, Finished=False
+2025-05-15 17:39:08,481 - INFO - YXJI: Position=1038.53, Speed=89.12, Finished=False
+2025-05-15 17:39:08,481 - INFO - Snoo: Position=1047.52, Speed=114.60, Finished=False
+2025-05-15 17:39:10,480 - INFO - 
+Time: 12.1s
+2025-05-15 17:39:10,480 - INFO - Yannix: Position=1142.82, Speed=89.31, Finished=False
+2025-05-15 17:39:10,481 - INFO - Yo-Yo: Position=1142.01, Speed=104.65, Finished=False
+2025-05-15 17:39:10,481 - INFO - GB: Position=1146.43, Speed=99.73, Finished=False
+2025-05-15 17:39:10,482 - INFO - FHD: Position=1232.45, Speed=84.32, Finished=False
+2025-05-15 17:39:10,482 - INFO - More Light: Position=1217.45, Speed=110.26, Finished=False
+2025-05-15 17:39:10,483 - INFO - Vamp: Position=1277.40, Speed=98.82, Finished=False
+2025-05-15 17:39:10,483 - INFO - Jahon: Position=1121.53, Speed=119.88, Finished=False
+2025-05-15 17:39:10,483 - INFO - ReD: Position=1182.43, Speed=98.70, Finished=False
+2025-05-15 17:39:10,483 - INFO - VMU: Position=1268.44, Speed=90.44, Finished=False
+2025-05-15 17:39:10,484 - INFO - Alpha: Position=1242.09, Speed=119.17, Finished=False
+2025-05-15 17:39:10,484 - INFO - Dumpstar: Position=1122.72, Speed=83.99, Finished=False
+2025-05-15 17:39:10,484 - INFO - KatieCans: Position=1288.20, Speed=84.81, Finished=False
+2025-05-15 17:39:10,484 - INFO - Turbo: Position=1180.35, Speed=103.34, Finished=False
+2025-05-15 17:39:10,485 - INFO - Jovial: Position=1128.88, Speed=102.80, Finished=False
+2025-05-15 17:39:10,485 - INFO - Speed Demon: Position=1069.04, Speed=97.80, Finished=False
+2025-05-15 17:39:10,485 - INFO - Rumble Pak: Position=1118.56, Speed=107.44, Finished=False
+2025-05-15 17:39:10,485 - INFO - Leviosa: Position=1340.44, Speed=106.55, Finished=False
+2025-05-15 17:39:10,485 - INFO - Obama: Position=1057.57, Speed=95.74, Finished=False
+2025-05-15 17:39:10,486 - INFO - Vince: Position=1219.66, Speed=87.58, Finished=False
+2025-05-15 17:39:10,486 - INFO - BPS: Position=1267.65, Speed=111.52, Finished=False
+2025-05-15 17:39:10,486 - INFO - Apache: Position=1160.85, Speed=116.44, Finished=False
+2025-05-15 17:39:10,487 - INFO - OG OBAMA: Position=1170.94, Speed=102.84, Finished=False
+2025-05-15 17:39:10,487 - INFO - Oggo: Position=1223.53, Speed=111.36, Finished=False
+2025-05-15 17:39:10,488 - INFO - BigSwole: Position=1291.37, Speed=117.74, Finished=False
+2025-05-15 17:39:10,488 - INFO - GPM: Position=1155.90, Speed=103.17, Finished=False
+2025-05-15 17:39:10,489 - INFO - YXJI: Position=1219.16, Speed=90.53, Finished=False
+2025-05-15 17:39:10,489 - INFO - Snoo: Position=1277.40, Speed=114.60, Finished=False
+2025-05-15 17:39:12,485 - INFO - 
+Time: 14.1s
+2025-05-15 17:39:12,485 - INFO - Yannix: Position=1320.70, Speed=85.71, Finished=False
+2025-05-15 17:39:12,486 - INFO - Yo-Yo: Position=1319.72, Speed=81.03, Finished=False
+2025-05-15 17:39:12,486 - INFO - GB: Position=1346.49, Speed=99.73, Finished=False
+2025-05-15 17:39:12,487 - INFO - FHD: Position=1441.46, Speed=118.37, Finished=False
+2025-05-15 17:39:12,487 - INFO - More Light: Position=1402.30, Speed=89.98, Finished=False
+2025-05-15 17:39:12,488 - INFO - Vamp: Position=1472.99, Speed=92.16, Finished=False
+2025-05-15 17:39:12,488 - INFO - Jahon: Position=1335.99, Speed=112.35, Finished=False
+2025-05-15 17:39:12,488 - INFO - ReD: Position=1380.43, Speed=98.70, Finished=False
+2025-05-15 17:39:12,489 - INFO - VMU: Position=1450.22, Speed=115.49, Finished=False
+2025-05-15 17:39:12,489 - INFO - Alpha: Position=1465.71, Speed=100.51, Finished=False
+2025-05-15 17:39:12,489 - INFO - Dumpstar: Position=1291.19, Speed=83.99, Finished=False
+2025-05-15 17:39:12,490 - INFO - KatieCans: Position=1462.80, Speed=114.57, Finished=False
+2025-05-15 17:39:12,490 - INFO - Turbo: Position=1386.77, Speed=91.91, Finished=False
+2025-05-15 17:39:12,491 - INFO - Jovial: Position=1329.46, Speed=89.72, Finished=False
+2025-05-15 17:39:12,491 - INFO - Speed Demon: Position=1265.22, Speed=97.80, Finished=False
+2025-05-15 17:39:12,491 - INFO - Rumble Pak: Position=1327.93, Speed=89.17, Finished=False
+2025-05-15 17:39:12,492 - INFO - Leviosa: Position=1500.00, Speed=106.55, Finished=True
+2025-05-15 17:39:12,492 - INFO - Obama: Position=1235.12, Speed=84.30, Finished=False
+2025-05-15 17:39:12,493 - INFO - Vince: Position=1387.67, Speed=82.64, Finished=False
+2025-05-15 17:39:12,493 - INFO - BPS: Position=1491.37, Speed=111.52, Finished=False
+2025-05-15 17:39:12,494 - INFO - Apache: Position=1393.56, Speed=115.58, Finished=False
+2025-05-15 17:39:12,494 - INFO - OG OBAMA: Position=1361.44, Speed=94.17, Finished=False
+2025-05-15 17:39:12,494 - INFO - Oggo: Position=1447.58, Speed=95.08, Finished=False
+2025-05-15 17:39:12,495 - INFO - BigSwole: Position=1500.00, Speed=117.74, Finished=True
+2025-05-15 17:39:12,496 - INFO - GPM: Position=1358.05, Speed=107.55, Finished=False
+2025-05-15 17:39:12,496 - INFO - YXJI: Position=1421.01, Speed=117.21, Finished=False
+2025-05-15 17:39:12,497 - INFO - Snoo: Position=1441.37, Speed=80.32, Finished=False
+2025-05-15 17:39:14,497 - INFO - 
+Time: 16.1s
+2025-05-15 17:39:14,497 - INFO - Yannix: Position=1500.00, Speed=116.03, Finished=True
+2025-05-15 17:39:14,498 - INFO - Yo-Yo: Position=1491.44, Speed=92.76, Finished=False
+2025-05-15 17:39:14,499 - INFO - GB: Position=1500.00, Speed=99.73, Finished=True
+2025-05-15 17:39:14,499 - INFO - FHD: Position=1500.00, Speed=118.37, Finished=True
+2025-05-15 17:39:14,500 - INFO - More Light: Position=1500.00, Speed=87.03, Finished=True
+2025-05-15 17:39:14,500 - INFO - Vamp: Position=1500.00, Speed=92.16, Finished=True
+2025-05-15 17:39:14,500 - INFO - Jahon: Position=1500.00, Speed=112.35, Finished=True
+2025-05-15 17:39:14,500 - INFO - ReD: Position=1500.00, Speed=98.70, Finished=True
+2025-05-15 17:39:14,501 - INFO - VMU: Position=1500.00, Speed=115.49, Finished=True
+2025-05-15 17:39:14,501 - INFO - Alpha: Position=1500.00, Speed=100.51, Finished=True
+2025-05-15 17:39:14,501 - INFO - Dumpstar: Position=1460.18, Speed=83.99, Finished=False
+2025-05-15 17:39:14,502 - INFO - KatieCans: Position=1500.00, Speed=114.57, Finished=True
+2025-05-15 17:39:14,502 - INFO - Turbo: Position=1500.00, Speed=91.91, Finished=True
+2025-05-15 17:39:14,502 - INFO - Jovial: Position=1500.00, Speed=106.86, Finished=True
+2025-05-15 17:39:14,502 - INFO - Speed Demon: Position=1479.12, Speed=112.80, Finished=False
+2025-05-15 17:39:14,503 - INFO - Rumble Pak: Position=1500.00, Speed=94.87, Finished=True
+2025-05-15 17:39:14,503 - INFO - Leviosa: Position=1500.00, Speed=106.55, Finished=True
+2025-05-15 17:39:14,503 - INFO - Obama: Position=1413.03, Speed=89.44, Finished=False
+2025-05-15 17:39:14,504 - INFO - Vince: Position=1500.00, Speed=94.42, Finished=True
+2025-05-15 17:39:14,504 - INFO - BPS: Position=1500.00, Speed=111.52, Finished=True
+2025-05-15 17:39:14,504 - INFO - Apache: Position=1500.00, Speed=93.98, Finished=True
+2025-05-15 17:39:14,504 - INFO - OG OBAMA: Position=1500.00, Speed=97.49, Finished=True
+2025-05-15 17:39:14,505 - INFO - Oggo: Position=1500.00, Speed=115.82, Finished=True
+2025-05-15 17:39:14,505 - INFO - BigSwole: Position=1500.00, Speed=117.74, Finished=True
+2025-05-15 17:39:14,505 - INFO - GPM: Position=1500.00, Speed=113.09, Finished=True
+2025-05-15 17:39:14,506 - INFO - YXJI: Position=1500.00, Speed=101.71, Finished=True
+2025-05-15 17:39:14,506 - INFO - Snoo: Position=1500.00, Speed=80.32, Finished=True
+2025-05-15 17:39:15,478 - INFO - 
+All-Characters Race finished! Finish order:
+2025-05-15 17:39:15,479 - INFO - 1. Leviosa: Avg Speed=110.71
+2025-05-15 17:39:15,479 - INFO - 2. BigSwole: Avg Speed=108.41
+2025-05-15 17:39:15,480 - INFO - 3. BPS: Avg Speed=106.07
+2025-05-15 17:39:15,480 - INFO - 4. Vamp: Avg Speed=104.48
+2025-05-15 17:39:15,480 - INFO - 5. KatieCans: Avg Speed=104.25
+2025-05-15 17:39:15,480 - INFO - 6. Alpha: Avg Speed=104.13
+2025-05-15 17:39:15,481 - INFO - 7. VMU: Avg Speed=103.43
+2025-05-15 17:39:15,481 - INFO - 8. FHD: Avg Speed=103.09
+2025-05-15 17:39:15,481 - INFO - 9. Oggo: Avg Speed=103.09
+2025-05-15 17:39:15,482 - INFO - 10. Snoo: Avg Speed=101.37
+2025-05-15 17:39:15,482 - INFO - 11. YXJI: Avg Speed=101.26
+2025-05-15 17:39:15,482 - INFO - 12. Apache: Avg Speed=99.51
+2025-05-15 17:39:15,482 - INFO - 13. More Light: Avg Speed=98.88
+2025-05-15 17:39:15,483 - INFO - 14. ReD: Avg Speed=98.24
+2025-05-15 17:39:15,483 - INFO - 15. Turbo: Avg Speed=98.03
+2025-05-15 17:39:15,483 - INFO - 16. Vince: Avg Speed=97.92
+2025-05-15 17:39:15,483 - INFO - 17. GPM: Avg Speed=97.71
+2025-05-15 17:39:15,484 - INFO - 18. Jahon: Avg Speed=96.66
+2025-05-15 17:39:15,484 - INFO - 19. OG OBAMA: Avg Speed=96.66
+2025-05-15 17:39:15,484 - INFO - 20. GB: Avg Speed=96.15
+2025-05-15 17:39:15,485 - INFO - 21. Jovial: Avg Speed=94.63
+2025-05-15 17:39:15,485 - INFO - 22. Yannix: Avg Speed=93.95
+2025-05-15 17:39:15,485 - INFO - 23. Rumble Pak: Avg Speed=93.55
+2025-05-15 17:39:15,485 - INFO - 24. Yo-Yo: Avg Speed=92.79
+2025-05-15 17:39:15,486 - INFO - 25. Speed Demon: Avg Speed=92.22
+2025-05-15 17:39:15,486 - INFO - 26. Dumpstar: Avg Speed=90.60
+2025-05-15 17:39:15,486 - INFO - 27. Obama: Avg Speed=87.99
+2025-05-15 17:39:15,487 - INFO - Selected winner: Leviosa with avg speed 110.71
+2025-05-15 17:39:17,491 - INFO - 
+Detailed Speed Analysis:
+2025-05-15 17:39:17,492 - INFO - 1. Leviosa: Finish Time=13.57s, Average Speed=110.71
+2025-05-15 17:39:17,492 - INFO - 2. BigSwole: Finish Time=13.85s, Average Speed=108.41
+2025-05-15 17:39:17,492 - INFO - 3. BPS: Finish Time=14.16s, Average Speed=106.07
+2025-05-15 17:39:17,493 - INFO - 4. Vamp: Finish Time=14.37s, Average Speed=104.48
+2025-05-15 17:39:17,493 - INFO - 5. KatieCans: Finish Time=14.41s, Average Speed=104.25
+2025-05-15 17:39:17,493 - INFO - 6. Alpha: Finish Time=14.42s, Average Speed=104.13
+2025-05-15 17:39:17,494 - INFO - 7. VMU: Finish Time=14.52s, Average Speed=103.43
+2025-05-15 17:39:17,494 - INFO - 8. FHD: Finish Time=14.57s, Average Speed=103.09
+2025-05-15 17:39:17,494 - INFO - 9. Oggo: Finish Time=14.57s, Average Speed=103.09
+2025-05-15 17:39:17,495 - INFO - 10. Snoo: Finish Time=14.81s, Average Speed=101.37
+2025-05-15 17:39:17,495 - INFO - 11. YXJI: Finish Time=14.83s, Average Speed=101.26
+2025-05-15 17:39:17,495 - INFO - 12. Apache: Finish Time=15.09s, Average Speed=99.51
+2025-05-15 17:39:17,496 - INFO - 13. More Light: Finish Time=15.19s, Average Speed=98.88
+2025-05-15 17:39:17,496 - INFO - 14. ReD: Finish Time=15.29s, Average Speed=98.24
+2025-05-15 17:39:17,496 - INFO - 15. Turbo: Finish Time=15.32s, Average Speed=98.03
+2025-05-15 17:39:17,497 - INFO - 16. Vince: Finish Time=15.33s, Average Speed=97.92
+2025-05-15 17:39:17,497 - INFO - 17. GPM: Finish Time=15.37s, Average Speed=97.71
+2025-05-15 17:39:17,497 - INFO - 18. Jahon: Finish Time=15.53s, Average Speed=96.66
+2025-05-15 17:39:17,498 - INFO - 19. OG OBAMA: Finish Time=15.53s, Average Speed=96.66
+2025-05-15 17:39:17,498 - INFO - 20. GB: Finish Time=15.62s, Average Speed=96.15
+2025-05-15 17:39:17,499 - INFO - 21. Jovial: Finish Time=15.87s, Average Speed=94.63
+2025-05-15 17:39:17,499 - INFO - 22. Yannix: Finish Time=15.98s, Average Speed=93.95
+2025-05-15 17:39:17,499 - INFO - 23. Rumble Pak: Finish Time=16.05s, Average Speed=93.55
+2025-05-15 17:39:17,500 - INFO - 24. Yo-Yo: Finish Time=16.18s, Average Speed=92.79
+2025-05-15 17:39:17,500 - INFO - 25. Speed Demon: Finish Time=16.28s, Average Speed=92.22
+2025-05-15 17:39:17,501 - INFO - 26. Dumpstar: Finish Time=16.57s, Average Speed=90.60
+2025-05-15 17:39:17,501 - INFO - 27. Obama: Finish Time=17.06s, Average Speed=87.99
+2025-05-15 17:39:21,271 - INFO - 
+Selected Sprotos for This Race:
+2025-05-15 17:39:21,271 - INFO - Leviosa: Initial Speed = 117.20 units/s
+2025-05-15 17:39:21,272 - INFO - BigSwole: Initial Speed = 88.91 units/s
+2025-05-15 17:39:21,272 - INFO - BPS: Initial Speed = 115.95 units/s
+2025-05-15 17:39:21,272 - INFO - Vamp: Initial Speed = 117.11 units/s
+2025-05-15 17:39:21,273 - INFO - KatieCans: Initial Speed = 107.81 units/s
+2025-05-15 17:39:21,273 - INFO - 
+Starting Tournament (7 Races)
+2025-05-15 17:39:21,273 - INFO - Tournament music loaded but muted.
+2025-05-15 17:39:21,274 - INFO - 
+--- Starting Race #1 ---
+2025-05-15 17:39:21,275 - INFO - Initialized tournament stats for Leviosa: wins=0, points=0
+2025-05-15 17:39:21,275 - INFO - Initialized tournament stats for BigSwole: wins=0, points=0
+2025-05-15 17:39:21,275 - INFO - Initialized tournament stats for BPS: wins=0, points=0
+2025-05-15 17:39:21,275 - INFO - Initialized tournament stats for Vamp: wins=0, points=0
+2025-05-15 17:39:21,276 - INFO - Initialized tournament stats for KatieCans: wins=0, points=0
+2025-05-15 17:39:21,276 - INFO - Race music loaded but muted.
+2025-05-15 17:39:22,283 - INFO - 
+Time: 1.0s
+2025-05-15 17:39:22,283 - INFO - Leviosa: Position=82.06, Speed=81.41, Finished=False
+2025-05-15 17:39:22,284 - INFO - BigSwole: Position=97.87, Speed=97.10, Finished=False
+2025-05-15 17:39:22,284 - INFO - BPS: Position=92.25, Speed=95.88, Finished=False
+2025-05-15 17:39:22,284 - INFO - Vamp: Position=104.68, Speed=103.85, Finished=False
+2025-05-15 17:39:22,284 - INFO - KatieCans: Position=91.27, Speed=90.55, Finished=False
+2025-05-15 17:39:23,296 - INFO - 
+Time: 2.0s
+2025-05-15 17:39:23,296 - INFO - Leviosa: Position=173.48, Speed=82.74, Finished=False
+2025-05-15 17:39:23,296 - INFO - BigSwole: Position=196.33, Speed=97.10, Finished=False
+2025-05-15 17:39:23,297 - INFO - BPS: Position=199.27, Speed=109.57, Finished=False
+2025-05-15 17:39:23,297 - INFO - Vamp: Position=209.99, Speed=103.85, Finished=False
+2025-05-15 17:39:23,298 - INFO - KatieCans: Position=183.09, Speed=90.55, Finished=False
+2025-05-15 17:39:24,304 - INFO - 
+Time: 3.0s
+2025-05-15 17:39:24,304 - INFO - Leviosa: Position=273.82, Speed=113.64, Finished=False
+2025-05-15 17:39:24,304 - INFO - BigSwole: Position=300.98, Speed=114.75, Finished=False
+2025-05-15 17:39:24,304 - INFO - BPS: Position=309.61, Speed=109.57, Finished=False
+2025-05-15 17:39:24,305 - INFO - Vamp: Position=316.58, Speed=113.22, Finished=False
+2025-05-15 17:39:24,305 - INFO - KatieCans: Position=273.11, Speed=86.87, Finished=False
+2025-05-15 17:39:25,305 - INFO - 
+Time: 4.0s
+2025-05-15 17:39:25,305 - INFO - Leviosa: Position=387.69, Speed=113.64, Finished=False
+2025-05-15 17:39:25,306 - INFO - BigSwole: Position=415.95, Speed=114.75, Finished=False
+2025-05-15 17:39:25,306 - INFO - BPS: Position=420.32, Speed=110.94, Finished=False
+2025-05-15 17:39:25,307 - INFO - Vamp: Position=430.05, Speed=113.80, Finished=False
+2025-05-15 17:39:25,307 - INFO - KatieCans: Position=360.16, Speed=86.87, Finished=False
+2025-05-15 17:39:26,308 - INFO - 
+Time: 5.0s
+2025-05-15 17:39:26,308 - INFO - Leviosa: Position=474.90, Speed=89.24, Finished=False
+2025-05-15 17:39:26,308 - INFO - BigSwole: Position=531.04, Speed=114.75, Finished=False
+2025-05-15 17:39:26,309 - INFO - BPS: Position=530.64, Speed=109.76, Finished=False
+2025-05-15 17:39:26,309 - INFO - Vamp: Position=544.19, Speed=113.80, Finished=False
+2025-05-15 17:39:26,309 - INFO - KatieCans: Position=447.29, Speed=86.87, Finished=False
+2025-05-15 17:39:27,316 - INFO - 
+Time: 6.0s
+2025-05-15 17:39:27,317 - INFO - Leviosa: Position=563.72, Speed=86.96, Finished=False
+2025-05-15 17:39:27,317 - INFO - BigSwole: Position=643.64, Speed=89.07, Finished=False
+2025-05-15 17:39:27,317 - INFO - BPS: Position=641.16, Speed=109.76, Finished=False
+2025-05-15 17:39:27,317 - INFO - Vamp: Position=658.94, Speed=118.50, Finished=False
+2025-05-15 17:39:27,317 - INFO - KatieCans: Position=534.77, Speed=86.87, Finished=False
+2025-05-15 17:39:28,141 - INFO - Tournament music stopped.
+2025-05-15 17:39:28,143 - INFO - Sprotos available in selection screen:
+2025-05-15 17:39:28,144 - INFO - - Yannix
+2025-05-15 17:39:28,144 - INFO - - Yo-Yo
+2025-05-15 17:39:28,144 - INFO - - GB
+2025-05-15 17:39:28,145 - INFO - - FHD
+2025-05-15 17:39:28,145 - INFO - - More Light
+2025-05-15 17:39:28,145 - INFO - - Vamp
+2025-05-15 17:39:28,146 - INFO - - Jahon
+2025-05-15 17:39:28,146 - INFO - - ReD
+2025-05-15 17:39:28,146 - INFO - - VMU
+2025-05-15 17:39:28,146 - INFO - - Alpha
+2025-05-15 17:39:28,147 - INFO - - Dumpstar
+2025-05-15 17:39:28,147 - INFO - - KatieCans
+2025-05-15 17:39:28,147 - INFO - - Turbo
+2025-05-15 17:39:28,147 - INFO - - Jovial
+2025-05-15 17:39:28,147 - INFO - - Speed Demon
+2025-05-15 17:39:28,148 - INFO - - Rumble Pak
+2025-05-15 17:39:28,148 - INFO - - Leviosa
+2025-05-15 17:39:28,148 - INFO - - Obama
+2025-05-15 17:39:28,149 - INFO - - Vince
+2025-05-15 17:39:28,149 - INFO - - BPS
+2025-05-15 17:39:28,149 - INFO - - Apache
+2025-05-15 17:39:28,149 - INFO - - OG OBAMA
+2025-05-15 17:39:28,150 - INFO - - Oggo
+2025-05-15 17:39:28,150 - INFO - - BigSwole
+2025-05-15 17:39:28,150 - INFO - - GPM
+2025-05-15 17:39:28,151 - INFO - - YXJI
+2025-05-15 17:39:28,151 - INFO - - Snoo
+2025-05-15 17:39:28,151 - INFO - Selection music loaded but muted.
+2025-05-15 17:39:33,975 - INFO - Selection music stopped.
+2025-05-15 17:39:33,976 - INFO - No sprotos selected or window closed. Exiting.
+2025-05-15 17:41:41,651 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-15 17:41:41,654 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-15 17:41:41,664 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-15 17:41:41,665 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-15 17:41:41,673 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-15 17:41:41,675 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-15 17:41:41,681 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-15 17:41:41,682 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-15 17:41:41,688 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-15 17:41:41,688 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-15 17:41:41,696 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-15 17:41:41,696 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-15 17:41:41,702 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-15 17:41:41,703 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-15 17:41:41,709 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-15 17:41:41,710 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-15 17:41:41,718 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-15 17:41:41,720 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-15 17:41:41,733 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-15 17:41:41,733 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-15 17:41:41,739 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-15 17:41:41,740 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-15 17:41:41,746 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-15 17:41:41,746 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-15 17:41:41,753 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-15 17:41:41,754 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-15 17:41:41,762 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-15 17:41:41,789 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-15 17:41:41,791 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-15 17:41:41,792 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-15 17:41:41,796 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-15 17:41:41,797 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-15 17:41:41,803 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-15 17:41:41,803 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-15 17:41:41,809 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-15 17:41:41,810 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-15 17:41:41,815 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-15 17:41:41,816 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-15 17:41:41,822 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-15 17:41:41,822 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-15 17:41:41,828 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-15 17:41:41,829 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-15 17:41:41,841 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-15 17:41:41,842 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-15 17:41:41,879 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-15 17:41:41,879 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-15 17:41:41,886 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-15 17:41:41,886 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-15 17:41:41,891 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-15 17:41:41,892 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-15 17:41:41,897 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-15 17:41:41,897 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-15 17:41:41,902 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-15 17:41:41,902 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-15 17:41:41,911 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-15 17:41:41,951 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-15 17:41:42,378 - INFO - Available Sprotos:
+2025-05-15 17:41:42,378 - INFO - Yannix
+2025-05-15 17:41:42,379 - INFO - Yo-Yo
+2025-05-15 17:41:42,379 - INFO - GB
+2025-05-15 17:41:42,379 - INFO - FHD
+2025-05-15 17:41:42,379 - INFO - More Light
+2025-05-15 17:41:42,380 - INFO - Vamp
+2025-05-15 17:41:42,380 - INFO - Jahon
+2025-05-15 17:41:42,380 - INFO - ReD
+2025-05-15 17:41:42,380 - INFO - VMU
+2025-05-15 17:41:42,381 - INFO - Alpha
+2025-05-15 17:41:42,381 - INFO - Dumpstar
+2025-05-15 17:41:42,381 - INFO - KatieCans
+2025-05-15 17:41:42,382 - INFO - Turbo
+2025-05-15 17:41:42,382 - INFO - Jovial
+2025-05-15 17:41:42,382 - INFO - Speed Demon
+2025-05-15 17:41:42,382 - INFO - Rumble Pak
+2025-05-15 17:41:42,383 - INFO - Leviosa
+2025-05-15 17:41:42,383 - INFO - Obama
+2025-05-15 17:41:42,383 - INFO - Vince
+2025-05-15 17:41:42,383 - INFO - BPS
+2025-05-15 17:41:42,384 - INFO - Apache
+2025-05-15 17:41:42,384 - INFO - OG OBAMA
+2025-05-15 17:41:42,384 - INFO - Oggo
+2025-05-15 17:41:42,384 - INFO - BigSwole
+2025-05-15 17:41:42,385 - INFO - GPM
+2025-05-15 17:41:42,385 - INFO - YXJI
+2025-05-15 17:41:42,385 - INFO - Snoo
+2025-05-15 17:41:42,388 - INFO - Sprotos available in selection screen:
+2025-05-15 17:41:42,388 - INFO - - Yannix
+2025-05-15 17:41:42,388 - INFO - - Yo-Yo
+2025-05-15 17:41:42,389 - INFO - - GB
+2025-05-15 17:41:42,389 - INFO - - FHD
+2025-05-15 17:41:42,389 - INFO - - More Light
+2025-05-15 17:41:42,390 - INFO - - Vamp
+2025-05-15 17:41:42,390 - INFO - - Jahon
+2025-05-15 17:41:42,390 - INFO - - ReD
+2025-05-15 17:41:42,390 - INFO - - VMU
+2025-05-15 17:41:42,391 - INFO - - Alpha
+2025-05-15 17:41:42,391 - INFO - - Dumpstar
+2025-05-15 17:41:42,391 - INFO - - KatieCans
+2025-05-15 17:41:42,391 - INFO - - Turbo
+2025-05-15 17:41:42,392 - INFO - - Jovial
+2025-05-15 17:41:42,392 - INFO - - Speed Demon
+2025-05-15 17:41:42,392 - INFO - - Rumble Pak
+2025-05-15 17:41:42,392 - INFO - - Leviosa
+2025-05-15 17:41:42,393 - INFO - - Obama
+2025-05-15 17:41:42,393 - INFO - - Vince
+2025-05-15 17:41:42,393 - INFO - - BPS
+2025-05-15 17:41:42,393 - INFO - - Apache
+2025-05-15 17:41:42,393 - INFO - - OG OBAMA
+2025-05-15 17:41:42,394 - INFO - - Oggo
+2025-05-15 17:41:42,394 - INFO - - BigSwole
+2025-05-15 17:41:42,394 - INFO - - GPM
+2025-05-15 17:41:42,394 - INFO - - YXJI
+2025-05-15 17:41:42,395 - INFO - - Snoo
+2025-05-15 17:41:42,395 - INFO - Selection music loaded but muted.
+2025-05-15 17:41:46,056 - INFO - Selection music stopped.
+2025-05-15 17:41:46,057 - INFO - 
+Selected Sprotos for This Race:
+2025-05-15 17:41:46,058 - INFO - Yannix: Initial Speed = 97.79 units/s
+2025-05-15 17:41:46,058 - INFO - Yo-Yo: Initial Speed = 107.47 units/s
+2025-05-15 17:41:46,059 - INFO - GB: Initial Speed = 118.82 units/s
+2025-05-15 17:41:46,059 - INFO - FHD: Initial Speed = 113.44 units/s
+2025-05-15 17:41:46,059 - INFO - More Light: Initial Speed = 84.63 units/s
+2025-05-15 17:41:46,060 - INFO - Vamp: Initial Speed = 109.24 units/s
+2025-05-15 17:41:46,060 - INFO - Jahon: Initial Speed = 88.32 units/s
+2025-05-15 17:41:46,060 - INFO - ReD: Initial Speed = 117.45 units/s
+2025-05-15 17:41:46,061 - INFO - VMU: Initial Speed = 113.23 units/s
+2025-05-15 17:41:46,061 - INFO - Alpha: Initial Speed = 103.43 units/s
+2025-05-15 17:41:46,061 - INFO - Dumpstar: Initial Speed = 87.89 units/s
+2025-05-15 17:41:46,062 - INFO - KatieCans: Initial Speed = 91.96 units/s
+2025-05-15 17:41:46,062 - INFO - Turbo: Initial Speed = 114.54 units/s
+2025-05-15 17:41:46,063 - INFO - Jovial: Initial Speed = 100.17 units/s
+2025-05-15 17:41:46,063 - INFO - Speed Demon: Initial Speed = 101.13 units/s
+2025-05-15 17:41:46,063 - INFO - Rumble Pak: Initial Speed = 111.28 units/s
+2025-05-15 17:41:46,064 - INFO - Leviosa: Initial Speed = 96.47 units/s
+2025-05-15 17:41:46,064 - INFO - Obama: Initial Speed = 84.68 units/s
+2025-05-15 17:41:46,065 - INFO - Vince: Initial Speed = 110.54 units/s
+2025-05-15 17:41:46,065 - INFO - BPS: Initial Speed = 86.76 units/s
+2025-05-15 17:41:46,066 - INFO - Apache: Initial Speed = 99.79 units/s
+2025-05-15 17:41:46,066 - INFO - OG OBAMA: Initial Speed = 104.71 units/s
+2025-05-15 17:41:46,067 - INFO - Oggo: Initial Speed = 108.63 units/s
+2025-05-15 17:41:46,067 - INFO - BigSwole: Initial Speed = 92.38 units/s
+2025-05-15 17:41:46,067 - INFO - GPM: Initial Speed = 110.38 units/s
+2025-05-15 17:41:46,068 - INFO - YXJI: Initial Speed = 116.54 units/s
+2025-05-15 17:41:46,069 - INFO - Snoo: Initial Speed = 92.36 units/s
+2025-05-15 17:41:46,071 - INFO - Selected random background for all-characters race.
+2025-05-15 17:41:46,073 - INFO - Race music loaded but muted.
+2025-05-15 17:41:48,077 - INFO - 
+Time: 2.0s
+2025-05-15 17:41:48,078 - INFO - Yannix: Position=229.61, Speed=117.49, Finished=False
+2025-05-15 17:41:48,078 - INFO - Yo-Yo: Position=215.68, Speed=107.47, Finished=False
+2025-05-15 17:41:48,078 - INFO - GB: Position=166.19, Speed=80.92, Finished=False
+2025-05-15 17:41:48,079 - INFO - FHD: Position=203.76, Speed=95.68, Finished=False
+2025-05-15 17:41:48,079 - INFO - More Light: Position=173.39, Speed=105.84, Finished=False
+2025-05-15 17:41:48,079 - INFO - Vamp: Position=219.25, Speed=109.24, Finished=False
+2025-05-15 17:41:48,079 - INFO - Jahon: Position=177.26, Speed=88.32, Finished=False
+2025-05-15 17:41:48,080 - INFO - ReD: Position=225.61, Speed=112.68, Finished=False
+2025-05-15 17:41:48,080 - INFO - VMU: Position=198.69, Speed=100.94, Finished=False
+2025-05-15 17:41:48,080 - INFO - Alpha: Position=207.58, Speed=103.43, Finished=False
+2025-05-15 17:41:48,080 - INFO - Dumpstar: Position=176.40, Speed=87.89, Finished=False
+2025-05-15 17:41:48,081 - INFO - KatieCans: Position=208.27, Speed=105.56, Finished=False
+2025-05-15 17:41:48,081 - INFO - Turbo: Position=229.81, Speed=110.35, Finished=False
+2025-05-15 17:41:48,081 - INFO - Jovial: Position=169.64, Speed=80.87, Finished=False
+2025-05-15 17:41:48,081 - INFO - Speed Demon: Position=202.96, Speed=101.13, Finished=False
+2025-05-15 17:41:48,082 - INFO - Rumble Pak: Position=223.35, Speed=111.28, Finished=False
+2025-05-15 17:41:48,082 - INFO - Leviosa: Position=193.61, Speed=96.47, Finished=False
+2025-05-15 17:41:48,082 - INFO - Obama: Position=182.59, Speed=95.51, Finished=False
+2025-05-15 17:41:48,082 - INFO - Vince: Position=186.93, Speed=85.30, Finished=False
+2025-05-15 17:41:48,083 - INFO - BPS: Position=175.10, Speed=87.27, Finished=False
+2025-05-15 17:41:48,083 - INFO - Apache: Position=198.50, Speed=93.69, Finished=False
+2025-05-15 17:41:48,084 - INFO - OG OBAMA: Position=210.16, Speed=104.71, Finished=False
+2025-05-15 17:41:48,084 - INFO - Oggo: Position=212.69, Speed=102.94, Finished=False
+2025-05-15 17:41:48,085 - INFO - BigSwole: Position=185.40, Speed=92.38, Finished=False
+2025-05-15 17:41:48,085 - INFO - GPM: Position=219.71, Speed=102.14, Finished=False
+2025-05-15 17:41:48,086 - INFO - YXJI: Position=233.89, Speed=116.54, Finished=False
+2025-05-15 17:41:48,086 - INFO - Snoo: Position=185.37, Speed=92.36, Finished=False
+2025-05-15 17:41:50,092 - INFO - 
+Time: 4.0s
+2025-05-15 17:41:50,093 - INFO - Yannix: Position=447.34, Speed=99.71, Finished=False
+2025-05-15 17:41:50,093 - INFO - Yo-Yo: Position=414.95, Speed=84.71, Finished=False
+2025-05-15 17:41:50,093 - INFO - GB: Position=347.99, Speed=100.40, Finished=False
+2025-05-15 17:41:50,094 - INFO - FHD: Position=389.17, Speed=90.66, Finished=False
+2025-05-15 17:41:50,094 - INFO - More Light: Position=353.64, Speed=109.14, Finished=False
+2025-05-15 17:41:50,095 - INFO - Vamp: Position=405.91, Speed=82.64, Finished=False
+2025-05-15 17:41:50,095 - INFO - Jahon: Position=391.15, Speed=102.49, Finished=False
+2025-05-15 17:41:50,095 - INFO - ReD: Position=450.70, Speed=97.55, Finished=False
+2025-05-15 17:41:50,095 - INFO - VMU: Position=408.77, Speed=104.34, Finished=False
+2025-05-15 17:41:50,096 - INFO - Alpha: Position=386.67, Speed=117.46, Finished=False
+2025-05-15 17:41:50,096 - INFO - Dumpstar: Position=372.26, Speed=100.40, Finished=False
+2025-05-15 17:41:50,096 - INFO - KatieCans: Position=420.97, Speed=105.56, Finished=False
+2025-05-15 17:41:50,097 - INFO - Turbo: Position=452.17, Speed=110.35, Finished=False
+2025-05-15 17:41:50,097 - INFO - Jovial: Position=332.60, Speed=80.87, Finished=False
+2025-05-15 17:41:50,097 - INFO - Speed Demon: Position=388.48, Speed=108.83, Finished=False
+2025-05-15 17:41:50,097 - INFO - Rumble Pak: Position=447.58, Speed=111.28, Finished=False
+2025-05-15 17:41:50,098 - INFO - Leviosa: Position=374.92, Speed=88.63, Finished=False
+2025-05-15 17:41:50,098 - INFO - Obama: Position=380.43, Speed=113.50, Finished=False
+2025-05-15 17:41:50,098 - INFO - Vince: Position=367.57, Speed=92.89, Finished=False
+2025-05-15 17:41:50,099 - INFO - BPS: Position=350.94, Speed=87.27, Finished=False
+2025-05-15 17:41:50,099 - INFO - Apache: Position=392.71, Speed=96.67, Finished=False
+2025-05-15 17:41:50,099 - INFO - OG OBAMA: Position=418.50, Speed=102.45, Finished=False
+2025-05-15 17:41:50,099 - INFO - Oggo: Position=420.12, Speed=102.94, Finished=False
+2025-05-15 17:41:50,100 - INFO - BigSwole: Position=379.66, Speed=91.99, Finished=False
+2025-05-15 17:41:50,100 - INFO - GPM: Position=432.64, Speed=111.07, Finished=False
+2025-05-15 17:41:50,100 - INFO - YXJI: Position=462.55, Speed=107.97, Finished=False
+2025-05-15 17:41:50,100 - INFO - Snoo: Position=371.47, Speed=92.36, Finished=False
+2025-05-15 17:41:52,099 - INFO - 
+Time: 6.0s
+2025-05-15 17:41:52,099 - INFO - Yannix: Position=647.37, Speed=99.71, Finished=False
+2025-05-15 17:41:52,100 - INFO - Yo-Yo: Position=593.53, Speed=102.51, Finished=False
+2025-05-15 17:41:52,100 - INFO - GB: Position=533.26, Speed=88.43, Finished=False
+2025-05-15 17:41:52,100 - INFO - FHD: Position=571.03, Speed=90.66, Finished=False
+2025-05-15 17:41:52,101 - INFO - More Light: Position=572.57, Speed=109.14, Finished=False
+2025-05-15 17:41:52,101 - INFO - Vamp: Position=571.68, Speed=82.64, Finished=False
+2025-05-15 17:41:52,101 - INFO - Jahon: Position=592.23, Speed=85.49, Finished=False
+2025-05-15 17:41:52,102 - INFO - ReD: Position=647.53, Speed=85.01, Finished=False
+2025-05-15 17:41:52,102 - INFO - VMU: Position=618.08, Speed=104.34, Finished=False
+2025-05-15 17:41:52,102 - INFO - Alpha: Position=604.25, Speed=107.25, Finished=False
+2025-05-15 17:41:52,103 - INFO - Dumpstar: Position=561.58, Speed=90.42, Finished=False
+2025-05-15 17:41:52,103 - INFO - KatieCans: Position=600.95, Speed=86.77, Finished=False
+2025-05-15 17:41:52,103 - INFO - Turbo: Position=657.57, Speed=106.20, Finished=False
+2025-05-15 17:41:52,104 - INFO - Jovial: Position=500.95, Speed=115.29, Finished=False
+2025-05-15 17:41:52,104 - INFO - Speed Demon: Position=592.31, Speed=90.67, Finished=False
+2025-05-15 17:41:52,104 - INFO - Rumble Pak: Position=680.52, Speed=119.63, Finished=False
+2025-05-15 17:41:52,105 - INFO - Leviosa: Position=559.96, Speed=108.44, Finished=False
+2025-05-15 17:41:52,105 - INFO - Obama: Position=608.10, Speed=113.50, Finished=False
+2025-05-15 17:41:52,105 - INFO - Vince: Position=549.70, Speed=85.92, Finished=False
+2025-05-15 17:41:52,105 - INFO - BPS: Position=576.98, Speed=115.46, Finished=False
+2025-05-15 17:41:52,106 - INFO - Apache: Position=574.62, Speed=81.20, Finished=False
+2025-05-15 17:41:52,106 - INFO - OG OBAMA: Position=624.01, Speed=102.45, Finished=False
+2025-05-15 17:41:52,106 - INFO - Oggo: Position=626.63, Speed=102.94, Finished=False
+2025-05-15 17:41:52,107 - INFO - BigSwole: Position=575.71, Speed=94.15, Finished=False
+2025-05-15 17:41:52,107 - INFO - GPM: Position=637.57, Speed=84.21, Finished=False
+2025-05-15 17:41:52,107 - INFO - YXJI: Position=679.14, Speed=107.97, Finished=False
+2025-05-15 17:41:52,108 - INFO - Snoo: Position=556.75, Speed=92.36, Finished=False
+2025-05-15 17:41:54,100 - INFO - 
+Time: 8.0s
+2025-05-15 17:41:54,100 - INFO - Yannix: Position=842.67, Speed=117.11, Finished=False
+2025-05-15 17:41:54,101 - INFO - Yo-Yo: Position=768.87, Speed=102.97, Finished=False
+2025-05-15 17:41:54,101 - INFO - GB: Position=727.31, Speed=114.93, Finished=False
+2025-05-15 17:41:54,102 - INFO - FHD: Position=752.52, Speed=90.66, Finished=False
+2025-05-15 17:41:54,102 - INFO - More Light: Position=785.44, Speed=86.04, Finished=False
+2025-05-15 17:41:54,103 - INFO - Vamp: Position=739.40, Speed=80.29, Finished=False
+2025-05-15 17:41:54,103 - INFO - Jahon: Position=784.88, Speed=91.13, Finished=False
+2025-05-15 17:41:54,103 - INFO - ReD: Position=846.93, Speed=107.28, Finished=False
+2025-05-15 17:41:54,103 - INFO - VMU: Position=793.01, Speed=87.22, Finished=False
+2025-05-15 17:41:54,104 - INFO - Alpha: Position=816.64, Speed=113.31, Finished=False
+2025-05-15 17:41:54,104 - INFO - Dumpstar: Position=751.69, Speed=119.33, Finished=False
+2025-05-15 17:41:54,104 - INFO - KatieCans: Position=774.20, Speed=85.01, Finished=False
+2025-05-15 17:41:54,105 - INFO - Turbo: Position=870.18, Speed=106.20, Finished=False
+2025-05-15 17:41:54,105 - INFO - Jovial: Position=707.25, Speed=100.83, Finished=False
+2025-05-15 17:41:54,105 - INFO - Speed Demon: Position=772.34, Speed=84.99, Finished=False
+2025-05-15 17:41:54,105 - INFO - Rumble Pak: Position=913.36, Speed=118.41, Finished=False
+2025-05-15 17:41:54,106 - INFO - Leviosa: Position=763.79, Speed=83.43, Finished=False
+2025-05-15 17:41:54,106 - INFO - Obama: Position=816.77, Speed=92.17, Finished=False
+2025-05-15 17:41:54,106 - INFO - Vince: Position=749.44, Speed=104.09, Finished=False
+2025-05-15 17:41:54,107 - INFO - BPS: Position=782.76, Speed=97.47, Finished=False
+2025-05-15 17:41:54,107 - INFO - Apache: Position=737.19, Speed=81.20, Finished=False
+2025-05-15 17:41:54,107 - INFO - OG OBAMA: Position=829.12, Speed=102.45, Finished=False
+2025-05-15 17:41:54,107 - INFO - Oggo: Position=833.06, Speed=104.02, Finished=False
+2025-05-15 17:41:54,108 - INFO - BigSwole: Position=754.35, Speed=80.20, Finished=False
+2025-05-15 17:41:54,108 - INFO - GPM: Position=810.66, Speed=86.71, Finished=False
+2025-05-15 17:41:54,108 - INFO - YXJI: Position=895.30, Speed=107.97, Finished=False
+2025-05-15 17:41:54,108 - INFO - Snoo: Position=738.85, Speed=117.65, Finished=False
+2025-05-15 17:41:56,117 - INFO - 
+Time: 10.0s
+2025-05-15 17:41:56,117 - INFO - Yannix: Position=1074.15, Speed=104.81, Finished=False
+2025-05-15 17:41:56,118 - INFO - Yo-Yo: Position=976.56, Speed=102.97, Finished=False
+2025-05-15 17:41:56,118 - INFO - GB: Position=943.32, Speed=98.99, Finished=False
+2025-05-15 17:41:56,118 - INFO - FHD: Position=953.95, Speed=115.01, Finished=False
+2025-05-15 17:41:56,119 - INFO - More Light: Position=971.75, Speed=87.58, Finished=False
+2025-05-15 17:41:56,120 - INFO - Vamp: Position=916.46, Speed=91.11, Finished=False
+2025-05-15 17:41:56,120 - INFO - Jahon: Position=990.54, Speed=110.52, Finished=False
+2025-05-15 17:41:56,120 - INFO - ReD: Position=1051.15, Speed=90.60, Finished=False
+2025-05-15 17:41:56,120 - INFO - VMU: Position=967.03, Speed=85.05, Finished=False
+2025-05-15 17:41:56,121 - INFO - Alpha: Position=1041.52, Speed=92.44, Finished=False
+2025-05-15 17:41:56,121 - INFO - Dumpstar: Position=968.98, Speed=104.61, Finished=False
+2025-05-15 17:41:56,121 - INFO - KatieCans: Position=981.07, Speed=104.97, Finished=False
+2025-05-15 17:41:56,121 - INFO - Turbo: Position=1086.74, Speed=108.34, Finished=False
+2025-05-15 17:41:56,122 - INFO - Jovial: Position=896.47, Speed=119.17, Finished=False
+2025-05-15 17:41:56,122 - INFO - Speed Demon: Position=980.42, Speed=117.37, Finished=False
+2025-05-15 17:41:56,122 - INFO - Rumble Pak: Position=1150.76, Speed=89.93, Finished=False
+2025-05-15 17:41:56,123 - INFO - Leviosa: Position=932.06, Speed=83.43, Finished=False
+2025-05-15 17:41:56,123 - INFO - Obama: Position=999.84, Speed=88.67, Finished=False
+2025-05-15 17:41:56,123 - INFO - Vince: Position=959.38, Speed=104.09, Finished=False
+2025-05-15 17:41:56,124 - INFO - BPS: Position=981.70, Speed=106.33, Finished=False
+2025-05-15 17:41:56,124 - INFO - Apache: Position=900.98, Speed=81.20, Finished=False
+2025-05-15 17:41:56,124 - INFO - OG OBAMA: Position=1019.18, Speed=89.77, Finished=False
+2025-05-15 17:41:56,125 - INFO - Oggo: Position=1011.73, Speed=97.19, Finished=False
+2025-05-15 17:41:56,125 - INFO - BigSwole: Position=916.41, Speed=97.57, Finished=False
+2025-05-15 17:41:56,126 - INFO - GPM: Position=979.03, Speed=82.99, Finished=False
+2025-05-15 17:41:56,126 - INFO - YXJI: Position=1072.24, Speed=99.76, Finished=False
+2025-05-15 17:41:56,126 - INFO - Snoo: Position=912.51, Speed=80.23, Finished=False
+2025-05-15 17:41:58,121 - INFO - 
+Time: 12.0s
+2025-05-15 17:41:58,121 - INFO - Yannix: Position=1284.09, Speed=104.81, Finished=False
+2025-05-15 17:41:58,122 - INFO - Yo-Yo: Position=1188.32, Speed=108.15, Finished=False
+2025-05-15 17:41:58,122 - INFO - GB: Position=1154.33, Speed=105.56, Finished=False
+2025-05-15 17:41:58,122 - INFO - FHD: Position=1144.10, Speed=83.37, Finished=False
+2025-05-15 17:41:58,123 - INFO - More Light: Position=1154.04, Speed=100.23, Finished=False
+2025-05-15 17:41:58,123 - INFO - Vamp: Position=1094.37, Speed=83.56, Finished=False
+2025-05-15 17:41:58,123 - INFO - Jahon: Position=1211.34, Speed=93.61, Finished=False
+2025-05-15 17:41:58,123 - INFO - ReD: Position=1232.62, Speed=90.60, Finished=False
+2025-05-15 17:41:58,124 - INFO - VMU: Position=1163.21, Speed=100.97, Finished=False
+2025-05-15 17:41:58,124 - INFO - Alpha: Position=1241.13, Speed=99.72, Finished=False
+2025-05-15 17:41:58,124 - INFO - Dumpstar: Position=1178.51, Speed=104.61, Finished=False
+2025-05-15 17:41:58,125 - INFO - KatieCans: Position=1191.33, Speed=104.97, Finished=False
+2025-05-15 17:41:58,125 - INFO - Turbo: Position=1285.73, Speed=82.94, Finished=False
+2025-05-15 17:41:58,125 - INFO - Jovial: Position=1078.91, Speed=91.22, Finished=False
+2025-05-15 17:41:58,125 - INFO - Speed Demon: Position=1188.20, Speed=93.80, Finished=False
+2025-05-15 17:41:58,126 - INFO - Rumble Pak: Position=1343.18, Speed=100.34, Finished=False
+2025-05-15 17:41:58,126 - INFO - Leviosa: Position=1144.46, Speed=112.92, Finished=False
+2025-05-15 17:41:58,126 - INFO - Obama: Position=1221.02, Speed=108.19, Finished=False
+2025-05-15 17:41:58,126 - INFO - Vince: Position=1167.87, Speed=104.09, Finished=False
+2025-05-15 17:41:58,127 - INFO - BPS: Position=1198.15, Speed=118.51, Finished=False
+2025-05-15 17:41:58,127 - INFO - Apache: Position=1107.68, Speed=82.04, Finished=False
+2025-05-15 17:41:58,127 - INFO - OG OBAMA: Position=1198.99, Speed=89.77, Finished=False
+2025-05-15 17:41:58,128 - INFO - Oggo: Position=1206.39, Speed=97.19, Finished=False
+2025-05-15 17:41:58,128 - INFO - BigSwole: Position=1137.86, Speed=119.09, Finished=False
+2025-05-15 17:41:58,128 - INFO - GPM: Position=1145.26, Speed=82.99, Finished=False
+2025-05-15 17:41:58,128 - INFO - YXJI: Position=1292.84, Speed=115.87, Finished=False
+2025-05-15 17:41:58,129 - INFO - Snoo: Position=1084.70, Speed=82.76, Finished=False
+2025-05-15 17:42:00,129 - INFO - 
+Time: 14.1s
+2025-05-15 17:42:00,129 - INFO - Yannix: Position=1500.00, Speed=113.95, Finished=True
+2025-05-15 17:42:00,130 - INFO - Yo-Yo: Position=1363.26, Speed=118.23, Finished=False
+2025-05-15 17:42:00,130 - INFO - GB: Position=1366.41, Speed=105.56, Finished=False
+2025-05-15 17:42:00,130 - INFO - FHD: Position=1350.54, Speed=82.69, Finished=False
+2025-05-15 17:42:00,131 - INFO - More Light: Position=1355.39, Speed=100.23, Finished=False
+2025-05-15 17:42:00,131 - INFO - Vamp: Position=1262.26, Speed=83.56, Finished=False
+2025-05-15 17:42:00,132 - INFO - Jahon: Position=1422.79, Speed=116.41, Finished=False
+2025-05-15 17:42:00,132 - INFO - ReD: Position=1433.37, Speed=108.98, Finished=False
+2025-05-15 17:42:00,132 - INFO - VMU: Position=1366.07, Speed=100.97, Finished=False
+2025-05-15 17:42:00,132 - INFO - Alpha: Position=1469.07, Speed=115.10, Finished=False
+2025-05-15 17:42:00,133 - INFO - Dumpstar: Position=1388.68, Speed=104.61, Finished=False
+2025-05-15 17:42:00,133 - INFO - KatieCans: Position=1402.21, Speed=104.97, Finished=False
+2025-05-15 17:42:00,133 - INFO - Turbo: Position=1472.11, Speed=119.32, Finished=False
+2025-05-15 17:42:00,133 - INFO - Jovial: Position=1262.18, Speed=91.22, Finished=False
+2025-05-15 17:42:00,134 - INFO - Speed Demon: Position=1372.44, Speed=90.07, Finished=False
+2025-05-15 17:42:00,134 - INFO - Rumble Pak: Position=1500.00, Speed=97.47, Finished=True
+2025-05-15 17:42:00,134 - INFO - Leviosa: Position=1369.77, Speed=89.55, Finished=False
+2025-05-15 17:42:00,134 - INFO - Obama: Position=1431.77, Speed=98.37, Finished=False
+2025-05-15 17:42:00,135 - INFO - Vince: Position=1376.99, Speed=104.09, Finished=False
+2025-05-15 17:42:00,136 - INFO - BPS: Position=1436.23, Speed=118.51, Finished=False
+2025-05-15 17:42:00,136 - INFO - Apache: Position=1272.50, Speed=82.04, Finished=False
+2025-05-15 17:42:00,136 - INFO - OG OBAMA: Position=1390.01, Speed=101.92, Finished=False
+2025-05-15 17:42:00,137 - INFO - Oggo: Position=1401.64, Speed=97.19, Finished=False
+2025-05-15 17:42:00,137 - INFO - BigSwole: Position=1377.11, Speed=119.09, Finished=False
+2025-05-15 17:42:00,137 - INFO - GPM: Position=1312.00, Speed=82.99, Finished=False
+2025-05-15 17:42:00,137 - INFO - YXJI: Position=1499.09, Speed=95.45, Finished=False
+2025-05-15 17:42:00,138 - INFO - Snoo: Position=1298.72, Speed=112.04, Finished=False
+2025-05-15 17:42:02,134 - INFO - 
+Time: 16.1s
+2025-05-15 17:42:02,134 - INFO - Yannix: Position=1500.00, Speed=113.95, Finished=True
+2025-05-15 17:42:02,135 - INFO - Yo-Yo: Position=1500.00, Speed=118.23, Finished=True
+2025-05-15 17:42:02,135 - INFO - GB: Position=1500.00, Speed=105.56, Finished=True
+2025-05-15 17:42:02,135 - INFO - FHD: Position=1500.00, Speed=108.16, Finished=True
+2025-05-15 17:42:02,136 - INFO - More Light: Position=1500.00, Speed=100.23, Finished=True
+2025-05-15 17:42:02,136 - INFO - Vamp: Position=1459.83, Speed=114.01, Finished=False
+2025-05-15 17:42:02,136 - INFO - Jahon: Position=1500.00, Speed=116.41, Finished=True
+2025-05-15 17:42:02,137 - INFO - ReD: Position=1500.00, Speed=100.77, Finished=True
+2025-05-15 17:42:02,137 - INFO - VMU: Position=1500.00, Speed=100.97, Finished=True
+2025-05-15 17:42:02,137 - INFO - Alpha: Position=1500.00, Speed=115.10, Finished=True
+2025-05-15 17:42:02,138 - INFO - Dumpstar: Position=1500.00, Speed=104.61, Finished=True
+2025-05-15 17:42:02,138 - INFO - KatieCans: Position=1500.00, Speed=116.59, Finished=True
+2025-05-15 17:42:02,138 - INFO - Turbo: Position=1500.00, Speed=119.32, Finished=True
+2025-05-15 17:42:02,139 - INFO - Jovial: Position=1451.43, Speed=97.70, Finished=False
+2025-05-15 17:42:02,139 - INFO - Speed Demon: Position=1500.00, Speed=104.07, Finished=True
+2025-05-15 17:42:02,139 - INFO - Rumble Pak: Position=1500.00, Speed=97.47, Finished=True
+2025-05-15 17:42:02,140 - INFO - Leviosa: Position=1500.00, Speed=117.41, Finished=True
+2025-05-15 17:42:02,140 - INFO - Obama: Position=1500.00, Speed=98.37, Finished=True
+2025-05-15 17:42:02,141 - INFO - Vince: Position=1500.00, Speed=114.20, Finished=True
+2025-05-15 17:42:02,141 - INFO - BPS: Position=1500.00, Speed=98.36, Finished=True
+2025-05-15 17:42:02,142 - INFO - Apache: Position=1437.00, Speed=82.04, Finished=False
+2025-05-15 17:42:02,143 - INFO - OG OBAMA: Position=1500.00, Speed=101.92, Finished=True
+2025-05-15 17:42:02,143 - INFO - Oggo: Position=1500.00, Speed=117.55, Finished=True
+2025-05-15 17:42:02,144 - INFO - BigSwole: Position=1500.00, Speed=119.09, Finished=True
+2025-05-15 17:42:02,144 - INFO - GPM: Position=1500.00, Speed=118.12, Finished=True
+2025-05-15 17:42:02,144 - INFO - YXJI: Position=1500.00, Speed=95.45, Finished=True
+2025-05-15 17:42:02,145 - INFO - Snoo: Position=1500.00, Speed=102.90, Finished=True
+2025-05-15 17:42:02,918 - INFO - 
+All-Characters Race finished! Finish order:
+2025-05-15 17:42:02,918 - INFO - 1. Rumble Pak: Avg Speed=109.91
+2025-05-15 17:42:02,919 - INFO - 2. Yannix: Avg Speed=107.83
+2025-05-15 17:42:02,919 - INFO - 3. YXJI: Avg Speed=106.69
+2025-05-15 17:42:02,919 - INFO - 4. Turbo: Avg Speed=105.01
+2025-05-15 17:42:02,920 - INFO - 5. Alpha: Avg Speed=104.77
+2025-05-15 17:42:02,920 - INFO - 6. BPS: Avg Speed=102.64
+2025-05-15 17:42:02,920 - INFO - 7. Jahon: Avg Speed=101.96
+2025-05-15 17:42:02,921 - INFO - 8. ReD: Avg Speed=101.96
+2025-05-15 17:42:02,921 - INFO - 9. Obama: Avg Speed=101.73
+2025-05-15 17:42:02,921 - INFO - 10. KatieCans: Avg Speed=100.16
+2025-05-15 17:42:02,921 - INFO - 11. Oggo: Avg Speed=99.61
+2025-05-15 17:42:02,922 - INFO - 12. BigSwole: Avg Speed=99.40
+2025-05-15 17:42:02,922 - INFO - 13. Dumpstar: Avg Speed=99.19
+2025-05-15 17:42:02,922 - INFO - 14. Vince: Avg Speed=99.09
+2025-05-15 17:42:02,922 - INFO - 15. OG OBAMA: Avg Speed=99.09
+2025-05-15 17:42:02,923 - INFO - 16. Yo-Yo: Avg Speed=98.66
+2025-05-15 17:42:02,923 - INFO - 17. GB: Avg Speed=97.92
+2025-05-15 17:42:02,923 - INFO - 18. Speed Demon: Avg Speed=97.71
+2025-05-15 17:42:02,923 - INFO - 19. Leviosa: Avg Speed=97.61
+2025-05-15 17:42:02,924 - INFO - 20. VMU: Avg Speed=97.50
+2025-05-15 17:42:02,924 - INFO - 21. More Light: Avg Speed=96.76
+2025-05-15 17:42:02,925 - INFO - 22. GPM: Avg Speed=94.84
+2025-05-15 17:42:02,925 - INFO - 23. FHD: Avg Speed=94.74
+2025-05-15 17:42:02,925 - INFO - 24. Snoo: Avg Speed=94.36
+2025-05-15 17:42:02,926 - INFO - 25. Vamp: Avg Speed=91.41
+2025-05-15 17:42:02,927 - INFO - 26. Jovial: Avg Speed=90.60
+2025-05-15 17:42:02,927 - INFO - 27. Apache: Avg Speed=89.12
+2025-05-15 17:42:02,927 - INFO - Selected winner: Rumble Pak with avg speed 109.91
+2025-05-15 17:42:04,932 - INFO - 
+Detailed Speed Analysis:
+2025-05-15 17:42:04,932 - INFO - 1. Rumble Pak: Finish Time=13.66s, Average Speed=109.91
+2025-05-15 17:42:04,933 - INFO - 2. Yannix: Finish Time=13.93s, Average Speed=107.83
+2025-05-15 17:42:04,933 - INFO - 3. YXJI: Finish Time=14.07s, Average Speed=106.69
+2025-05-15 17:42:04,933 - INFO - 4. Turbo: Finish Time=14.30s, Average Speed=105.01
+2025-05-15 17:42:04,934 - INFO - 5. Alpha: Finish Time=14.33s, Average Speed=104.77
+2025-05-15 17:42:04,934 - INFO - 6. BPS: Finish Time=14.63s, Average Speed=102.64
+2025-05-15 17:42:04,934 - INFO - 7. Jahon: Finish Time=14.73s, Average Speed=101.96
+2025-05-15 17:42:04,934 - INFO - 8. ReD: Finish Time=14.73s, Average Speed=101.96
+2025-05-15 17:42:04,935 - INFO - 9. Obama: Finish Time=14.76s, Average Speed=101.73
+2025-05-15 17:42:04,935 - INFO - 10. KatieCans: Finish Time=14.99s, Average Speed=100.16
+2025-05-15 17:42:04,935 - INFO - 11. Oggo: Finish Time=15.07s, Average Speed=99.61
+2025-05-15 17:42:04,935 - INFO - 12. BigSwole: Finish Time=15.11s, Average Speed=99.40
+2025-05-15 17:42:04,936 - INFO - 13. Dumpstar: Finish Time=15.14s, Average Speed=99.19
+2025-05-15 17:42:04,936 - INFO - 14. Vince: Finish Time=15.15s, Average Speed=99.09
+2025-05-15 17:42:04,936 - INFO - 15. OG OBAMA: Finish Time=15.15s, Average Speed=99.09
+2025-05-15 17:42:04,936 - INFO - 16. Yo-Yo: Finish Time=15.22s, Average Speed=98.66
+2025-05-15 17:42:04,937 - INFO - 17. GB: Finish Time=15.33s, Average Speed=97.92
+2025-05-15 17:42:04,937 - INFO - 18. Speed Demon: Finish Time=15.37s, Average Speed=97.71
+2025-05-15 17:42:04,937 - INFO - 19. Leviosa: Finish Time=15.38s, Average Speed=97.61
+2025-05-15 17:42:04,937 - INFO - 20. VMU: Finish Time=15.40s, Average Speed=97.50
+2025-05-15 17:42:04,938 - INFO - 21. More Light: Finish Time=15.52s, Average Speed=96.76
+2025-05-15 17:42:04,938 - INFO - 22. GPM: Finish Time=15.83s, Average Speed=94.84
+2025-05-15 17:42:04,938 - INFO - 23. FHD: Finish Time=15.85s, Average Speed=94.74
+2025-05-15 17:42:04,938 - INFO - 24. Snoo: Finish Time=15.91s, Average Speed=94.36
+2025-05-15 17:42:04,939 - INFO - 25. Vamp: Finish Time=16.42s, Average Speed=91.41
+2025-05-15 17:42:04,939 - INFO - 26. Jovial: Finish Time=16.57s, Average Speed=90.60
+2025-05-15 17:42:04,939 - INFO - 27. Apache: Finish Time=16.85s, Average Speed=89.12
+2025-05-15 17:47:28,647 - INFO - Files in B:\SRT\3_1_1\Racers: ['debug.log', 'GPM.jpg', 'photo_2025-05-04_19-37-56.jpg', 'racer1.jpg', 'racer10.jpg', 'racer11.jpg', 'racer12.jpg', 'racer13.jpg', 'racer14.png', 'racer15.jpg', 'racer16.jpg', 'racer17.jpg', 'racer18.jpg', 'racer19.jpg', 'racer2.jpg', 'racer20.jpg', 'racer21.png', 'racer22.png', 'racer23.jpg', 'racer24.jpg', 'racer25.jpg', 'racer26.jpg', 'racer27.jpg', 'racer3.jpg', 'racer4.jpg', 'racer5.jpg', 'racer6.jpg', 'racer7.jpg', 'racer8.jpg', 'racer9.jpg', 'RacersGrid.png', 'RacersGrid_Logo.png', 'trophy.png']
+2025-05-15 17:47:28,650 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer1.jpg for Sproto 'Yannix'
+2025-05-15 17:47:28,660 - INFO - Loaded image 'racer1.jpg' for Sproto 'Yannix'
+2025-05-15 17:47:28,661 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer2.jpg for Sproto 'Yo-Yo'
+2025-05-15 17:47:28,670 - INFO - Loaded image 'racer2.jpg' for Sproto 'Yo-Yo'
+2025-05-15 17:47:28,671 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer3.jpg for Sproto 'GB'
+2025-05-15 17:47:28,678 - INFO - Loaded image 'racer3.jpg' for Sproto 'GB'
+2025-05-15 17:47:28,678 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer4.jpg for Sproto 'FHD'
+2025-05-15 17:47:28,685 - INFO - Loaded image 'racer4.jpg' for Sproto 'FHD'
+2025-05-15 17:47:28,685 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer5.jpg for Sproto 'More Light'
+2025-05-15 17:47:28,695 - INFO - Loaded image 'racer5.jpg' for Sproto 'More Light'
+2025-05-15 17:47:28,696 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer6.jpg for Sproto 'Vamp'
+2025-05-15 17:47:28,705 - INFO - Loaded image 'racer6.jpg' for Sproto 'Vamp'
+2025-05-15 17:47:28,705 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer7.jpg for Sproto 'Jahon'
+2025-05-15 17:47:28,712 - INFO - Loaded image 'racer7.jpg' for Sproto 'Jahon'
+2025-05-15 17:47:28,712 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer8.jpg for Sproto 'ReD'
+2025-05-15 17:47:28,719 - INFO - Loaded image 'racer8.jpg' for Sproto 'ReD'
+2025-05-15 17:47:28,719 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer9.jpg for Sproto 'VMU'
+2025-05-15 17:47:28,726 - INFO - Loaded image 'racer9.jpg' for Sproto 'VMU'
+2025-05-15 17:47:28,727 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer10.jpg for Sproto 'Alpha'
+2025-05-15 17:47:28,733 - INFO - Loaded image 'racer10.jpg' for Sproto 'Alpha'
+2025-05-15 17:47:28,733 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer11.jpg for Sproto 'Dumpstar'
+2025-05-15 17:47:28,741 - INFO - Loaded image 'racer11.jpg' for Sproto 'Dumpstar'
+2025-05-15 17:47:28,742 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer12.jpg for Sproto 'KatieCans'
+2025-05-15 17:47:28,751 - INFO - Loaded image 'racer12.jpg' for Sproto 'KatieCans'
+2025-05-15 17:47:28,752 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer13.jpg for Sproto 'Turbo'
+2025-05-15 17:47:28,759 - INFO - Loaded image 'racer13.jpg' for Sproto 'Turbo'
+2025-05-15 17:47:28,759 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer14.png for Sproto 'Jovial'
+2025-05-15 17:47:28,761 - INFO - Loaded image 'racer14.png' for Sproto 'Jovial'
+2025-05-15 17:47:28,761 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer15.jpg for Sproto 'Speed Demon'
+2025-05-15 17:47:28,765 - INFO - Loaded image 'racer15.jpg' for Sproto 'Speed Demon'
+2025-05-15 17:47:28,766 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer16.jpg for Sproto 'Rumble Pak'
+2025-05-15 17:47:28,775 - INFO - Loaded image 'racer16.jpg' for Sproto 'Rumble Pak'
+2025-05-15 17:47:28,776 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer17.jpg for Sproto 'Leviosa'
+2025-05-15 17:47:28,781 - INFO - Loaded image 'racer17.jpg' for Sproto 'Leviosa'
+2025-05-15 17:47:28,782 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer18.jpg for Sproto 'Obama'
+2025-05-15 17:47:28,789 - INFO - Loaded image 'racer18.jpg' for Sproto 'Obama'
+2025-05-15 17:47:28,790 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer19.jpg for Sproto 'Vince'
+2025-05-15 17:47:28,797 - INFO - Loaded image 'racer19.jpg' for Sproto 'Vince'
+2025-05-15 17:47:28,798 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer20.jpg for Sproto 'BPS'
+2025-05-15 17:47:28,804 - INFO - Loaded image 'racer20.jpg' for Sproto 'BPS'
+2025-05-15 17:47:28,805 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer21.png for Sproto 'Apache'
+2025-05-15 17:47:28,839 - INFO - Loaded image 'racer21.png' for Sproto 'Apache'
+2025-05-15 17:47:28,842 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer22.png for Sproto 'OG OBAMA'
+2025-05-15 17:47:28,878 - INFO - Loaded image 'racer22.png' for Sproto 'OG OBAMA'
+2025-05-15 17:47:28,879 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer23.jpg for Sproto 'Oggo'
+2025-05-15 17:47:28,885 - INFO - Loaded image 'racer23.jpg' for Sproto 'Oggo'
+2025-05-15 17:47:28,885 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer24.jpg for Sproto 'BigSwole'
+2025-05-15 17:47:28,890 - INFO - Loaded image 'racer24.jpg' for Sproto 'BigSwole'
+2025-05-15 17:47:28,891 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer25.jpg for Sproto 'GPM'
+2025-05-15 17:47:28,895 - INFO - Loaded image 'racer25.jpg' for Sproto 'GPM'
+2025-05-15 17:47:28,896 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer26.jpg for Sproto 'YXJI'
+2025-05-15 17:47:28,899 - INFO - Loaded image 'racer26.jpg' for Sproto 'YXJI'
+2025-05-15 17:47:28,900 - DEBUG - Attempting to load B:\SRT\3_1_1\Racers\racer27.jpg for Sproto 'Snoo'
+2025-05-15 17:47:28,908 - INFO - Loaded image 'racer27.jpg' for Sproto 'Snoo'
+2025-05-15 17:47:28,950 - INFO - Loaded selection screen background: B:\SRT\3_1_1\BG\BG1.png
+2025-05-15 17:47:29,388 - INFO - Available Sprotos:
+2025-05-15 17:47:29,389 - INFO - Yannix
+2025-05-15 17:47:29,389 - INFO - Yo-Yo
+2025-05-15 17:47:29,389 - INFO - GB
+2025-05-15 17:47:29,390 - INFO - FHD
+2025-05-15 17:47:29,390 - INFO - More Light
+2025-05-15 17:47:29,390 - INFO - Vamp
+2025-05-15 17:47:29,391 - INFO - Jahon
+2025-05-15 17:47:29,391 - INFO - ReD
+2025-05-15 17:47:29,391 - INFO - VMU
+2025-05-15 17:47:29,391 - INFO - Alpha
+2025-05-15 17:47:29,392 - INFO - Dumpstar
+2025-05-15 17:47:29,392 - INFO - KatieCans
+2025-05-15 17:47:29,392 - INFO - Turbo
+2025-05-15 17:47:29,392 - INFO - Jovial
+2025-05-15 17:47:29,393 - INFO - Speed Demon
+2025-05-15 17:47:29,393 - INFO - Rumble Pak
+2025-05-15 17:47:29,393 - INFO - Leviosa
+2025-05-15 17:47:29,393 - INFO - Obama
+2025-05-15 17:47:29,394 - INFO - Vince
+2025-05-15 17:47:29,394 - INFO - BPS
+2025-05-15 17:47:29,394 - INFO - Apache
+2025-05-15 17:47:29,395 - INFO - OG OBAMA
+2025-05-15 17:47:29,395 - INFO - Oggo
+2025-05-15 17:47:29,395 - INFO - BigSwole
+2025-05-15 17:47:29,395 - INFO - GPM
+2025-05-15 17:47:29,396 - INFO - YXJI
+2025-05-15 17:47:29,396 - INFO - Snoo
+2025-05-15 17:47:29,399 - INFO - Sprotos available in selection screen:
+2025-05-15 17:47:29,399 - INFO - - Yannix
+2025-05-15 17:47:29,399 - INFO - - Yo-Yo
+2025-05-15 17:47:29,400 - INFO - - GB
+2025-05-15 17:47:29,400 - INFO - - FHD
+2025-05-15 17:47:29,400 - INFO - - More Light
+2025-05-15 17:47:29,401 - INFO - - Vamp
+2025-05-15 17:47:29,401 - INFO - - Jahon
+2025-05-15 17:47:29,401 - INFO - - ReD
+2025-05-15 17:47:29,402 - INFO - - VMU
+2025-05-15 17:47:29,402 - INFO - - Alpha
+2025-05-15 17:47:29,402 - INFO - - Dumpstar
+2025-05-15 17:47:29,402 - INFO - - KatieCans
+2025-05-15 17:47:29,403 - INFO - - Turbo
+2025-05-15 17:47:29,403 - INFO - - Jovial
+2025-05-15 17:47:29,403 - INFO - - Speed Demon
+2025-05-15 17:47:29,403 - INFO - - Rumble Pak
+2025-05-15 17:47:29,404 - INFO - - Leviosa
+2025-05-15 17:47:29,404 - INFO - - Obama
+2025-05-15 17:47:29,404 - INFO - - Vince
+2025-05-15 17:47:29,404 - INFO - - BPS
+2025-05-15 17:47:29,405 - INFO - - Apache
+2025-05-15 17:47:29,405 - INFO - - OG OBAMA
+2025-05-15 17:47:29,405 - INFO - - Oggo
+2025-05-15 17:47:29,406 - INFO - - BigSwole
+2025-05-15 17:47:29,406 - INFO - - GPM
+2025-05-15 17:47:29,406 - INFO - - YXJI
+2025-05-15 17:47:29,406 - INFO - - Snoo
+2025-05-15 17:47:29,407 - INFO - Selection music loaded but muted.
+2025-05-15 17:47:30,750 - INFO - Selection music stopped.
+2025-05-15 17:47:30,752 - INFO - 
+Selected Sprotos for This Race:
+2025-05-15 17:47:30,753 - INFO - Yannix: Initial Speed = 118.99 units/s
+2025-05-15 17:47:30,753 - INFO - Yo-Yo: Initial Speed = 102.46 units/s
+2025-05-15 17:47:30,753 - INFO - GB: Initial Speed = 104.87 units/s
+2025-05-15 17:47:30,754 - INFO - FHD: Initial Speed = 89.39 units/s
+2025-05-15 17:47:30,754 - INFO - More Light: Initial Speed = 82.63 units/s
+2025-05-15 17:47:30,754 - INFO - Vamp: Initial Speed = 96.78 units/s
+2025-05-15 17:47:30,755 - INFO - Jahon: Initial Speed = 83.71 units/s
+2025-05-15 17:47:30,755 - INFO - ReD: Initial Speed = 119.03 units/s
+2025-05-15 17:47:30,755 - INFO - VMU: Initial Speed = 107.22 units/s
+2025-05-15 17:47:30,755 - INFO - Alpha: Initial Speed = 108.76 units/s
+2025-05-15 17:47:30,756 - INFO - Dumpstar: Initial Speed = 114.59 units/s
+2025-05-15 17:47:30,756 - INFO - KatieCans: Initial Speed = 118.01 units/s
+2025-05-15 17:47:30,756 - INFO - Turbo: Initial Speed = 93.79 units/s
+2025-05-15 17:47:30,757 - INFO - Jovial: Initial Speed = 110.80 units/s
+2025-05-15 17:47:30,757 - INFO - Speed Demon: Initial Speed = 115.63 units/s
+2025-05-15 17:47:30,757 - INFO - Rumble Pak: Initial Speed = 107.96 units/s
+2025-05-15 17:47:30,758 - INFO - Leviosa: Initial Speed = 84.23 units/s
+2025-05-15 17:47:30,758 - INFO - Obama: Initial Speed = 103.61 units/s
+2025-05-15 17:47:30,758 - INFO - Vince: Initial Speed = 98.21 units/s
+2025-05-15 17:47:30,758 - INFO - BPS: Initial Speed = 88.10 units/s
+2025-05-15 17:47:30,759 - INFO - Apache: Initial Speed = 109.58 units/s
+2025-05-15 17:47:30,759 - INFO - OG OBAMA: Initial Speed = 100.30 units/s
+2025-05-15 17:47:30,759 - INFO - Oggo: Initial Speed = 115.90 units/s
+2025-05-15 17:47:30,760 - INFO - BigSwole: Initial Speed = 106.97 units/s
+2025-05-15 17:47:30,760 - INFO - GPM: Initial Speed = 113.32 units/s
+2025-05-15 17:47:30,760 - INFO - YXJI: Initial Speed = 101.62 units/s
+2025-05-15 17:47:30,760 - INFO - Snoo: Initial Speed = 113.27 units/s
+2025-05-15 17:47:30,762 - INFO - Selected random background for all-characters race.
+2025-05-15 17:47:30,763 - INFO - Race music loaded but muted.
+2025-05-15 17:47:32,773 - INFO - 
+Time: 2.0s
+2025-05-15 17:47:32,774 - INFO - Yannix: Position=212.17, Speed=105.11, Finished=False
+2025-05-15 17:47:32,774 - INFO - Yo-Yo: Position=193.96, Speed=94.54, Finished=False
+2025-05-15 17:47:32,774 - INFO - GB: Position=211.00, Speed=104.87, Finished=False
+2025-05-15 17:47:32,775 - INFO - FHD: Position=181.64, Speed=91.97, Finished=False
+2025-05-15 17:47:32,775 - INFO - More Light: Position=166.25, Speed=82.63, Finished=False
+2025-05-15 17:47:32,776 - INFO - Vamp: Position=197.18, Speed=117.77, Finished=False
+2025-05-15 17:47:32,776 - INFO - Jahon: Position=167.64, Speed=82.75, Finished=False
+2025-05-15 17:47:32,776 - INFO - ReD: Position=239.50, Speed=119.03, Finished=False
+2025-05-15 17:47:32,776 - INFO - VMU: Position=231.77, Speed=119.14, Finished=False
+2025-05-15 17:47:32,777 - INFO - Alpha: Position=216.33, Speed=85.75, Finished=False
+2025-05-15 17:47:32,777 - INFO - Dumpstar: Position=228.20, Speed=85.95, Finished=False
+2025-05-15 17:47:32,777 - INFO - KatieCans: Position=198.83, Speed=90.51, Finished=False
+2025-05-15 17:47:32,778 - INFO - Turbo: Position=208.31, Speed=105.52, Finished=False
+2025-05-15 17:47:32,778 - INFO - Jovial: Position=222.93, Speed=110.80, Finished=False
+2025-05-15 17:47:32,778 - INFO - Speed Demon: Position=217.13, Speed=99.06, Finished=False
+2025-05-15 17:47:32,778 - INFO - Rumble Pak: Position=189.55, Speed=87.73, Finished=False
+2025-05-15 17:47:32,779 - INFO - Leviosa: Position=181.12, Speed=86.18, Finished=False
+2025-05-15 17:47:32,779 - INFO - Obama: Position=206.64, Speed=115.06, Finished=False
+2025-05-15 17:47:32,779 - INFO - Vince: Position=218.52, Speed=116.66, Finished=False
+2025-05-15 17:47:32,780 - INFO - BPS: Position=179.43, Speed=86.68, Finished=False
+2025-05-15 17:47:32,780 - INFO - Apache: Position=220.47, Speed=109.58, Finished=False
+2025-05-15 17:47:32,780 - INFO - OG OBAMA: Position=201.81, Speed=100.30, Finished=False
+2025-05-15 17:47:32,781 - INFO - Oggo: Position=233.19, Speed=115.90, Finished=False
+2025-05-15 17:47:32,781 - INFO - BigSwole: Position=216.72, Speed=109.43, Finished=False
+2025-05-15 17:47:32,781 - INFO - GPM: Position=221.43, Speed=108.49, Finished=False
+2025-05-15 17:47:32,782 - INFO - YXJI: Position=231.01, Speed=119.42, Finished=False
+2025-05-15 17:47:32,782 - INFO - Snoo: Position=180.85, Speed=88.72, Finished=False
+2025-05-15 17:47:34,790 - INFO - 
+Time: 4.0s
+2025-05-15 17:47:34,790 - INFO - Yannix: Position=405.50, Speed=100.79, Finished=False
+2025-05-15 17:47:34,790 - INFO - Yo-Yo: Position=384.64, Speed=94.54, Finished=False
+2025-05-15 17:47:34,791 - INFO - GB: Position=422.52, Speed=104.87, Finished=False
+2025-05-15 17:47:34,791 - INFO - FHD: Position=367.04, Speed=90.91, Finished=False
+2025-05-15 17:47:34,791 - INFO - More Light: Position=332.92, Speed=82.63, Finished=False
+2025-05-15 17:47:34,792 - INFO - Vamp: Position=416.08, Speed=108.69, Finished=False
+2025-05-15 17:47:34,792 - INFO - Jahon: Position=370.80, Speed=95.46, Finished=False
+2025-05-15 17:47:34,792 - INFO - ReD: Position=454.92, Speed=86.15, Finished=False
+2025-05-15 17:47:34,793 - INFO - VMU: Position=430.26, Speed=90.44, Finished=False
+2025-05-15 17:47:34,793 - INFO - Alpha: Position=388.84, Speed=85.31, Finished=False
+2025-05-15 17:47:34,793 - INFO - Dumpstar: Position=404.21, Speed=88.41, Finished=False
+2025-05-15 17:47:34,794 - INFO - KatieCans: Position=383.14, Speed=101.21, Finished=False
+2025-05-15 17:47:34,794 - INFO - Turbo: Position=414.91, Speed=97.20, Finished=False
+2025-05-15 17:47:34,794 - INFO - Jovial: Position=428.82, Speed=95.67, Finished=False
+2025-05-15 17:47:34,794 - INFO - Speed Demon: Position=430.21, Speed=116.43, Finished=False
+2025-05-15 17:47:34,795 - INFO - Rumble Pak: Position=366.51, Speed=87.73, Finished=False
+2025-05-15 17:47:34,795 - INFO - Leviosa: Position=377.66, Speed=97.83, Finished=False
+2025-05-15 17:47:34,795 - INFO - Obama: Position=438.72, Speed=115.06, Finished=False
+2025-05-15 17:47:34,795 - INFO - Vince: Position=432.04, Speed=88.09, Finished=False
+2025-05-15 17:47:34,796 - INFO - BPS: Position=354.78, Speed=117.44, Finished=False
+2025-05-15 17:47:34,796 - INFO - Apache: Position=441.23, Speed=95.04, Finished=False
+2025-05-15 17:47:34,796 - INFO - OG OBAMA: Position=404.11, Speed=100.30, Finished=False
+2025-05-15 17:47:34,797 - INFO - Oggo: Position=450.44, Speed=97.55, Finished=False
+2025-05-15 17:47:34,797 - INFO - BigSwole: Position=421.93, Speed=96.62, Finished=False
+2025-05-15 17:47:34,797 - INFO - GPM: Position=441.89, Speed=119.46, Finished=False
+2025-05-15 17:47:34,798 - INFO - YXJI: Position=436.17, Speed=97.14, Finished=False
+2025-05-15 17:47:34,799 - INFO - Snoo: Position=394.59, Speed=118.11, Finished=False
+2025-05-15 17:47:36,806 - INFO - 
+Time: 6.0s
+2025-05-15 17:47:36,806 - INFO - Yannix: Position=590.06, Speed=85.92, Finished=False
+2025-05-15 17:47:36,807 - INFO - Yo-Yo: Position=575.13, Speed=94.54, Finished=False
+2025-05-15 17:47:36,807 - INFO - GB: Position=630.39, Speed=102.41, Finished=False
+2025-05-15 17:47:36,807 - INFO - FHD: Position=532.15, Speed=81.04, Finished=False
+2025-05-15 17:47:36,807 - INFO - More Light: Position=500.89, Speed=83.94, Finished=False
+2025-05-15 17:47:36,808 - INFO - Vamp: Position=610.34, Speed=80.84, Finished=False
+2025-05-15 17:47:36,808 - INFO - Jahon: Position=570.68, Speed=96.47, Finished=False
+2025-05-15 17:47:36,808 - INFO - ReD: Position=637.70, Speed=100.85, Finished=False
+2025-05-15 17:47:36,809 - INFO - VMU: Position=612.49, Speed=90.44, Finished=False
+2025-05-15 17:47:36,809 - INFO - Alpha: Position=560.73, Speed=85.31, Finished=False
+2025-05-15 17:47:36,809 - INFO - Dumpstar: Position=616.67, Speed=110.60, Finished=False
+2025-05-15 17:47:36,809 - INFO - KatieCans: Position=587.08, Speed=101.21, Finished=False
+2025-05-15 17:47:36,810 - INFO - Turbo: Position=617.56, Speed=101.26, Finished=False
+2025-05-15 17:47:36,810 - INFO - Jovial: Position=647.68, Speed=112.57, Finished=False
+2025-05-15 17:47:36,810 - INFO - Speed Demon: Position=631.92, Speed=106.20, Finished=False
+2025-05-15 17:47:36,810 - INFO - Rumble Pak: Position=536.93, Speed=82.10, Finished=False
+2025-05-15 17:47:36,811 - INFO - Leviosa: Position=557.85, Speed=89.20, Finished=False
+2025-05-15 17:47:36,811 - INFO - Obama: Position=629.34, Speed=113.12, Finished=False
+2025-05-15 17:47:36,811 - INFO - Vince: Position=632.79, Speed=114.01, Finished=False
+2025-05-15 17:47:36,812 - INFO - BPS: Position=591.43, Speed=117.44, Finished=False
+2025-05-15 17:47:36,812 - INFO - Apache: Position=663.76, Speed=113.99, Finished=False
+2025-05-15 17:47:36,812 - INFO - OG OBAMA: Position=606.22, Speed=100.30, Finished=False
+2025-05-15 17:47:36,813 - INFO - Oggo: Position=648.05, Speed=104.74, Finished=False
+2025-05-15 17:47:36,813 - INFO - BigSwole: Position=632.98, Speed=106.41, Finished=False
+2025-05-15 17:47:36,814 - INFO - GPM: Position=677.13, Speed=116.47, Finished=False
+2025-05-15 17:47:36,814 - INFO - YXJI: Position=637.83, Speed=101.85, Finished=False
+2025-05-15 17:47:36,814 - INFO - Snoo: Position=597.80, Speed=80.28, Finished=False
+2025-05-15 17:47:38,815 - INFO - 
+Time: 8.1s
+2025-05-15 17:47:38,815 - INFO - Yannix: Position=797.46, Speed=111.70, Finished=False
+2025-05-15 17:47:38,816 - INFO - Yo-Yo: Position=773.41, Speed=99.38, Finished=False
+2025-05-15 17:47:38,816 - INFO - GB: Position=836.24, Speed=102.41, Finished=False
+2025-05-15 17:47:38,816 - INFO - FHD: Position=705.29, Speed=86.72, Finished=False
+2025-05-15 17:47:38,817 - INFO - More Light: Position=712.55, Speed=112.85, Finished=False
+2025-05-15 17:47:38,817 - INFO - Vamp: Position=772.83, Speed=80.84, Finished=False
+2025-05-15 17:47:38,818 - INFO - Jahon: Position=770.22, Speed=112.04, Finished=False
+2025-05-15 17:47:38,818 - INFO - ReD: Position=840.41, Speed=100.85, Finished=False
+2025-05-15 17:47:38,818 - INFO - VMU: Position=840.06, Speed=115.09, Finished=False
+2025-05-15 17:47:38,819 - INFO - Alpha: Position=732.20, Speed=85.31, Finished=False
+2025-05-15 17:47:38,819 - INFO - Dumpstar: Position=835.54, Speed=97.98, Finished=False
+2025-05-15 17:47:38,819 - INFO - KatieCans: Position=783.46, Speed=91.35, Finished=False
+2025-05-15 17:47:38,819 - INFO - Turbo: Position=808.66, Speed=86.15, Finished=False
+2025-05-15 17:47:38,820 - INFO - Jovial: Position=841.30, Speed=119.51, Finished=False
+2025-05-15 17:47:38,820 - INFO - Speed Demon: Position=840.49, Speed=89.64, Finished=False
+2025-05-15 17:47:38,820 - INFO - Rumble Pak: Position=717.74, Speed=87.53, Finished=False
+2025-05-15 17:47:38,820 - INFO - Leviosa: Position=737.15, Speed=89.20, Finished=False
+2025-05-15 17:47:38,821 - INFO - Obama: Position=859.60, Speed=115.71, Finished=False
+2025-05-15 17:47:38,821 - INFO - Vince: Position=839.87, Speed=102.74, Finished=False
+2025-05-15 17:47:38,821 - INFO - BPS: Position=808.33, Speed=98.90, Finished=False
+2025-05-15 17:47:38,822 - INFO - Apache: Position=884.77, Speed=91.78, Finished=False
+2025-05-15 17:47:38,822 - INFO - OG OBAMA: Position=792.34, Speed=94.31, Finished=False
+2025-05-15 17:47:38,822 - INFO - Oggo: Position=866.41, Speed=99.87, Finished=False
+2025-05-15 17:47:38,822 - INFO - BigSwole: Position=839.15, Speed=100.22, Finished=False
+2025-05-15 17:47:38,823 - INFO - GPM: Position=911.28, Speed=116.61, Finished=False
+2025-05-15 17:47:38,823 - INFO - YXJI: Position=833.09, Speed=95.29, Finished=False
+2025-05-15 17:47:38,823 - INFO - Snoo: Position=759.17, Speed=80.28, Finished=False
+2025-05-15 17:47:40,822 - INFO - 
+Time: 10.1s
+2025-05-15 17:47:40,822 - INFO - Yannix: Position=978.91, Speed=86.02, Finished=False
+2025-05-15 17:47:40,823 - INFO - Yo-Yo: Position=988.44, Speed=102.30, Finished=False
+2025-05-15 17:47:40,823 - INFO - GB: Position=1023.53, Speed=87.83, Finished=False
+2025-05-15 17:47:40,823 - INFO - FHD: Position=879.18, Speed=86.55, Finished=False
+2025-05-15 17:47:40,824 - INFO - More Light: Position=925.04, Speed=85.11, Finished=False
+2025-05-15 17:47:40,824 - INFO - Vamp: Position=965.54, Speed=101.57, Finished=False
+2025-05-15 17:47:40,824 - INFO - Jahon: Position=999.02, Speed=115.75, Finished=False
+2025-05-15 17:47:40,825 - INFO - ReD: Position=1035.00, Speed=87.85, Finished=False
+2025-05-15 17:47:40,825 - INFO - VMU: Position=1056.76, Speed=116.57, Finished=False
+2025-05-15 17:47:40,825 - INFO - Alpha: Position=903.41, Speed=85.31, Finished=False
+2025-05-15 17:47:40,825 - INFO - Dumpstar: Position=1032.18, Speed=97.98, Finished=False
+2025-05-15 17:47:40,826 - INFO - KatieCans: Position=966.80, Speed=91.35, Finished=False
+2025-05-15 17:47:40,826 - INFO - Turbo: Position=981.57, Speed=86.15, Finished=False
+2025-05-15 17:47:40,826 - INFO - Jovial: Position=1080.68, Speed=117.42, Finished=False
+2025-05-15 17:47:40,827 - INFO - Speed Demon: Position=1008.76, Speed=80.12, Finished=False
+2025-05-15 17:47:40,827 - INFO - Rumble Pak: Position=890.97, Speed=81.06, Finished=False
+2025-05-15 17:47:40,827 - INFO - Leviosa: Position=908.42, Speed=85.17, Finished=False
+2025-05-15 17:47:40,827 - INFO - Obama: Position=1088.71, Speed=84.19, Finished=False
+2025-05-15 17:47:40,828 - INFO - Vince: Position=1044.09, Speed=100.15, Finished=False
+2025-05-15 17:47:40,828 - INFO - BPS: Position=997.24, Speed=87.14, Finished=False
+2025-05-15 17:47:40,829 - INFO - Apache: Position=1060.59, Speed=85.02, Finished=False
+2025-05-15 17:47:40,829 - INFO - OG OBAMA: Position=998.92, Speed=109.04, Finished=False
+2025-05-15 17:47:40,829 - INFO - Oggo: Position=1064.97, Speed=88.00, Finished=False
+2025-05-15 17:47:40,830 - INFO - BigSwole: Position=1043.39, Speed=112.10, Finished=False
+2025-05-15 17:47:40,830 - INFO - GPM: Position=1133.02, Speed=111.08, Finished=False
+2025-05-15 17:47:40,831 - INFO - YXJI: Position=1024.34, Speed=95.29, Finished=False
+2025-05-15 17:47:40,831 - INFO - Snoo: Position=972.09, Speed=113.35, Finished=False
+2025-05-15 17:47:42,824 - INFO - 
+Time: 12.1s
+2025-05-15 17:47:42,824 - INFO - Yannix: Position=1151.72, Speed=87.03, Finished=False
+2025-05-15 17:47:42,824 - INFO - Yo-Yo: Position=1209.36, Speed=111.50, Finished=False
+2025-05-15 17:47:42,825 - INFO - GB: Position=1197.55, Speed=85.81, Finished=False
+2025-05-15 17:47:42,825 - INFO - FHD: Position=1055.46, Speed=88.13, Finished=False
+2025-05-15 17:47:42,826 - INFO - More Light: Position=1107.44, Speed=89.26, Finished=False
+2025-05-15 17:47:42,826 - INFO - Vamp: Position=1191.70, Speed=118.57, Finished=False
+2025-05-15 17:47:42,826 - INFO - Jahon: Position=1226.91, Speed=111.90, Finished=False
+2025-05-15 17:47:42,826 - INFO - ReD: Position=1228.00, Speed=118.80, Finished=False
+2025-05-15 17:47:42,827 - INFO - VMU: Position=1271.69, Speed=104.06, Finished=False
+2025-05-15 17:47:42,827 - INFO - Alpha: Position=1088.39, Speed=81.70, Finished=False
+2025-05-15 17:47:42,827 - INFO - Dumpstar: Position=1228.34, Speed=97.98, Finished=False
+2025-05-15 17:47:42,827 - INFO - KatieCans: Position=1172.31, Speed=113.24, Finished=False
+2025-05-15 17:47:42,828 - INFO - Turbo: Position=1156.64, Speed=106.01, Finished=False
+2025-05-15 17:47:42,828 - INFO - Jovial: Position=1290.98, Speed=88.72, Finished=False
+2025-05-15 17:47:42,828 - INFO - Speed Demon: Position=1220.71, Speed=118.00, Finished=False
+2025-05-15 17:47:42,829 - INFO - Rumble Pak: Position=1110.62, Speed=110.75, Finished=False
+2025-05-15 17:47:42,829 - INFO - Leviosa: Position=1113.51, Speed=110.32, Finished=False
+2025-05-15 17:47:42,829 - INFO - Obama: Position=1270.01, Speed=89.96, Finished=False
+2025-05-15 17:47:42,830 - INFO - Vince: Position=1244.59, Speed=100.15, Finished=False
+2025-05-15 17:47:42,830 - INFO - BPS: Position=1171.70, Speed=87.14, Finished=False
+2025-05-15 17:47:42,830 - INFO - Apache: Position=1257.97, Speed=104.79, Finished=False
+2025-05-15 17:47:42,831 - INFO - OG OBAMA: Position=1201.55, Speed=110.42, Finished=False
+2025-05-15 17:47:42,831 - INFO - Oggo: Position=1240.67, Speed=84.86, Finished=False
+2025-05-15 17:47:42,831 - INFO - BigSwole: Position=1262.78, Speed=104.57, Finished=False
+2025-05-15 17:47:42,832 - INFO - GPM: Position=1363.98, Speed=116.02, Finished=False
+2025-05-15 17:47:42,832 - INFO - YXJI: Position=1215.26, Speed=103.35, Finished=False
+2025-05-15 17:47:42,832 - INFO - Snoo: Position=1156.61, Speed=86.08, Finished=False
+2025-05-15 17:47:44,839 - INFO - 
+Time: 14.1s
+2025-05-15 17:47:44,839 - INFO - Yannix: Position=1322.37, Speed=85.15, Finished=False
+2025-05-15 17:47:44,840 - INFO - Yo-Yo: Position=1434.03, Speed=111.50, Finished=False
+2025-05-15 17:47:44,840 - INFO - GB: Position=1371.57, Speed=94.33, Finished=False
+2025-05-15 17:47:44,840 - INFO - FHD: Position=1277.29, Speed=119.21, Finished=False
+2025-05-15 17:47:44,840 - INFO - More Light: Position=1287.66, Speed=90.23, Finished=False
+2025-05-15 17:47:44,841 - INFO - Vamp: Position=1430.62, Speed=118.57, Finished=False
+2025-05-15 17:47:44,841 - INFO - Jahon: Position=1447.81, Speed=92.00, Finished=False
+2025-05-15 17:47:44,841 - INFO - ReD: Position=1461.06, Speed=109.07, Finished=False
+2025-05-15 17:47:44,842 - INFO - VMU: Position=1481.23, Speed=95.87, Finished=False
+2025-05-15 17:47:44,842 - INFO - Alpha: Position=1253.01, Speed=81.70, Finished=False
+2025-05-15 17:47:44,842 - INFO - Dumpstar: Position=1456.32, Speed=92.88, Finished=False
+2025-05-15 17:47:44,842 - INFO - KatieCans: Position=1377.84, Speed=101.47, Finished=False
+2025-05-15 17:47:44,843 - INFO - Turbo: Position=1376.47, Speed=113.63, Finished=False
+2025-05-15 17:47:44,843 - INFO - Jovial: Position=1469.20, Speed=87.89, Finished=False
+2025-05-15 17:47:44,843 - INFO - Speed Demon: Position=1394.24, Speed=88.72, Finished=False
+2025-05-15 17:47:44,843 - INFO - Rumble Pak: Position=1333.79, Speed=110.75, Finished=False
+2025-05-15 17:47:44,844 - INFO - Leviosa: Position=1335.81, Speed=110.32, Finished=False
+2025-05-15 17:47:44,844 - INFO - Obama: Position=1444.73, Speed=113.14, Finished=False
+2025-05-15 17:47:44,844 - INFO - Vince: Position=1446.40, Speed=100.15, Finished=False
+2025-05-15 17:47:44,845 - INFO - BPS: Position=1345.69, Speed=83.63, Finished=False
+2025-05-15 17:47:44,846 - INFO - Apache: Position=1459.47, Speed=82.09, Finished=False
+2025-05-15 17:47:44,846 - INFO - OG OBAMA: Position=1417.02, Speed=101.64, Finished=False
+2025-05-15 17:47:44,847 - INFO - Oggo: Position=1438.63, Speed=108.40, Finished=False
+2025-05-15 17:47:44,847 - INFO - BigSwole: Position=1438.69, Speed=85.93, Finished=False
+2025-05-15 17:47:44,848 - INFO - GPM: Position=1500.00, Speed=116.02, Finished=True
+2025-05-15 17:47:44,848 - INFO - YXJI: Position=1403.61, Speed=90.81, Finished=False
+2025-05-15 17:47:44,848 - INFO - Snoo: Position=1335.06, Speed=96.63, Finished=False
+2025-05-15 17:47:46,850 - INFO - 
+Time: 16.1s
+2025-05-15 17:47:46,850 - INFO - Yannix: Position=1495.41, Speed=86.35, Finished=False
+2025-05-15 17:47:46,850 - INFO - Yo-Yo: Position=1500.00, Speed=102.66, Finished=True
+2025-05-15 17:47:46,851 - INFO - GB: Position=1500.00, Speed=94.33, Finished=True
+2025-05-15 17:47:46,851 - INFO - FHD: Position=1500.00, Speed=102.94, Finished=True
+2025-05-15 17:47:46,852 - INFO - More Light: Position=1470.27, Speed=113.44, Finished=False
+2025-05-15 17:47:46,852 - INFO - Vamp: Position=1500.00, Speed=118.57, Finished=True
+2025-05-15 17:47:46,852 - INFO - Jahon: Position=1500.00, Speed=92.00, Finished=True
+2025-05-15 17:47:46,853 - INFO - ReD: Position=1500.00, Speed=109.07, Finished=True
+2025-05-15 17:47:46,853 - INFO - VMU: Position=1500.00, Speed=95.87, Finished=True
+2025-05-15 17:47:46,853 - INFO - Alpha: Position=1417.30, Speed=81.70, Finished=False
+2025-05-15 17:47:46,853 - INFO - Dumpstar: Position=1500.00, Speed=92.88, Finished=True
+2025-05-15 17:47:46,854 - INFO - KatieCans: Position=1500.00, Speed=101.47, Finished=True
+2025-05-15 17:47:46,854 - INFO - Turbo: Position=1500.00, Speed=114.49, Finished=True
+2025-05-15 17:47:46,854 - INFO - Jovial: Position=1500.00, Speed=87.89, Finished=True
+2025-05-15 17:47:46,854 - INFO - Speed Demon: Position=1500.00, Speed=88.72, Finished=True
+2025-05-15 17:47:46,855 - INFO - Rumble Pak: Position=1500.00, Speed=84.93, Finished=True
+2025-05-15 17:47:46,855 - INFO - Leviosa: Position=1500.00, Speed=110.32, Finished=True
+2025-05-15 17:47:46,855 - INFO - Obama: Position=1500.00, Speed=113.14, Finished=True
+2025-05-15 17:47:46,855 - INFO - Vince: Position=1500.00, Speed=93.58, Finished=True
+2025-05-15 17:47:46,856 - INFO - BPS: Position=1500.00, Speed=87.46, Finished=True
+2025-05-15 17:47:46,856 - INFO - Apache: Position=1500.00, Speed=82.09, Finished=True
+2025-05-15 17:47:46,856 - INFO - OG OBAMA: Position=1500.00, Speed=85.91, Finished=True
+2025-05-15 17:47:46,856 - INFO - Oggo: Position=1500.00, Speed=110.13, Finished=True
+2025-05-15 17:47:46,857 - INFO - BigSwole: Position=1500.00, Speed=113.56, Finished=True
+2025-05-15 17:47:46,857 - INFO - GPM: Position=1500.00, Speed=116.02, Finished=True
+2025-05-15 17:47:46,858 - INFO - YXJI: Position=1500.00, Speed=90.81, Finished=True
+2025-05-15 17:47:46,858 - INFO - Snoo: Position=1500.00, Speed=94.80, Finished=True
+2025-05-15 17:47:47,812 - INFO - 
+All-Characters Race finished! Finish order:
+2025-05-15 17:47:47,812 - INFO - 1. GPM: Avg Speed=113.39
+2025-05-15 17:47:47,813 - INFO - 2. VMU: Avg Speed=105.20
+2025-05-15 17:47:47,813 - INFO - 3. ReD: Avg Speed=104.01
+2025-05-15 17:47:47,813 - INFO - 4. Jovial: Avg Speed=104.01
+2025-05-15 17:47:47,814 - INFO - 5. Dumpstar: Avg Speed=103.21
+2025-05-15 17:47:47,814 - INFO - 6. Obama: Avg Speed=102.98
+2025-05-15 17:47:47,815 - INFO - 7. Apache: Avg Speed=102.98
+2025-05-15 17:47:47,815 - INFO - 8. Vince: Avg Speed=102.63
+2025-05-15 17:47:47,815 - INFO - 9. Jahon: Avg Speed=102.52
+2025-05-15 17:47:47,815 - INFO - 10. Oggo: Avg Speed=102.52
+2025-05-15 17:47:47,816 - INFO - 11. Vamp: Avg Speed=102.30
+2025-05-15 17:47:47,816 - INFO - 12. BigSwole: Avg Speed=102.30
+2025-05-15 17:47:47,816 - INFO - 13. Yo-Yo: Avg Speed=101.94
+2025-05-15 17:47:47,816 - INFO - 14. OG OBAMA: Avg Speed=100.18
+2025-05-15 17:47:47,817 - INFO - 15. YXJI: Avg Speed=99.10
+2025-05-15 17:47:47,817 - INFO - 16. Turbo: Avg Speed=99.00
+2025-05-15 17:47:47,817 - INFO - 17. Speed Demon: Avg Speed=98.26
+2025-05-15 17:47:47,818 - INFO - 18. KatieCans: Avg Speed=98.15
+2025-05-15 17:47:47,818 - INFO - 19. GB: Avg Speed=97.22
+2025-05-15 17:47:47,819 - INFO - 20. Leviosa: Avg Speed=96.38
+2025-05-15 17:47:47,819 - INFO - 21. Rumble Pak: Avg Speed=95.57
+2025-05-15 17:47:47,819 - INFO - 22. Snoo: Avg Speed=94.98
+2025-05-15 17:47:47,819 - INFO - 23. BPS: Avg Speed=94.58
+2025-05-15 17:47:47,820 - INFO - 24. FHD: Avg Speed=93.90
+2025-05-15 17:47:47,820 - INFO - 25. Yannix: Avg Speed=92.94
+2025-05-15 17:47:47,821 - INFO - 26. More Light: Avg Speed=91.74
+2025-05-15 17:47:47,821 - INFO - 27. Alpha: Avg Speed=88.05
+2025-05-15 17:47:47,821 - INFO - Selected winner: GPM with avg speed 113.39
+2025-05-15 17:47:49,824 - INFO - 
+Detailed Speed Analysis:
+2025-05-15 17:47:49,824 - INFO - 1. GPM: Finish Time=13.24s, Average Speed=113.39
+2025-05-15 17:47:49,824 - INFO - 2. VMU: Finish Time=14.27s, Average Speed=105.20
+2025-05-15 17:47:49,824 - INFO - 3. ReD: Finish Time=14.44s, Average Speed=104.01
+2025-05-15 17:47:49,825 - INFO - 4. Jovial: Finish Time=14.44s, Average Speed=104.01
+2025-05-15 17:47:49,825 - INFO - 5. Dumpstar: Finish Time=14.55s, Average Speed=103.21
+2025-05-15 17:47:49,825 - INFO - 6. Obama: Finish Time=14.58s, Average Speed=102.98
+2025-05-15 17:47:49,826 - INFO - 7. Apache: Finish Time=14.58s, Average Speed=102.98
+2025-05-15 17:47:49,826 - INFO - 8. Vince: Finish Time=14.63s, Average Speed=102.63
+2025-05-15 17:47:49,826 - INFO - 9. Jahon: Finish Time=14.65s, Average Speed=102.52
+2025-05-15 17:47:49,827 - INFO - 10. Oggo: Finish Time=14.65s, Average Speed=102.52
+2025-05-15 17:47:49,827 - INFO - 11. Vamp: Finish Time=14.68s, Average Speed=102.30
+2025-05-15 17:47:49,827 - INFO - 12. BigSwole: Finish Time=14.68s, Average Speed=102.30
+2025-05-15 17:47:49,827 - INFO - 13. Yo-Yo: Finish Time=14.73s, Average Speed=101.94
+2025-05-15 17:47:49,828 - INFO - 14. OG OBAMA: Finish Time=14.99s, Average Speed=100.18
+2025-05-15 17:47:49,828 - INFO - 15. YXJI: Finish Time=15.15s, Average Speed=99.10
+2025-05-15 17:47:49,828 - INFO - 16. Turbo: Finish Time=15.17s, Average Speed=99.00
+2025-05-15 17:47:49,829 - INFO - 17. Speed Demon: Finish Time=15.28s, Average Speed=98.26
+2025-05-15 17:47:49,829 - INFO - 18. KatieCans: Finish Time=15.30s, Average Speed=98.15
+2025-05-15 17:47:49,829 - INFO - 19. GB: Finish Time=15.44s, Average Speed=97.22
+2025-05-15 17:47:49,830 - INFO - 20. Leviosa: Finish Time=15.58s, Average Speed=96.38
+2025-05-15 17:47:49,830 - INFO - 21. Rumble Pak: Finish Time=15.71s, Average Speed=95.57
+2025-05-15 17:47:49,830 - INFO - 22. Snoo: Finish Time=15.81s, Average Speed=94.98
+2025-05-15 17:47:49,830 - INFO - 23. BPS: Finish Time=15.88s, Average Speed=94.58
+2025-05-15 17:47:49,831 - INFO - 24. FHD: Finish Time=15.99s, Average Speed=93.90
+2025-05-15 17:47:49,831 - INFO - 25. Yannix: Finish Time=16.16s, Average Speed=92.94
+2025-05-15 17:47:49,831 - INFO - 26. More Light: Finish Time=16.37s, Average Speed=91.74
+2025-05-15 17:47:49,832 - INFO - 27. Alpha: Finish Time=17.05s, Average Speed=88.05
+2025-05-15 17:47:53,364 - INFO - 
+Selected Sprotos for This Race:
+2025-05-15 17:47:53,364 - INFO - GPM: Initial Speed = 112.08 units/s
+2025-05-15 17:47:53,365 - INFO - VMU: Initial Speed = 111.60 units/s
+2025-05-15 17:47:53,365 - INFO - ReD: Initial Speed = 100.46 units/s
+2025-05-15 17:47:53,366 - INFO - Jovial: Initial Speed = 105.23 units/s
+2025-05-15 17:47:53,366 - INFO - Dumpstar: Initial Speed = 111.92 units/s
+2025-05-15 17:47:53,367 - INFO - 
+Starting Tournament (7 Races)
+2025-05-15 17:47:53,368 - INFO - Tournament music loaded but muted.
+2025-05-15 17:47:53,368 - INFO - 
+--- Starting Race #1 ---
+2025-05-15 17:47:53,369 - INFO - Initialized tournament stats for GPM: wins=0, points=0
+2025-05-15 17:47:53,370 - INFO - Initialized tournament stats for VMU: wins=0, points=0
+2025-05-15 17:47:53,370 - INFO - Initialized tournament stats for ReD: wins=0, points=0
+2025-05-15 17:47:53,371 - INFO - Initialized tournament stats for Jovial: wins=0, points=0
+2025-05-15 17:47:53,371 - INFO - Initialized tournament stats for Dumpstar: wins=0, points=0
+2025-05-15 17:47:53,372 - INFO - Race music loaded but muted.
+2025-05-15 17:47:54,377 - INFO - 
+Time: 1.0s
+2025-05-15 17:47:54,377 - INFO - GPM: Position=107.22, Speed=80.17, Finished=False
+2025-05-15 17:47:54,377 - INFO - VMU: Position=105.74, Speed=96.08, Finished=False
+2025-05-15 17:47:54,378 - INFO - ReD: Position=98.88, Speed=86.50, Finished=False
+2025-05-15 17:47:54,378 - INFO - Jovial: Position=91.64, Speed=96.12, Finished=False
+2025-05-15 17:47:54,378 - INFO - Dumpstar: Position=100.32, Speed=112.15, Finished=False
+2025-05-15 17:47:55,382 - INFO - 
+Time: 2.0s
+2025-05-15 17:47:55,382 - INFO - GPM: Position=202.98, Speed=118.52, Finished=False
+2025-05-15 17:47:55,382 - INFO - VMU: Position=201.99, Speed=89.65, Finished=False
+2025-05-15 17:47:55,383 - INFO - ReD: Position=185.81, Speed=86.50, Finished=False
+2025-05-15 17:47:55,383 - INFO - Jovial: Position=178.77, Speed=85.65, Finished=False
+2025-05-15 17:47:55,384 - INFO - Dumpstar: Position=210.05, Speed=95.77, Finished=False
+2025-05-15 17:47:56,396 - INFO - 
+Time: 3.0s
+2025-05-15 17:47:56,396 - INFO - GPM: Position=319.53, Speed=94.66, Finished=False
+2025-05-15 17:47:56,396 - INFO - VMU: Position=292.80, Speed=89.65, Finished=False
+2025-05-15 17:47:56,397 - INFO - ReD: Position=273.44, Speed=86.50, Finished=False
+2025-05-15 17:47:56,397 - INFO - Jovial: Position=265.54, Speed=85.65, Finished=False
+2025-05-15 17:47:56,398 - INFO - Dumpstar: Position=307.07, Speed=95.77, Finished=False
+2025-05-15 17:47:57,397 - INFO - 
+Time: 4.0s
+2025-05-15 17:47:57,397 - INFO - GPM: Position=414.28, Speed=94.66, Finished=False
+2025-05-15 17:47:57,397 - INFO - VMU: Position=394.87, Speed=97.30, Finished=False
+2025-05-15 17:47:57,398 - INFO - ReD: Position=371.25, Speed=114.93, Finished=False
+2025-05-15 17:47:57,398 - INFO - Jovial: Position=349.90, Speed=84.08, Finished=False
+2025-05-15 17:47:57,399 - INFO - Dumpstar: Position=402.78, Speed=90.79, Finished=False
+2025-05-15 17:47:58,407 - INFO - 
+Time: 5.0s
+2025-05-15 17:47:58,407 - INFO - GPM: Position=509.88, Speed=94.66, Finished=False
+2025-05-15 17:47:58,408 - INFO - VMU: Position=493.14, Speed=97.30, Finished=False
+2025-05-15 17:47:58,408 - INFO - ReD: Position=487.33, Speed=114.93, Finished=False
+2025-05-15 17:47:58,408 - INFO - Jovial: Position=434.82, Speed=84.08, Finished=False
+2025-05-15 17:47:58,408 - INFO - Dumpstar: Position=494.48, Speed=90.79, Finished=False
+2025-05-15 17:47:59,407 - INFO - 
+Time: 6.0s
+2025-05-15 17:47:59,407 - INFO - GPM: Position=609.00, Speed=100.99, Finished=False
+2025-05-15 17:47:59,408 - INFO - VMU: Position=593.96, Speed=103.44, Finished=False
+2025-05-15 17:47:59,408 - INFO - ReD: Position=602.37, Speed=114.93, Finished=False
+2025-05-15 17:47:59,408 - INFO - Jovial: Position=523.46, Speed=111.42, Finished=False
+2025-05-15 17:47:59,409 - INFO - Dumpstar: Position=581.14, Speed=84.03, Finished=False
+2025-05-15 17:48:00,411 - INFO - 
+Time: 7.0s
+2025-05-15 17:48:00,411 - INFO - GPM: Position=700.65, Speed=81.87, Finished=False
+2025-05-15 17:48:00,412 - INFO - VMU: Position=697.82, Speed=103.44, Finished=False
+2025-05-15 17:48:00,412 - INFO - ReD: Position=707.90, Speed=100.61, Finished=False
+2025-05-15 17:48:00,412 - INFO - Jovial: Position=635.33, Speed=111.42, Finished=False
+2025-05-15 17:48:00,413 - INFO - Dumpstar: Position=665.51, Speed=84.03, Finished=False
+2025-05-15 17:48:01,419 - INFO - 
+Time: 8.1s
+2025-05-15 17:48:01,419 - INFO - GPM: Position=783.36, Speed=82.30, Finished=False
+2025-05-15 17:48:01,420 - INFO - VMU: Position=805.65, Speed=118.70, Finished=False
+2025-05-15 17:48:01,421 - INFO - ReD: Position=809.80, Speed=103.92, Finished=False
+2025-05-15 17:48:01,421 - INFO - Jovial: Position=740.41, Speed=102.15, Finished=False
+2025-05-15 17:48:01,422 - INFO - Dumpstar: Position=754.09, Speed=83.54, Finished=False
+2025-05-15 17:48:02,431 - INFO - 
+Time: 9.1s
+2025-05-15 17:48:02,431 - INFO - GPM: Position=866.64, Speed=82.30, Finished=False
+2025-05-15 17:48:02,431 - INFO - VMU: Position=925.77, Speed=118.70, Finished=False
+2025-05-15 17:48:02,432 - INFO - ReD: Position=898.46, Speed=84.03, Finished=False
+2025-05-15 17:48:02,432 - INFO - Jovial: Position=843.79, Speed=102.15, Finished=False
+2025-05-15 17:48:02,432 - INFO - Dumpstar: Position=838.64, Speed=83.54, Finished=False
+2025-05-15 17:48:03,437 - INFO - 
+Time: 10.1s
+2025-05-15 17:48:03,437 - INFO - GPM: Position=949.44, Speed=82.30, Finished=False
+2025-05-15 17:48:03,438 - INFO - VMU: Position=1044.49, Speed=116.40, Finished=False
+2025-05-15 17:48:03,438 - INFO - ReD: Position=982.99, Speed=84.03, Finished=False
+2025-05-15 17:48:03,438 - INFO - Jovial: Position=947.93, Speed=105.77, Finished=False
+2025-05-15 17:48:03,439 - INFO - Dumpstar: Position=922.68, Speed=83.54, Finished=False
+2025-05-15 17:48:04,445 - INFO - 
+Time: 11.1s
+2025-05-15 17:48:04,445 - INFO - GPM: Position=1032.40, Speed=82.30, Finished=False
+2025-05-15 17:48:04,445 - INFO - VMU: Position=1161.83, Speed=116.40, Finished=False
+2025-05-15 17:48:04,446 - INFO - ReD: Position=1067.69, Speed=84.03, Finished=False
+2025-05-15 17:48:04,446 - INFO - Jovial: Position=1054.55, Speed=105.77, Finished=False
+2025-05-15 17:48:04,447 - INFO - Dumpstar: Position=1033.34, Speed=113.66, Finished=False
+2025-05-15 17:48:05,447 - INFO - 
+Time: 12.1s
+2025-05-15 17:48:05,447 - INFO - GPM: Position=1114.86, Speed=82.30, Finished=False
+2025-05-15 17:48:05,448 - INFO - VMU: Position=1266.80, Speed=83.55, Finished=False
+2025-05-15 17:48:05,448 - INFO - ReD: Position=1151.89, Speed=84.03, Finished=False
+2025-05-15 17:48:05,449 - INFO - Jovial: Position=1163.68, Speed=118.52, Finished=False
+2025-05-15 17:48:05,449 - INFO - Dumpstar: Position=1130.40, Speed=89.31, Finished=False
+2025-05-15 17:48:06,459 - INFO - 
+Time: 13.1s
+2025-05-15 17:48:06,459 - INFO - GPM: Position=1198.07, Speed=82.30, Finished=False
+2025-05-15 17:48:06,460 - INFO - VMU: Position=1356.41, Speed=118.01, Finished=False
+2025-05-15 17:48:06,460 - INFO - ReD: Position=1245.64, Speed=93.53, Finished=False
+2025-05-15 17:48:06,460 - INFO - Jovial: Position=1283.50, Speed=118.52, Finished=False
+2025-05-15 17:48:06,460 - INFO - Dumpstar: Position=1236.01, Speed=93.05, Finished=False
+2025-05-15 17:48:07,460 - INFO - 
+Time: 14.1s
+2025-05-15 17:48:07,460 - INFO - GPM: Position=1280.45, Speed=82.30, Finished=False
+2025-05-15 17:48:07,460 - INFO - VMU: Position=1474.54, Speed=118.01, Finished=False
+2025-05-15 17:48:07,461 - INFO - ReD: Position=1339.26, Speed=93.53, Finished=False
+2025-05-15 17:48:07,461 - INFO - Jovial: Position=1402.14, Speed=118.52, Finished=False
+2025-05-15 17:48:07,461 - INFO - Dumpstar: Position=1337.56, Speed=106.26, Finished=False
+2025-05-15 17:48:08,462 - INFO - 
+Time: 15.1s
+2025-05-15 17:48:08,462 - INFO - GPM: Position=1362.99, Speed=82.30, Finished=False
+2025-05-15 17:48:08,463 - INFO - VMU: Position=1500.00, Speed=118.01, Finished=True
+2025-05-15 17:48:08,463 - INFO - ReD: Position=1433.06, Speed=93.53, Finished=False
+2025-05-15 17:48:08,463 - INFO - Jovial: Position=1500.00, Speed=90.80, Finished=True
+2025-05-15 17:48:08,463 - INFO - Dumpstar: Position=1444.13, Speed=106.26, Finished=False
+2025-05-15 17:48:09,464 - INFO - 
+Time: 16.1s
+2025-05-15 17:48:09,465 - INFO - GPM: Position=1472.28, Speed=112.39, Finished=False
+2025-05-15 17:48:09,465 - INFO - VMU: Position=1500.00, Speed=118.01, Finished=True
+2025-05-15 17:48:09,465 - INFO - ReD: Position=1500.00, Speed=90.50, Finished=True
+2025-05-15 17:48:09,466 - INFO - Jovial: Position=1500.00, Speed=90.80, Finished=True
+2025-05-15 17:48:09,466 - INFO - Dumpstar: Position=1500.00, Speed=113.52, Finished=True
+2025-05-15 17:48:09,711 - INFO - 
+Race #1 finished! Finish order:
+2025-05-15 17:48:09,711 - INFO - 1. VMU: Avg Speed=104.90
+2025-05-15 17:48:09,712 - INFO - 2. Jovial: Avg Speed=100.06
+2025-05-15 17:48:09,712 - INFO - 3. Dumpstar: Avg Speed=96.24
+2025-05-15 17:48:09,713 - INFO - 4. ReD: Avg Speed=94.84
+2025-05-15 17:48:09,713 - INFO - 5. GPM: Avg Speed=91.88
+2025-05-15 17:48:09,713 - INFO - Selected winner: VMU with avg speed 104.90
+2025-05-15 17:48:09,714 - INFO - VMU finished 1st: +10 points, total=10, wins=1
+2025-05-15 17:48:09,714 - INFO - Jovial finished 2nd: +9 points, total=9, wins=0
+2025-05-15 17:48:09,714 - INFO - Dumpstar finished 3rd: +8 points, total=8, wins=0
+2025-05-15 17:48:09,715 - INFO - ReD finished 4th: +7 points, total=7, wins=0
+2025-05-15 17:48:09,715 - INFO - GPM finished 5th: +6 points, total=6, wins=0
+2025-05-15 17:48:09,722 - INFO - Race #1 Winner: VMU
+2025-05-15 17:48:09,723 - INFO - 
+--- Starting Race #2 ---
+2025-05-15 17:48:10,738 - INFO - 
+Time: 1.0s
+2025-05-15 17:48:10,738 - INFO - GPM: Position=95.02, Speed=87.59, Finished=False
+2025-05-15 17:48:10,739 - INFO - VMU: Position=98.96, Speed=87.47, Finished=False
+2025-05-15 17:48:10,740 - INFO - ReD: Position=99.36, Speed=98.28, Finished=False
+2025-05-15 17:48:10,740 - INFO - Jovial: Position=121.58, Speed=119.79, Finished=False
+2025-05-15 17:48:10,740 - INFO - Dumpstar: Position=85.49, Speed=84.23, Finished=False
+2025-05-15 17:48:11,750 - INFO - 
+Time: 2.0s
+2025-05-15 17:48:11,750 - INFO - GPM: Position=183.66, Speed=87.59, Finished=False
+2025-05-15 17:48:11,750 - INFO - VMU: Position=187.48, Speed=87.47, Finished=False
+2025-05-15 17:48:11,751 - INFO - ReD: Position=198.82, Speed=98.28, Finished=False
+2025-05-15 17:48:11,751 - INFO - Jovial: Position=231.99, Speed=88.89, Finished=False
+2025-05-15 17:48:11,751 - INFO - Dumpstar: Position=182.83, Speed=98.81, Finished=False
+2025-05-15 17:48:12,750 - INFO - 
+Time: 3.0s
+2025-05-15 17:48:12,750 - INFO - GPM: Position=272.55, Speed=96.24, Finished=False
+2025-05-15 17:48:12,751 - INFO - VMU: Position=274.95, Speed=87.47, Finished=False
+2025-05-15 17:48:12,751 - INFO - ReD: Position=297.09, Speed=98.28, Finished=False
+2025-05-15 17:48:12,751 - INFO - Jovial: Position=332.67, Speed=115.63, Finished=False
+2025-05-15 17:48:12,752 - INFO - Dumpstar: Position=281.63, Speed=98.81, Finished=False
+2025-05-15 17:48:13,752 - INFO - 
+Time: 4.0s
+2025-05-15 17:48:13,752 - INFO - GPM: Position=370.73, Speed=101.77, Finished=False
+2025-05-15 17:48:13,752 - INFO - VMU: Position=362.94, Speed=87.71, Finished=False
+2025-05-15 17:48:13,753 - INFO - ReD: Position=395.57, Speed=98.28, Finished=False
+2025-05-15 17:48:13,753 - INFO - Jovial: Position=429.80, Speed=90.21, Finished=False
+2025-05-15 17:48:13,753 - INFO - Dumpstar: Position=373.10, Speed=92.47, Finished=False
+2025-05-15 17:48:14,763 - INFO - 
+Time: 5.0s
+2025-05-15 17:48:14,763 - INFO - GPM: Position=473.61, Speed=101.77, Finished=False
+2025-05-15 17:48:14,764 - INFO - VMU: Position=452.17, Speed=91.06, Finished=False
+2025-05-15 17:48:14,765 - INFO - ReD: Position=502.08, Speed=106.30, Finished=False
+2025-05-15 17:48:14,765 - INFO - Jovial: Position=524.24, Speed=94.90, Finished=False
+2025-05-15 17:48:14,765 - INFO - Dumpstar: Position=466.12, Speed=90.25, Finished=False
+2025-05-15 17:48:15,774 - INFO - 
+Time: 6.1s
+2025-05-15 17:48:15,774 - INFO - GPM: Position=573.14, Speed=96.98, Finished=False
+2025-05-15 17:48:15,775 - INFO - VMU: Position=549.72, Speed=97.67, Finished=False
+2025-05-15 17:48:15,775 - INFO - ReD: Position=609.55, Speed=106.30, Finished=False
+2025-05-15 17:48:15,775 - INFO - Jovial: Position=620.19, Speed=94.90, Finished=False
+2025-05-15 17:48:15,776 - INFO - Dumpstar: Position=557.36, Speed=90.25, Finished=False
+2025-05-15 17:48:16,775 - INFO - 
+Time: 7.1s
+2025-05-15 17:48:16,775 - INFO - GPM: Position=670.22, Speed=96.98, Finished=False
+2025-05-15 17:48:16,776 - INFO - VMU: Position=647.49, Speed=97.67, Finished=False
+2025-05-15 17:48:16,776 - INFO - ReD: Position=714.08, Speed=80.86, Finished=False
+2025-05-15 17:48:16,776 - INFO - Jovial: Position=715.19, Speed=94.90, Finished=False
+2025-05-15 17:48:16,777 - INFO - Dumpstar: Position=655.54, Speed=103.72, Finished=False
+2025-05-15 17:48:17,790 - INFO - 
+Time: 8.1s
+2025-05-15 17:48:17,790 - INFO - GPM: Position=779.16, Speed=110.33, Finished=False
+2025-05-15 17:48:17,791 - INFO - VMU: Position=746.62, Speed=97.67, Finished=False
+2025-05-15 17:48:17,791 - INFO - ReD: Position=800.85, Speed=103.55, Finished=False
+2025-05-15 17:48:17,791 - INFO - Jovial: Position=811.51, Speed=94.90, Finished=False
+2025-05-15 17:48:17,792 - INFO - Dumpstar: Position=760.81, Speed=103.72, Finished=False
+2025-05-15 17:48:18,792 - INFO - 
+Time: 9.1s
+2025-05-15 17:48:18,792 - INFO - GPM: Position=889.72, Speed=110.33, Finished=False
+2025-05-15 17:48:18,792 - INFO - VMU: Position=844.49, Speed=97.67, Finished=False
+2025-05-15 17:48:18,793 - INFO - ReD: Position=909.48, Speed=112.80, Finished=False
+2025-05-15 17:48:18,793 - INFO - Jovial: Position=906.61, Speed=94.90, Finished=False
+2025-05-15 17:48:18,793 - INFO - Dumpstar: Position=870.13, Speed=119.26, Finished=False
+2025-05-15 17:48:19,804 - INFO - 
+Time: 10.1s
+2025-05-15 17:48:19,804 - INFO - GPM: Position=1001.38, Speed=110.33, Finished=False
+2025-05-15 17:48:19,805 - INFO - VMU: Position=943.33, Speed=97.67, Finished=False
+2025-05-15 17:48:19,805 - INFO - ReD: Position=1021.70, Speed=111.37, Finished=False
+2025-05-15 17:48:19,805 - INFO - Jovial: Position=1002.65, Speed=94.90, Finished=False
+2025-05-15 17:48:19,805 - INFO - Dumpstar: Position=990.82, Speed=119.26, Finished=False
+2025-05-15 17:48:20,815 - INFO - 
+Time: 11.1s
+2025-05-15 17:48:20,815 - INFO - GPM: Position=1112.81, Speed=110.33, Finished=False
+2025-05-15 17:48:20,815 - INFO - VMU: Position=1048.83, Speed=108.29, Finished=False
+2025-05-15 17:48:20,816 - INFO - ReD: Position=1134.18, Speed=111.37, Finished=False
+2025-05-15 17:48:20,816 - INFO - Jovial: Position=1094.90, Speed=86.56, Finished=False
+2025-05-15 17:48:20,816 - INFO - Dumpstar: Position=1096.11, Speed=88.86, Finished=False
+2025-05-15 17:48:21,819 - INFO - 
+Time: 12.1s
+2025-05-15 17:48:21,819 - INFO - GPM: Position=1223.70, Speed=110.33, Finished=False
+2025-05-15 17:48:21,819 - INFO - VMU: Position=1157.76, Speed=110.36, Finished=False
+2025-05-15 17:48:21,820 - INFO - ReD: Position=1232.07, Speed=109.94, Finished=False
+2025-05-15 17:48:21,820 - INFO - Jovial: Position=1181.89, Speed=115.94, Finished=False
+2025-05-15 17:48:21,820 - INFO - Dumpstar: Position=1198.19, Speed=102.69, Finished=False
+2025-05-15 17:48:22,832 - INFO - 
+Time: 13.1s
+2025-05-15 17:48:22,832 - INFO - GPM: Position=1335.47, Speed=110.33, Finished=False
+2025-05-15 17:48:22,833 - INFO - VMU: Position=1269.56, Speed=110.36, Finished=False
+2025-05-15 17:48:22,833 - INFO - ReD: Position=1343.44, Speed=109.94, Finished=False
+2025-05-15 17:48:22,833 - INFO - Jovial: Position=1290.88, Speed=105.12, Finished=False
+2025-05-15 17:48:22,833 - INFO - Dumpstar: Position=1302.22, Speed=102.69, Finished=False
+2025-05-15 17:48:23,833 - INFO - 
+Time: 14.1s
+2025-05-15 17:48:23,834 - INFO - GPM: Position=1445.91, Speed=110.33, Finished=False
+2025-05-15 17:48:23,834 - INFO - VMU: Position=1380.02, Speed=110.36, Finished=False
+2025-05-15 17:48:23,835 - INFO - ReD: Position=1453.49, Speed=109.94, Finished=False
+2025-05-15 17:48:23,835 - INFO - Jovial: Position=1396.10, Speed=105.12, Finished=False
+2025-05-15 17:48:23,835 - INFO - Dumpstar: Position=1405.01, Speed=102.69, Finished=False
+2025-05-15 17:48:24,839 - INFO - 
+Time: 15.1s
+2025-05-15 17:48:24,839 - INFO - GPM: Position=1500.00, Speed=110.33, Finished=True
+2025-05-15 17:48:24,840 - INFO - VMU: Position=1491.04, Speed=110.36, Finished=False
+2025-05-15 17:48:24,840 - INFO - ReD: Position=1500.00, Speed=109.94, Finished=True
+2025-05-15 17:48:24,840 - INFO - Jovial: Position=1500.00, Speed=105.12, Finished=True
+2025-05-15 17:48:24,841 - INFO - Dumpstar: Position=1499.43, Speed=93.41, Finished=False
+2025-05-15 17:48:24,922 - INFO - 
+Race #2 finished! Finish order:
+2025-05-15 17:48:24,922 - INFO - 1. ReD: Avg Speed=103.30
+2025-05-15 17:48:24,922 - INFO - 2. GPM: Avg Speed=102.82
+2025-05-15 17:48:24,923 - INFO - 3. Jovial: Avg Speed=99.46
+2025-05-15 17:48:24,923 - INFO - 4. Dumpstar: Avg Speed=99.23
+2025-05-15 17:48:24,923 - INFO - 5. VMU: Avg Speed=98.80
+2025-05-15 17:48:24,924 - INFO - Selected winner: ReD with avg speed 103.30
+2025-05-15 17:48:24,924 - INFO - ReD finished 1st: +10 points, total=17, wins=1
+2025-05-15 17:48:24,924 - INFO - GPM finished 2nd: +9 points, total=15, wins=0
+2025-05-15 17:48:24,925 - INFO - Jovial finished 3rd: +8 points, total=17, wins=0
+2025-05-15 17:48:24,925 - INFO - Dumpstar finished 4th: +7 points, total=15, wins=0
+2025-05-15 17:48:24,925 - INFO - VMU finished 5th: +6 points, total=16, wins=1
+2025-05-15 17:48:24,932 - INFO - Race #2 Winner: ReD
+2025-05-15 17:48:24,933 - INFO - 
+--- Starting Race #3 ---
+2025-05-15 17:48:25,947 - INFO - 
+Time: 1.0s
+2025-05-15 17:48:25,947 - INFO - GPM: Position=109.63, Speed=90.40, Finished=False
+2025-05-15 17:48:25,948 - INFO - VMU: Position=97.57, Speed=117.41, Finished=False
+2025-05-15 17:48:25,948 - INFO - ReD: Position=115.11, Speed=113.53, Finished=False
+2025-05-15 17:48:25,948 - INFO - Jovial: Position=114.04, Speed=112.46, Finished=False
+2025-05-15 17:48:25,949 - INFO - Dumpstar: Position=108.31, Speed=106.82, Finished=False
+2025-05-15 17:48:26,955 - INFO - 
+Time: 2.0s
+2025-05-15 17:48:26,956 - INFO - GPM: Position=204.40, Speed=94.21, Finished=False
+2025-05-15 17:48:26,956 - INFO - VMU: Position=215.91, Speed=117.41, Finished=False
+2025-05-15 17:48:26,956 - INFO - ReD: Position=229.55, Speed=113.53, Finished=False
+2025-05-15 17:48:26,957 - INFO - Jovial: Position=224.54, Speed=108.80, Finished=False
+2025-05-15 17:48:26,957 - INFO - Dumpstar: Position=215.98, Speed=106.82, Finished=False
+2025-05-15 17:48:27,957 - INFO - 
+Time: 3.0s
+2025-05-15 17:48:27,957 - INFO - GPM: Position=298.70, Speed=94.21, Finished=False
+2025-05-15 17:48:27,958 - INFO - VMU: Position=310.59, Speed=92.07, Finished=False
+2025-05-15 17:48:27,958 - INFO - ReD: Position=337.82, Speed=105.69, Finished=False
+2025-05-15 17:48:27,958 - INFO - Jovial: Position=333.45, Speed=108.80, Finished=False
+2025-05-15 17:48:27,959 - INFO - Dumpstar: Position=322.90, Speed=106.82, Finished=False
+2025-05-15 17:48:28,957 - INFO - 
+Time: 4.0s
+2025-05-15 17:48:28,957 - INFO - GPM: Position=398.02, Speed=88.94, Finished=False
+2025-05-15 17:48:28,958 - INFO - VMU: Position=402.75, Speed=92.07, Finished=False
+2025-05-15 17:48:28,958 - INFO - ReD: Position=447.59, Speed=94.33, Finished=False
+2025-05-15 17:48:28,959 - INFO - Jovial: Position=436.85, Speed=90.16, Finished=False
+2025-05-15 17:48:28,959 - INFO - Dumpstar: Position=405.75, Speed=81.21, Finished=False
+2025-05-15 17:48:29,960 - INFO - 
+Time: 5.0s
+2025-05-15 17:48:29,960 - INFO - GPM: Position=487.14, Speed=88.94, Finished=False
+2025-05-15 17:48:29,961 - INFO - VMU: Position=495.01, Speed=92.07, Finished=False
+2025-05-15 17:48:29,961 - INFO - ReD: Position=542.12, Speed=94.33, Finished=False
+2025-05-15 17:48:29,961 - INFO - Jovial: Position=527.19, Speed=90.16, Finished=False
+2025-05-15 17:48:29,962 - INFO - Dumpstar: Position=496.47, Speed=96.11, Finished=False
+2025-05-15 17:48:30,975 - INFO - 
+Time: 6.0s
+2025-05-15 17:48:30,975 - INFO - GPM: Position=577.41, Speed=88.94, Finished=False
+2025-05-15 17:48:30,975 - INFO - VMU: Position=588.46, Speed=92.07, Finished=False
+2025-05-15 17:48:30,975 - INFO - ReD: Position=650.86, Speed=112.80, Finished=False
+2025-05-15 17:48:30,975 - INFO - Jovial: Position=628.02, Speed=112.89, Finished=False
+2025-05-15 17:48:30,976 - INFO - Dumpstar: Position=609.01, Speed=113.42, Finished=False
+2025-05-15 17:48:31,982 - INFO - 
+Time: 7.0s
+2025-05-15 17:48:31,982 - INFO - GPM: Position=667.06, Speed=88.94, Finished=False
+2025-05-15 17:48:31,983 - INFO - VMU: Position=682.31, Speed=93.15, Finished=False
+2025-05-15 17:48:31,983 - INFO - ReD: Position=741.58, Speed=85.11, Finished=False
+2025-05-15 17:48:31,983 - INFO - Jovial: Position=729.07, Speed=94.25, Finished=False
+2025-05-15 17:48:31,984 - INFO - Dumpstar: Position=723.34, Speed=113.42, Finished=False
+2025-05-15 17:48:32,996 - INFO - 
+Time: 8.1s
+2025-05-15 17:48:32,996 - INFO - GPM: Position=757.25, Speed=88.94, Finished=False
+2025-05-15 17:48:32,997 - INFO - VMU: Position=793.22, Speed=111.44, Finished=False
+2025-05-15 17:48:32,997 - INFO - ReD: Position=833.45, Speed=111.39, Finished=False
+2025-05-15 17:48:32,997 - INFO - Jovial: Position=824.64, Speed=94.25, Finished=False
+2025-05-15 17:48:32,998 - INFO - Dumpstar: Position=838.36, Speed=113.42, Finished=False
+2025-05-15 17:48:33,998 - INFO - 
+Time: 9.1s
+2025-05-15 17:48:33,998 - INFO - GPM: Position=857.14, Speed=118.09, Finished=False
+2025-05-15 17:48:33,999 - INFO - VMU: Position=902.11, Speed=99.96, Finished=False
+2025-05-15 17:48:33,999 - INFO - ReD: Position=921.33, Speed=81.38, Finished=False
+2025-05-15 17:48:33,999 - INFO - Jovial: Position=919.08, Speed=94.25, Finished=False
+2025-05-15 17:48:34,000 - INFO - Dumpstar: Position=952.01, Speed=113.42, Finished=False
+2025-05-15 17:48:34,817 - INFO - Tournament music stopped.
+2025-05-15 17:48:34,819 - INFO - Sprotos available in selection screen:
+2025-05-15 17:48:34,820 - INFO - - Yannix
+2025-05-15 17:48:34,820 - INFO - - Yo-Yo
+2025-05-15 17:48:34,821 - INFO - - GB
+2025-05-15 17:48:34,821 - INFO - - FHD
+2025-05-15 17:48:34,821 - INFO - - More Light
+2025-05-15 17:48:34,822 - INFO - - Vamp
+2025-05-15 17:48:34,822 - INFO - - Jahon
+2025-05-15 17:48:34,823 - INFO - - ReD
+2025-05-15 17:48:34,823 - INFO - - VMU
+2025-05-15 17:48:34,823 - INFO - - Alpha
+2025-05-15 17:48:34,824 - INFO - - Dumpstar
+2025-05-15 17:48:34,824 - INFO - - KatieCans
+2025-05-15 17:48:34,824 - INFO - - Turbo
+2025-05-15 17:48:34,825 - INFO - - Jovial
+2025-05-15 17:48:34,825 - INFO - - Speed Demon
+2025-05-15 17:48:34,825 - INFO - - Rumble Pak
+2025-05-15 17:48:34,826 - INFO - - Leviosa
+2025-05-15 17:48:34,826 - INFO - - Obama
+2025-05-15 17:48:34,826 - INFO - - Vince
+2025-05-15 17:48:34,826 - INFO - - BPS
+2025-05-15 17:48:34,827 - INFO - - Apache
+2025-05-15 17:48:34,827 - INFO - - OG OBAMA
+2025-05-15 17:48:34,827 - INFO - - Oggo
+2025-05-15 17:48:34,827 - INFO - - BigSwole
+2025-05-15 17:48:34,828 - INFO - - GPM
+2025-05-15 17:48:34,828 - INFO - - YXJI
+2025-05-15 17:48:34,828 - INFO - - Snoo
+2025-05-15 17:48:34,829 - INFO - Selection music loaded but muted.
+2025-05-15 17:48:41,352 - INFO - Attempting to load music file: B:\SRT\3_1_1\Music\character.mp3
+2025-05-15 17:48:41,353 - INFO - Music unmuted and playing dynamically.
+2025-05-15 17:48:43,470 - INFO - Music muted.
+2025-05-15 17:48:44,329 - INFO - Selection music stopped.
+2025-05-15 17:48:44,330 - INFO - No sprotos selected or window closed. Exiting.

@@ -234,6 +234,10 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
     back_to_results_button = Button("Back to Results", table_x, table_y + button_height + button_spacing, button_width, button_height, GREEN)
     end_game_button = Button("End Game", table_x + button_width + button_spacing, table_y + button_height + button_spacing, button_width, button_height, ORANGE)
     mute_button = MuteButton(SCREEN_WIDTH - 75, 10, 50, 20, GRAY)
+    # Position the "Run tournament with top 5" button below the 2x2 grid
+    tournament_button_y = table_y + 2 * (button_height + button_spacing) + 10
+    tournament_button = Button("Run tournament with top 5", SCREEN_WIDTH // 2 - button_width // 2, tournament_button_y, button_width, button_height, ORANGE)
+
     buttons = [mute_button]
 
     while running:
@@ -270,7 +274,10 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
                 logging.info(f"Selected winner: {winner.name} with avg speed {winner.get_average_speed():.2f}")
 
         if race_finished:
-            buttons = [retry_same_button, select_new_button, back_to_results_button, end_game_button, mute_button]
+            # Arrange all 5 buttons, with the 5th below the 2x2 grid
+            buttons = [
+                retry_same_button, select_new_button, back_to_results_button, end_game_button, mute_button, tournament_button
+            ]
             draw_text_with_shadow(screen, f"Winner: {winner.name}!", font, WHITE, (SCREEN_WIDTH // 2 - 100, SCREEN_HEIGHT // 2 - 50))
             pygame.display.flip()
             pygame.time.delay(2000)
@@ -309,9 +316,12 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
                                 post_race_running = False
                                 running = False
                                 show_results = False
-                            clicked, is_muted = mute_button.is_clicked(event, is_muted, RACE_MUSIC_PATH)
-                            if clicked:
+                            if mute_button.is_clicked(event, is_muted, RACE_MUSIC_PATH)[0]:
                                 pass
+                            # 5th button: Run tournament with top 5
+                            if tournament_button.is_clicked(event):
+                                top5 = finishers[:5]
+                                return top5, "tournament_with_top5", is_muted
 
                         render_race_screen(screen, sprotos, race_distance, time_elapsed, None, winner, track_surface, buttons, current_background, flash_timer, is_muted, lane_height=lane_height)
                         pygame.display.flip()
@@ -333,7 +343,7 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
                             except Exception as e:
                                 logging.error(f"Error loading race music (retry) '{RACE_MUSIC_PATH}': {e}")
         else:
-            render_race_screen(screen, sprotos, race_distance, time_elapsed, None, winner, track_surface, buttons, current_background, flash_timer, is_muted, lane_height=lane_height)
+            render_race_screen(screen, sprotos, race_distance, time_elapsed, None, winner, track_surface, [mute_button], current_background, flash_timer, is_muted, lane_height=lane_height)
             pygame.display.flip()
 
     return winner, choice, is_muted

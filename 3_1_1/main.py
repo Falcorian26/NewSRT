@@ -124,7 +124,7 @@ def main():
                 race_mode = None
         else:
             if race_mode == "all_characters":
-                winner, choice, is_muted = simulate_all_characters_race(
+                result = simulate_all_characters_race(
                     screen, 
                     selected_sprotos, 
                     RACE_DISTANCE, 
@@ -134,6 +134,14 @@ def main():
                     trophy_image, 
                     is_muted=is_muted
                 )
+                # Handle new 3-value return for tournament with top 5
+                if isinstance(result, tuple) and len(result) == 3 and result[1] == "tournament_with_top5":
+                    selected_sprotos, _, is_muted = result
+                    is_tournament = True
+                    race_mode = "tournament"
+                    continue
+                else:
+                    winner, choice, is_muted = result
             else:
                 try:
                     winner, choice, is_muted = simulate_race(

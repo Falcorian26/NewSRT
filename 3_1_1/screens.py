@@ -121,10 +121,17 @@ def render_race_screen(screen, sprotos, race_distance, time_elapsed, race_number
 def select_sprotos(screen, sproto_list, max_selections, selection_background, is_muted):
     selected_sprotos = []
     running = True
-    start_button = Button("Start Race", 385, 660, 200, 50, BLUE_BUTTON)
-    tourney_button = Button("Tourney", 615, 660, 200, 50, PURPLE)
-    all_race_button = Button("All Characters Race", 500, 610, 200, 50, GREEN)
-    end_game_button = Button("End Game", 500, 730, 200, 50, RED)
+
+    # Adjusted button widths and positions for no overlap and text fit
+    BUTTON_WIDTH = 260
+    BUTTON_HEIGHT = 50
+    BUTTON_SPACING_Y = 20
+
+    # Place two buttons per row, center all
+    start_button = Button("Start Race", SCREEN_WIDTH // 2 - BUTTON_WIDTH - 10, 660, BUTTON_WIDTH, BUTTON_HEIGHT, BLUE_BUTTON)
+    tourney_button = Button("Tourney", SCREEN_WIDTH // 2 + 10, 660, BUTTON_WIDTH, BUTTON_HEIGHT, PURPLE)
+    all_race_button = Button("All Characters Race", SCREEN_WIDTH // 2 - BUTTON_WIDTH - 10, 730, BUTTON_WIDTH, BUTTON_HEIGHT, GREEN)
+    end_game_button = Button("End Game", SCREEN_WIDTH // 2 + 10, 730, BUTTON_WIDTH, BUTTON_HEIGHT, RED)
     mute_button = MuteButton(SCREEN_WIDTH - 75, 10, 50, 20, GRAY)
 
     logging.info("Sprotos available in selection screen:")
