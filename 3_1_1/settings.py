@@ -65,7 +65,7 @@ race_button_font = pygame.font.SysFont("arial", 18)
 sproto_names = [
     "Yannix", "Yo-Yo", "GB", "FHD", "More Light",
     "Vamp", "Jahon", "ReD", "VMU", "Alpha",
-    "Dumpstar", "KatieCans", "Turbo", "Jovial", "Speed Demon",
+    "Dumpstar", "KatieCans", "Turbo", "HOBA", "Speed Demon",
     "Rumble Pak", "Leviosa", "Obama", "Vince", "BPS",
     "Apache", "OG OBAMA", "Oggo", "BigSwole", "GPM", "YXJI", "Snoo"
 ]

@@ -224,7 +224,7 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
     else:
         logging.error(f"Race music file '{RACE_MUSIC_PATH}' not found.")
 
-    button_width = 250
+    button_width = 340  # Increased width for "Run tournament with top 5"
     button_height = 40
     button_spacing = 20
     table_x = (SCREEN_WIDTH - 2 * button_width - button_spacing) // 2
@@ -234,15 +234,29 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
     back_to_results_button = Button("Back to Results", table_x, table_y + button_height + button_spacing, button_width, button_height, GREEN)
     end_game_button = Button("End Game", table_x + button_width + button_spacing, table_y + button_height + button_spacing, button_width, button_height, ORANGE)
     mute_button = MuteButton(SCREEN_WIDTH - 75, 10, 50, 20, GRAY)
-    # Position the "Run tournament with top 5" button below the 2x2 grid
     tournament_button_y = table_y + 2 * (button_height + button_spacing) + 10
-    tournament_button = Button("Run tournament with top 5", SCREEN_WIDTH // 2 - button_width // 2, tournament_button_y, button_width, button_height, ORANGE)
+    # Use a slightly smaller font for the button to ensure text fits
+    tournament_button_font = pygame.font.SysFont("arial", 22, bold=True)
+    tournament_button = Button(
+        "Run tournament with top 5",
+        SCREEN_WIDTH // 2 - button_width // 2,
+        tournament_button_y,
+        button_width,
+        button_height,
+        ORANGE,
+        custom_font=tournament_button_font
+    )
 
     buttons = [mute_button]
+    show_leaderboard = False
+    leaderboard_delay = 9.1  # seconds
 
     while running:
         dt = clock.tick(60) / 1000.0
         flash_timer += dt
+        time_elapsed += dt
+        if time_elapsed >= leaderboard_delay:
+            show_leaderboard = True
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 choice = "end"
@@ -344,6 +358,54 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
                                 logging.error(f"Error loading race music (retry) '{RACE_MUSIC_PATH}': {e}")
         else:
             render_race_screen(screen, sprotos, race_distance, time_elapsed, None, winner, track_surface, [mute_button], current_background, flash_timer, is_muted, lane_height=lane_height)
+
+            # Draw live leaderboard table after 9.1 seconds
+            if show_leaderboard:
+                # Sort by finish_place if finished, else by position
+                def sort_key(s):
+                    return (s.finish_place if s.finished and s.finish_place is not None else 999, -s.position)
+                leaders = sorted(sprotos, key=sort_key)[:5]
+                table_x = 10
+                table_y = 10
+                row_height = 48
+                col1_width = 160
+                col2_width = 70
+                table_width = col1_width + col2_width
+                table_height = row_height * 5 + 30
+
+                # Draw 50% transparent black background using a Surface with alpha
+                table_surface = pygame.Surface((table_width, table_height), pygame.SRCALPHA)
+                table_surface.fill((0, 0, 0, 128))  # 128 alpha = 50% transparent
+                screen.blit(table_surface, (table_x, table_y))
+
+                # Draw headers
+                draw_text_with_shadow(screen, "Racer", small_font, YELLOW, (table_x + 10, table_y + 5))
+                draw_text_with_shadow(screen, "Place", small_font, YELLOW, (table_x + col1_width + 10, table_y + 5))
+                # Draw rows
+                for i, s in enumerate(leaders):
+                    row_y = table_y + 30 + i * row_height
+                    # Racer image and name
+                    screen.blit(s.sprite, (table_x + 5, row_y))
+                    draw_text_with_shadow(screen, s.name, small_font, WHITE, (table_x + 60, row_y + 12))
+                    # Place
+                    if s.finished and s.finish_place is not None:
+                        place_num = s.finish_place
+                    else:
+                        place_num = i + 1
+                    last_digit = place_num % 10
+                    if 10 <= place_num % 100 <= 13:
+                        suffix = "th"
+                    elif last_digit == 1:
+                        suffix = "st"
+                    elif last_digit == 2:
+                        suffix = "nd"
+                    elif last_digit == 3:
+                        suffix = "rd"
+                    else:
+                        suffix = "th"
+                    place_text = f"{place_num}{suffix}"
+                    draw_text_with_shadow(screen, place_text, small_font, WHITE, (table_x + col1_width + 20, row_y + 12))
+
             pygame.display.flip()
 
     return winner, choice, is_muted
