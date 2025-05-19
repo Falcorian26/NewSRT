@@ -415,9 +415,11 @@ def run_pocket_sprotos_mode(screen, sprotos):
     clock = pygame.time.Clock()
     running = True
 
-    # Each sproto gets 100 HP
+    # Each sproto gets 100 HP, 20 PP (mana)
     hp = [100, 100]
     max_hp = [100, 100]
+    pp = [20, 20]
+    max_pp = [20, 20]
     player = 0
     npc = 1
     turn = random.choice([player, npc])
@@ -428,6 +430,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
     hp_font = pygame.font.SysFont("arial", 28, bold=True)
     msg_font = pygame.font.SysFont("arial", 26, bold=True)
     damage_font = pygame.font.SysFont("arial", 36, bold=True)
+    log_font = pygame.font.SysFont("arial", 20)
     message = ""
     message_timer = 0
     combat_text = ""
@@ -443,12 +446,37 @@ def run_pocket_sprotos_mode(screen, sprotos):
     anim_progress = 0.0
     anim_damage = 0
 
-    # Pre-scale images for animation
-    big_sprite_size = (180, 180)
-    big_sprites = [pygame.transform.smoothscale(s.sprite, big_sprite_size) for s in sprotos]
+    # Log for actions
+    action_log = []
+    log_scroll = 0
+    LOG_LINES = 5
+
+    # Pre-scale images for animation (reduce by 40%)
+    orig_size = sprotos[0].sprite.get_size()
+    scale_size = (int(orig_size[0] * 0.6), int(orig_size[1] * 0.6))
+    big_sprites = [pygame.transform.smoothscale(s.sprite, scale_size) for s in sprotos]
+    sprite_w, sprite_h = scale_size
+
+    # Define image positions at the top level so they are accessible everywhere
+    p_img_x, p_img_y = 140, 420
+    n_img_x, n_img_y = 880, 120
+
+    # Pick a random background from race backgrounds
+    from assets import load_race_backgrounds
+    race_backgrounds, single_bg_options = load_race_backgrounds()
+    fight_bg = None
+    if single_bg_options:
+        fight_bg = random.choice(single_bg_options)
+        fight_bg = pygame.transform.scale(fight_bg, (SCREEN_WIDTH, SCREEN_HEIGHT))
+    else:
+        fight_bg = None
 
     def draw_battle_screen(anim_offset=None, bolt_pos=None, bolt_path=None):
-        screen.fill((80, 160, 80))
+        # Draw background
+        if fight_bg:
+            screen.blit(fight_bg, (0, 0))
+        else:
+            screen.fill((80, 160, 80))
         # Draw player (bottom left)
         p_img_x, p_img_y = 140, 420
         n_img_x, n_img_y = 880, 120
@@ -463,17 +491,19 @@ def run_pocket_sprotos_mode(screen, sprotos):
 
         # Draw player sprite and border
         screen.blit(big_sprites[0], (p_img_x + p_offset[0], p_img_y + p_offset[1]))
-        pygame.draw.rect(screen, WHITE, (p_img_x + p_offset[0], p_img_y + p_offset[1], 180, 180), 4)
-        screen.blit(hp_font.render(f"{sprotos[0].name}", True, WHITE), (p_img_x, p_img_y + 190))
-        screen.blit(hp_font.render(f"HP: {hp[0]}", True, WHITE), (p_img_x, p_img_y + 220))
-        screen.blit(hp_font.render(f"Juice: {sproto_juice[0]}", True, YELLOW), (p_img_x, p_img_y + 250))
+        pygame.draw.rect(screen, WHITE, (p_img_x + p_offset[0], p_img_y + p_offset[1], sprite_w, sprite_h), 3)
+        screen.blit(hp_font.render(f"{sprotos[0].name}", True, WHITE), (p_img_x, p_img_y + sprite_h + 10))
+        screen.blit(hp_font.render(f"HP: {hp[0]}", True, WHITE), (p_img_x, p_img_y + sprite_h + 40))
+        screen.blit(hp_font.render(f"PP: {pp[0]}", True, YELLOW), (p_img_x, p_img_y + sprite_h + 70))
+        screen.blit(hp_font.render(f"Juice: {sproto_juice[0]}", True, GREEN), (p_img_x, p_img_y + sprite_h + 100))
 
         # Draw NPC sprite and border
         screen.blit(big_sprites[1], (n_img_x + n_offset[0], n_img_y + n_offset[1]))
-        pygame.draw.rect(screen, WHITE, (n_img_x + n_offset[0], n_img_y + n_offset[1], 180, 180), 4)
-        screen.blit(hp_font.render(f"{sprotos[1].name}", True, WHITE), (n_img_x, n_img_y + 190))
-        screen.blit(hp_font.render(f"HP: {hp[1]}", True, WHITE), (n_img_x, n_img_y + 220))
-        screen.blit(hp_font.render(f"Juice: {sproto_juice[1]}", True, YELLOW), (n_img_x, n_img_y + 250))
+        pygame.draw.rect(screen, WHITE, (n_img_x + n_offset[0], n_img_y + n_offset[1], sprite_w, sprite_h), 3)
+        screen.blit(hp_font.render(f"{sprotos[1].name}", True, WHITE), (n_img_x, n_img_y + sprite_h + 10))
+        screen.blit(hp_font.render(f"HP: {hp[1]}", True, WHITE), (n_img_x, n_img_y + sprite_h + 40))
+        screen.blit(hp_font.render(f"PP: {pp[1]}", True, YELLOW), (n_img_x, n_img_y + sprite_h + 70))
+        screen.blit(hp_font.render(f"Juice: {sproto_juice[1]}", True, GREEN), (n_img_x, n_img_y + sprite_h + 100))
 
         # Draw damage numbers above character
         for idx in [0, 1]:
@@ -481,7 +511,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
                 dmg, timer = damage_display[idx]
                 color = RED if dmg > 0 else GREEN
                 dmg_text = f"-{dmg}" if dmg > 0 else f"+{abs(dmg)}"
-                x = p_img_x + 90 if idx == 0 else n_img_x + 90
+                x = p_img_x + sprite_w // 2 if idx == 0 else n_img_x + sprite_w // 2
                 y = (p_img_y if idx == 0 else n_img_y) - 40
                 text_surf = damage_font.render(dmg_text, True, color)
                 text_rect = text_surf.get_rect(center=(x, y))
@@ -489,7 +519,6 @@ def run_pocket_sprotos_mode(screen, sprotos):
 
         # Draw projectile for Potter Bolt
         if bolt_pos and bolt_path:
-            # Draw a yellow lightning bolt (zigzag)
             for i in range(len(bolt_path) - 1):
                 pygame.draw.line(screen, YELLOW, bolt_path[i], bolt_path[i + 1], 8)
             pygame.draw.circle(screen, YELLOW, bolt_pos, 18)
@@ -498,72 +527,79 @@ def run_pocket_sprotos_mode(screen, sprotos):
         if combat_text:
             screen.blit(msg_font.render(combat_text, True, WHITE), (SCREEN_WIDTH // 2 - 200, 60))
 
-        # Draw menu box (bottom)
-        pygame.draw.rect(screen, BLACK, (200, 650, 800, 120))
-        pygame.draw.rect(screen, WHITE, (200, 650, 800, 120), 3)
+        # Draw action log (top left)
+        log_box_x, log_box_y, log_box_w, log_box_h = 20, 20, 420, 160
+        pygame.draw.rect(screen, (0, 0, 0, 180), (log_box_x, log_box_y, log_box_w, log_box_h))
+        pygame.draw.rect(screen, WHITE, (log_box_x, log_box_y, log_box_w, log_box_h), 2)
+        visible_logs = action_log[max(0, len(action_log) - LOG_LINES - log_scroll):len(action_log) - log_scroll if log_scroll > 0 else None]
+        for i, log_entry in enumerate(visible_logs[-LOG_LINES:]):
+            screen.blit(log_font.render(log_entry, True, WHITE), (log_box_x + 10, log_box_y + 10 + i * 28))
+        # Draw scroll indicators if needed
+        if log_scroll < len(action_log) - LOG_LINES:
+            screen.blit(log_font.render("▼", True, YELLOW), (log_box_x + log_box_w - 30, log_box_y + log_box_h - 28))
+        if log_scroll > 0:
+            screen.blit(log_font.render("▲", True, YELLOW), (log_box_x + log_box_w - 30, log_box_y + 8))
+
+        # Draw menu box (bottom, moved lower to avoid overlap)
+        menu_box_y = 700
+        pygame.draw.rect(screen, BLACK, (200, menu_box_y, 800, 90))
+        pygame.draw.rect(screen, WHITE, (200, menu_box_y, 800, 90), 3)
         for i, label in enumerate(action_menu):
             color = YELLOW if i == selected_action else WHITE
-            screen.blit(menu_font.render(label, True, color), (240 + i * 200, 690))
+            screen.blit(menu_font.render(label, True, color), (240 + i * 200, menu_box_y + 25))
 
-        # Draw turn indicator (below menu)
+        # Draw turn indicator (above menu)
         turn_text = f"{sprotos[turn].name}'s turn!"
-        screen.blit(menu_font.render(turn_text, True, YELLOW), (SCREEN_WIDTH // 2 - 120, 600))
+        screen.blit(menu_font.render(turn_text, True, YELLOW), (SCREEN_WIDTH // 2 - 120, menu_box_y - 40))
 
         pygame.display.flip()
 
     while running:
         # Handle animation state
         if animation_state == ANIMATION_FIGHT:
-            # Fight animation: run, jump, slash, return
-            anim_time = 0.7  # total animation time in seconds
+            anim_time = 0.7
             dt = clock.tick(60) / 1000.0
             animation_timer += dt
             progress = animation_timer / anim_time
             if progress < 0.25:
-                # Run forward
-                offset_x = int(200 * progress / 0.25)
+                offset_x = int(120 * progress / 0.25)
                 offset_y = 0
             elif progress < 0.5:
-                # Jump up
-                offset_x = 200
-                offset_y = int(-80 * (progress - 0.25) / 0.25)
+                offset_x = 120
+                offset_y = int(-40 * (progress - 0.25) / 0.25)
             elif progress < 0.7:
-                # Slash (pause at target)
-                offset_x = 200
-                offset_y = -80
+                offset_x = 120
+                offset_y = -40
             else:
-                # Return to start
-                offset_x = int(200 * (1 - (progress - 0.7) / 0.3))
-                offset_y = int(-80 * (1 - (progress - 0.7) / 0.3))
+                offset_x = int(120 * (1 - (progress - 0.7) / 0.3))
+                offset_y = int(-40 * (1 - (progress - 0.7) / 0.3))
             if anim_actor == player:
                 anim_offset = [offset_x, offset_y]
             else:
                 anim_offset = [-offset_x, offset_y]
             draw_battle_screen(anim_offset=anim_offset)
             if animation_timer >= anim_time:
-                # Apply damage and show damage text
                 hp[anim_target] = max(0, hp[anim_target] - anim_damage)
                 damage_display[anim_target] = (anim_damage, 3.0)
                 combat_text = f"{sprotos[anim_actor].name} attacks! {sprotos[anim_target].name} takes {anim_damage} damage."
                 combat_text_timer = 2.0
+                action_log.append(combat_text)
                 animation_state = ANIMATION_NONE
                 animation_timer = 0
                 turn = 1 - anim_actor
             continue
         elif animation_state == ANIMATION_MAGIC:
-            # Potter Bolt animation
             anim_time = 0.8
             dt = clock.tick(60) / 1000.0
             animation_timer += dt
             progress = min(animation_timer / anim_time, 1.0)
-            # Bolt path: from caster to target
+            # Use p_img_x, p_img_y, n_img_x, n_img_y as needed
             if anim_actor == player:
-                start = (230, 510)
-                end = (970, 210)
+                start = (p_img_x + sprite_w, p_img_y + sprite_h // 2)
+                end = (n_img_x, n_img_y + sprite_h // 2)
             else:
-                start = (970, 210)
-                end = (230, 510)
-            # Lightning zigzag
+                start = (n_img_x, n_img_y + sprite_h // 2)
+                end = (p_img_x + sprite_w, p_img_y + sprite_h // 2)
             bolt_path = []
             steps = 8
             for i in range(steps + 1):
@@ -573,23 +609,21 @@ def run_pocket_sprotos_mode(screen, sprotos):
                 if i not in [0, steps]:
                     y += random.randint(-18, 18)
                 bolt_path.append((x, y))
-            # Bolt head position
             head_idx = int(progress * steps)
             head_idx = min(head_idx, steps)
             bolt_pos = bolt_path[head_idx]
             draw_battle_screen(bolt_pos=bolt_pos, bolt_path=bolt_path[:head_idx+1])
             if animation_timer >= anim_time:
-                # Apply damage and show damage text
                 hp[anim_target] = max(0, hp[anim_target] - anim_damage)
                 damage_display[anim_target] = (anim_damage, 3.0)
                 combat_text = f"{sprotos[anim_actor].name} casts Potter Bolt! {sprotos[anim_target].name} takes {anim_damage} damage."
                 combat_text_timer = 2.0
+                action_log.append(combat_text)
                 animation_state = ANIMATION_NONE
                 animation_timer = 0
                 turn = 1 - anim_actor
             continue
 
-        # Draw normal battle screen
         draw_battle_screen()
 
         # Update damage display timers
@@ -612,6 +646,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
         if hp[0] <= 0 or hp[1] <= 0:
             winner = sprotos[0].name if hp[1] <= 0 else sprotos[1].name
             combat_text = f"{winner} wins!"
+            action_log.append(combat_text)
             draw_battle_screen()
             pygame.time.wait(1800)
             break
@@ -627,6 +662,12 @@ def run_pocket_sprotos_mode(screen, sprotos):
                             selected_action = (selected_action + 1) % len(action_menu)
                         elif event.key == pygame.K_LEFT:
                             selected_action = (selected_action - 1) % len(action_menu)
+                        elif event.key == pygame.K_UP:
+                            if log_scroll > 0:
+                                log_scroll -= 1
+                        elif event.key == pygame.K_DOWN:
+                            if log_scroll < max(0, len(action_log) - LOG_LINES):
+                                log_scroll += 1
                         elif event.key == pygame.K_RETURN:
                             if action_menu[selected_action] == "Attack":
                                 dmg = random.randint(15, 20)
@@ -636,12 +677,17 @@ def run_pocket_sprotos_mode(screen, sprotos):
                                 anim_target = npc
                                 anim_damage = dmg
                             elif action_menu[selected_action] == "Magic":
-                                dmg = random.randint(33, 39)
-                                animation_state = ANIMATION_MAGIC
-                                animation_timer = 0
-                                anim_actor = player
-                                anim_target = npc
-                                anim_damage = dmg
+                                if pp[player] >= 10:
+                                    dmg = random.randint(33, 39)
+                                    pp[player] -= 10
+                                    animation_state = ANIMATION_MAGIC
+                                    animation_timer = 0
+                                    anim_actor = player
+                                    anim_target = npc
+                                    anim_damage = dmg
+                                else:
+                                    combat_text = "Not enough PP for Potter Bolt!"
+                                    combat_text_timer = 2.0
                             elif action_menu[selected_action] == "Flee":
                                 return  # Go back to selection screen
                             elif action_menu[selected_action] == "Item":
@@ -652,6 +698,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
                                     damage_display[player] = (-heal, 3.0)
                                     combat_text = f"{sprotos[player].name} uses Sproto Juice! Recovers {heal} HP."
                                     combat_text_timer = 2.0
+                                    action_log.append(combat_text)
                                     turn = npc
                                 else:
                                     combat_text = "No Sproto Juice left!"
