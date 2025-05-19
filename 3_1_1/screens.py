@@ -122,16 +122,17 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
     selected_sprotos = []
     running = True
 
-    # Adjusted button widths and positions for no overlap and text fit
     BUTTON_WIDTH = 260
     BUTTON_HEIGHT = 50
     BUTTON_SPACING_Y = 20
 
-    # Place two buttons per row, center all
-    start_button = Button("Start Race", SCREEN_WIDTH // 2 - BUTTON_WIDTH - 10, 660, BUTTON_WIDTH, BUTTON_HEIGHT, BLUE_BUTTON)
-    tourney_button = Button("Tourney", SCREEN_WIDTH // 2 + 10, 660, BUTTON_WIDTH, BUTTON_HEIGHT, PURPLE)
-    all_race_button = Button("All Characters Race", SCREEN_WIDTH // 2 - BUTTON_WIDTH - 10, 730, BUTTON_WIDTH, BUTTON_HEIGHT, GREEN)
-    end_game_button = Button("End Game", SCREEN_WIDTH // 2 + 10, 730, BUTTON_WIDTH, BUTTON_HEIGHT, RED)
+    # Layout: 2x2 grid, then Pocket Sprotos, then End Game (all visible, not overlapped)
+    y_base = 660
+    start_button = Button("Start Race", SCREEN_WIDTH // 2 - BUTTON_WIDTH - 10, y_base, BUTTON_WIDTH, BUTTON_HEIGHT, BLUE_BUTTON)
+    tourney_button = Button("Tourney", SCREEN_WIDTH // 2 + 10, y_base, BUTTON_WIDTH, BUTTON_HEIGHT, PURPLE)
+    all_race_button = Button("All Characters Race", SCREEN_WIDTH // 2 - BUTTON_WIDTH - 10, y_base + BUTTON_HEIGHT + BUTTON_SPACING_Y, BUTTON_WIDTH, BUTTON_HEIGHT, GREEN)
+    pocket_button = Button("Pocket Sprotos", SCREEN_WIDTH // 2 + 10, y_base + BUTTON_HEIGHT + BUTTON_SPACING_Y, BUTTON_WIDTH, BUTTON_HEIGHT, ORANGE)
+    end_game_button = Button("End Game", SCREEN_WIDTH // 2 - BUTTON_WIDTH // 2, y_base + 2 * (BUTTON_HEIGHT + BUTTON_SPACING_Y), BUTTON_WIDTH, BUTTON_HEIGHT, RED)
     mute_button = MuteButton(SCREEN_WIDTH - 75, 10, 50, 20, GRAY)
 
     logging.info("Sprotos available in selection screen:")
@@ -202,6 +203,10 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
                 pygame.mixer.music.stop()
                 logging.info("Selection music stopped.")
                 return sproto_list, False, is_muted, "all_characters"
+            if pocket_button.is_clicked(event) and len(selected_sprotos) == 2:
+                pygame.mixer.music.stop()
+                logging.info("Selection music stopped.")
+                return selected_sprotos, False, is_muted, "pocket_sprotos"
             if end_game_button.is_clicked(event):
                 pygame.mixer.music.stop()
                 logging.info("Selection music stopped.")
@@ -262,10 +267,10 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
         start_button.draw(screen)
         tourney_button.draw(screen)
         all_race_button.draw(screen)
+        pocket_button.draw(screen)
         end_game_button.draw(screen)
         mute_button.draw(screen, is_muted)
         pygame.display.flip()
-
     pygame.mixer.music.stop()
     logging.info("Selection music stopped.")
     return None, False, is_muted, None

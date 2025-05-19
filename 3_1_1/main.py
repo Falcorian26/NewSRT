@@ -5,7 +5,7 @@ from settings import *
 from assets import *
 from sproto import Sproto
 from screens import select_sprotos, show_tournament_results, MuteButton
-from game_logic import simulate_race, simulate_all_characters_race
+from game_logic import simulate_race, simulate_all_characters_race, run_pocket_sprotos_mode
 
 def check_missing_images():
     missing_files = []
@@ -55,12 +55,19 @@ def main():
                 logging.info("No sprotos selected or window closed. Exiting.")
                 break
             selected_sprotos, is_tournament, is_muted, race_mode = result
-            if not selected_sprotos and race_mode != "all_characters":
+            if not selected_sprotos and race_mode not in ["all_characters", "pocket_sprotos"]:
                 logging.info("No sprotos selected or window closed. Exiting.")
                 break
             if race_mode == "all_characters":
                 selected_sprotos = sproto_list
                 is_tournament = False
+
+        # --- Handle Pocket Sprotos mode BEFORE any race logic ---
+        if race_mode == "pocket_sprotos":
+            run_pocket_sprotos_mode(screen, selected_sprotos)
+            selected_sprotos = None
+            race_mode = None
+            continue
 
         for i, sproto in enumerate(selected_sprotos):
             sproto.lane = i

@@ -371,7 +371,7 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
                 col1_width = 160
                 col2_width = 70
                 table_width = col1_width + col2_width
-                table_height = row_height * 5 + 30
+                table_height = row_height + 30
 
                 # Draw 50% transparent black background using a Surface with alpha
                 table_surface = pygame.Surface((table_width, table_height), pygame.SRCALPHA)
@@ -409,3 +409,262 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
             pygame.display.flip()
 
     return winner, choice, is_muted
+
+def run_pocket_sprotos_mode(screen, sprotos):
+    import pygame
+    clock = pygame.time.Clock()
+    running = True
+
+    # Each sproto gets 100 HP
+    hp = [100, 100]
+    max_hp = [100, 100]
+    player = 0
+    npc = 1
+    turn = random.choice([player, npc])
+    action_menu = ["Attack", "Magic", "Flee", "Item"]
+    selected_action = 0
+    sproto_juice = [1, 1]
+    menu_font = pygame.font.SysFont("arial", 32, bold=True)
+    hp_font = pygame.font.SysFont("arial", 28, bold=True)
+    msg_font = pygame.font.SysFont("arial", 26, bold=True)
+    damage_font = pygame.font.SysFont("arial", 36, bold=True)
+    message = ""
+    message_timer = 0
+    combat_text = ""
+    combat_text_timer = 0
+    damage_display = [None, None]  # (damage, timer)
+    ANIMATION_NONE = 0
+    ANIMATION_FIGHT = 1
+    ANIMATION_MAGIC = 2
+    animation_state = ANIMATION_NONE
+    animation_timer = 0
+    anim_actor = None  # 0 or 1
+    anim_target = None
+    anim_progress = 0.0
+    anim_damage = 0
+
+    # Pre-scale images for animation
+    big_sprite_size = (180, 180)
+    big_sprites = [pygame.transform.smoothscale(s.sprite, big_sprite_size) for s in sprotos]
+
+    def draw_battle_screen(anim_offset=None, bolt_pos=None, bolt_path=None):
+        screen.fill((80, 160, 80))
+        # Draw player (bottom left)
+        p_img_x, p_img_y = 140, 420
+        n_img_x, n_img_y = 880, 120
+        # Animation offset
+        p_offset = [0, 0]
+        n_offset = [0, 0]
+        if anim_offset:
+            if anim_actor == player:
+                p_offset = anim_offset
+            else:
+                n_offset = anim_offset
+
+        # Draw player sprite and border
+        screen.blit(big_sprites[0], (p_img_x + p_offset[0], p_img_y + p_offset[1]))
+        pygame.draw.rect(screen, WHITE, (p_img_x + p_offset[0], p_img_y + p_offset[1], 180, 180), 4)
+        screen.blit(hp_font.render(f"{sprotos[0].name}", True, WHITE), (p_img_x, p_img_y + 190))
+        screen.blit(hp_font.render(f"HP: {hp[0]}", True, WHITE), (p_img_x, p_img_y + 220))
+        screen.blit(hp_font.render(f"Juice: {sproto_juice[0]}", True, YELLOW), (p_img_x, p_img_y + 250))
+
+        # Draw NPC sprite and border
+        screen.blit(big_sprites[1], (n_img_x + n_offset[0], n_img_y + n_offset[1]))
+        pygame.draw.rect(screen, WHITE, (n_img_x + n_offset[0], n_img_y + n_offset[1], 180, 180), 4)
+        screen.blit(hp_font.render(f"{sprotos[1].name}", True, WHITE), (n_img_x, n_img_y + 190))
+        screen.blit(hp_font.render(f"HP: {hp[1]}", True, WHITE), (n_img_x, n_img_y + 220))
+        screen.blit(hp_font.render(f"Juice: {sproto_juice[1]}", True, YELLOW), (n_img_x, n_img_y + 250))
+
+        # Draw damage numbers above character
+        for idx in [0, 1]:
+            if damage_display[idx] and damage_display[idx][1] > 0:
+                dmg, timer = damage_display[idx]
+                color = RED if dmg > 0 else GREEN
+                dmg_text = f"-{dmg}" if dmg > 0 else f"+{abs(dmg)}"
+                x = p_img_x + 90 if idx == 0 else n_img_x + 90
+                y = (p_img_y if idx == 0 else n_img_y) - 40
+                text_surf = damage_font.render(dmg_text, True, color)
+                text_rect = text_surf.get_rect(center=(x, y))
+                screen.blit(text_surf, text_rect)
+
+        # Draw projectile for Potter Bolt
+        if bolt_pos and bolt_path:
+            # Draw a yellow lightning bolt (zigzag)
+            for i in range(len(bolt_path) - 1):
+                pygame.draw.line(screen, YELLOW, bolt_path[i], bolt_path[i + 1], 8)
+            pygame.draw.circle(screen, YELLOW, bolt_pos, 18)
+
+        # Draw combat text at top
+        if combat_text:
+            screen.blit(msg_font.render(combat_text, True, WHITE), (SCREEN_WIDTH // 2 - 200, 60))
+
+        # Draw menu box (bottom)
+        pygame.draw.rect(screen, BLACK, (200, 650, 800, 120))
+        pygame.draw.rect(screen, WHITE, (200, 650, 800, 120), 3)
+        for i, label in enumerate(action_menu):
+            color = YELLOW if i == selected_action else WHITE
+            screen.blit(menu_font.render(label, True, color), (240 + i * 200, 690))
+
+        # Draw turn indicator (below menu)
+        turn_text = f"{sprotos[turn].name}'s turn!"
+        screen.blit(menu_font.render(turn_text, True, YELLOW), (SCREEN_WIDTH // 2 - 120, 600))
+
+        pygame.display.flip()
+
+    while running:
+        # Handle animation state
+        if animation_state == ANIMATION_FIGHT:
+            # Fight animation: run, jump, slash, return
+            anim_time = 0.7  # total animation time in seconds
+            dt = clock.tick(60) / 1000.0
+            animation_timer += dt
+            progress = animation_timer / anim_time
+            if progress < 0.25:
+                # Run forward
+                offset_x = int(200 * progress / 0.25)
+                offset_y = 0
+            elif progress < 0.5:
+                # Jump up
+                offset_x = 200
+                offset_y = int(-80 * (progress - 0.25) / 0.25)
+            elif progress < 0.7:
+                # Slash (pause at target)
+                offset_x = 200
+                offset_y = -80
+            else:
+                # Return to start
+                offset_x = int(200 * (1 - (progress - 0.7) / 0.3))
+                offset_y = int(-80 * (1 - (progress - 0.7) / 0.3))
+            if anim_actor == player:
+                anim_offset = [offset_x, offset_y]
+            else:
+                anim_offset = [-offset_x, offset_y]
+            draw_battle_screen(anim_offset=anim_offset)
+            if animation_timer >= anim_time:
+                # Apply damage and show damage text
+                hp[anim_target] = max(0, hp[anim_target] - anim_damage)
+                damage_display[anim_target] = (anim_damage, 3.0)
+                combat_text = f"{sprotos[anim_actor].name} attacks! {sprotos[anim_target].name} takes {anim_damage} damage."
+                combat_text_timer = 2.0
+                animation_state = ANIMATION_NONE
+                animation_timer = 0
+                turn = 1 - anim_actor
+            continue
+        elif animation_state == ANIMATION_MAGIC:
+            # Potter Bolt animation
+            anim_time = 0.8
+            dt = clock.tick(60) / 1000.0
+            animation_timer += dt
+            progress = min(animation_timer / anim_time, 1.0)
+            # Bolt path: from caster to target
+            if anim_actor == player:
+                start = (230, 510)
+                end = (970, 210)
+            else:
+                start = (970, 210)
+                end = (230, 510)
+            # Lightning zigzag
+            bolt_path = []
+            steps = 8
+            for i in range(steps + 1):
+                t = i / steps
+                x = int(start[0] + (end[0] - start[0]) * t)
+                y = int(start[1] + (end[1] - start[1]) * t)
+                if i not in [0, steps]:
+                    y += random.randint(-18, 18)
+                bolt_path.append((x, y))
+            # Bolt head position
+            head_idx = int(progress * steps)
+            head_idx = min(head_idx, steps)
+            bolt_pos = bolt_path[head_idx]
+            draw_battle_screen(bolt_pos=bolt_pos, bolt_path=bolt_path[:head_idx+1])
+            if animation_timer >= anim_time:
+                # Apply damage and show damage text
+                hp[anim_target] = max(0, hp[anim_target] - anim_damage)
+                damage_display[anim_target] = (anim_damage, 3.0)
+                combat_text = f"{sprotos[anim_actor].name} casts Potter Bolt! {sprotos[anim_target].name} takes {anim_damage} damage."
+                combat_text_timer = 2.0
+                animation_state = ANIMATION_NONE
+                animation_timer = 0
+                turn = 1 - anim_actor
+            continue
+
+        # Draw normal battle screen
+        draw_battle_screen()
+
+        # Update damage display timers
+        for idx in [0, 1]:
+            if damage_display[idx]:
+                dmg, timer = damage_display[idx]
+                timer -= clock.get_time() / 1000.0
+                if timer <= 0:
+                    damage_display[idx] = None
+                else:
+                    damage_display[idx] = (dmg, timer)
+
+        # Update combat text timer
+        if combat_text:
+            combat_text_timer -= clock.get_time() / 1000.0
+            if combat_text_timer <= 0:
+                combat_text = ""
+
+        # Check for win
+        if hp[0] <= 0 or hp[1] <= 0:
+            winner = sprotos[0].name if hp[1] <= 0 else sprotos[1].name
+            combat_text = f"{winner} wins!"
+            draw_battle_screen()
+            pygame.time.wait(1800)
+            break
+
+        if animation_state == ANIMATION_NONE:
+            if turn == player:
+                for event in pygame.event.get():
+                    if event.type == pygame.QUIT:
+                        running = False
+                        return
+                    elif event.type == pygame.KEYDOWN:
+                        if event.key == pygame.K_RIGHT:
+                            selected_action = (selected_action + 1) % len(action_menu)
+                        elif event.key == pygame.K_LEFT:
+                            selected_action = (selected_action - 1) % len(action_menu)
+                        elif event.key == pygame.K_RETURN:
+                            if action_menu[selected_action] == "Attack":
+                                dmg = random.randint(15, 20)
+                                animation_state = ANIMATION_FIGHT
+                                animation_timer = 0
+                                anim_actor = player
+                                anim_target = npc
+                                anim_damage = dmg
+                            elif action_menu[selected_action] == "Magic":
+                                dmg = random.randint(33, 39)
+                                animation_state = ANIMATION_MAGIC
+                                animation_timer = 0
+                                anim_actor = player
+                                anim_target = npc
+                                anim_damage = dmg
+                            elif action_menu[selected_action] == "Flee":
+                                return  # Go back to selection screen
+                            elif action_menu[selected_action] == "Item":
+                                if sproto_juice[player] > 0:
+                                    heal = 25
+                                    hp[player] = min(max_hp[player], hp[player] + heal)
+                                    sproto_juice[player] -= 1
+                                    damage_display[player] = (-heal, 3.0)
+                                    combat_text = f"{sprotos[player].name} uses Sproto Juice! Recovers {heal} HP."
+                                    combat_text_timer = 2.0
+                                    turn = npc
+                                else:
+                                    combat_text = "No Sproto Juice left!"
+                                    combat_text_timer = 2.0
+                        elif event.key == pygame.K_ESCAPE:
+                            return
+            else:
+                # NPC always attacks for now, with animation
+                dmg = random.randint(15, 20)
+                animation_state = ANIMATION_FIGHT
+                animation_timer = 0
+                anim_actor = npc
+                anim_target = player
+                anim_damage = dmg
+
+        clock.tick(60)
