@@ -437,6 +437,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
     combat_text = ""
     combat_text_timer = 0
     damage_display = [None, None]  # (damage, timer)
+    crit_display = [None, None]    # (timer) for "Crit!" floating text
     ANIMATION_NONE = 0
     ANIMATION_FIGHT = 1
     ANIMATION_MAGIC = 2
@@ -476,14 +477,19 @@ def run_pocket_sprotos_mode(screen, sprotos):
     first_attacker = sprotos[turn].name
     second_attacker = sprotos[1 - turn].name
     announce_font = pygame.font.SysFont("arial", 44, bold=True)
-    announce_text = f"{first_attacker} got the drop on {second_attacker}, {first_attacker} gets to attack first."
-    announce_surf = announce_font.render(announce_text, True, YELLOW)
-    announce_rect = announce_surf.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
+    # Split announce text into two lines for better fit
+    announce_text1 = f"{first_attacker} got the drop on {second_attacker},"
+    announce_text2 = f"{first_attacker} gets to attack first."
+    announce_surf1 = announce_font.render(announce_text1, True, YELLOW)
+    announce_surf2 = announce_font.render(announce_text2, True, YELLOW)
+    announce_rect1 = announce_surf1.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 - 30))
+    announce_rect2 = announce_surf2.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 30))
     if fight_bg:
         screen.blit(fight_bg, (0, 0))
     else:
         screen.fill((80, 160, 80))
-    screen.blit(announce_surf, announce_rect)
+    screen.blit(announce_surf1, announce_rect1)
+    screen.blit(announce_surf2, announce_rect2)
     pygame.display.flip()
     # Non-blocking wait with event processing
     announce_timer = 0
@@ -495,6 +501,12 @@ def run_pocket_sprotos_mode(screen, sprotos):
                 return
         pygame.time.delay(10)
         announce_timer = pygame.time.get_ticks() - announce_start_ticks
+
+    # --- NPC first action delay if NPC goes first ---
+    if turn == npc:
+        npc_action_delay = 2.0
+    else:
+        npc_action_delay = 0  # Ensure variable is always defined
 
     # Button setup for end-of-battle
     button_font = pygame.font.SysFont("arial", 28, bold=True)
@@ -608,7 +620,14 @@ def run_pocket_sprotos_mode(screen, sprotos):
                 text_surf = damage_font.render(dmg_text, True, color)
                 text_rect = text_surf.get_rect(center=(x, y))
                 screen.blit(text_surf, text_rect)
-
+            # Draw "Crit!" floating text above attacker if crit_display[idx] is active
+            if crit_display[idx] and crit_display[idx] > 0:
+                x = p_img_x + sprite_w // 2 if idx == 0 else n_img_x + sprite_w // 2
+                y = (p_img_y if idx == 0 else n_img_y) - 80  # Higher than damage text
+                crit_font = pygame.font.SysFont("arial", 32, bold=True)
+                crit_surf = crit_font.render("Crit!", True, YELLOW)
+                crit_rect = crit_surf.get_rect(center=(x, y))
+                screen.blit(crit_surf, crit_rect)
         # Draw projectile for Potter Bolt
         if bolt_pos and bolt_path:
             for i in range(len(bolt_path) - 1):
@@ -682,14 +701,19 @@ def run_pocket_sprotos_mode(screen, sprotos):
     first_attacker = sprotos[turn].name
     second_attacker = sprotos[1 - turn].name
     announce_font = pygame.font.SysFont("arial", 44, bold=True)
-    announce_text = f"{first_attacker} got the drop on {second_attacker}, {first_attacker} gets to attack first."
-    announce_surf = announce_font.render(announce_text, True, YELLOW)
-    announce_rect = announce_surf.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
+    # Split announce text into two lines for better fit
+    announce_text1 = f"{first_attacker} got the drop on {second_attacker},"
+    announce_text2 = f"{first_attacker} gets to attack first."
+    announce_surf1 = announce_font.render(announce_text1, True, YELLOW)
+    announce_surf2 = announce_font.render(announce_text2, True, YELLOW)
+    announce_rect1 = announce_surf1.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 - 30))
+    announce_rect2 = announce_surf2.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 30))
     if fight_bg:
         screen.blit(fight_bg, (0, 0))
     else:
         screen.fill((80, 160, 80))
-    screen.blit(announce_surf, announce_rect)
+    screen.blit(announce_surf1, announce_rect1)
+    screen.blit(announce_surf2, announce_rect2)
     pygame.display.flip()
     # Non-blocking wait with event processing
     announce_timer = 0
@@ -701,6 +725,12 @@ def run_pocket_sprotos_mode(screen, sprotos):
                 return
         pygame.time.delay(10)
         announce_timer = pygame.time.get_ticks() - announce_start_ticks
+
+    # --- NPC first action delay if NPC goes first ---
+    if turn == npc:
+        npc_action_delay = 2.0
+    else:
+        npc_action_delay = 0  # Ensure variable is always defined
 
     # --- Main game loop ---
     while running:
@@ -784,6 +814,11 @@ def run_pocket_sprotos_mode(screen, sprotos):
                     damage_display[idx] = None
                 else:
                     damage_display[idx] = (dmg, timer)
+            # Update crit display timers
+            if crit_display[idx]:
+                crit_display[idx] -= clock.get_time() / 1000.0
+                if crit_display[idx] <= 0:
+                    crit_display[idx] = None
 
         # Update combat text timer
         if combat_text:
@@ -819,14 +854,19 @@ def run_pocket_sprotos_mode(screen, sprotos):
                             first_attacker = sprotos[turn].name
                             second_attacker = sprotos[1 - turn].name
                             announce_font = pygame.font.SysFont("arial", 44, bold=True)
-                            announce_text = f"{first_attacker} got the drop on {second_attacker}, {first_attacker} gets to attack first."
-                            announce_surf = announce_font.render(announce_text, True, YELLOW)
-                            announce_rect = announce_surf.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
+                            # Split announce text into two lines for better fit
+                            announce_text1 = f"{first_attacker} got the drop on {second_attacker},"
+                            announce_text2 = f"{first_attacker} gets to attack first."
+                            announce_surf1 = announce_font.render(announce_text1, True, YELLOW)
+                            announce_surf2 = announce_font.render(announce_text2, True, YELLOW)
+                            announce_rect1 = announce_surf1.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 - 30))
+                            announce_rect2 = announce_surf2.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 30))
                             if fight_bg:
                                 screen.blit(fight_bg, (0, 0))
                             else:
                                 screen.fill((80, 160, 80))
-                            screen.blit(announce_surf, announce_rect)
+                            screen.blit(announce_surf1, announce_rect1)
+                            screen.blit(announce_surf2, announce_rect2)
                             pygame.display.flip()
                             # Non-blocking wait with event processing
                             announce_timer = 0
@@ -899,13 +939,44 @@ def run_pocket_sprotos_mode(screen, sprotos):
                                     log_scroll += 1
                             elif event.key == pygame.K_RETURN:
                                 if action_menu[selected_action] == "Attack":
-                                    dmg = random.randint(15, 20)
-                                    animation_state = ANIMATION_FIGHT
-                                    animation_timer = 0
-                                    anim_actor = player
-                                    anim_target = npc
-                                    anim_damage = dmg
-                                    log_fight_entry(f"{sprotos[player].name} attacks! {sprotos[npc].name} takes {dmg} damage.")
+                                    # --- Miss, Dodge, Critical logic ---
+                                    roll = random.random()
+                                    miss = roll < 0.10
+                                    dodge = not miss and random.random() < 0.10
+                                    crit = not miss and not dodge and random.random() < 0.20
+                                    dmg = random.randint(8, 10)  # User attack range
+                                    if miss:
+                                        dmg = 0
+                                        combat_text = f"{sprotos[player].name} missed!"
+                                        combat_text_timer = 1.5
+                                        action_log.append(combat_text)
+                                        damage_display[npc] = (0, 1.5)
+                                        turn = npc
+                                    elif dodge:
+                                        dmg = 0
+                                        combat_text = f"{sprotos[npc].name} dodged the attack!"
+                                        combat_text_timer = 1.5
+                                        action_log.append(combat_text)
+                                        damage_display[npc] = (0, 1.5)
+                                        turn = npc
+                                    else:
+                                        if crit:
+                                            dmg = int(dmg * 2.5)
+                                            crit_msg = f"Critical hit! {sprotos[player].name} deals {dmg}!"
+                                            combat_text = crit_msg
+                                            combat_text_timer = 1.5
+                                            action_log.append(crit_msg)  # Add crit to on-screen log
+                                            crit_display[player] = 1.0  # Show "Crit!" over player for 1s
+                                        else:
+                                            combat_text = f"{sprotos[player].name} attacks! {sprotos[npc].name} takes {dmg} damage."
+                                            combat_text_timer = 1.5
+                                            action_log.append(combat_text)
+                                        animation_state = ANIMATION_FIGHT
+                                        animation_timer = 0
+                                        anim_actor = player
+                                        anim_target = npc
+                                        anim_damage = dmg
+                                        log_fight_entry(combat_text)
                                 elif action_menu[selected_action] == "Magic":
                                     MAGIC_MENU = True
                                     magic_menu_selected = 0
@@ -964,13 +1035,52 @@ def run_pocket_sprotos_mode(screen, sprotos):
                             elif event.key == pygame.K_ESCAPE:
                                 ITEM_MENU = False
             else:
-                # NPC always attacks for now, with animation
-                dmg = random.randint(15, 20)
-                animation_state = ANIMATION_FIGHT
-                animation_timer = 0
-                anim_actor = npc
-                anim_target = player
-                anim_damage = dmg
-                log_fight_entry(f"{sprotos[npc].name} attacks! {sprotos[player].name} takes {dmg} damage.")
+                # --- NPC action delay logic ---
+                if 'npc_action_delay' not in locals():
+                    npc_action_delay = 0  # Defensive: ensure variable exists
+                if npc_action_delay > 0:
+                    npc_action_delay -= clock.get_time() / 1000.0
+                    clock.tick(60)
+                    continue
+                roll = random.random()
+                miss = roll < 0.10
+                dodge = not miss and random.random() < 0.10
+                crit = not miss and not dodge and random.random() < 0.20
+                dmg = random.randint(8, 10)  # NPC attack range
+                if miss:
+                    dmg = 0
+                    combat_text = f"{sprotos[npc].name} missed!"
+                    combat_text_timer = 1.5
+                    action_log.append(combat_text)
+                    damage_display[player] = (0, 1.5)
+                    turn = player
+                    npc_action_delay = 1.5
+                elif dodge:
+                    dmg = 0
+                    combat_text = f"{sprotos[player].name} dodged the attack!"
+                    combat_text_timer = 1.5
+                    action_log.append(combat_text)
+                    damage_display[player] = (0, 1.5)
+                    turn = player
+                    npc_action_delay = 1.5
+                else:
+                    if crit:
+                        dmg = int(dmg * 2.5)
+                        crit_msg = f"Critical hit! {sprotos[npc].name} deals {dmg}!"
+                        combat_text = crit_msg
+                        combat_text_timer = 1.5
+                        action_log.append(crit_msg)  # Add crit to on-screen log
+                        crit_display[npc] = 1.0  # Show "Crit!" over npc for 1s
+                    else:
+                        combat_text = f"{sprotos[npc].name} attacks! {sprotos[player].name} takes {dmg} damage."
+                        combat_text_timer = 1.5
+                        action_log.append(combat_text)
+                    animation_state = ANIMATION_FIGHT
+                    animation_timer = 0
+                    anim_actor = npc
+                    anim_target = player
+                    anim_damage = dmg
+                    npc_action_delay = 1.5
+                continue
 
         clock.tick(60)
