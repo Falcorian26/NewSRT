@@ -412,6 +412,7 @@ def simulate_all_characters_race(screen, sprotos, race_distance, race_duration, 
 
 def run_pocket_sprotos_mode(screen, sprotos):
     import pygame
+    import textwrap
     clock = pygame.time.Clock()
     running = True
 
@@ -427,7 +428,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
     selected_action = 0
     sproto_juice = [1, 1]
     menu_font = pygame.font.SysFont("arial", 32, bold=True)
-    hp_font = pygame.font.SysFont("arial", 28, bold=True)
+    hp_font = pygame.font.SysFont("arial", 18, bold=True)  # Smaller font for under-image text
     msg_font = pygame.font.SysFont("arial", 26, bold=True)
     damage_font = pygame.font.SysFont("arial", 36, bold=True)
     log_font = pygame.font.SysFont("arial", 20)
@@ -451,9 +452,9 @@ def run_pocket_sprotos_mode(screen, sprotos):
     log_scroll = 0
     LOG_LINES = 5
 
-    # Pre-scale images for animation (reduce by 40%)
+    # Pre-scale images for animation (increase by 2x)
     orig_size = sprotos[0].sprite.get_size()
-    scale_size = (int(orig_size[0] * 0.6), int(orig_size[1] * 0.6))
+    scale_size = (int(orig_size[0] * 2.0), int(orig_size[1] * 2.0))
     big_sprites = [pygame.transform.smoothscale(s.sprite, scale_size) for s in sprotos]
     sprite_w, sprite_h = scale_size
 
@@ -471,15 +472,64 @@ def run_pocket_sprotos_mode(screen, sprotos):
     else:
         fight_bg = None
 
-    def draw_battle_screen(anim_offset=None, bolt_pos=None, bolt_path=None):
+    # --- Show who attacks first ---
+    first_attacker = sprotos[turn].name
+    second_attacker = sprotos[1 - turn].name
+    announce_font = pygame.font.SysFont("arial", 44, bold=True)
+    announce_text = f"{first_attacker} got the drop on {second_attacker}, {first_attacker} gets to attack first."
+    announce_surf = announce_font.render(announce_text, True, YELLOW)
+    announce_rect = announce_surf.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
+    if fight_bg:
+        screen.blit(fight_bg, (0, 0))
+    else:
+        screen.fill((80, 160, 80))
+    screen.blit(announce_surf, announce_rect)
+    pygame.display.flip()
+    # Non-blocking wait with event processing
+    announce_timer = 0
+    announce_duration = 1800
+    announce_start_ticks = pygame.time.get_ticks()
+    while announce_timer < announce_duration:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                return
+        pygame.time.delay(10)
+        announce_timer = pygame.time.get_ticks() - announce_start_ticks
+
+    # Button setup for end-of-battle
+    button_font = pygame.font.SysFont("arial", 28, bold=True)
+    button_w, button_h = 200, 60
+    restart_button_rect = pygame.Rect(SCREEN_WIDTH // 2 - button_w - 20, SCREEN_HEIGHT // 2 + 80, button_w, button_h)
+    end_button_rect = pygame.Rect(SCREEN_WIDTH // 2 + 20, SCREEN_HEIGHT // 2 + 80, button_w, button_h)
+
+    def draw_health_bar(x, y, hp_val, max_hp_val, width=180, height=18):
+        bar_w = int(width * max(0, min(1, hp_val / max_hp_val)))
+        pygame.draw.rect(screen, (60, 60, 60), (x, y, width, height))
+        pygame.draw.rect(screen, (0, 220, 0), (x, y, bar_w, height))
+        pygame.draw.rect(screen, WHITE, (x, y, width, height), 2)
+
+    # Add: Magic and Item submenu state and options
+    MAGIC_MENU = False
+    magic_menu_options = ["Potter Bolt"]
+    magic_menu_selected = 0
+
+    ITEM_MENU = False
+    item_menu_options = ["Sproto Juice"]
+    item_menu_selected = 0
+
+    # Fight log file
+    FIGHT_LOG_PATH = os.path.join(os.path.dirname(__file__), "sproto_fight.log")
+    def log_fight_entry(entry):
+        with open(FIGHT_LOG_PATH, "a", encoding="utf-8") as f:
+            f.write(entry + "\n")
+
+    def draw_battle_screen(anim_offset=None, bolt_pos=None, bolt_path=None, winner=None, show_buttons=False):
         # Draw background
         if fight_bg:
             screen.blit(fight_bg, (0, 0))
         else:
             screen.fill((80, 160, 80))
-        # Draw player (bottom left)
-        p_img_x, p_img_y = 140, 420
-        n_img_x, n_img_y = 880, 120
+
         # Animation offset
         p_offset = [0, 0]
         n_offset = [0, 0]
@@ -492,18 +542,60 @@ def run_pocket_sprotos_mode(screen, sprotos):
         # Draw player sprite and border
         screen.blit(big_sprites[0], (p_img_x + p_offset[0], p_img_y + p_offset[1]))
         pygame.draw.rect(screen, WHITE, (p_img_x + p_offset[0], p_img_y + p_offset[1], sprite_w, sprite_h), 3)
-        screen.blit(hp_font.render(f"{sprotos[0].name}", True, WHITE), (p_img_x, p_img_y + sprite_h + 10))
-        screen.blit(hp_font.render(f"HP: {hp[0]}", True, WHITE), (p_img_x, p_img_y + sprite_h + 40))
-        screen.blit(hp_font.render(f"PP: {pp[0]}", True, YELLOW), (p_img_x, p_img_y + sprite_h + 70))
-        screen.blit(hp_font.render(f"Juice: {sproto_juice[0]}", True, GREEN), (p_img_x, p_img_y + sprite_h + 100))
-
         # Draw NPC sprite and border
         screen.blit(big_sprites[1], (n_img_x + n_offset[0], n_img_y + n_offset[1]))
         pygame.draw.rect(screen, WHITE, (n_img_x + n_offset[0], n_img_y + n_offset[1], sprite_w, sprite_h), 3)
-        screen.blit(hp_font.render(f"{sprotos[1].name}", True, WHITE), (n_img_x, n_img_y + sprite_h + 10))
-        screen.blit(hp_font.render(f"HP: {hp[1]}", True, WHITE), (n_img_x, n_img_y + sprite_h + 40))
-        screen.blit(hp_font.render(f"PP: {pp[1]}", True, YELLOW), (n_img_x, n_img_y + sprite_h + 70))
-        screen.blit(hp_font.render(f"Juice: {sproto_juice[1]}", True, GREEN), (n_img_x, n_img_y + sprite_h + 100))
+
+        # Draw health bars above both characters (follow animation)
+        draw_health_bar(p_img_x + p_offset[0], p_img_y - 28 + p_offset[1], hp[0], max_hp[0], width=sprite_w)
+        draw_health_bar(n_img_x + n_offset[0], n_img_y - 28 + n_offset[1], hp[1], max_hp[1], width=sprite_w)
+
+        # Draw yellow triangle above active player's HP bar (follows animation)
+        triangle_height = 18
+        triangle_width = 24
+        if turn == player:
+            tri_x = p_img_x + p_offset[0] + sprite_w // 2
+            tri_y = p_img_y - 38 + p_offset[1]
+        else:
+            tri_x = n_img_x + n_offset[0] + sprite_w // 2
+            tri_y = n_img_y - 38 + n_offset[1]
+        pygame.draw.polygon(
+            screen, YELLOW,
+            [(tri_x, tri_y), (tri_x - triangle_width // 2, tri_y + triangle_height), (tri_x + triangle_width // 2, tri_y + triangle_height)]
+        )
+
+        # Draw name under player image, small font
+        name_surf = hp_font.render(f"{sprotos[0].name}", True, WHITE)
+        name_rect = name_surf.get_rect(center=(p_img_x + sprite_w // 2, p_img_y + sprite_h + 18))
+        screen.blit(name_surf, name_rect)
+        name_surf2 = hp_font.render(f"{sprotos[1].name}", True, WHITE)
+        name_rect2 = name_surf2.get_rect(center=(n_img_x + sprite_w // 2, n_img_y + sprite_h + 18))
+        screen.blit(name_surf2, name_rect2)
+
+        # Draw HP/PP under name with color and shadow, inside a cell with transparent black background
+        status_font = pygame.font.SysFont("arial", 16, bold=True)
+        # Player
+        hp_text = f"HP: {hp[0]}/{max_hp[0]}"
+        pp_text = f"PP: {pp[0]}/{max_pp[0]}"
+        status_cell_w, status_cell_h = 140, 32
+        status_x = p_img_x + sprite_w // 2 - status_cell_w // 2
+        status_y = p_img_y + sprite_h + 28
+        status_surf = pygame.Surface((status_cell_w, status_cell_h), pygame.SRCALPHA)
+        status_surf.fill((0, 0, 0, 160))
+        screen.blit(status_surf, (status_x, status_y))
+        draw_text_with_shadow(screen, hp_text, status_font, (0, 220, 0), (status_x + 12, status_y + 4))
+        draw_text_with_shadow(screen, pp_text, status_font, (0, 120, 255), (status_x + 12, status_y + 18))
+
+        # NPC
+        hp_text2 = f"HP: {hp[1]}/{max_hp[1]}"
+        pp_text2 = f"PP: {pp[1]}/{max_pp[1]}"
+        status_x2 = n_img_x + sprite_w // 2 - status_cell_w // 2
+        status_y2 = n_img_y + sprite_h + 28
+        status_surf2 = pygame.Surface((status_cell_w, status_cell_h), pygame.SRCALPHA)
+        status_surf2.fill((0, 0, 0, 160))
+        screen.blit(status_surf2, (status_x2, status_y2))
+        draw_text_with_shadow(screen, hp_text2, status_font, (0, 220, 0), (status_x2 + 12, status_y2 + 4))
+        draw_text_with_shadow(screen, pp_text2, status_font, (0, 120, 255), (status_x2 + 12, status_y2 + 18))
 
         # Draw damage numbers above character
         for idx in [0, 1]:
@@ -523,19 +615,21 @@ def run_pocket_sprotos_mode(screen, sprotos):
                 pygame.draw.line(screen, YELLOW, bolt_path[i], bolt_path[i + 1], 8)
             pygame.draw.circle(screen, YELLOW, bolt_pos, 18)
 
-        # Draw combat text at top
-        if combat_text:
-            screen.blit(msg_font.render(combat_text, True, WHITE), (SCREEN_WIDTH // 2 - 200, 60))
-
         # Draw action log (top left)
-        log_box_x, log_box_y, log_box_w, log_box_h = 20, 20, 420, 160
+        log_box_x, log_box_y, log_box_w, log_box_h = 20, 20, 520, 180  # Wider log box
         pygame.draw.rect(screen, (0, 0, 0, 180), (log_box_x, log_box_y, log_box_w, log_box_h))
         pygame.draw.rect(screen, WHITE, (log_box_x, log_box_y, log_box_w, log_box_h), 2)
-        visible_logs = action_log[max(0, len(action_log) - LOG_LINES - log_scroll):len(action_log) - log_scroll if log_scroll > 0 else None]
-        for i, log_entry in enumerate(visible_logs[-LOG_LINES:]):
+        # Wrap log text to fit inside the box
+        max_log_chars = 60
+        visible_logs = []
+        for entry in action_log[max(0, len(action_log) - LOG_LINES - log_scroll):len(action_log) - log_scroll if log_scroll > 0 else None]:
+            wrapped = textwrap.wrap(entry, max_log_chars)
+            visible_logs.extend(wrapped)
+        visible_logs = visible_logs[-LOG_LINES:]
+        for i, log_entry in enumerate(visible_logs):
             screen.blit(log_font.render(log_entry, True, WHITE), (log_box_x + 10, log_box_y + 10 + i * 28))
         # Draw scroll indicators if needed
-        if log_scroll < len(action_log) - LOG_LINES:
+        if log_scroll < max(0, len(action_log) - LOG_LINES):
             screen.blit(log_font.render("▼", True, YELLOW), (log_box_x + log_box_w - 30, log_box_y + log_box_h - 28))
         if log_scroll > 0:
             screen.blit(log_font.render("▲", True, YELLOW), (log_box_x + log_box_w - 30, log_box_y + 8))
@@ -544,16 +638,71 @@ def run_pocket_sprotos_mode(screen, sprotos):
         menu_box_y = 700
         pygame.draw.rect(screen, BLACK, (200, menu_box_y, 800, 90))
         pygame.draw.rect(screen, WHITE, (200, menu_box_y, 800, 90), 3)
-        for i, label in enumerate(action_menu):
-            color = YELLOW if i == selected_action else WHITE
-            screen.blit(menu_font.render(label, True, color), (240 + i * 200, menu_box_y + 25))
+        if MAGIC_MENU:
+            for i, label in enumerate(magic_menu_options):
+                color = YELLOW if i == magic_menu_selected else WHITE
+                screen.blit(menu_font.render(label, True, color), (340 + i * 200, menu_box_y + 25))
+            back_color = YELLOW if magic_menu_selected == len(magic_menu_options) else WHITE
+            screen.blit(menu_font.render("Back", True, back_color), (340 + len(magic_menu_options) * 200, menu_box_y + 25))
+        elif ITEM_MENU:
+            for i, label in enumerate(item_menu_options):
+                color = YELLOW if i == item_menu_selected else WHITE
+                screen.blit(menu_font.render(label, True, color), (340 + i * 200, menu_box_y + 25))
+            back_color = YELLOW if item_menu_selected == len(item_menu_options) else WHITE
+            screen.blit(menu_font.render("Back", True, back_color), (340 + len(item_menu_options) * 200, menu_box_y + 25))
+        else:
+            for i, label in enumerate(action_menu):
+                color = YELLOW if i == selected_action else WHITE
+                screen.blit(menu_font.render(label, True, color), (240 + i * 200, menu_box_y + 25))
 
         # Draw turn indicator (above menu)
         turn_text = f"{sprotos[turn].name}'s turn!"
         screen.blit(menu_font.render(turn_text, True, YELLOW), (SCREEN_WIDTH // 2 - 120, menu_box_y - 40))
 
+        # Draw end-of-battle buttons if needed
+        if show_buttons and winner:
+            # Draw winner text
+            winner_font = pygame.font.SysFont("arial", 40, bold=True)
+            winner_text = f"{winner} wins!"
+            winner_surf = winner_font.render(winner_text, True, YELLOW)
+            winner_rect = winner_surf.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
+            screen.blit(winner_surf, winner_rect)
+            # Draw buttons
+            pygame.draw.rect(screen, GREEN, restart_button_rect)
+            pygame.draw.rect(screen, RED, end_button_rect)
+            pygame.draw.rect(screen, WHITE, restart_button_rect, 3)
+            pygame.draw.rect(screen, WHITE, end_button_rect, 3)
+            restart_surf = button_font.render("Restart", True, BLACK)
+            end_surf = button_font.render("End Game", True, BLACK)
+            screen.blit(restart_surf, restart_surf.get_rect(center=restart_button_rect.center))
+            screen.blit(end_surf, end_surf.get_rect(center=end_button_rect.center))
         pygame.display.flip()
 
+    # --- Show who attacks first ---
+    first_attacker = sprotos[turn].name
+    second_attacker = sprotos[1 - turn].name
+    announce_font = pygame.font.SysFont("arial", 44, bold=True)
+    announce_text = f"{first_attacker} got the drop on {second_attacker}, {first_attacker} gets to attack first."
+    announce_surf = announce_font.render(announce_text, True, YELLOW)
+    announce_rect = announce_surf.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
+    if fight_bg:
+        screen.blit(fight_bg, (0, 0))
+    else:
+        screen.fill((80, 160, 80))
+    screen.blit(announce_surf, announce_rect)
+    pygame.display.flip()
+    # Non-blocking wait with event processing
+    announce_timer = 0
+    announce_duration = 1800
+    announce_start_ticks = pygame.time.get_ticks()
+    while announce_timer < announce_duration:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                return
+        pygame.time.delay(10)
+        announce_timer = pygame.time.get_ticks() - announce_start_ticks
+
+    # --- Main game loop ---
     while running:
         # Handle animation state
         if animation_state == ANIMATION_FIGHT:
@@ -645,11 +794,55 @@ def run_pocket_sprotos_mode(screen, sprotos):
         # Check for win
         if hp[0] <= 0 or hp[1] <= 0:
             winner = sprotos[0].name if hp[1] <= 0 else sprotos[1].name
-            combat_text = f"{winner} wins!"
-            action_log.append(combat_text)
-            draw_battle_screen()
-            pygame.time.wait(1800)
-            break
+            log_fight_entry(f"{winner} wins!")
+            action_log.append(f"{winner} wins!")
+            # Show winner and buttons, wait for user input
+            waiting_for_choice = True
+            while waiting_for_choice:
+                draw_battle_screen(winner=winner, show_buttons=True)
+                for event in pygame.event.get():
+                    if event.type == pygame.QUIT:
+                        return
+                    elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                        mx, my = event.pos
+                        if restart_button_rect.collidepoint(mx, my):
+                            # Restart round: reset HP, PP, juice, logs, randomize first attacker
+                            hp[:] = [100, 100]
+                            pp[:] = [20, 20]
+                            sproto_juice[:] = [1, 1]
+                            damage_display[:] = [None, None]
+                            action_log.clear()
+                            combat_text = ""
+                            combat_text_timer = 0
+                            turn = random.choice([player, npc])
+                            # Announce who attacks first again
+                            first_attacker = sprotos[turn].name
+                            second_attacker = sprotos[1 - turn].name
+                            announce_font = pygame.font.SysFont("arial", 44, bold=True)
+                            announce_text = f"{first_attacker} got the drop on {second_attacker}, {first_attacker} gets to attack first."
+                            announce_surf = announce_font.render(announce_text, True, YELLOW)
+                            announce_rect = announce_surf.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
+                            if fight_bg:
+                                screen.blit(fight_bg, (0, 0))
+                            else:
+                                screen.fill((80, 160, 80))
+                            screen.blit(announce_surf, announce_rect)
+                            pygame.display.flip()
+                            # Non-blocking wait with event processing
+                            announce_timer = 0
+                            announce_duration = 1800
+                            announce_start_ticks = pygame.time.get_ticks()
+                            while announce_timer < announce_duration:
+                                for event in pygame.event.get():
+                                    if event.type == pygame.QUIT:
+                                        return
+                                pygame.time.delay(10)
+                                announce_timer = pygame.time.get_ticks() - announce_start_ticks
+                            waiting_for_choice = False
+                        elif end_button_rect.collidepoint(mx, my):
+                            return  # End game, go back to selection
+                clock.tick(30)
+            continue
 
         if animation_state == ANIMATION_NONE:
             if turn == player:
@@ -657,54 +850,119 @@ def run_pocket_sprotos_mode(screen, sprotos):
                     if event.type == pygame.QUIT:
                         running = False
                         return
+                    # Mouse support for menu selection
+                    elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                        mx, my = event.pos
+                        menu_box_y = 700
+                        if not MAGIC_MENU and not ITEM_MENU:
+                            for i in range(len(action_menu)):
+                                rect = pygame.Rect(240 + i * 200, menu_box_y + 25, 180, 40)
+                                if rect.collidepoint(mx, my):
+                                    selected_action = i
+                                    event = pygame.event.Event(pygame.KEYDOWN, key=pygame.K_RETURN)
+                                    pygame.event.post(event)
+                        elif MAGIC_MENU:
+                            for i in range(len(magic_menu_options)):
+                                rect = pygame.Rect(340 + i * 200, menu_box_y + 25, 180, 40)
+                                if rect.collidepoint(mx, my):
+                                    magic_menu_selected = i
+                                    event = pygame.event.Event(pygame.KEYDOWN, key=pygame.K_RETURN)
+                                    pygame.event.post(event)
+                            back_rect = pygame.Rect(340 + len(magic_menu_options) * 200, menu_box_y + 25, 180, 40)
+                            if back_rect.collidepoint(mx, my):
+                                magic_menu_selected = len(magic_menu_options)
+                                event = pygame.event.Event(pygame.KEYDOWN, key=pygame.K_RETURN)
+                                pygame.event.post(event)
+                        elif ITEM_MENU:
+                            for i in range(len(item_menu_options)):
+                                rect = pygame.Rect(340 + i * 200, menu_box_y + 25, 180, 40)
+                                if rect.collidepoint(mx, my):
+                                    item_menu_selected = i
+                                    event = pygame.event.Event(pygame.KEYDOWN, key=pygame.K_RETURN)
+                                    pygame.event.post(event)
+                            back_rect = pygame.Rect(340 + len(item_menu_options) * 200, menu_box_y + 25, 180, 40)
+                            if back_rect.collidepoint(mx, my):
+                                item_menu_selected = len(item_menu_options)
+                                event = pygame.event.Event(pygame.KEYDOWN, key=pygame.K_RETURN)
+                                pygame.event.post(event)
                     elif event.type == pygame.KEYDOWN:
-                        if event.key == pygame.K_RIGHT:
-                            selected_action = (selected_action + 1) % len(action_menu)
-                        elif event.key == pygame.K_LEFT:
-                            selected_action = (selected_action - 1) % len(action_menu)
-                        elif event.key == pygame.K_UP:
-                            if log_scroll > 0:
-                                log_scroll -= 1
-                        elif event.key == pygame.K_DOWN:
-                            if log_scroll < max(0, len(action_log) - LOG_LINES):
-                                log_scroll += 1
-                        elif event.key == pygame.K_RETURN:
-                            if action_menu[selected_action] == "Attack":
-                                dmg = random.randint(15, 20)
-                                animation_state = ANIMATION_FIGHT
-                                animation_timer = 0
-                                anim_actor = player
-                                anim_target = npc
-                                anim_damage = dmg
-                            elif action_menu[selected_action] == "Magic":
-                                if pp[player] >= 10:
-                                    dmg = random.randint(33, 39)
-                                    pp[player] -= 10
-                                    animation_state = ANIMATION_MAGIC
+                        if not MAGIC_MENU and not ITEM_MENU:
+                            if event.key == pygame.K_RIGHT:
+                                selected_action = (selected_action + 1) % len(action_menu)
+                            elif event.key == pygame.K_LEFT:
+                                selected_action = (selected_action - 1) % len(action_menu)
+                            elif event.key == pygame.K_UP:
+                                if log_scroll > 0:
+                                    log_scroll -= 1
+                            elif event.key == pygame.K_DOWN:
+                                if log_scroll < max(0, len(action_log) - LOG_LINES):
+                                    log_scroll += 1
+                            elif event.key == pygame.K_RETURN:
+                                if action_menu[selected_action] == "Attack":
+                                    dmg = random.randint(15, 20)
+                                    animation_state = ANIMATION_FIGHT
                                     animation_timer = 0
                                     anim_actor = player
                                     anim_target = npc
                                     anim_damage = dmg
-                                else:
-                                    combat_text = "Not enough PP for Potter Bolt!"
-                                    combat_text_timer = 2.0
-                            elif action_menu[selected_action] == "Flee":
-                                return  # Go back to selection screen
-                            elif action_menu[selected_action] == "Item":
-                                if sproto_juice[player] > 0:
-                                    heal = 25
-                                    hp[player] = min(max_hp[player], hp[player] + heal)
-                                    sproto_juice[player] -= 1
-                                    damage_display[player] = (-heal, 3.0)
-                                    combat_text = f"{sprotos[player].name} uses Sproto Juice! Recovers {heal} HP."
-                                    combat_text_timer = 2.0
-                                    action_log.append(combat_text)
-                                    turn = npc
-                                else:
-                                    combat_text = "No Sproto Juice left!"
-                                    combat_text_timer = 2.0
-                        elif event.key == pygame.K_ESCAPE:
-                            return
+                                    log_fight_entry(f"{sprotos[player].name} attacks! {sprotos[npc].name} takes {dmg} damage.")
+                                elif action_menu[selected_action] == "Magic":
+                                    MAGIC_MENU = True
+                                    magic_menu_selected = 0
+                                elif action_menu[selected_action] == "Flee":
+                                    log_fight_entry(f"{sprotos[player].name} fled the battle.")
+                                    return  # Go back to selection screen
+                                elif action_menu[selected_action] == "Item":
+                                    ITEM_MENU = True
+                                    item_menu_selected = 0
+                            elif event.key == pygame.K_ESCAPE:
+                                return
+                        elif MAGIC_MENU:
+                            if event.key == pygame.K_RIGHT:
+                                magic_menu_selected = (magic_menu_selected + 1) % (len(magic_menu_options) + 1)
+                            elif event.key == pygame.K_LEFT:
+                                magic_menu_selected = (magic_menu_selected - 1) % (len(magic_menu_options) + 1)
+                            elif event.key == pygame.K_RETURN:
+                                if magic_menu_selected == len(magic_menu_options):
+                                    MAGIC_MENU = False
+                                elif magic_menu_selected == 0:  # Only one spell for now
+                                    if pp[player] >= 10:
+                                        dmg = random.randint(33, 39)
+                                        pp[player] -= 10
+                                        animation_state = ANIMATION_MAGIC
+                                        animation_timer = 0
+                                        anim_actor = player
+                                        anim_target = npc
+                                        anim_damage = dmg
+                                        MAGIC_MENU = False
+                                        log_fight_entry(f"{sprotos[player].name} casts Potter Bolt! {sprotos[npc].name} takes {dmg} damage.")
+                                    else:
+                                        action_log.append("Not enough PP for Potter Bolt!")
+                                        MAGIC_MENU = False
+                            elif event.key == pygame.K_ESCAPE:
+                                MAGIC_MENU = False
+                        elif ITEM_MENU:
+                            if event.key == pygame.K_RIGHT:
+                                item_menu_selected = (item_menu_selected + 1) % (len(item_menu_options) + 1)
+                            elif event.key == pygame.K_LEFT:
+                                item_menu_selected = (item_menu_selected - 1) % (len(item_menu_options) + 1)
+                            elif event.key == pygame.K_RETURN:
+                                if item_menu_selected == len(item_menu_options):
+                                    ITEM_MENU = False
+                                elif item_menu_selected == 0:  # Sproto Juice
+                                    if sproto_juice[player] > 0:
+                                        heal = 25
+                                        hp[player] = min(max_hp[player], hp[player] + heal)
+                                        sproto_juice[player] -= 1
+                                        damage_display[player] = (-heal, 3.0)
+                                        action_log.append(f"{sprotos[player].name} uses Sproto Juice! Recovers {heal} HP.")
+                                        log_fight_entry(f"{sprotos[player].name} uses Sproto Juice! Recovers {heal} HP.")
+                                        turn = npc
+                                    else:
+                                        action_log.append("No Sproto Juice left!")
+                                        ITEM_MENU = False
+                            elif event.key == pygame.K_ESCAPE:
+                                ITEM_MENU = False
             else:
                 # NPC always attacks for now, with animation
                 dmg = random.randint(15, 20)
@@ -713,5 +971,6 @@ def run_pocket_sprotos_mode(screen, sprotos):
                 anim_actor = npc
                 anim_target = player
                 anim_damage = dmg
+                log_fight_entry(f"{sprotos[npc].name} attacks! {sprotos[player].name} takes {dmg} damage.")
 
         clock.tick(60)
