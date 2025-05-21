@@ -438,6 +438,8 @@ def run_pocket_sprotos_mode(screen, sprotos):
     combat_text_timer = 0
     damage_display = [None, None]  # (damage, timer)
     crit_display = [None, None]    # (timer) for "Crit!" floating text
+    miss_display = [None, None]    # (timer) for "Miss!" floating text
+    dodge_display = [None, None]   # (timer) for "Dodge!" floating text
     ANIMATION_NONE = 0
     ANIMATION_FIGHT = 1
     ANIMATION_MAGIC = 2
@@ -623,11 +625,27 @@ def run_pocket_sprotos_mode(screen, sprotos):
             # Draw "Crit!" floating text above attacker if crit_display[idx] is active
             if crit_display[idx] and crit_display[idx] > 0:
                 x = p_img_x + sprite_w // 2 if idx == 0 else n_img_x + sprite_w // 2
-                y = (p_img_y if idx == 0 else n_img_y) - 80  # Higher than damage text
+                y = (p_img_y if idx == 0 else n_img_y) - 80
                 crit_font = pygame.font.SysFont("arial", 32, bold=True)
                 crit_surf = crit_font.render("Crit!", True, YELLOW)
                 crit_rect = crit_surf.get_rect(center=(x, y))
                 screen.blit(crit_surf, crit_rect)
+            # Draw "Miss!" floating text above attacker if miss_display[idx] is active
+            if miss_display[idx] and miss_display[idx] > 0:
+                x = p_img_x + sprite_w // 2 if idx == 0 else n_img_x + sprite_w // 2
+                y = (p_img_y if idx == 0 else n_img_y) - 80
+                miss_font = pygame.font.SysFont("arial", 32, bold=True)
+                miss_surf = miss_font.render("Miss!", True, RED)
+                miss_rect = miss_surf.get_rect(center=(x, y))
+                screen.blit(miss_surf, miss_rect)
+            # Draw "Dodge!" floating text above defender if dodge_display[idx] is active
+            if dodge_display[idx] and dodge_display[idx] > 0:
+                x = p_img_x + sprite_w // 2 if idx == 0 else n_img_x + sprite_w // 2
+                y = (p_img_y if idx == 0 else n_img_y) - 80
+                dodge_font = pygame.font.SysFont("arial", 32, bold=True)
+                dodge_surf = dodge_font.render("Dodge!", True, BLUE)
+                dodge_rect = dodge_surf.get_rect(center=(x, y))
+                screen.blit(dodge_surf, dodge_rect)
         # Draw projectile for Potter Bolt
         if bolt_pos and bolt_path:
             for i in range(len(bolt_path) - 1):
@@ -760,9 +778,8 @@ def run_pocket_sprotos_mode(screen, sprotos):
             if animation_timer >= anim_time:
                 hp[anim_target] = max(0, hp[anim_target] - anim_damage)
                 damage_display[anim_target] = (anim_damage, 3.0)
-                combat_text = f"{sprotos[anim_actor].name} attacks! {sprotos[anim_target].name} takes {anim_damage} damage."
-                combat_text_timer = 2.0
-                action_log.append(combat_text)
+                # Only append a message here if not already appended above
+                # (Do not append again, as the combat_text is already added in the logic above)
                 animation_state = ANIMATION_NONE
                 animation_timer = 0
                 turn = 1 - anim_actor
@@ -805,7 +822,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
 
         draw_battle_screen()
 
-        # Update damage display timers
+        # Update damage/crit/miss/dodge display timers
         for idx in [0, 1]:
             if damage_display[idx]:
                 dmg, timer = damage_display[idx]
@@ -814,11 +831,18 @@ def run_pocket_sprotos_mode(screen, sprotos):
                     damage_display[idx] = None
                 else:
                     damage_display[idx] = (dmg, timer)
-            # Update crit display timers
             if crit_display[idx]:
                 crit_display[idx] -= clock.get_time() / 1000.0
                 if crit_display[idx] <= 0:
                     crit_display[idx] = None
+            if miss_display[idx]:
+                miss_display[idx] -= clock.get_time() / 1000.0
+                if miss_display[idx] <= 0:
+                    miss_display[idx] = None
+            if dodge_display[idx]:
+                dodge_display[idx] -= clock.get_time() / 1000.0
+                if dodge_display[idx] <= 0:
+                    dodge_display[idx] = None
 
         # Update combat text timer
         if combat_text:
@@ -939,34 +963,48 @@ def run_pocket_sprotos_mode(screen, sprotos):
                                     log_scroll += 1
                             elif event.key == pygame.K_RETURN:
                                 if action_menu[selected_action] == "Attack":
-                                    # --- Miss, Dodge, Critical logic ---
                                     roll = random.random()
                                     miss = roll < 0.10
                                     dodge = not miss and random.random() < 0.10
                                     crit = not miss and not dodge and random.random() < 0.20
-                                    dmg = random.randint(8, 10)  # User attack range
+                                    dmg = random.randint(8, 10)
                                     if miss:
                                         dmg = 0
                                         combat_text = f"{sprotos[player].name} missed!"
                                         combat_text_timer = 1.5
                                         action_log.append(combat_text)
-                                        damage_display[npc] = (0, 1.5)
-                                        turn = npc
+                                        # Show "Miss!" over attacker
+                                        miss_display[player] = 1.0
+                                        # Still do fight animation
+                                        animation_state = ANIMATION_FIGHT
+                                        animation_timer = 0
+                                        anim_actor = player
+                                        anim_target = npc
+                                        anim_damage = dmg
+                                        log_fight_entry(combat_text)
+                                        continue
                                     elif dodge:
                                         dmg = 0
                                         combat_text = f"{sprotos[npc].name} dodged the attack!"
                                         combat_text_timer = 1.5
                                         action_log.append(combat_text)
-                                        damage_display[npc] = (0, 1.5)
-                                        turn = npc
+                                        # Show "Dodge!" over defender
+                                        dodge_display[npc] = 1.0
+                                        # Still do fight animation
+                                        animation_state = ANIMATION_FIGHT
+                                        animation_timer = 0
+                                        anim_actor = player
+                                        anim_target = npc
+                                        anim_damage = dmg
+                                        log_fight_entry(combat_text)
+                                        continue
                                     else:
                                         if crit:
                                             dmg = int(dmg * 2.5)
-                                            crit_msg = f"Critical hit! {sprotos[player].name} deals {dmg}!"
-                                            combat_text = crit_msg
+                                            combat_text = f"Critical hit! {sprotos[player].name} deals {dmg}!"
                                             combat_text_timer = 1.5
-                                            action_log.append(crit_msg)  # Add crit to on-screen log
-                                            crit_display[player] = 1.0  # Show "Crit!" over player for 1s
+                                            action_log.append(combat_text)
+                                            crit_display[player] = 1.0
                                         else:
                                             combat_text = f"{sprotos[player].name} attacks! {sprotos[npc].name} takes {dmg} damage."
                                             combat_text_timer = 1.5
@@ -977,6 +1015,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
                                         anim_target = npc
                                         anim_damage = dmg
                                         log_fight_entry(combat_text)
+                                    continue
                                 elif action_menu[selected_action] == "Magic":
                                     MAGIC_MENU = True
                                     magic_menu_selected = 0
@@ -1029,6 +1068,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
                                         action_log.append(f"{sprotos[player].name} uses Sproto Juice! Recovers {heal} HP.")
                                         log_fight_entry(f"{sprotos[player].name} uses Sproto Juice! Recovers {heal} HP.")
                                         turn = npc
+                                        ITEM_MENU = False  # <-- Close the item menu after use
                                     else:
                                         action_log.append("No Sproto Juice left!")
                                         ITEM_MENU = False
@@ -1037,7 +1077,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
             else:
                 # --- NPC action delay logic ---
                 if 'npc_action_delay' not in locals():
-                    npc_action_delay = 0  # Defensive: ensure variable exists
+                    npc_action_delay = 0
                 if npc_action_delay > 0:
                     npc_action_delay -= clock.get_time() / 1000.0
                     clock.tick(60)
@@ -1046,31 +1086,42 @@ def run_pocket_sprotos_mode(screen, sprotos):
                 miss = roll < 0.10
                 dodge = not miss and random.random() < 0.10
                 crit = not miss and not dodge and random.random() < 0.20
-                dmg = random.randint(8, 10)  # NPC attack range
+                dmg = random.randint(8, 10)
                 if miss:
                     dmg = 0
                     combat_text = f"{sprotos[npc].name} missed!"
                     combat_text_timer = 1.5
                     action_log.append(combat_text)
-                    damage_display[player] = (0, 1.5)
-                    turn = player
+                    miss_display[npc] = 1.0
+                    animation_state = ANIMATION_FIGHT
+                    animation_timer = 0
+                    anim_actor = npc
+                    anim_target = player
+                    anim_damage = dmg
+                    log_fight_entry(combat_text)
                     npc_action_delay = 1.5
+                    continue
                 elif dodge:
                     dmg = 0
                     combat_text = f"{sprotos[player].name} dodged the attack!"
                     combat_text_timer = 1.5
                     action_log.append(combat_text)
-                    damage_display[player] = (0, 1.5)
-                    turn = player
+                    dodge_display[player] = 1.0
+                    animation_state = ANIMATION_FIGHT
+                    animation_timer = 0
+                    anim_actor = npc
+                    anim_target = player
+                    anim_damage = dmg
+                    log_fight_entry(combat_text)
                     npc_action_delay = 1.5
+                    continue
                 else:
                     if crit:
                         dmg = int(dmg * 2.5)
-                        crit_msg = f"Critical hit! {sprotos[npc].name} deals {dmg}!"
-                        combat_text = crit_msg
+                        combat_text = f"Critical hit! {sprotos[npc].name} deals {dmg}!"
                         combat_text_timer = 1.5
-                        action_log.append(crit_msg)  # Add crit to on-screen log
-                        crit_display[npc] = 1.0  # Show "Crit!" over npc for 1s
+                        action_log.append(combat_text)
+                        crit_display[npc] = 1.0
                     else:
                         combat_text = f"{sprotos[npc].name} attacks! {sprotos[player].name} takes {dmg} damage."
                         combat_text_timer = 1.5
@@ -1080,7 +1131,8 @@ def run_pocket_sprotos_mode(screen, sprotos):
                     anim_actor = npc
                     anim_target = player
                     anim_damage = dmg
+                    log_fight_entry(combat_text)
                     npc_action_delay = 1.5
-                continue
+                    continue
 
         clock.tick(60)
