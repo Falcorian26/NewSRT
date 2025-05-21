@@ -23,19 +23,25 @@ def draw_text_with_shadow(screen, text, font, color, pos, stroke=False):
     screen.blit(text_surface, pos)
 
 class Button:
-    def __init__(self, text, x, y, width, height, color, hover_color=BLUE, custom_font=None):
+    def __init__(self, text, x, y, width, height, color, hover_color=BLUE, custom_font=None, text_color=WHITE, hover_text_color=YELLOW):
         self.text = text
         self.rect = pygame.Rect(x, y, width, height)
         self.color = color
         self.hover_color = hover_color
         self.font = custom_font if custom_font is not None else pygame.font.SysFont("arial", 24)
+        self.text_color = text_color
+        self.hover_text_color = hover_text_color
 
     def draw(self, screen):
         mouse_pos = pygame.mouse.get_pos()
         is_hovered = self.rect.collidepoint(mouse_pos)
         pygame.draw.rect(screen, self.hover_color if is_hovered else self.color, self.rect)
         pygame.draw.rect(screen, WHITE, self.rect, 2)
-        text_color = YELLOW if is_hovered else WHITE
+        # Use custom text color for Cheese Mode button
+        if hasattr(self, "cheese_mode_button") and self.cheese_mode_button:
+            text_color = WHITE if is_hovered else BLUE
+        else:
+            text_color = self.hover_text_color if is_hovered else self.text_color
         text_surf = self.font.render(self.text, True, text_color)
         text_rect = text_surf.get_rect(center=self.rect.center)
         screen.blit(text_surf, text_rect)

@@ -910,6 +910,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
 
         if animation_state == ANIMATION_NONE:
             if turn == player:
+                # --- Player input handling ---
                 for event in pygame.event.get():
                     if event.type == pygame.QUIT:
                         running = False
@@ -1082,57 +1083,98 @@ def run_pocket_sprotos_mode(screen, sprotos):
                     npc_action_delay -= clock.get_time() / 1000.0
                     clock.tick(60)
                     continue
-                roll = random.random()
-                miss = roll < 0.10
-                dodge = not miss and random.random() < 0.10
-                crit = not miss and not dodge and random.random() < 0.20
-                dmg = random.randint(8, 10)
-                if miss:
-                    dmg = 0
-                    combat_text = f"{sprotos[npc].name} missed!"
-                    combat_text_timer = 1.5
-                    action_log.append(combat_text)
-                    miss_display[npc] = 1.0
-                    animation_state = ANIMATION_FIGHT
-                    animation_timer = 0
-                    anim_actor = npc
-                    anim_target = player
-                    anim_damage = dmg
-                    log_fight_entry(combat_text)
-                    npc_action_delay = 1.5
-                    continue
-                elif dodge:
-                    dmg = 0
-                    combat_text = f"{sprotos[player].name} dodged the attack!"
-                    combat_text_timer = 1.5
-                    action_log.append(combat_text)
-                    dodge_display[player] = 1.0
-                    animation_state = ANIMATION_FIGHT
-                    animation_timer = 0
-                    anim_actor = npc
-                    anim_target = player
-                    anim_damage = dmg
-                    log_fight_entry(combat_text)
-                    npc_action_delay = 1.5
-                    continue
+
+                # --- NPC AI: choose action ---
+                npc_can_magic = pp[npc] >= 10
+                npc_can_item = sproto_juice[npc] > 0 and hp[npc] < max_hp[npc]
+                # Simple AI: prefer magic if available and player HP is high, else heal if low, else attack
+                if npc_can_item and hp[npc] <= max_hp[npc] * 0.5 and random.random() < 0.5:
+                    npc_action = "Item"
+                elif npc_can_magic and (hp[player] > 35 or random.random() < 0.4):
+                    npc_action = "Magic"
                 else:
-                    if crit:
-                        dmg = int(dmg * 2.5)
-                        combat_text = f"Critical hit! {sprotos[npc].name} deals {dmg}!"
+                    npc_action = "Attack"
+
+                if npc_action == "Attack":
+                    roll = random.random()
+                    miss = roll < 0.10
+                    dodge = not miss and random.random() < 0.10
+                    crit = not miss and not dodge and random.random() < 0.20
+                    dmg = random.randint(8, 10)
+                    if miss:
+                        dmg = 0
+                        combat_text = f"{sprotos[npc].name} missed!"
                         combat_text_timer = 1.5
                         action_log.append(combat_text)
-                        crit_display[npc] = 1.0
+                        miss_display[npc] = 1.0
+                        animation_state = ANIMATION_FIGHT
+                        animation_timer = 0
+                        anim_actor = npc
+                        anim_target = player
+                        anim_damage = dmg
+                        log_fight_entry(combat_text)
+                        npc_action_delay = 1.5
+                        continue
+                    elif dodge:
+                        dmg = 0
+                        combat_text = f"{sprotos[player].name} dodged the attack!"
+                        combat_text_timer = 1.5
+                        action_log.append(combat_text)
+                        dodge_display[player] = 1.0
+                        animation_state = ANIMATION_FIGHT
+                        animation_timer = 0
+                        anim_actor = npc
+                        anim_target = player
+                        anim_damage = dmg
+                        log_fight_entry(combat_text)
+                        npc_action_delay = 1.5
+                        continue
                     else:
-                        combat_text = f"{sprotos[npc].name} attacks! {sprotos[player].name} takes {dmg} damage."
-                        combat_text_timer = 1.5
-                        action_log.append(combat_text)
-                    animation_state = ANIMATION_FIGHT
+                        if crit:
+                            dmg = int(dmg * 2.5)
+                            combat_text = f"Critical hit! {sprotos[npc].name} deals {dmg}!"
+                            combat_text_timer = 1.5
+                            action_log.append(combat_text)
+                            crit_display[npc] = 1.0
+                        else:
+                            combat_text = f"{sprotos[npc].name} attacks! {sprotos[player].name} takes {dmg} damage."
+                            combat_text_timer = 1.5
+                            action_log.append(combat_text)
+                        animation_state = ANIMATION_FIGHT
+                        animation_timer = 0
+                        anim_actor = npc
+                        anim_target = player
+                        anim_damage = dmg
+                        log_fight_entry(combat_text)
+                        npc_action_delay = 1.5
+                        continue
+
+                elif npc_action == "Magic":
+                    dmg = random.randint(33, 39)
+                    pp[npc] -= 10
+                    animation_state = ANIMATION_MAGIC
                     animation_timer = 0
                     anim_actor = npc
                     anim_target = player
                     anim_damage = dmg
+                    combat_text = f"{sprotos[npc].name} casts Potter Bolt! {sprotos[player].name} takes {dmg} damage."
+                    combat_text_timer = 2.0
+                    action_log.append(combat_text)
                     log_fight_entry(combat_text)
                     npc_action_delay = 1.5
+                    continue
+
+                elif npc_action == "Item":
+                    heal = 25
+                    hp[npc] = min(max_hp[npc], hp[npc] + heal)
+                    sproto_juice[npc] -= 1
+                    damage_display[npc] = (-heal, 3.0)
+                    combat_text = f"{sprotos[npc].name} uses Sproto Juice! Recovers {heal} HP."
+                    combat_text_timer = 1.5
+                    action_log.append(combat_text)
+                    log_fight_entry(combat_text)
+                    npc_action_delay = 1.5
+                    turn = player
                     continue
 
         clock.tick(60)

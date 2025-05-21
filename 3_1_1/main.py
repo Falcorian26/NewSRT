@@ -55,12 +55,20 @@ def main():
                 logging.info("No sprotos selected or window closed. Exiting.")
                 break
             selected_sprotos, is_tournament, is_muted, race_mode = result
-            if not selected_sprotos and race_mode not in ["all_characters", "pocket_sprotos"]:
+            if not selected_sprotos and race_mode not in ["all_characters", "pocket_sprotos", "cheese_mode"]:
                 logging.info("No sprotos selected or window closed. Exiting.")
                 break
             if race_mode == "all_characters":
                 selected_sprotos = sproto_list
                 is_tournament = False
+
+        # --- Handle Cheese Mode ---
+        if race_mode == "cheese_mode":
+            from obama_cheese import run_obama_cheese_mode
+            run_obama_cheese_mode(screen)
+            selected_sprotos = None
+            race_mode = None
+            continue
 
         # --- Handle Pocket Sprotos mode BEFORE any race logic ---
         if race_mode == "pocket_sprotos":

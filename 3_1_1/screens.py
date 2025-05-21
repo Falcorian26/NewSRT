@@ -124,15 +124,44 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
 
     BUTTON_WIDTH = 260
     BUTTON_HEIGHT = 50
-    BUTTON_SPACING_Y = 20
+    BUTTON_SPACING_X = 40
+    BUTTON_SPACING_Y = 30
 
-    # Layout: 2x2 grid, then Pocket Sprotos, then End Game (all visible, not overlapped)
-    y_base = 660
-    start_button = Button("Start Race", SCREEN_WIDTH // 2 - BUTTON_WIDTH - 10, y_base, BUTTON_WIDTH, BUTTON_HEIGHT, BLUE_BUTTON)
-    tourney_button = Button("Tourney", SCREEN_WIDTH // 2 + 10, y_base, BUTTON_WIDTH, BUTTON_HEIGHT, PURPLE)
-    all_race_button = Button("All Characters Race", SCREEN_WIDTH // 2 - BUTTON_WIDTH - 10, y_base + BUTTON_HEIGHT + BUTTON_SPACING_Y, BUTTON_WIDTH, BUTTON_HEIGHT, GREEN)
-    pocket_button = Button("Pocket Sprotos", SCREEN_WIDTH // 2 + 10, y_base + BUTTON_HEIGHT + BUTTON_SPACING_Y, BUTTON_WIDTH, BUTTON_HEIGHT, ORANGE)
-    end_game_button = Button("End Game", SCREEN_WIDTH // 2 - BUTTON_WIDTH // 2, y_base + 2 * (BUTTON_HEIGHT + BUTTON_SPACING_Y), BUTTON_WIDTH, BUTTON_HEIGHT, RED)
+    cols = 3
+    cell_width = 220
+    cell_height = 50
+    table_width = cols * cell_width
+    rows = (len(sproto_list) + 2) // 3
+    table_height = (rows + 1) * cell_height
+    table_x = (SCREEN_WIDTH - table_width) // 2
+    table_y = 100
+
+    # --- 3x2 grid for 6 main buttons at the bottom ---
+    buttons_grid_y = SCREEN_HEIGHT - BUTTON_HEIGHT * 2 - BUTTON_SPACING_Y - 40
+    buttons_grid_x = (SCREEN_WIDTH - (BUTTON_WIDTH * 3 + BUTTON_SPACING_X * 2)) // 2
+
+    button_defs = [
+        ("Start Race", BLUE_BUTTON),
+        ("Tourney", PURPLE),
+        ("All Characters Race", GREEN),
+        ("Pocket Sprotos", ORANGE),
+        ("Cheese Mode", YELLOW),
+        ("End Game", RED),
+    ]
+    buttons = []
+    for i, (label, color) in enumerate(button_defs):
+        col = i % 3
+        row = i // 3
+        x = buttons_grid_x + col * (BUTTON_WIDTH + BUTTON_SPACING_X)
+        y = buttons_grid_y + row * (BUTTON_HEIGHT + BUTTON_SPACING_Y)
+        btn = Button(label, x, y, BUTTON_WIDTH, BUTTON_HEIGHT, color)
+        # Special text color for Cheese Mode button
+        if label == "Cheese Mode":
+            btn.cheese_mode_button = True  # Mark for special color logic in Button.draw
+        buttons.append(btn)
+
+    # Button mapping for event logic
+    start_button, tourney_button, all_race_button, pocket_button, cheese_button, end_game_button = buttons
     mute_button = MuteButton(SCREEN_WIDTH - 75, 10, 50, 20, GRAY)
 
     logging.info("Sprotos available in selection screen:")
@@ -163,15 +192,6 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
         screen.blit(error_text, (SCREEN_WIDTH // 2 - error_text.get_width() // 2, SCREEN_HEIGHT // 2))
         pygame.display.flip()
         pygame.time.wait(2000)
-
-    cols = 3
-    cell_width = 220
-    cell_height = 50
-    table_width = cols * cell_width
-    rows = (len(sproto_list) + 2) // 3
-    table_height = (rows + 1) * cell_height
-    table_x = (SCREEN_WIDTH - table_width) // 2
-    table_y = 100
 
     while running:
         mouse_pos = pygame.mouse.get_pos()
@@ -207,6 +227,10 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
                 pygame.mixer.music.stop()
                 logging.info("Selection music stopped.")
                 return selected_sprotos, False, is_muted, "pocket_sprotos"
+            if cheese_button.is_clicked(event):
+                pygame.mixer.music.stop()
+                logging.info("Selection music stopped.")
+                return None, False, is_muted, "cheese_mode"
             if end_game_button.is_clicked(event):
                 pygame.mixer.music.stop()
                 logging.info("Selection music stopped.")
@@ -264,11 +288,9 @@ def select_sprotos(screen, sproto_list, max_selections, selection_background, is
             draw_text_with_shadow(screen, f"{sproto.name}", selection_font, text_color, (image_x + 50, cell_y + (cell_height - 24) // 2))
 
         draw_text_with_shadow(screen, f"Selected: {len(selected_sprotos)}/{max_selections}", font, WHITE, (SCREEN_WIDTH // 2 - 80, 620))
-        start_button.draw(screen)
-        tourney_button.draw(screen)
-        all_race_button.draw(screen)
-        pocket_button.draw(screen)
-        end_game_button.draw(screen)
+        # Draw all 6 main buttons in 3x2 grid
+        for btn in buttons:
+            btn.draw(screen)
         mute_button.draw(screen, is_muted)
         pygame.display.flip()
     pygame.mixer.music.stop()
