@@ -416,19 +416,21 @@ def run_pocket_sprotos_mode(screen, sprotos):
     clock = pygame.time.Clock()
     running = True
 
-    # Each sproto gets 100 HP, 20 PP (mana)
+    # Each sproto gets 100 HP, 20 PP (mana), 3 AP (ability points)
     hp = [100, 100]
     max_hp = [100, 100]
     pp = [20, 20]
     max_pp = [20, 20]
+    ap = [3, 3]  # Ability Points
+    max_ap = [3, 3]
     player = 0
     npc = 1
     turn = random.choice([player, npc])
-    action_menu = ["Attack", "Magic", "Flee", "Item"]
+    action_menu = ["Attack", "Magic", "Abilities", "Item"]
     selected_action = 0
     sproto_juice = [1, 1]
     menu_font = pygame.font.SysFont("arial", 32, bold=True)
-    hp_font = pygame.font.SysFont("arial", 18, bold=True)  # Smaller font for under-image text
+    hp_font = pygame.font.SysFont("arial", 18, bold=True)
     msg_font = pygame.font.SysFont("arial", 26, bold=True)
     damage_font = pygame.font.SysFont("arial", 36, bold=True)
     log_font = pygame.font.SysFont("arial", 20)
@@ -436,19 +438,24 @@ def run_pocket_sprotos_mode(screen, sprotos):
     message_timer = 0
     combat_text = ""
     combat_text_timer = 0
-    damage_display = [None, None]  # (damage, timer)
-    crit_display = [None, None]    # (timer) for "Crit!" floating text
-    miss_display = [None, None]    # (timer) for "Miss!" floating text
-    dodge_display = [None, None]   # (timer) for "Dodge!" floating text
+    damage_display = [None, None]
+    crit_display = [None, None]
+    miss_display = [None, None]
+    dodge_display = [None, None]
     ANIMATION_NONE = 0
     ANIMATION_FIGHT = 1
     ANIMATION_MAGIC = 2
+    ANIMATION_ABILITY = 3  # New animation state for Sonic Dash
     animation_state = ANIMATION_NONE
     animation_timer = 0
-    anim_actor = None  # 0 or 1
+    anim_actor = None
     anim_target = None
     anim_progress = 0.0
     anim_damage = 0
+    anim_stun = False
+
+    # Stun state: [player_stunned_turns, npc_stunned_turns]
+    stunned = [0, 0]
 
     # Log for actions
     action_log = []
@@ -531,13 +538,18 @@ def run_pocket_sprotos_mode(screen, sprotos):
     item_menu_options = ["Sproto Juice"]
     item_menu_selected = 0
 
+    # Abilities menu
+    ABILITY_MENU = False
+    ability_menu_options = ["Sonic Dash"]
+    ability_menu_selected = 0
+
     # Fight log file
     FIGHT_LOG_PATH = os.path.join(os.path.dirname(__file__), "sproto_fight.log")
     def log_fight_entry(entry):
         with open(FIGHT_LOG_PATH, "a", encoding="utf-8") as f:
             f.write(entry + "\n")
 
-    def draw_battle_screen(anim_offset=None, bolt_pos=None, bolt_path=None, winner=None, show_buttons=False):
+    def draw_battle_screen(anim_offset=None, bolt_pos=None, bolt_path=None, winner=None, show_buttons=False, spin_angle=0):
         # Draw background
         if fight_bg:
             screen.blit(fight_bg, (0, 0))
@@ -553,11 +565,21 @@ def run_pocket_sprotos_mode(screen, sprotos):
             else:
                 n_offset = anim_offset
 
-        # Draw player sprite and border
-        screen.blit(big_sprites[0], (p_img_x + p_offset[0], p_img_y + p_offset[1]))
+        # Draw player sprite and border (with spin for ability animation)
+        if animation_state == ANIMATION_ABILITY and anim_actor == player and spin_angle != 0:
+            rotated_sprite = pygame.transform.rotate(big_sprites[0], spin_angle)
+            rect = rotated_sprite.get_rect(center=(p_img_x + p_offset[0] + sprite_w // 2, p_img_y + p_offset[1] + sprite_h // 2))
+            screen.blit(rotated_sprite, rect.topleft)
+        else:
+            screen.blit(big_sprites[0], (p_img_x + p_offset[0], p_img_y + p_offset[1]))
         pygame.draw.rect(screen, WHITE, (p_img_x + p_offset[0], p_img_y + p_offset[1], sprite_w, sprite_h), 3)
         # Draw NPC sprite and border
-        screen.blit(big_sprites[1], (n_img_x + n_offset[0], n_img_y + n_offset[1]))
+        if animation_state == ANIMATION_ABILITY and anim_actor == npc and spin_angle != 0:
+            rotated_sprite = pygame.transform.rotate(big_sprites[1], spin_angle)
+            rect = rotated_sprite.get_rect(center=(n_img_x + n_offset[0] + sprite_w // 2, n_img_y + n_offset[1] + sprite_h // 2))
+            screen.blit(rotated_sprite, rect.topleft)
+        else:
+            screen.blit(big_sprites[1], (n_img_x + n_offset[0], n_img_y + n_offset[1]))
         pygame.draw.rect(screen, WHITE, (n_img_x + n_offset[0], n_img_y + n_offset[1], sprite_w, sprite_h), 3)
 
         # Draw health bars above both characters (follow animation)
@@ -586,11 +608,12 @@ def run_pocket_sprotos_mode(screen, sprotos):
         name_rect2 = name_surf2.get_rect(center=(n_img_x + sprite_w // 2, n_img_y + sprite_h + 18))
         screen.blit(name_surf2, name_rect2)
 
-        # Draw HP/PP under name with color and shadow, inside a cell with transparent black background
+        # Draw HP/PP/AP under name with color and shadow, inside a cell with transparent black background
         status_font = pygame.font.SysFont("arial", 16, bold=True)
         # Player
         hp_text = f"HP: {hp[0]}/{max_hp[0]}"
         pp_text = f"PP: {pp[0]}/{max_pp[0]}"
+        ap_text = f"AP: {ap[0]}/{max_ap[0]}"
         status_cell_w, status_cell_h = 140, 32
         status_x = p_img_x + sprite_w // 2 - status_cell_w // 2
         status_y = p_img_y + sprite_h + 28
@@ -599,10 +622,11 @@ def run_pocket_sprotos_mode(screen, sprotos):
         screen.blit(status_surf, (status_x, status_y))
         draw_text_with_shadow(screen, hp_text, status_font, (0, 220, 0), (status_x + 12, status_y + 4))
         draw_text_with_shadow(screen, pp_text, status_font, (0, 120, 255), (status_x + 12, status_y + 18))
-
+        draw_text_with_shadow(screen, ap_text, status_font, (255, 120, 0), (status_x + 80, status_y + 18))
         # NPC
         hp_text2 = f"HP: {hp[1]}/{max_hp[1]}"
         pp_text2 = f"PP: {pp[1]}/{max_pp[1]}"
+        ap_text2 = f"AP: {ap[1]}/{max_ap[1]}"
         status_x2 = n_img_x + sprite_w // 2 - status_cell_w // 2
         status_y2 = n_img_y + sprite_h + 28
         status_surf2 = pygame.Surface((status_cell_w, status_cell_h), pygame.SRCALPHA)
@@ -610,6 +634,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
         screen.blit(status_surf2, (status_x2, status_y2))
         draw_text_with_shadow(screen, hp_text2, status_font, (0, 220, 0), (status_x2 + 12, status_y2 + 4))
         draw_text_with_shadow(screen, pp_text2, status_font, (0, 120, 255), (status_x2 + 12, status_y2 + 18))
+        draw_text_with_shadow(screen, ap_text2, status_font, (255, 120, 0), (status_x2 + 80, status_y2 + 18))
 
         # Draw damage numbers above character
         for idx in [0, 1]:
@@ -687,6 +712,12 @@ def run_pocket_sprotos_mode(screen, sprotos):
                 screen.blit(menu_font.render(label, True, color), (340 + i * 200, menu_box_y + 25))
             back_color = YELLOW if item_menu_selected == len(item_menu_options) else WHITE
             screen.blit(menu_font.render("Back", True, back_color), (340 + len(item_menu_options) * 200, menu_box_y + 25))
+        elif ABILITY_MENU:
+            for i, label in enumerate(ability_menu_options):
+                color = YELLOW if i == ability_menu_selected else WHITE
+                screen.blit(menu_font.render(label, True, color), (340 + i * 200, menu_box_y + 25))
+            back_color = YELLOW if ability_menu_selected == len(ability_menu_options) else WHITE
+            screen.blit(menu_font.render("Back", True, back_color), (340 + len(ability_menu_options) * 200, menu_box_y + 25))
         else:
             for i, label in enumerate(action_menu):
                 color = YELLOW if i == selected_action else WHITE
@@ -812,9 +843,44 @@ def run_pocket_sprotos_mode(screen, sprotos):
             if animation_timer >= anim_time:
                 hp[anim_target] = max(0, hp[anim_target] - anim_damage)
                 damage_display[anim_target] = (anim_damage, 3.0)
+                # Only log spell once (do not append to action_log here)
                 combat_text = f"{sprotos[anim_actor].name} casts Potter Bolt! {sprotos[anim_target].name} takes {anim_damage} damage."
                 combat_text_timer = 2.0
+                # action_log.append(combat_text)  # <-- REMOVE this line to prevent double logging
+                animation_state = ANIMATION_NONE
+                animation_timer = 0
+                turn = 1 - anim_actor
+            continue
+        elif animation_state == ANIMATION_ABILITY:
+            # Sonic Dash animation: rush and spin
+            anim_time = 1.0
+            dt = clock.tick(60) / 1000.0
+            animation_timer += dt
+            progress = min(animation_timer / anim_time, 1.0)
+            # Calculate rush position and spin
+            if anim_actor == player:
+                start_x, start_y = p_img_x, p_img_y
+                end_x, end_y = n_img_x, n_img_y
+            else:
+                start_x, start_y = n_img_x, n_img_y
+                end_x, end_y = p_img_x, p_img_y
+            rush_x = start_x + (end_x - start_x) * progress
+            rush_y = start_y + (end_y - start_y) * progress
+            spin_angle = 360 * 3 * progress  # 3 full spins
+            # Draw with offset and spin
+            if anim_actor == player:
+                draw_battle_screen(anim_offset=[rush_x - p_img_x, rush_y - p_img_y], spin_angle=spin_angle)
+            else:
+                draw_battle_screen(anim_offset=[rush_x - n_img_x, rush_y - n_img_y], spin_angle=spin_angle)
+            if animation_timer >= anim_time:
+                # Apply damage and stun
+                hp[anim_target] = max(0, hp[anim_target] - anim_damage)
+                damage_display[anim_target] = (anim_damage, 3.0)
+                stunned[anim_target] = 1  # Stun for 1 turn
+                combat_text = f"{sprotos[anim_actor].name} used Sonic Dash! {sprotos[anim_target].name} is stunned and takes {anim_damage} damage."
+                combat_text_timer = 2.0
                 action_log.append(combat_text)
+                log_fight_entry(combat_text)
                 animation_state = ANIMATION_NONE
                 animation_timer = 0
                 turn = 1 - anim_actor
@@ -909,6 +975,13 @@ def run_pocket_sprotos_mode(screen, sprotos):
             continue
 
         if animation_state == ANIMATION_NONE:
+            # Handle stun: skip turn if stunned
+            if stunned[turn] > 0:
+                action_log.append(f"{sprotos[turn].name} is stunned and skips their turn!")
+                stunned[turn] -= 1
+                turn = 1 - turn
+                continue
+
             if turn == player:
                 # --- Player input handling ---
                 for event in pygame.event.get():
@@ -919,7 +992,7 @@ def run_pocket_sprotos_mode(screen, sprotos):
                     elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                         mx, my = event.pos
                         menu_box_y = 700
-                        if not MAGIC_MENU and not ITEM_MENU:
+                        if not MAGIC_MENU and not ITEM_MENU and not ABILITY_MENU:
                             for i in range(len(action_menu)):
                                 rect = pygame.Rect(240 + i * 200, menu_box_y + 25, 180, 40)
                                 if rect.collidepoint(mx, my):
@@ -950,8 +1023,20 @@ def run_pocket_sprotos_mode(screen, sprotos):
                                 item_menu_selected = len(item_menu_options)
                                 event = pygame.event.Event(pygame.KEYDOWN, key=pygame.K_RETURN)
                                 pygame.event.post(event)
+                        elif ABILITY_MENU:
+                            for i in range(len(ability_menu_options)):
+                                rect = pygame.Rect(340 + i * 200, menu_box_y + 25, 180, 40)
+                                if rect.collidepoint(mx, my):
+                                    ability_menu_selected = i
+                                    event = pygame.event.Event(pygame.KEYDOWN, key=pygame.K_RETURN)
+                                    pygame.event.post(event)
+                            back_rect = pygame.Rect(340 + len(ability_menu_options) * 200, menu_box_y + 25, 180, 40)
+                            if back_rect.collidepoint(mx, my):
+                                ability_menu_selected = len(ability_menu_options)
+                                event = pygame.event.Event(pygame.KEYDOWN, key=pygame.K_RETURN)
+                                pygame.event.post(event)
                     elif event.type == pygame.KEYDOWN:
-                        if not MAGIC_MENU and not ITEM_MENU:
+                        if not MAGIC_MENU and not ITEM_MENU and not ABILITY_MENU:
                             if event.key == pygame.K_RIGHT:
                                 selected_action = (selected_action + 1) % len(action_menu)
                             elif event.key == pygame.K_LEFT:
@@ -1020,9 +1105,9 @@ def run_pocket_sprotos_mode(screen, sprotos):
                                 elif action_menu[selected_action] == "Magic":
                                     MAGIC_MENU = True
                                     magic_menu_selected = 0
-                                elif action_menu[selected_action] == "Flee":
-                                    log_fight_entry(f"{sprotos[player].name} fled the battle.")
-                                    return  # Go back to selection screen
+                                elif action_menu[selected_action] == "Abilities":
+                                    ABILITY_MENU = True
+                                    ability_menu_selected = 0
                                 elif action_menu[selected_action] == "Item":
                                     ITEM_MENU = True
                                     item_menu_selected = 0
@@ -1046,7 +1131,9 @@ def run_pocket_sprotos_mode(screen, sprotos):
                                         anim_target = npc
                                         anim_damage = dmg
                                         MAGIC_MENU = False
+                                        # Only log here, not in animation
                                         log_fight_entry(f"{sprotos[player].name} casts Potter Bolt! {sprotos[npc].name} takes {dmg} damage.")
+                                        action_log.append(f"{sprotos[player].name} casts Potter Bolt! {sprotos[npc].name} takes {dmg} damage.")
                                     else:
                                         action_log.append("Not enough PP for Potter Bolt!")
                                         MAGIC_MENU = False
@@ -1075,6 +1162,29 @@ def run_pocket_sprotos_mode(screen, sprotos):
                                         ITEM_MENU = False
                             elif event.key == pygame.K_ESCAPE:
                                 ITEM_MENU = False
+                        elif ABILITY_MENU:
+                            if event.key == pygame.K_RIGHT:
+                                ability_menu_selected = (ability_menu_selected + 1) % (len(ability_menu_options) + 1)
+                            elif event.key == pygame.K_LEFT:
+                                ability_menu_selected = (ability_menu_selected - 1) % (len(ability_menu_options) + 1)
+                            elif event.key == pygame.K_RETURN:
+                                if ability_menu_selected == len(ability_menu_options):
+                                    ABILITY_MENU = False
+                                elif ability_menu_selected == 0:  # Sonic Dash
+                                    if ap[player] > 0:
+                                        dmg = random.randint(5, 10)
+                                        ap[player] -= 1
+                                        animation_state = ANIMATION_ABILITY
+                                        animation_timer = 0
+                                        anim_actor = player
+                                        anim_target = npc
+                                        anim_damage = dmg
+                                        ABILITY_MENU = False
+                                    else:
+                                        action_log.append("Not enough AP for Sonic Dash!")
+                                        ABILITY_MENU = False
+                            elif event.key == pygame.K_ESCAPE:
+                                ABILITY_MENU = False
             else:
                 # --- NPC action delay logic ---
                 if 'npc_action_delay' not in locals():
@@ -1087,11 +1197,14 @@ def run_pocket_sprotos_mode(screen, sprotos):
                 # --- NPC AI: choose action ---
                 npc_can_magic = pp[npc] >= 10
                 npc_can_item = sproto_juice[npc] > 0 and hp[npc] < max_hp[npc]
-                # Simple AI: prefer magic if available and player HP is high, else heal if low, else attack
-                if npc_can_item and hp[npc] <= max_hp[npc] * 0.5 and random.random() < 0.5:
-                    npc_action = "Item"
+                npc_can_ability = ap[npc] > 0
+                # Simple AI: prefer ability if available and not just stunned, else magic, else heal, else attack
+                if npc_can_ability and stunned[npc] == 0 and random.random() < 0.4:
+                    npc_action = "Ability"
                 elif npc_can_magic and (hp[player] > 35 or random.random() < 0.4):
                     npc_action = "Magic"
+                elif npc_can_item and hp[npc] <= max_hp[npc] * 0.5 and random.random() < 0.5:
+                    npc_action = "Item"
                 else:
                     npc_action = "Attack"
 
@@ -1148,7 +1261,6 @@ def run_pocket_sprotos_mode(screen, sprotos):
                         log_fight_entry(combat_text)
                         npc_action_delay = 1.5
                         continue
-
                 elif npc_action == "Magic":
                     dmg = random.randint(33, 39)
                     pp[npc] -= 10
@@ -1157,13 +1269,13 @@ def run_pocket_sprotos_mode(screen, sprotos):
                     anim_actor = npc
                     anim_target = player
                     anim_damage = dmg
+                    # Only log here, not in animation
                     combat_text = f"{sprotos[npc].name} casts Potter Bolt! {sprotos[player].name} takes {dmg} damage."
                     combat_text_timer = 2.0
                     action_log.append(combat_text)
                     log_fight_entry(combat_text)
                     npc_action_delay = 1.5
                     continue
-
                 elif npc_action == "Item":
                     heal = 25
                     hp[npc] = min(max_hp[npc], hp[npc] + heal)
@@ -1175,6 +1287,16 @@ def run_pocket_sprotos_mode(screen, sprotos):
                     log_fight_entry(combat_text)
                     npc_action_delay = 1.5
                     turn = player
+                    continue
+                elif npc_action == "Ability":
+                    dmg = random.randint(5, 10)
+                    ap[npc] -= 1
+                    animation_state = ANIMATION_ABILITY
+                    animation_timer = 0
+                    anim_actor = npc
+                    anim_target = player
+                    anim_damage = dmg
+                    npc_action_delay = 1.5
                     continue
 
         clock.tick(60)
